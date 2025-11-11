@@ -24,8 +24,8 @@ export default function RootLayout({
     <html lang="en" className={comfortaa.variable}>
       <body className="font-sans antialiased bg-zinc-50 h-dvh overflow-y-auto py-4">
         <NextAuthProvider>
-          <main className="max-w-3xl bg-white border border-slate-200 mx-auto h-full rounded-xl p-4">
-            <Header />
+          <main className="max-w-md bg-white border border-slate-200 mx-auto h-full rounded-xl p-4">
+            {/* <Header /> */}
             {children}
           </main>
         </NextAuthProvider>
