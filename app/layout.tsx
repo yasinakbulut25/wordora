@@ -1,16 +1,12 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import Header from "./(components)/Header";
 import "./globals.css";
+import type { Metadata } from "next";
+import { Comfortaa } from "next/font/google";
+import Header from "./(components)/Header";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const comfortaa = Comfortaa({
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-sans",
 });
 
 export const metadata: Metadata = {
@@ -24,10 +20,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html lang="en" className={comfortaa.variable}>
+      <body className='font-sans antialiased'>
         <Header />
         {children}
       </body>
