@@ -156,7 +156,7 @@ export default function Levels() {
       alert("Please select your level to continue.");
       return;
     }
-    router.push("/dashboard");
+    router.push(`/learn/${level}`);
   };
 
   return (

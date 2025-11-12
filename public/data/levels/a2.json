@@ -1,0 +1,22 @@
+[
+  { "word": "airport", "meaning": "a place where airplanes take off and land", "example": "We met at the airport two hours before the flight." },
+  { "word": "bank", "meaning": "a place where people keep or borrow money", "example": "I need to go to the bank to withdraw some cash." },
+  { "word": "bottle", "meaning": "a container made of glass or plastic for liquids", "example": "She filled the bottle with water." },
+  { "word": "breakfast", "meaning": "the first meal of the day", "example": "I usually eat eggs for breakfast." },
+  { "word": "cinema", "meaning": "a place where people watch movies", "example": "Let’s go to the cinema tonight." },
+  { "word": "clothes", "meaning": "things you wear", "example": "I bought new clothes for the party." },
+  { "word": "country", "meaning": "a nation with its own government", "example": "Turkey is a beautiful country." },
+  { "word": "dinner", "meaning": "the main meal of the day", "example": "We had dinner at a nice restaurant." },
+  { "word": "doctor", "meaning": "a person who treats sick people", "example": "The doctor gave me some medicine." },
+  { "word": "email", "meaning": "a message sent electronically from one computer to another", "example": "I received an email from my boss." },
+  { "word": "festival", "meaning": "a special day or event with celebrations", "example": "We enjoyed the music festival last weekend." },
+  { "word": "forest", "meaning": "a large area of trees", "example": "They walked through the forest together." },
+  { "word": "hotel", "meaning": "a place where people stay when travelling", "example": "Our hotel room has a sea view." },
+  { "word": "island", "meaning": "a piece of land surrounded by water", "example": "They spent their holiday on a tropical island." },
+  { "word": "language", "meaning": "the words or speech used by people of a country", "example": "She can speak three languages." },
+  { "word": "library", "meaning": "a place where you can read or borrow books", "example": "I often study in the library." },
+  { "word": "movie", "meaning": "a film shown at the cinema or on TV", "example": "We watched a funny movie together." },
+  { "word": "patient", "meaning": "a person receiving medical treatment", "example": "The patient is feeling better today." },
+  { "word": "travel", "meaning": "to go from one place to another", "example": "They love to travel abroad every year." },
+  { "word": "weather", "meaning": "the condition of the air at a particular time", "example": "The weather is warm and sunny today." }
+]

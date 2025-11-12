@@ -2,7 +2,7 @@
 
 import { SessionProvider } from "next-auth/react";
 
-export default function NextAuthProvider({
+export default function ClientProvider({
   children,
 }: {
   children: React.ReactNode;

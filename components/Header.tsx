@@ -10,7 +10,7 @@ export default function Header() {
   if (!session) return;
 
   return (
-    <header className="sticky w-full top-0 mb-6 flex items-center justify-between z-50 pt-2 pb-4 bg-white border-b border-slate-200">
+    <header className="sticky w-full top-0 mb-6 flex items-center justify-between z-50 py-4 bg-white border-b border-slate-200">
       <div className="flex items-center gap-2">
         <Image src="/logo.svg" width={30} height={30} alt="Wordora" />
         <h2 className="text-xl font-extrabold text-slate-900">Wordora</h2>

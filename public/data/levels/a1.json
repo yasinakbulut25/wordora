@@ -1,0 +1,46 @@
+[
+  {
+    "word": "apple",
+    "meanings": ["elma"],
+    "examples": [
+      { "en": "She eats an apple every morning.", "tr": "O, her sabah bir elma yer." },
+      { "en": "The apple was sweet and juicy.", "tr": "Elma tatlı ve sulu idi." },
+      { "en": "Apples grow in cold regions.", "tr": "Elmalar soğuk bölgelerde yetişir." },
+      { "en": "He bought a kilo of apples from the market.", "tr": "Marketten bir kilo elma aldı." },
+      { "en": "This apple is too sour to eat.", "tr": "Bu elma yemek için çok ekşi." }
+    ]
+  },
+  {
+    "word": "book",
+    "meanings": ["kitap", "defter", "yazılı eser"],
+    "examples": [
+      { "en": "She read a book about history.", "tr": "Tarih hakkında bir kitap okudu." },
+      { "en": "The book was full of interesting facts.", "tr": "Kitap ilginç bilgilerle doluydu." },
+      { "en": "He opened the book to page ten.", "tr": "Kitabı onuncu sayfaya açtı." },
+      { "en": "I borrowed a book from the library.", "tr": "Kütüphaneden bir kitap ödünç aldım." },
+      { "en": "Books can change the way you think.", "tr": "Kitaplar düşünme biçimini değiştirebilir." }
+    ]
+  },
+  {
+    "word": "dog",
+    "meanings": ["köpek", "evcil hayvan"],
+    "examples": [
+      { "en": "My dog likes to play in the park.", "tr": "Köpeğim parkta oynamayı sever." },
+      { "en": "The dog barked loudly.", "tr": "Köpek yüksek sesle havladı." },
+      { "en": "They adopted a stray dog.", "tr": "Bir sokak köpeği sahiplendiler." },
+      { "en": "Dogs are loyal animals.", "tr": "Köpekler sadık hayvanlardır." },
+      { "en": "He walks his dog every morning.", "tr": "Her sabah köpeğini gezdirir." }
+    ]
+  },
+  {
+    "word": "car",
+    "meanings": ["araba", "otomobil", "taşıt"],
+    "examples": [
+      { "en": "He drives a red car.", "tr": "Kırmızı bir araba sürüyor." },
+      { "en": "The car is parked outside.", "tr": "Araba dışarıda park halinde." },
+      { "en": "They bought a new car last week.", "tr": "Geçen hafta yeni bir araba aldılar." },
+      { "en": "Cars cause air pollution.", "tr": "Arabalar hava kirliliğine neden olur." },
+      { "en": "This car is faster than mine.", "tr": "Bu araba benimkinden daha hızlı." }
+    ]
+  }
+]

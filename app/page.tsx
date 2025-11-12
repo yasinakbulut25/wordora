@@ -1,4 +1,4 @@
-import Levels from "./(components)/Levels";
+import Levels from "../components/Levels";
 
 export default function Home() {
   return (
