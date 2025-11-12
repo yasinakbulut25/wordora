@@ -1,8 +1,11 @@
 "use client";
 
+import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
+import { useUserStore } from "@/store/useUserStore";
 import {
+  ArrowRight,
   Blocks,
   BookOpen,
   GemIcon,
@@ -10,8 +13,62 @@ import {
   Shapes,
   Sparkle,
 } from "lucide-react";
+import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 
 const iconSize = 42;
+
+const colorMap = {
+  pink: {
+    bgLight: "bg-pink-100",
+    border: "border-pink-500",
+    text: "text-pink-600",
+    progress: "bg-pink-500",
+    progressBg: "bg-pink-200",
+    ring: "ring-pink-200",
+  },
+  blue: {
+    bgLight: "bg-blue-100",
+    border: "border-blue-500",
+    text: "text-blue-600",
+    progress: "bg-blue-500",
+    progressBg: "bg-blue-200",
+    ring: "ring-blue-200",
+  },
+  purple: {
+    bgLight: "bg-purple-100",
+    border: "border-purple-500",
+    text: "text-purple-600",
+    progress: "bg-purple-500",
+    progressBg: "bg-purple-200",
+    ring: "ring-purple-200",
+  },
+  green: {
+    bgLight: "bg-green-100",
+    border: "border-green-500",
+    text: "text-green-600",
+    progress: "bg-green-500",
+    progressBg: "bg-green-200",
+    ring: "ring-green-200",
+  },
+  yellow: {
+    bgLight: "bg-yellow-100",
+    border: "border-yellow-500",
+    text: "text-yellow-600",
+    progress: "bg-yellow-500",
+    progressBg: "bg-yellow-200",
+    ring: "ring-yellow-200",
+  },
+  teal: {
+    bgLight: "bg-teal-100",
+    border: "border-teal-500",
+    text: "text-teal-600",
+    progress: "bg-teal-500",
+    progressBg: "bg-teal-200",
+    ring: "ring-teal-200",
+  },
+} as const;
+
 const levels = [
   {
     id: 1,
@@ -70,39 +127,91 @@ const levels = [
 ];
 
 export default function Levels() {
+  const { level, setLevel } = useUserStore();
+  const [selected, setSelected] = useState<string | null>(() => {
+    if (typeof window !== "undefined") {
+      return localStorage.getItem("wordora_level");
+    }
+    return null;
+  });
+  const router = useRouter();
+
+  // localStorage'daki seçimi geri yükle
+  useEffect(() => {
+    if (selected) {
+      setLevel(selected);
+    }
+  }, [selected, setLevel]);
+
+  // Seviye seçimi
+  const handleSelect = (code: string) => {
+    setSelected(code);
+    setLevel(code);
+    localStorage.setItem("wordora_level", code);
+  };
+
+  // Devam butonu
+  const handleContinue = () => {
+    if (!selected) {
+      alert("Please select your level to continue.");
+      return;
+    }
+    router.push("/dashboard");
+  };
+
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-      {levels.map((item) => (
-        <Card
-          key={item.id}
-          className={`relative rounded-2xl bg-${item.color}-100 border-2 border-${item.color}-500 shadow-none hover:scale-[1.02] transition-transform cursor-pointer overflow-hidden`}
-        >
-          <CardContent className="p-5 flex flex-col gap-3 justify-between h-full text-left">
-            <div
-              className={`w-[74px] h-[74px] z-0 bg-${item.color}-500/20 rounded-full flex items-center justify-center absolute -right-3 -top-2`}
+    <div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        {levels.map((item) => {
+          const colors = colorMap[item.color as keyof typeof colorMap];
+
+          return (
+            <Card
+              key={item.id}
+              onClick={() => handleSelect(item.level)}
+              className={`relative rounded-2xl ${colors.bgLight} ${
+                colors.border
+              } border-2 shadow-none hover:scale-[1.02] transition-transform cursor-pointer overflow-hidden ${
+                item.level === level ? `ring-[8px] ${colors.ring}` : ""
+              }`}
             >
-              {item.icon}
-            </div>
-            <h3 className="text-lg font-semibold text-slate-800">
-              {item.level}
-            </h3>
-            <p className="text-left text-xs text-slate-600 z-10">{item.desc}</p>
-            <div>
-              <div className="flex items-center justify-between mb-1">
-                <p className="text-xs text-slate-500">progress</p>
-                <span className="text-xs font-medium text-slate-700">
-                  {item.progress}%
-                </span>
-              </div>
-              <Progress
-                value={item.progress}
-                innerBg={`bg-${item.color}-500`}
-                className={`h-2 bg-${item.color}-200`}
-              />
-            </div>
-          </CardContent>
-        </Card>
-      ))}
+              <CardContent className="p-5 flex flex-col gap-3 justify-between h-full text-left">
+                <div
+                  className={`w-[74px] h-[74px] z-0 ${colors.progressBg} rounded-full flex items-center justify-center absolute -right-3 -top-2`}
+                >
+                  {item.icon}
+                </div>
+                <h3 className="text-lg font-semibold text-slate-800">
+                  {item.level}
+                </h3>
+                <p className="text-left text-xs text-slate-600 z-10">
+                  {item.desc}
+                </p>
+                <div>
+                  <div className="flex items-center justify-between mb-1">
+                    <p className="text-xs text-slate-500">progress</p>
+                    <span className="text-xs font-medium text-slate-700">
+                      {item.progress}%
+                    </span>
+                  </div>
+                  <Progress
+                    value={item.progress}
+                    innerBg={colors.progress}
+                    className={`h-2 ${colors.progressBg}`}
+                  />
+                </div>
+              </CardContent>
+            </Card>
+          );
+        })}
+      </div>
+      <Button
+        onClick={handleContinue}
+        className="bg-indigo-600 w-full text-white font-bold mt-6 rounded-full px-2 py-6 hover:bg-indigo-500 transition-all"
+      >
+        Continue
+        <ArrowRight width={16} className="text-yellow-300" />
+      </Button>
     </div>
   );
 }
