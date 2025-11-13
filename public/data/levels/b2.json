@@ -1,0 +1,3690 @@
+[
+  {
+    "word": "anticipate",
+    "meanings": ["beklemek", "öngörmek"],
+    "examples": [
+      { "en": "We anticipate that sales will increase next month.", "tr": "Satışların gelecek ay artmasını bekliyoruz." },
+      { "en": "The team anticipated several challenges.", "tr": "Ekip birçok zorluğu öngördü." },
+      { "en": "I didn't anticipate such a positive response.", "tr": "Böyle olumlu bir yanıt beklemiyordum." },
+      { "en": "They anticipated that the meeting would take longer.", "tr": "Toplantının daha uzun süreceğini tahmin ettiler." },
+      { "en": "She anticipated his disappointment.", "tr": "Onun hayal kırıklığını öngördü." }
+    ]
+  },
+  {
+    "word": "assess",
+    "meanings": ["değerlendirmek"],
+    "examples": [
+      { "en": "The teacher assessed the students' projects objectively.", "tr": "Öğretmen öğrencilerin projelerini objektif bir şekilde değerlendirdi." },
+      { "en": "We need to assess the risks carefully.", "tr": "Riskleri dikkatlice değerlendirmemiz gerekiyor." },
+      { "en": "Experts assessed the damage after the storm.", "tr": "Uzmanlar fırtınadan sonra hasarı değerlendirdi." },
+      { "en": "It's difficult to assess the long-term effects.", "tr": "Uzun vadeli etkileri değerlendirmek zordur." },
+      { "en": "They assessed the performance of each employee.", "tr": "Her çalışanının performansını değerlendirdiler." }
+    ]
+  },
+  {
+    "word": "beneficial",
+    "meanings": ["yararlı"],
+    "examples": [
+      { "en": "Regular stretching is beneficial for flexibility.", "tr": "Düzenli esneme hareketleri esneklik için yararlıdır." },
+      { "en": "Meditation can be beneficial for mental health.", "tr": "Meditasyon ruh sağlığı için faydalı olabilir." },
+      { "en": "The new policy proved beneficial to small businesses.", "tr": "Yeni politika küçük işletmeler için yararlı oldu." },
+      { "en": "A balanced diet is beneficial for everyone.", "tr": "Dengeli bir diyet herkes için faydalıdır." },
+      { "en": "This experience will be beneficial for your career.", "tr": "Bu deneyim kariyerin için faydalı olacak." }
+    ]
+  },
+  {
+    "word": "clarify",
+    "meanings": ["açıklığa kavuşturmak"],
+    "examples": [
+      { "en": "Could you clarify your main point?", "tr": "Ana noktanı açıklığa kavuşturabilir misin?" },
+      { "en": "The instructions were unclear, so he asked to clarify them.", "tr": "Talimatlar belirsizdi, bu yüzden onları netleştirmesini istedi." },
+      { "en": "The meeting helped clarify several misunderstandings.", "tr": "Toplantı birkaç yanlış anlaşılmayı netleştirmeye yardımcı oldu." },
+      { "en": "She clarified what she meant in her report.", "tr": "Raporunda ne demek istediğini netleştirdi." },
+      { "en": "I need to clarify a few details before we proceed.", "tr": "Devam etmeden önce birkaç detayı açıklığa kavuşturmam gerekiyor." }
+    ]
+  },
+  {
+    "word": "compensate",
+    "meanings": ["tazmin etmek", "telafi etmek"],
+    "examples": [
+      { "en": "The company compensated the workers for the overtime.", "tr": "Şirket çalışanları fazla mesai için tazmin etti." },
+      { "en": "You can't compensate for lost time.", "tr": "Kaybedilen zamanı telafi edemezsin." },
+      { "en": "They compensated him for the damage.", "tr": "Ona verilen hasarı tazmin ettiler." },
+      { "en": "He worked extra hours to compensate for the mistake.", "tr": "Hatasını telafi etmek için fazla çalıştı." },
+      { "en": "The insurance company compensated her quickly.", "tr": "Sigorta şirketi onu hızlıca tazmin etti." }
+    ]
+  },
+  {
+    "word": "compromise",
+    "meanings": ["uzlaşmak", "ödün vermek"],
+    "examples": [
+      { "en": "They reached a compromise after hours of discussion.", "tr": "Saatler süren tartışmadan sonra bir uzlaşmaya vardılar." },
+      { "en": "Relationships require compromise.", "tr": "İlişkiler ödün vermeyi gerektirir." },
+      { "en": "He refused to compromise his principles.", "tr": "İlkelerinden ödün vermeyi reddetti." },
+      { "en": "The agreement involved several compromises.", "tr": "Anlaşma birkaç ödün içeriyordu." },
+      { "en": "We need to compromise to move forward.", "tr": "İlerlemek için uzlaşmamız gerekiyor." }
+    ]
+  },
+  {
+    "word": "conduct",
+    "meanings": ["yürütmek", "gerçekleştirmek"],
+    "examples": [
+      { "en": "The researchers conducted a detailed study.", "tr": "Araştırmacılar detaylı bir çalışma yürüttü." },
+      { "en": "The interview was conducted online.", "tr": "Görüşme çevrim içi olarak yapıldı." },
+      { "en": "They conducted a nationwide survey.", "tr": "Ulusal çapta bir anket yaptılar." },
+      { "en": "The police conducted an investigation.", "tr": "Polis bir soruşturma yürüttü." },
+      { "en": "He conducted himself with professionalism.", "tr": "Kendini profesyonelce ifade etti." }
+    ]
+  },
+  {
+    "word": "confirm",
+    "meanings": ["doğrulamak", "onaylamak"],
+    "examples": [
+      { "en": "They confirmed the booking by email.", "tr": "Rezervasyonu e-posta ile onayladılar." },
+      { "en": "Scientists confirmed the results.", "tr": "Bilim insanları sonuçları doğruladı." },
+      { "en": "She confirmed that she would attend.", "tr": "Katılacağını onayladı." },
+      { "en": "The evidence confirmed his innocence.", "tr": "Kanıtlar onun masumiyetini doğruladı." },
+      { "en": "He confirmed receiving the package.", "tr": "Paketi aldığını doğruladı." }
+    ]
+  },
+  {
+    "word": "crucial",
+    "meanings": ["çok önemli", "kritik"],
+    "examples": [
+      { "en": "Good communication is crucial in teamwork.", "tr": "İyi iletişim ekip çalışmasında çok önemlidir." },
+      { "en": "Timing is crucial for success.", "tr": "Başarı için zamanlama kritiktir." },
+      { "en": "It is crucial to stay calm in emergencies.", "tr": "Acil durumlarda sakin kalmak çok önemlidir." },
+      { "en": "Her support was crucial for the project.", "tr": "Desteği proje için kritik öneme sahipti." },
+      { "en": "Understanding the rules is crucial before starting.", "tr": "Başlamadan önce kuralları anlamak çok önemlidir." }
+    ]
+  },
+
+  {
+    "word": "dedicate",
+    "meanings": ["adamak"],
+    "examples": [
+      { "en": "She dedicated her life to helping others.", "tr": "Hayatını başkalarına yardım etmeye adadı." },
+      { "en": "He dedicated the book to his parents.", "tr": "Kitabı ailesine adadı." },
+      { "en": "They dedicated three years to this project.", "tr": "Bu projeye üç yıl ayırdılar." },
+      { "en": "You must dedicate time to improving your skills.", "tr": "Becerilerini geliştirmek için zaman ayırmalısın." },
+      { "en": "The new park is dedicated to the town’s founder.", "tr": "Yeni park kasabanın kurucusuna adandı." }
+    ]
+  },
+
+  {
+    "word": "demonstrate",
+    "meanings": ["göstermek", "kanıtlamak"],
+    "examples": [
+      { "en": "She demonstrated excellent leadership skills.", "tr": "Mükemmel liderlik becerileri gösterdi." },
+      { "en": "The study demonstrated the effectiveness of the treatment.", "tr": "Çalışma tedavinin etkinliğini gösterdi." },
+      { "en": "He demonstrated how the software works.", "tr": "Yazılımın nasıl çalıştığını gösterdi." },
+      { "en": "The results clearly demonstrate progress.", "tr": "Sonuçlar açıkça ilerlemeyi gösteriyor." },
+      { "en": "They demonstrated the product at the event.", "tr": "Etkinlikte ürünü gösterdiler." }
+    ]
+  },
+
+  {
+    "word": "depress",
+    "meanings": ["üzmek", "moral bozmak"],
+    "examples": [
+      { "en": "The news really depressed him.", "tr": "Haber onu gerçekten üzdü." },
+      { "en": "Grey weather often depresses people.", "tr": "Gri hava insanları sık sık üzer." },
+      { "en": "She was depressed by the negative comments.", "tr": "Olumsuz yorumlar onu moral bozdu." },
+      { "en": "Financial problems can depress anyone.", "tr": "Maddi sorunlar herkesi moral bozar." },
+      { "en": "He didn’t let the situation depress him.", "tr": "Durumun moralini bozmasına izin vermedi." }
+    ]
+  },
+
+  {
+    "word": "derive",
+    "meanings": ["türetmek", "kaynaklanmak"],
+    "examples": [
+      { "en": "Many English words are derived from Latin.", "tr": "Birçok İngilizce kelime Latince'den türetilmiştir." },
+      { "en": "They derived great benefit from the training.", "tr": "Eğitimden büyük fayda sağladılar." },
+      { "en": "The word derives from ancient Greek.", "tr": "Kelime antik Yunancadan gelir." },
+      { "en": "Her confidence derives from experience.", "tr": "Özgüveni deneyiminden kaynaklanıyor." },
+      { "en": "The idea derives from a previous project.", "tr": "Fikir önceki bir projeden türetilmiştir." }
+    ]
+  },
+
+  {
+    "word": "distinguish",
+    "meanings": ["ayırmak", "ayırt etmek"],
+    "examples": [
+      { "en": "It's hard to distinguish fact from opinion.", "tr": "Gerçeği görüşten ayırt etmek zor." },
+      { "en": "She can easily distinguish different accents.", "tr": "Farklı aksanları kolayca ayırt edebilir." },
+      { "en": "The brand is distinguished by its quality.", "tr": "Marka kalitesiyle ayırt edilir." },
+      { "en": "The twins are hard to distinguish.", "tr": "İkizleri ayırt etmek zordur." },
+      { "en": "Experience helps you distinguish good decisions from bad ones.", "tr": "Deneyim, iyi kararları kötü olanlardan ayırt etmene yardımcı olur." }
+    ]
+  },
+
+  {
+    "word": "emphasize",
+    "meanings": ["vurgu yapmak"],
+    "examples": [
+      { "en": "She emphasized the importance of teamwork.", "tr": "Ekip çalışmasının önemini vurguladı." },
+      { "en": "The teacher emphasized key points.", "tr": "Öğretmen önemli noktaları vurguladı." },
+      { "en": "He emphasized that the plan must change.", "tr": "Planın değişmesi gerektiğini vurguladı." },
+      { "en": "They emphasized safety during the event.", "tr": "Etkinlik sırasında güvenliği vurguladılar." },
+      { "en": "This report emphasizes our main goals.", "tr": "Bu rapor ana hedeflerimizi vurguluyor." }
+    ]
+  },
+
+  {
+    "word": "enhance",
+    "meanings": ["geliştirmek", "artırmak"],
+    "examples": [
+      { "en": "The new features enhance user experience.", "tr": "Yeni özellikler kullanıcı deneyimini artırır." },
+      { "en": "Vitamin C enhances the body's ability to fight infections.", "tr": "C vitamini vücudun enfeksiyonlarla savaşma yeteneğini artırır." },
+      { "en": "They enhanced the design to make it more modern.", "tr": "Tasarımı daha modern yapmak için geliştirdiler." },
+      { "en": "Good lighting enhances the atmosphere.", "tr": "İyi aydınlatma atmosferi geliştirir." },
+      { "en": "Training enhances performance.", "tr": "Eğitim performansı artırır." }
+    ]
+  },
+
+  {
+    "word": "establish",
+    "meanings": ["kurmak", "oluşturmak"],
+    "examples": [
+      { "en": "They established a new company last year.", "tr": "Geçen yıl yeni bir şirket kurdular." },
+      { "en": "The school was established in 1990.", "tr": "Okul 1990 yılında kuruldu." },
+      { "en": "We need to establish clear rules.", "tr": "Açık kurallar oluşturmamız gerekiyor." },
+      { "en": "She established herself as a successful writer.", "tr": "Kendini başarılı bir yazar olarak kabul ettirdi." },
+      { "en": "The study establishes a link between diet and health.", "tr": "Çalışma diyet ve sağlık arasında bir bağlantı kuruyor." }
+    ]
+  },
+
+  {
+    "word": "evaluate",
+    "meanings": ["değerlendirmek"],
+    "examples": [
+      { "en": "We need to evaluate all options before deciding.", "tr": "Karar vermeden önce tüm seçenekleri değerlendirmeliyiz." },
+      { "en": "The committee evaluated the proposal.", "tr": "Komite teklifi değerlendirdi." },
+      { "en": "He evaluated the evidence carefully.", "tr": "Kanıtları dikkatlice değerlendirdi." },
+      { "en": "She evaluated the students’ progress.", "tr": "Öğrencilerin ilerlemesini değerlendirdi." },
+      { "en": "They evaluated the performance of the team.", "tr": "Takımın performansını değerlendirdiler." }
+    ]
+  },
+
+  {
+    "word": "expand",
+    "meanings": ["genişletmek", "büyütmek"],
+    "examples": [
+      { "en": "The company plans to expand its operations abroad.", "tr": "Şirket yurt dışı operasyonlarını genişletmeyi planlıyor." },
+      { "en": "They expanded the building last year.", "tr": "Geçen yıl binayı genişlettiler." },
+      { "en": "Her vocabulary expanded quickly.", "tr": "Kelime dağarcığı hızlıca genişledi." },
+      { "en": "We need to expand our marketing strategy.", "tr": "Pazarlama stratejimizi genişletmemiz gerekiyor." },
+      { "en": "The story expands in the second chapter.", "tr": "Hikâye ikinci bölümde genişliyor." }
+    ]
+  },
+
+  {
+    "word": "exploit",
+    "meanings": ["sömürmek", "faydalanmak"],
+    "examples": [
+      { "en": "Some companies exploit natural resources.", "tr": "Bazı şirketler doğal kaynakları sömürür." },
+      { "en": "Hackers exploited a security weakness.", "tr": "Hackerlar bir güvenlik açığından faydalandı." },
+      { "en": "They exploited the opportunity wisely.", "tr": "Fırsatı akıllıca değerlendirdiler." },
+      { "en": "Children should never be exploited for labor.", "tr": "Çocuklar asla iş için sömürülmemelidir." },
+      { "en": "He exploited his skills to earn extra income.", "tr": "Becerilerini ek gelir elde etmek için kullandı." }
+    ]
+  },
+
+  {
+    "word": "facilitate",
+    "meanings": ["kolaylaştırmak"],
+    "examples": [
+      { "en": "Technology facilitates communication.", "tr": "Teknoloji iletişimi kolaylaştırır." },
+      { "en": "The new platform facilitates online learning.", "tr": "Yeni platform çevrim içi öğrenmeyi kolaylaştırır." },
+      { "en": "Good planning facilitates progress.", "tr": "İyi planlama ilerlemeyi kolaylaştırır." },
+      { "en": "Clear instructions facilitate the process.", "tr": "Açık talimatlar süreci kolaylaştırır." },
+      { "en": "The software facilitates teamwork.", "tr": "Yazılım ekip çalışmasını kolaylaştırır." }
+    ]
+  },
+
+  {
+    "word": "generate",
+    "meanings": ["üretmek", "oluşturmak"],
+    "examples": [
+      { "en": "The machine generates electricity.", "tr": "Makine elektrik üretir." },
+      { "en": "The idea generated a lot of interest.", "tr": "Fikir büyük ilgi oluşturdu." },
+      { "en": "They generated a detailed report.", "tr": "Detaylı bir rapor hazırladılar." },
+      { "en": "Solar panels generate clean energy.", "tr": "Güneş panelleri temiz enerji üretir." },
+      { "en": "The event generated positive feedback.", "tr": "Etkinlik olumlu geri bildirim oluşturdu." }
+    ]
+  },
+
+  {
+    "word": "highlight",
+    "meanings": ["vurgulamak"],
+    "examples": [
+      { "en": "The report highlights major concerns.", "tr": "Rapor önemli endişeleri vurguluyor." },
+      { "en": "She highlighted the key points.", "tr": "Önemli noktaları vurguladı." },
+      { "en": "The event highlighted local talent.", "tr": "Etkinlik yerel yetenekleri öne çıkardı." },
+      { "en": "He highlighted the need for improvement.", "tr": "Geliştirme ihtiyacını vurguladı." },
+      { "en": "The study highlights the importance of sleep.", "tr": "Çalışma uykunun önemini vurguluyor." }
+    ]
+  },
+
+  {
+    "word": "implement",
+    "meanings": ["uygulamak", "hayata geçirmek"],
+    "examples": [
+      { "en": "The company implemented a new strategy.", "tr": "Şirket yeni bir strateji uyguladı." },
+      { "en": "They implemented several changes last year.", "tr": "Geçen yıl birkaç değişiklik uyguladılar." },
+      { "en": "The plan will be implemented next month.", "tr": "Plan gelecek ay uygulanacak." },
+      { "en": "He implemented the feedback effectively.", "tr": "Geri bildirimi etkili şekilde uyguladı." },
+      { "en": "We need to implement better safety measures.", "tr": "Daha iyi güvenlik önlemleri uygulamamız gerekiyor." }
+    ]
+  },
+
+  {
+    "word": "indicate",
+    "meanings": ["belirtmek", "göstermek"],
+    "examples": [
+      { "en": "The results indicate a clear improvement.", "tr": "Sonuçlar açık bir iyileşme gösteriyor." },
+      { "en": "She indicated that she would join us.", "tr": "Bize katılacağını belirtti." },
+      { "en": "The signs indicate that the weather will change.", "tr": "İşaretler havanın değişeceğini gösteriyor." },
+      { "en": "He indicated the correct answer.", "tr": "Doğru cevabı gösterdi." },
+      { "en": "Data indicates a growth in demand.", "tr": "Veriler talepte artış olduğunu gösteriyor." }
+    ]
+  },
+
+  {
+    "word": "interpret",
+    "meanings": ["yorumlamak"],
+    "examples": [
+      { "en": "It’s hard to interpret these results.", "tr": "Bu sonuçları yorumlamak zor." },
+      { "en": "Different people can interpret art differently.", "tr": "Farklı insanlar sanatı farklı yorumlayabilir." },
+      { "en": "She interpreted his silence as agreement.", "tr": "Onun sessizliğini onay olarak yorumladı." },
+      { "en": "You must interpret the data correctly.", "tr": "Verileri doğru yorumlamalısın." },
+      { "en": "He interpreted the poem beautifully.", "tr": "Şiiri güzelce yorumladı." }
+    ]
+  },
+
+  {
+    "word": "justify",
+    "meanings": ["haklı çıkarmak", "gerekçelendirmek"],
+    "examples": [
+      { "en": "He tried to justify his decision.", "tr": "Kararını gerekçelendirmeye çalıştı." },
+      { "en": "You must justify your actions.", "tr": "Eylemlerini gerekçelendirmelisin." },
+      { "en": "The results justify the investment.", "tr": "Sonuçlar yatırımı haklı çıkarıyor." },
+      { "en": "She justified her absence with a valid reason.", "tr": "Geçerli bir nedenle yokluğunu haklı çıkardı." },
+      { "en": "He couldn't justify the expense.", "tr": "Bu masrafı gerekçelendiremedi." }
+    ]
+  },
+
+  {
+    "word": "maintain",
+    "meanings": ["sürdürmek", "korumak"],
+    "examples": [
+      { "en": "She maintains a healthy lifestyle.", "tr": "Sağlıklı bir yaşam tarzı sürdürüyor." },
+      { "en": "The system must be maintained regularly.", "tr": "Sistem düzenli olarak bakım görmelidir." },
+      { "en": "He maintained his position despite criticism.", "tr": "Eleştirilere rağmen tutumunu korudu." },
+      { "en": "We need to maintain communication.", "tr": "İletişimi sürdürmemiz gerekiyor." },
+      { "en": "The building is well maintained.", "tr": "Bina iyi korunuyor." }
+    ]
+  },
+
+  {
+    "word": "modify",
+    "meanings": ["değiştirmek", "modifiye etmek"],
+    "examples": [
+      { "en": "They modified the design to reduce costs.", "tr": "Maliyeti azaltmak için tasarımı değiştirdiler." },
+      { "en": "You can modify your order at any time.", "tr": "Siparişinizi her zaman değiştirebilirsiniz." },
+      { "en": "The software was modified to improve performance.", "tr": "Yazılım performansı artırmak için değiştirildi." },
+      { "en": "He modified his plan after receiving feedback.", "tr": "Geri bildirim aldıktan sonra planını değiştirdi." },
+      { "en": "The rules were modified recently.", "tr": "Kurallar yakın zamanda değiştirildi." }
+    ]
+  },
+
+  {
+    "word": "neglect",
+    "meanings": ["ihmal etmek"],
+    "examples": [
+      { "en": "She neglected her health for years.", "tr": "Yıllarca sağlığını ihmal etti." },
+      { "en": "The garden was neglected for months.", "tr": "Bahçe aylarca ihmal edildi." },
+      { "en": "Don't neglect your responsibilities.", "tr": "Sorumluluklarını ihmal etme." },
+      { "en": "He neglected to mention an important detail.", "tr": "Önemli bir detayı belirtmeyi ihmal etti." },
+      { "en": "Children need attention, so don't neglect them.", "tr": "Çocukların ilgiye ihtiyacı vardır, onları ihmal etmeyin." }
+    ]
+  },
+
+  {
+    "word": "obtain",
+    "meanings": ["elde etmek"],
+    "examples": [
+      { "en": "You need a license to obtain this material.", "tr": "Bu materyali elde etmek için lisans gerekir." },
+      { "en": "He finally obtained the information he needed.", "tr": "Sonunda ihtiyaç duyduğu bilgiyi elde etti." },
+      { "en": "The results were difficult to obtain.", "tr": "Sonuçları elde etmek zordu." },
+      { "en": "They obtained permission to continue.", "tr": "Devam etmek için izin aldılar." },
+      { "en": "She obtained a high score on the exam.", "tr": "Sınavda yüksek bir puan elde etti." }
+    ]
+  },
+  {
+    "word": "predict",
+    "meanings": ["tahmin etmek"],
+    "examples": [
+      { "en": "Experts predict a rise in prices.", "tr": "Uzmanlar fiyatlarda artış tahmin ediyor." },
+      { "en": "No one predicted such a big change.", "tr": "Kimse bu kadar büyük bir değişimi tahmin etmedi." },
+      { "en": "He predicted that the plan would fail.", "tr": "Planın başarısız olacağını tahmin etti." },
+      { "en": "The model predicts future trends accurately.", "tr": "Model gelecekteki eğilimleri doğru şekilde tahmin eder." },
+      { "en": "She confidently predicted success.", "tr": "Başarıyı güvenle tahmin etti." }
+    ]
+  },
+
+  {
+    "word": "pursue",
+    "meanings": ["peşinden gitmek", "sürdürmek"],
+    "examples": [
+      { "en": "She decided to pursue a career in medicine.", "tr": "Tıpta bir kariyer yapmaya karar verdi." },
+      { "en": "He pursued his goals with determination.", "tr": "Hedeflerinin peşinden kararlılıkla gitti." },
+      { "en": "They pursued the project despite difficulties.", "tr": "Zorluklara rağmen projeyi sürdürdüler." },
+      { "en": "The police pursued the suspect.", "tr": "Polis şüpheliyi takip etti." },
+      { "en": "She continues to pursue her dreams.", "tr": "Hayallerinin peşinden gitmeye devam ediyor." }
+    ]
+  },
+
+  {
+    "word": "recommend",
+    "meanings": ["önermek"],
+    "examples": [
+      { "en": "I recommend reading this book.", "tr": "Bu kitabı okumanı öneriyorum." },
+      { "en": "He recommended a good restaurant.", "tr": "İyi bir restoran önerdi." },
+      { "en": "The doctor recommended rest.", "tr": "Doktor dinlenmeyi önerdi." },
+      { "en": "She recommended that we start early.", "tr": "Erken başlamamızı önerdi." },
+      { "en": "They recommended upgrading the system.", "tr": "Sistemin güncellenmesini önerdiler." }
+    ]
+  },
+
+  {
+    "word": "resolve",
+    "meanings": ["çözmek", "karara bağlamak"],
+    "examples": [
+      { "en": "They resolved the issue quickly.", "tr": "Sorunu hızlıca çözdüler." },
+      { "en": "She resolved to change her habits.", "tr": "Alışkanlıklarını değiştirmeye karar verdi." },
+      { "en": "The conflict was finally resolved.", "tr": "Çatışma sonunda çözüldü." },
+      { "en": "He resolved the misunderstanding.", "tr": "Yanlış anlaşılmayı çözdü." },
+      { "en": "The committee resolved the matter.", "tr": "Komite konuyu karara bağladı." }
+    ]
+  },
+
+  {
+    "word": "retain",
+    "meanings": ["tutmak", "korumak"],
+    "examples": [
+      { "en": "The company wants to retain skilled employees.", "tr": "Şirket yetenekli çalışanları elinde tutmak istiyor." },
+      { "en": "She retained her reputation.", "tr": "İtibarını korudu." },
+      { "en": "The soil retains moisture.", "tr": "Toprak nemi tutar." },
+      { "en": "He couldn't retain all the information.", "tr": "Tüm bilgiyi aklında tutamadı." },
+      { "en": "The building retains its original design.", "tr": "Bina orijinal tasarımını koruyor." }
+    ]
+  },
+
+  {
+    "word": "seek",
+    "meanings": ["aramak", "talep etmek"],
+    "examples": [
+      { "en": "She is seeking a new job.", "tr": "Yeni bir iş arıyor." },
+      { "en": "They sought advice from experts.", "tr": "Uzmanlardan tavsiye aldılar." },
+      { "en": "He sought help during the crisis.", "tr": "Kriz sırasında yardım aradı." },
+      { "en": "The police are seeking more evidence.", "tr": "Polis daha fazla kanıt arıyor." },
+      { "en": "We are seeking solutions to the problem.", "tr": "Soruna çözümler arıyoruz." }
+    ]
+  },
+
+  {
+    "word": "strengthen",
+    "meanings": ["güçlendirmek"],
+    "examples": [
+      { "en": "Exercise strengthens the body.", "tr": "Egzersiz vücudu güçlendirir." },
+      { "en": "The policy strengthens economic stability.", "tr": "Politika ekonomik istikrarı güçlendirir." },
+      { "en": "They strengthened their relationship.", "tr": "İlişkilerini güçlendirdiler." },
+      { "en": "He strengthened his argument with evidence.", "tr": "Argümanını kanıtlarla güçlendirdi." },
+      { "en": "The training strengthened the team.", "tr": "Eğitim ekibi güçlendirdi." }
+    ]
+  },
+
+  {
+    "word": "transform",
+    "meanings": ["dönüştürmek"],
+    "examples": [
+      { "en": "Technology has transformed our lives.", "tr": "Teknoloji hayatlarımızı dönüştürdü." },
+      { "en": "They transformed the old building into a museum.", "tr": "Eski binayı bir müzeye dönüştürdüler." },
+      { "en": "The experience transformed her outlook on life.", "tr": "Deneyim hayata bakışını değiştirdi." },
+      { "en": "The company transformed its strategy.", "tr": "Şirket stratejisini dönüştürdü." },
+      { "en": "Art can transform emotions.", "tr": "Sanat duyguları dönüştürebilir." }
+    ]
+  },
+
+  {
+    "word": "verify",
+    "meanings": ["doğrulamak"],
+    "examples": [
+      { "en": "They verified the documents.", "tr": "Belgeleri doğruladılar." },
+      { "en": "Please verify your account.", "tr": "Lütfen hesabınızı doğrulayın." },
+      { "en": "He verified the information twice.", "tr": "Bilgiyi iki kez doğruladı." },
+      { "en": "Experts verified the theory.", "tr": "Uzmanlar teoriyi doğruladı." },
+      { "en": "She verified the results independently.", "tr": "Sonuçları bağımsız olarak doğruladı." }
+    ]
+  },
+
+  {
+    "word": "withdraw",
+    "meanings": ["geri çekmek", "çekilmek"],
+    "examples": [
+      { "en": "He withdrew his application.", "tr": "Başvurusunu geri çekti." },
+      { "en": "They withdrew their support.", "tr": "Desteklerini geri çektiler." },
+      { "en": "The army withdrew from the area.", "tr": "Ordu bölgeden çekildi." },
+      { "en": "She withdrew money from the ATM.", "tr": "ATM’den para çekti." },
+      { "en": "He withdrew from the competition.", "tr": "Yarışmadan çekildi." }
+    ]
+  },
+   {
+    "word": "accommodate",
+    "meanings": ["uyum sağlamak", "barındırmak"],
+    "examples": [
+      { "en": "The hotel can accommodate up to 300 guests.", "tr": "Otel 300'e kadar misafiri ağırlayabilir." },
+      { "en": "The schedule was changed to accommodate everyone.", "tr": "Herkese uyum sağlamak için program değiştirildi." },
+      { "en": "They tried to accommodate his needs.", "tr": "Onun ihtiyaçlarına uyum sağlamaya çalıştılar." },
+      { "en": "The building was redesigned to accommodate more offices.", "tr": "Daha fazla ofis barındırmak için bina yeniden tasarlandı." },
+      { "en": "We must accommodate different learning styles.", "tr": "Farklı öğrenme stillerine uyum sağlamalıyız." }
+    ]
+  },
+  {
+    "word": "accumulate",
+    "meanings": ["biriktirmek", "toplamak"],
+    "examples": [
+      { "en": "Dust accumulated on the shelves.", "tr": "Raflarda toz birikti." },
+      { "en": "Savings accumulate over time.", "tr": "Tasarruflar zamanla birikir." },
+      { "en": "He accumulated a lot of experience.", "tr": "Çok fazla deneyim biriktirdi." },
+      { "en": "They accumulated enough points to win a prize.", "tr": "Ödül kazanmak için yeterli puanı topladılar." },
+      { "en": "Debts can accumulate quickly.", "tr": "Borçlar hızla birikebilir." }
+    ]
+  },
+  {
+    "word": "adapt",
+    "meanings": ["uyum sağlamak", "uyarlamak"],
+    "examples": [
+      { "en": "Children adapt easily to new environments.", "tr": "Çocuklar yeni ortamlara kolayca uyum sağlar." },
+      { "en": "The book was adapted into a movie.", "tr": "Kitap bir filme uyarlandı." },
+      { "en": "We must adapt to changes.", "tr": "Değişikliklere uyum sağlamalıyız." },
+      { "en": "He adapted quickly to his new job.", "tr": "Yeni işine hızlıca uyum sağladı." },
+      { "en": "They adapted the plan according to feedback.", "tr": "Geri bildirime göre planı uyarladılar." }
+    ]
+  },
+  {
+    "word": "adjust",
+    "meanings": ["ayarlamak", "uyarlamak"],
+    "examples": [
+      { "en": "You need to adjust the settings.", "tr": "Ayarları yapman gerekiyor." },
+      { "en": "She quickly adjusted to the new routine.", "tr": "Yeni rutine hızlıca uyum sağladı." },
+      { "en": "He adjusted the temperature.", "tr": "Sıcaklığı ayarladı." },
+      { "en": "We must adjust our strategy.", "tr": "Stratejimizi ayarlamalıyız." },
+      { "en": "She adjusted her expectations.", "tr": "Beklentilerini ayarladı." }
+    ]
+  },
+  {
+    "word": "alter",
+    "meanings": ["değiştirmek"],
+    "examples": [
+      { "en": "The dress was altered to fit her.", "tr": "Elbise ona uyması için değiştirildi." },
+      { "en": "He altered the schedule.", "tr": "Programı değiştirdi." },
+      { "en": "The plan needs to be altered.", "tr": "Planın değiştirilmesi gerekiyor." },
+      { "en": "They altered the design slightly.", "tr": "Tasarımı biraz değiştirdiler." },
+      { "en": "Weather patterns are altering over time.", "tr": "Hava düzenleri zamanla değişiyor." }
+    ]
+  },
+  {
+    "word": "analyze",
+    "meanings": ["analiz etmek"],
+    "examples": [
+      { "en": "The scientist analyzed the data carefully.", "tr": "Bilim insanı verileri dikkatlice analiz etti." },
+      { "en": "We need to analyze the results.", "tr": "Sonuçları analiz etmemiz gerekiyor." },
+      { "en": "She analyzed the situation before acting.", "tr": "Harekete geçmeden önce durumu analiz etti." },
+      { "en": "Experts analyzed the causes of the accident.", "tr": "Uzmanlar kazanın nedenlerini analiz etti." },
+      { "en": "They analyzed the report thoroughly.", "tr": "Raporu detaylı bir şekilde analiz ettiler." }
+    ]
+  },
+  {
+    "word": "anticipation",
+    "meanings": ["beklenti", "öngörü"],
+    "examples": [
+      { "en": "There was great anticipation before the concert.", "tr": "Konserden önce büyük bir beklenti vardı." },
+      { "en": "He waited in anticipation.", "tr": "Beklenti içinde bekledi." },
+      { "en": "The team prepared in anticipation of the storm.", "tr": "Ekip fırtınayı öngörerek hazırlandı." },
+      { "en": "Her anticipation grew as the day approached.", "tr": "Gün yaklaştıkça beklentisi arttı." },
+      { "en": "In anticipation of his arrival, they cleaned the house.", "tr": "Onun gelişini öngörerek evi temizlediler." }
+    ]
+  },
+  {
+    "word": "approve",
+    "meanings": ["onaylamak"],
+    "examples": [
+      { "en": "The manager approved the request.", "tr": "Yönetici isteği onayladı." },
+      { "en": "The government approved the plan.", "tr": "Hükümet planı onayladı." },
+      { "en": "He does not approve of smoking.", "tr": "Sigara içmeyi onaylamıyor." },
+      { "en": "The application was approved instantly.", "tr": "Başvuru anında onaylandı." },
+      { "en": "They approved the new policy.", "tr": "Yeni politikayı onayladılar." }
+    ]
+  },
+  {
+    "word": "arise",
+    "meanings": ["ortaya çıkmak"],
+    "examples": [
+      { "en": "Several problems arose during the meeting.", "tr": "Toplantı sırasında birkaç sorun ortaya çıktı." },
+      { "en": "Opportunities may arise unexpectedly.", "tr": "Fırsatlar beklenmedik şekilde ortaya çıkabilir." },
+      { "en": "A conflict arose between the two groups.", "tr": "İki grup arasında bir çatışma ortaya çıktı." },
+      { "en": "Questions arose after the announcement.", "tr": "Duyurudan sonra sorular ortaya çıktı." },
+      { "en": "If any issues arise, please contact me.", "tr": "Herhangi bir sorun ortaya çıkarsa lütfen benimle iletişime geçin." }
+    ]
+  },
+  {
+    "word": "assert",
+    "meanings": ["iddia etmek", "ileri sürmek"],
+    "examples": [
+      { "en": "He asserted that the decision was unfair.", "tr": "Kararın adaletsiz olduğunu iddia etti." },
+      { "en": "The scientist asserted his theory confidently.", "tr": "Bilim insanı teorisini güvenle ileri sürdü." },
+      { "en": "She asserted her independence.", "tr": "Bağımsızlığını ileri sürdü." },
+      { "en": "They asserted their rights.", "tr": "Haklarını ileri sürdüler." },
+      { "en": "He asserted that he was innocent.", "tr": "Masum olduğunu iddia etti." }
+    ]
+  },
+  {
+    "word": "assign",
+    "meanings": ["atamak", "görevlendirmek"],
+    "examples": [
+      { "en": "The teacher assigned homework.", "tr": "Öğretmen ödev verdi." },
+      { "en": "He was assigned to the new project.", "tr": "Yeni projeye atandı." },
+      { "en": "Tasks were assigned equally among the team.", "tr": "Görevler ekip arasında eşit şekilde dağıtıldı." },
+      { "en": "They assigned her a new role.", "tr": "Ona yeni bir rol atadılar." },
+      { "en": "We must assign responsibilities clearly.", "tr": "Sorumlulukları açıkça atamalıyız." }
+    ]
+  },
+  {
+    "word": "assume",
+    "meanings": ["varsaymak"],
+    "examples": [
+      { "en": "I assumed he knew the answer.", "tr": "Cevabı bildiğini varsaydım." },
+      { "en": "Don't assume things without evidence.", "tr": "Kanıt olmadan bir şeyler varsayma." },
+      { "en": "He assumed responsibility for the mistake.", "tr": "Hatanın sorumluluğunu üstlendi." },
+      { "en": "She assumed the meeting was cancelled.", "tr": "Toplantının iptal edildiğini varsaydı." },
+      { "en": "They assumed we would join them.", "tr": "Onlara katılacağımızı varsaydılar." }
+    ]
+  },
+  {
+    "word": "assure",
+    "meanings": ["temin etmek", "garanti etmek"],
+    "examples": [
+      { "en": "He assured me that everything was fine.", "tr": "Her şeyin yolunda olduğuna beni temin etti." },
+      { "en": "The company assured customers of high quality.", "tr": "Şirket müşterilere yüksek kalite garantisi verdi." },
+      { "en": "She assured us of her support.", "tr": "Bize destek olacağını garanti etti." },
+      { "en": "I assure you that we will succeed.", "tr": "Başaracağımıza seni temin ederim." },
+      { "en": "They assured him that his data was safe.", "tr": "Ona verilerinin güvende olduğunu garanti ettiler." }
+    ]
+  },
+  {
+    "word": "boost",
+    "meanings": ["artırmak", "desteklemek"],
+    "examples": [
+      { "en": "The new product boosted sales.", "tr": "Yeni ürün satışları artırdı." },
+      { "en": "Exercise boosts your energy levels.", "tr": "Egzersiz enerji seviyelerini artırır." },
+      { "en": "His speech boosted morale.", "tr": "Konuşması morali yükseltti." },
+      { "en": "They used ads to boost brand awareness.", "tr": "Marka bilinirliğini artırmak için reklam kullandılar." },
+      { "en": "The award boosted her confidence.", "tr": "Ödül özgüvenini artırdı." }
+    ]
+  },
+  {
+    "word": "broaden",
+    "meanings": ["genişletmek"],
+    "examples": [
+      { "en": "Traveling broadens your perspective.", "tr": "Seyahat etmek bakış açınızı genişletir." },
+      { "en": "The company broadened its services.", "tr": "Şirket hizmetlerini genişletti." },
+      { "en": "Reading broadens the mind.", "tr": "Okumak zihni genişletir." },
+      { "en": "He broadened his knowledge of technology.", "tr": "Teknoloji bilgilerini genişletti." },
+      { "en": "The course broadened my skills.", "tr": "Kurs becerilerimi genişletti." }
+    ]
+  },
+  {
+    "word": "clarity",
+    "meanings": ["açıklık", "netlik"],
+    "examples": [
+      { "en": "Her explanation lacked clarity.", "tr": "Açıklaması netlikten yoksundu." },
+      { "en": "The document needs more clarity.", "tr": "Belgenin daha fazla netliğe ihtiyacı var." },
+      { "en": "He expressed his opinion with clarity.", "tr": "Fikrini net bir şekilde ifade etti." },
+      { "en": "The instructions provided clarity.", "tr": "Talimatlar netlik sağladı." },
+      { "en": "She spoke with clarity and confidence.", "tr": "Netlik ve özgüvenle konuştu." }
+    ]
+  },
+  {
+    "word": "collapse",
+    "meanings": ["çökmek", "yıkılmak"],
+    "examples": [
+      { "en": "The building collapsed after the earthquake.", "tr": "Depremden sonra bina çöktü." },
+      { "en": "He collapsed from exhaustion.", "tr": "Yorgunluktan yere yığıldı." },
+      { "en": "The economy collapsed suddenly.", "tr": "Ekonomi aniden çöktü." },
+      { "en": "The chair collapsed under his weight.", "tr": "Sandalye ağırlığıyla çöktü." },
+      { "en": "The plan collapsed at the last moment.", "tr": "Plan son anda çöktü." }
+    ]
+  },
+  {
+    "word": "compel",
+    "meanings": ["zorlamak"],
+    "examples": [
+      { "en": "The law compels citizens to pay taxes.", "tr": "Yasa vatandaşları vergi ödemeye zorlar." },
+      { "en": "He felt compelled to speak.", "tr": "Konuşmak zorunda hissetti." },
+      { "en": "Circumstances compelled them to move.", "tr": "Koşullar onları taşınmaya zorladı." },
+      { "en": "The situation compelled action.", "tr": "Durum harekete geçmeyi zorunlu kıldı." },
+      { "en": "She was compelled to explain herself.", "tr": "Kendini açıklamak zorunda kaldı." }
+    ]
+  },
+  {
+    "word": "comprehend",
+    "meanings": ["anlamak", "kavramak"],
+    "examples": [
+      { "en": "He couldn't comprehend the complexity of the issue.", "tr": "Konunun karmaşıklığını kavrayamadı." },
+      { "en": "Children may not comprehend the risks.", "tr": "Çocuklar riskleri anlamayabilir." },
+      { "en": "She comprehended the instructions easily.", "tr": "Talimatları kolayca anladı." },
+      { "en": "It’s hard to comprehend how this happened.", "tr": "Bu nasıl oldu anlamak zor." },
+      { "en": "He comprehended the situation fully.", "tr": "Durumu tamamen kavradı." }
+    ]
+  },
+  {
+    "word": "conceal",
+    "meanings": ["gizlemek"],
+    "examples": [
+      { "en": "He concealed the truth.", "tr": "Gerçeği gizledi." },
+      { "en": "She concealed her emotions.", "tr": "Duygularını gizledi." },
+      { "en": "The clouds concealed the sun.", "tr": "Bulutlar güneşi gizledi." },
+      { "en": "He tried to conceal his disappointment.", "tr": "Hayal kırıklığını gizlemeye çalıştı." },
+      { "en": "The evidence was concealed intentionally.", "tr": "Kanıt kasıtlı olarak gizlendi." }
+    ]
+  },
+  {
+    "word": "conclude",
+    "meanings": ["sonuçlandırmak"],
+    "examples": [
+      { "en": "They concluded the meeting early.", "tr": "Toplantıyı erken sonuçlandırdılar." },
+      { "en": "He concluded that the plan would fail.", "tr": "Planın başarısız olacağı sonucuna vardı." },
+      { "en": "Scientists concluded the experiment.", "tr": "Bilim insanları deneyi sonuçlandırdı." },
+      { "en": "We concluded the contract last week.", "tr": "Sözleşmeyi geçen hafta sonuçlandırdık." },
+      { "en": "She concluded her speech with a thank-you note.", "tr": "Konuşmasını bir teşekkür notuyla bitirdi." }
+    ]
+  },
+  {
+    "word": "confront",
+    "meanings": ["yüzleşmek"],
+    "examples": [
+      { "en": "He confronted his fears.", "tr": "Korkularıyla yüzleşti." },
+      { "en": "They confronted the issue directly.", "tr": "Sorunla doğrudan yüzleştiler." },
+      { "en": "She confronted him about the lie.", "tr": "Yalan konusunda onunla yüzleşti." },
+      { "en": "The team confronted several challenges.", "tr": "Ekip birçok zorlukla yüzleşti." },
+      { "en": "He was confronted with a difficult choice.", "tr": "Zor bir seçimle karşı karşıya kaldı." }
+    ]
+  },
+  {
+    "word": "contribute",
+    "meanings": ["katkı sağlamak"],
+    "examples": [
+      { "en": "Everyone contributed to the project.", "tr": "Herkes projeye katkı sağladı." },
+      { "en": "She contributed valuable ideas.", "tr": "Değerli fikirler sundu." },
+      { "en": "Exercise contributes to good health.", "tr": "Egzersiz iyi sağlığa katkıda bulunur." },
+      { "en": "He contributed money to charity.", "tr": "Hayır işine para bağışladı." },
+      { "en": "They contributed to the discussion.", "tr": "Tartışmaya katkıda bulundular." }
+    ]
+  },
+  {
+    "word": "convince",
+    "meanings": ["ikna etmek"],
+    "examples": [
+      { "en": "He convinced her to join the team.", "tr": "Onu takıma katılmaya ikna etti." },
+      { "en": "She convinced me that it was the right decision.", "tr": "Doğru karar olduğuna beni ikna etti." },
+      { "en": "They convinced the manager to approve the budget.", "tr": "Yöneticiyi bütçeyi onaylamaya ikna ettiler." },
+      { "en": "He convinced them of his innocence.", "tr": "Onları masumiyetine ikna etti." },
+      { "en": "The results convinced the team that the method worked.", "tr": "Sonuçlar yöntemin işe yaradığına ekibi ikna etti." }
+    ]
+  },
+  {
+    "word": "correspond",
+    "meanings": ["denk gelmek", "uyuşmak", "yazışmak"],
+    "examples": [
+      { "en": "The numbers correspond to the results.", "tr": "Sayılar sonuçlara denk gelir." },
+      { "en": "His actions don’t correspond with his words.", "tr": "Eylemleri sözleriyle uyuşmuyor." },
+      { "en": "They correspond regularly by email.", "tr": "E-posta yoluyla düzenli olarak yazışırlar." },
+      { "en": "The map corresponds with the actual layout.", "tr": "Harita gerçek düzenle uyuşuyor." },
+      { "en": "Their interests correspond well.", "tr": "İlgi alanları iyi uyuşuyor." }
+    ]
+  },
+  {
+    "word": "decline",
+    "meanings": ["reddetmek", "azalmak"],
+    "examples": [
+      { "en": "He declined the invitation.", "tr": "Daveti reddetti." },
+      { "en": "Sales declined last year.", "tr": "Satışlar geçen yıl azaldı." },
+      { "en": "She politely declined the offer.", "tr": "Teklifi kibarca reddetti." },
+      { "en": "The population is declining.", "tr": "Nüfus azalıyor." },
+      { "en": "He declined to answer the question.", "tr": "Soruyu cevaplamayı reddetti." }
+    ]
+  },
+  {
+    "word": "derive",
+    "meanings": ["türetmek", "kaynaklanmak"],
+    "examples": [
+      { "en": "The word is derived from Latin.", "tr": "Kelime Latince'den türetilmiştir." },
+      { "en": "They derived inspiration from nature.", "tr": "Doğadan ilham aldılar." },
+      { "en": "His confidence derives from experience.", "tr": "Özgüveni deneyiminden geliyor." },
+      { "en": "Many medicines derive from plants.", "tr": "Birçok ilaç bitkilerden elde edilir." },
+      { "en": "The idea derives from ancient philosophy.", "tr": "Fikir antik felsefeden kaynaklanır." }
+    ]
+  },
+  {
+    "word": "detect",
+    "meanings": ["tespit etmek"],
+    "examples": [
+      { "en": "The test detects early signs of disease.", "tr": "Test hastalığın erken belirtilerini tespit eder." },
+      { "en": "Sensors detected movement.", "tr": "Sensörler hareket algıladı." },
+      { "en": "Scientists detected changes in the climate.", "tr": "Bilim insanları iklimde değişiklikler tespit etti." },
+      { "en": "The system detected a problem.", "tr": "Sistem bir sorun tespit etti." },
+      { "en": "He detected a hint of sarcasm in her voice.", "tr": "Sesinde hafif bir alay sezdi." }
+    ]
+  },
+  {
+    "word": "diminish",
+    "meanings": ["azalmak", "azaltmak"],
+    "examples": [
+      { "en": "His anger slowly diminished.", "tr": "Öfkesi yavaşça azaldı." },
+      { "en": "The pain diminished after the treatment.", "tr": "Tedaviden sonra ağrı azaldı." },
+      { "en": "Their chances diminished over time.", "tr": "Şansları zamanla azaldı." },
+      { "en": "The company diminished expenses.", "tr": "Şirket giderleri azalttı." },
+      { "en": "The noise diminished as we moved away.", "tr": "Uzaklaştıkça gürültü azaldı." }
+    ]
+  },
+  {
+    "word": "distribute",
+    "meanings": ["dağıtmak"],
+    "examples": [
+      { "en": "They distributed food to the victims.", "tr": "Mağdurlara yiyecek dağıttılar." },
+      { "en": "The company distributes products worldwide.", "tr": "Şirket ürünleri dünya çapında dağıtır." },
+      { "en": "He distributed the tasks among the team.", "tr": "Görevleri ekip arasında dağıttı." },
+      { "en": "The teacher distributed worksheets.", "tr": "Öğretmen çalışma kağıtlarını dağıttı." },
+      { "en": "The organization distributes clothes to people in need.", "tr": "Kuruluş ihtiyaç sahiplerine kıyafet dağıtır." }
+    ]
+  },
+  {
+    "word": "dominate",
+    "meanings": ["hakim olmak", "baskın olmak"],
+    "examples": [
+      { "en": "The team dominated the match.", "tr": "Takım maça hakim oldu." },
+      { "en": "Technology dominates modern life.", "tr": "Teknoloji modern hayata hakimdir." },
+      { "en": "He dominated the conversation.", "tr": "Konuşmaya hakim oldu." },
+      { "en": "The building dominates the skyline.", "tr": "Bina siluete hakim." },
+      { "en": "One player dominated the entire game.", "tr": "Bir oyuncu tüm oyuna hakim oldu." }
+    ]
+  },
+  {
+    "word": "eliminate",
+    "meanings": ["ortadan kaldırmak"],
+    "examples": [
+      { "en": "They eliminated the risk completely.", "tr": "Riski tamamen ortadan kaldırdılar." },
+      { "en": "Sugar was eliminated from the diet.", "tr": "Diyetten şeker çıkarıldı." },
+      { "en": "The team was eliminated from the tournament.", "tr": "Takım turnuvadan elendi." },
+      { "en": "The system eliminates unnecessary steps.", "tr": "Sistem gereksiz adımları ortadan kaldırır." },
+      { "en": "The new law will eliminate confusion.", "tr": "Yeni yasa karışıklığı ortadan kaldıracak." }
+    ]
+  },
+  {
+    "word": "enable",
+    "meanings": ["olanak sağlamak"],
+    "examples": [
+      { "en": "Technology enables remote work.", "tr": "Teknoloji uzaktan çalışmayı mümkün kılar." },
+      { "en": "The app enables you to track your progress.", "tr": "Uygulama ilerlemeni takip etmeni sağlar." },
+      { "en": "This feature enables faster communication.", "tr": "Bu özellik daha hızlı iletişim sağlar." },
+      { "en": "The bridge enables access to the island.", "tr": "Köprü adaya erişimi sağlar." },
+      { "en": "Training enables employees to improve.", "tr": "Eğitim çalışanların gelişmesini sağlar." }
+    ]
+  },
+  {
+    "word": "encounter",
+    "meanings": ["karşılaşmak", "denk gelmek"],
+    "examples": [
+      { "en": "We encountered several problems during the trip.", "tr": "Seyahat sırasında birkaç sorunla karşılaştık." },
+      { "en": "She encountered an old friend at the mall.", "tr": "Alışveriş merkezinde eski bir arkadaşına rastladı." },
+      { "en": "They encountered difficulties at the beginning.", "tr": "Başta zorluklarla karşılaştılar." },
+      { "en": "He encountered a rare animal in the forest.", "tr": "Ormanda nadir bir hayvanla karşılaştı." },
+      { "en": "Customers may encounter delays.", "tr": "Müşteriler gecikmelerle karşılaşabilir." }
+    ]
+  },
+  {
+    "word": "endorse",
+    "meanings": ["onaylamak", "desteklemek"],
+    "examples": [
+      { "en": "The president endorsed the new policy.", "tr": "Başkan yeni politikayı onayladı." },
+      { "en": "Celebrities often endorse brands.", "tr": "Ünlüler sık sık markaları destekler." },
+      { "en": "He endorsed the idea during the meeting.", "tr": "Toplantıda fikri destekledi." },
+      { "en": "They endorsed the proposal unanimously.", "tr": "Teklifi oybirliğiyle onayladılar." },
+      { "en": "The report was endorsed by experts.", "tr": "Rapor uzmanlar tarafından onaylandı." }
+    ]
+  },
+  {
+    "word": "enforce",
+    "meanings": ["zorla uygulamak", "yürürlüğe koymak"],
+    "examples": [
+      { "en": "The police enforce the law strictly.", "tr": "Polis yasayı sıkı şekilde uygular." },
+      { "en": "Rules must be enforced equally.", "tr": "Kurallar eşit şekilde uygulanmalıdır." },
+      { "en": "The government enforced a new regulation.", "tr": "Hükümet yeni bir düzenlemeyi yürürlüğe koydu." },
+      { "en": "They enforced security measures.", "tr": "Güvenlik önlemlerini uyguladılar." },
+      { "en": "It’s hard to enforce such strict rules.", "tr": "Bu kadar katı kuralları uygulamak zordur." }
+    ]
+  },
+  {
+    "word": "enrich",
+    "meanings": ["zenginleştirmek"],
+    "examples": [
+      { "en": "Traveling enriches your experiences.", "tr": "Seyahat etmek deneyimlerinizi zenginleştirir." },
+      { "en": "Reading enriches the mind.", "tr": "Okumak zihni zenginleştirir." },
+      { "en": "The program enriches students' skills.", "tr": "Program öğrencilerin becerilerini zenginleştirir." },
+      { "en": "They enriched the course content.", "tr": "Kurs içeriğini zenginleştirdiler." },
+      { "en": "The soil must be enriched with nutrients.", "tr": "Toprak besinlerle zenginleştirilmelidir." }
+    ]
+  },
+  {
+    "word": "ensure",
+    "meanings": ["sağlamak", "garanti etmek"],
+    "examples": [
+      { "en": "We must ensure safety at all times.", "tr": "Her zaman güvenliği sağlamalıyız." },
+      { "en": "The rules ensure fairness.", "tr": "Kurallar adaleti sağlar." },
+      { "en": "He ensured that everything was ready.", "tr": "Her şeyin hazır olduğundan emin oldu." },
+      { "en": "The agreement ensures cooperation.", "tr": "Anlaşma işbirliğini garanti eder." },
+      { "en": "Proper training ensures better performance.", "tr": "Uygun eğitim daha iyi performansı garanti eder." }
+    ]
+  },
+  {
+    "word": "estimation",
+    "meanings": ["tahmin", "kestirim"],
+    "examples": [
+      { "en": "His estimation was quite accurate.", "tr": "Onun tahmini oldukça doğruydu." },
+      { "en": "We need a cost estimation.", "tr": "Bir maliyet tahminine ihtiyaç var." },
+      { "en": "The estimation process took several days.", "tr": "Tahmin süreci birkaç gün sürdü." },
+      { "en": "Her estimation of the time required was incorrect.", "tr": "Gereken zaman tahmini yanlıştı." },
+      { "en": "According to our estimation, the project will finish soon.", "tr": "Tahminimize göre proje yakında bitecek." }
+    ]
+  },
+  {
+    "word": "exclude",
+    "meanings": ["hariç tutmak"],
+    "examples": [
+      { "en": "They excluded him from the meeting.", "tr": "Onu toplantıdan hariç tuttular." },
+      { "en": "The price excludes taxes.", "tr": "Fiyata vergiler dahil değildir." },
+      { "en": "He felt excluded from the group.", "tr": "Kendini gruptan dışlanmış hissetti." },
+      { "en": "They excluded unnecessary details.", "tr": "Gereksiz detayları hariç tuttular." },
+      { "en": "The list excludes temporary workers.", "tr": "Liste geçici çalışanları kapsamıyor." }
+    ]
+  },
+  {
+    "word": "exhibit",
+    "meanings": ["sergilemek"],
+    "examples": [
+      { "en": "The museum exhibits ancient sculptures.", "tr": "Müze antik heykelleri sergiliyor." },
+      { "en": "He exhibited great courage.", "tr": "Büyük cesaret sergiledi." },
+      { "en": "The artist will exhibit her new works.", "tr": "Sanatçı yeni eserlerini sergileyecek." },
+      { "en": "The symptoms exhibited a rare pattern.", "tr": "Belirtiler nadir bir desen sergiledi." },
+      { "en": "They exhibited the prototype at the fair.", "tr": "Fuar’da prototipi sergilediler." }
+    ]
+  },
+  {
+    "word": "expandable",
+    "meanings": ["genişletilebilir"],
+    "examples": [
+      { "en": "The table is expandable.", "tr": "Masa genişletilebilir." },
+      { "en": "The system has an expandable structure.", "tr": "Sistem genişletilebilir bir yapıya sahiptir." },
+      { "en": "Cloud storage is easily expandable.", "tr": "Bulut depolama kolayca genişletilebilir." },
+      { "en": "The app includes expandable menus.", "tr": "Uygulama genişletilebilir menüler içerir." },
+      { "en": "The business model is expandable to other markets.", "tr": "İş modeli başka pazarlara genişletilebilir." }
+    ]
+  },
+  {
+    "word": "fetch",
+    "meanings": ["gidip getirmek"],
+       "examples": [
+      { "en": "She went to fetch some water.", "tr": "Biraz su getirmeye gitti." },
+      { "en": "Can you fetch the keys?", "tr": "Anahtarları getirebilir misin?" },
+      { "en": "The dog fetched the ball.", "tr": "Köpek topu getirdi." },
+      { "en": "He fetched a towel from the bathroom.", "tr": "Banyodan bir havlu getirdi." },
+      { "en": "I’ll fetch your coat for you.", "tr": "Montunu senin için getiririm." }
+    ]
+  },
+  {
+    "word": "forbid",
+    "meanings": ["yasaklamak"],
+    "examples": [
+      { "en": "Smoking is forbidden here.", "tr": "Burada sigara içmek yasaktır." },
+      { "en": "His religion forbids alcohol.", "tr": "Dini alkolü yasaklıyor." },
+      { "en": "They forbade him to enter the room.", "tr": "Odaya girmesini yasakladılar." },
+      { "en": "The school forbids cheating.", "tr": "Okul kopya çekmeyi yasaklar." },
+      { "en": "Parents forbade their children from staying out late.", "tr": "Ebeveynler çocuklarının geç saatlere kadar dışarıda kalmasını yasakladı." }
+    ]
+  },
+  {
+    "word": "fulfill",
+    "meanings": ["yerine getirmek", "karşılamak"],
+    "examples": [
+      { "en": "She fulfilled her childhood dream.", "tr": "Çocukluk hayalini gerçekleştirdi." },
+      { "en": "He fulfilled his promise.", "tr": "Sözünü yerine getirdi." },
+      { "en": "The requirements were fulfilled.", "tr": "Gereksinimler karşılandı." },
+      { "en": "They fulfilled their duties.", "tr": "Görevlerini yerine getirdiler." },
+      { "en": "The company fulfilled the order on time.", "tr": "Şirket siparişi zamanında yerine getirdi." }
+    ]
+  },
+  {
+    "word": "generate",
+    "meanings": ["oluşturmak", "üretmek"],
+    "examples": [
+      { "en": "This machine generates heat.", "tr": "Bu makine ısı üretir." },
+      { "en": "The idea generated a lot of interest.", "tr": "Fikir çok ilgi uyandırdı." },
+      { "en": "The program generated positive feedback.", "tr": "Program olumlu geri bildirim oluşturdu." },
+      { "en": "Solar panels generate energy.", "tr": "Güneş panelleri enerji üretir." },
+      { "en": "They generated a detailed report.", "tr": "Detaylı bir rapor oluşturdular." }
+    ]
+  },
+  {
+    "word": "govern",
+    "meanings": ["yönetmek"],
+    "examples": [
+      { "en": "The country is governed by strict laws.", "tr": "Ülke sıkı yasalarla yönetiliyor." },
+      { "en": "He governs with fairness.", "tr": "Adaletle yönetiyor." },
+      { "en": "Rules govern behavior in the classroom.", "tr": "Kurallar sınıftaki davranışı yönetir." },
+      { "en": "The organization is governed by its members.", "tr": "Kuruluş üyeleri tarafından yönetilir." },
+      { "en": "Traditions govern many social practices.", "tr": "Gelenekler birçok sosyal uygulamayı yönetir." }
+    ]
+  },
+
+  {
+    "word": "hesitate",
+    "meanings": ["tereddüt etmek"],
+    "examples": [
+      { "en": "Don't hesitate to ask questions.", "tr": "Sorular sormaktan çekinme." },
+      { "en": "She hesitated before answering.", "tr": "Cevap vermeden önce tereddüt etti." },
+      { "en": "He hesitated to speak in public.", "tr": "Herkesin önünde konuşmakta tereddüt etti." },
+      { "en": "They hesitated to invest.", "tr": "Yatırım yapmayı ertelediler." },
+      { "en": "I hesitated for a moment.", "tr": "Bir an tereddüt ettim." }
+    ]
+  },
+  {
+    "word": "illustrate",
+    "meanings": ["örneklemek", "açıklamak"],
+    "examples": [
+      { "en": "He illustrated his point with a story.", "tr": "Noktasını bir hikayeyle örnekledi." },
+      { "en": "The diagram illustrates how the system works.", "tr": "Diyagram sistemin nasıl çalıştığını gösteriyor." },
+      { "en": "She illustrated the concept clearly.", "tr": "Kavramı net bir şekilde açıkladı." },
+      { "en": "This example illustrates the importance of planning.", "tr": "Bu örnek planlamanın önemini gösteriyor." },
+      { "en": "The article illustrates recent trends.", "tr": "Makale son trendleri gösteriyor." }
+    ]
+  },
+  {
+    "word": "imitate",
+    "meanings": ["taklit etmek"],
+    "examples": [
+      { "en": "Children often imitate adults.", "tr": "Çocuklar sık sık yetişkinleri taklit eder." },
+      { "en": "He imitated his teacher’s voice.", "tr": "Öğretmeninin sesini taklit etti." },
+      { "en": "The robot imitates human movements.", "tr": "Robot insan hareketlerini taklit ediyor." },
+      { "en": "She imitated her favorite singer.", "tr": "En sevdiği şarkıcıyı taklit etti." },
+      { "en": "They imitated the style of classical painters.", "tr": "Klasik ressamların tarzını taklit ettiler." }
+    ]
+  },
+  {
+    "word": "imply",
+    "meanings": ["ima etmek"],
+    "examples": [
+      { "en": "Her tone implied that she was annoyed.", "tr": "Tonu rahatsız olduğunu ima ediyordu." },
+      { "en": "What are you implying?", "tr": "Neyi ima ediyorsun?" },
+      { "en": "The results imply a change is needed.", "tr": "Sonuçlar bir değişikliğe ihtiyaç olduğunu ima ediyor." },
+      { "en": "His silence implied disagreement.", "tr": "Sessizliği anlaşmazlığı ima ediyordu." },
+      { "en": "The article implies that the issue is serious.", "tr": "Makale sorunun ciddi olduğunu ima ediyor." }
+    ]
+  },
+  {
+    "word": "incorporate",
+    "meanings": ["dahil etmek", "içermek"],
+    "examples": [
+      { "en": "The design incorporates modern elements.", "tr": "Tasarım modern öğeler içeriyor." },
+      { "en": "You should incorporate more vegetables into your diet.", "tr": "Diyetine daha fazla sebze dahil etmelisin." },
+      { "en": "The plan incorporates feedback from the team.", "tr": "Plan ekipten gelen geri bildirimi içeriyor." },
+      { "en": "The software incorporates new technology.", "tr": "Yazılım yeni teknolojiyi içeriyor." },
+      { "en": "The recipe incorporates different flavors.", "tr": "Tarif farklı lezzetleri içeriyor." }
+    ]
+  },
+  {
+    "word": "indicate",
+    "meanings": ["göstermek", "belirtmek"],
+    "examples": [
+      { "en": "Research indicates a rise in population.", "tr": "Araştırma nüfusta artış olduğunu gösteriyor." },
+      { "en": "He indicated the correct direction.", "tr": "Doğru yönü gösterdi." },
+      { "en": "The signs indicate that it's dangerous.", "tr": "İşaretler tehlikeli olduğunu gösteriyor." },
+      { "en": "She indicated her interest in the project.", "tr": "Projeye ilgisini belirtti." },
+      { "en": "Figures indicate a decline in sales.", "tr": "Rakamlar satışlarda düşüş olduğunu gösteriyor." }
+    ]
+  },
+  {
+    "word": "indulge",
+    "meanings": ["fazla düşkün olmak", "şımartmak"],
+    "examples": [
+      { "en": "She occasionally indulges in chocolate.", "tr": "Ara sıra çikolataya kendini kaptırır." },
+      { "en": "He indulged his children too much.", "tr": "Çocuklarını fazla şımarttı." },
+      { "en": "They indulged their desire to travel.", "tr": "Seyahat etme isteklerine kapıldılar." },
+      { "en": "Don't indulge bad habits.", "tr": "Kötü alışkanlıkları besleme." },
+      { "en": "She indulged in a long bath.", "tr": "Uzun bir banyoya kendini bıraktı." }
+    ]
+  },
+  {
+    "word": "insert",
+    "meanings": ["eklemek", "yerleştirmek"],
+    "examples": [
+      { "en": "Insert your card into the machine.", "tr": "Kartınızı makineye yerleştirin." },
+      { "en": "She inserted a new paragraph into the text.", "tr": "Metne yeni bir paragraf ekledi." },
+      { "en": "He inserted the key into the lock.", "tr": "Anahtarı kilide yerleştirdi." },
+      { "en": "Please insert coins to start.", "tr": "Başlamak için lütfen jetonları ekleyin." },
+      { "en": "They inserted images into the document.", "tr": "Belgeye görseller eklediler." }
+    ]
+  },
+  {
+    "word": "interfere",
+    "meanings": ["müdahale etmek"],
+    "examples": [
+      { "en": "Don't interfere in their argument.", "tr": "Tartışmalarına müdahale etme." },
+      { "en": "He interfered with the investigation.", "tr": "Soruşturmaya müdahale etti." },
+      { "en": "Noise interferes with concentration.", "tr": "Gürültü konsantrasyonu bozar." },
+      { "en": "She doesn't want anyone to interfere.", "tr": "Kimsenin müdahale etmesini istemiyor." },
+      { "en": "The signal interfered with the radio.", "tr": "Sinyal radyoyu bozdu." }
+    ]
+  },
+  {
+    "word": "interrupt",
+    "meanings": ["sözünü kesmek", "yarıda kesmek"],
+    "examples": [
+      { "en": "Please don’t interrupt me.", "tr": "Lütfen sözümü kesme." },
+      { "en": "He interrupted the meeting.", "tr": "Toplantıyı yarıda kesti." },
+      { "en": "The program was interrupted by an ad.", "tr": "Program bir reklam tarafından kesildi." },
+      { "en": "Noise interrupted my sleep.", "tr": "Gürültü uykumu böldü." },
+      { "en": "She interrupted to ask a question.", "tr": "Bir soru sormak için sözünü kesti." }
+    ]
+  },
+  {
+    "word": "investigate",
+    "meanings": ["soruşturmak", "araştırmak"],
+    "examples": [
+      { "en": "The police are investigating the case.", "tr": "Polis olayı soruşturuyor." },
+      { "en": "Scientists investigated the cause of the issue.", "tr": "Bilim insanları sorunun nedenini araştırdı." },
+      { "en": "They investigated the complaint.", "tr": "Şikayeti araştırdılar." },
+      { "en": "He investigated the strange noise.", "tr": "Tuhaf sesi araştırdı." },
+      { "en": "The company is investigating fraud accusations.", "tr": "Şirket dolandırıcılık suçlamalarını soruşturuyor." }
+    ]
+  },
+  {
+    "word": "isolate",
+    "meanings": ["izole etmek", "ayırmak"],
+    "examples": [
+      { "en": "They isolated the infected patient.", "tr": "Enfekte hastayı izole ettiler." },
+      { "en": "The village was isolated by the snowstorm.", "tr": "Köy kar fırtınasıyla izole oldu." },
+      { "en": "He isolated himself from others.", "tr": "Kendini diğerlerinden ayırdı." },
+      { "en": "Scientists isolated the virus.", "tr": "Bilim insanları virüsü izole etti." },
+      { "en": "The sound was isolated to one room.", "tr": "Ses bir odaya izole edildi." }
+    ]
+  },
+  {
+    "word": "justify",
+    "meanings": ["gerekçelendirmek"],
+    "examples": [
+      { "en": "He couldn't justify his actions.", "tr": "Eylemlerini gerekçelendiremedi." },
+      { "en": "Can you justify the cost?", "tr": "Maliyeti gerekçelendirebilir misin?" },
+      { "en": "She justified her absence.", "tr": "Yokluğunu gerekçelendirdi." },
+      { "en": "The evidence justifies the decision.", "tr": "Kanıt kararın gerekçesini oluşturuyor." },
+      { "en": "He tried to justify the delay.", "tr": "Gecikmeyi açıklamaya çalıştı." }
+    ]
+  },
+  {
+    "word": "manipulate",
+    "meanings": ["manipüle etmek"],
+    "examples": [
+      { "en": "He manipulated the results.", "tr": "Sonuçları manipüle etti." },
+      { "en": "Some people manipulate others for personal gain.", "tr": "Bazı insanlar kişisel çıkarları için başkalarını manipüle eder." },
+      { "en": "The data can be manipulated easily.", "tr": "Veriler kolayca manipüle edilebilir." },
+      { "en": "She manipulated him emotionally.", "tr": "Onu duygusal olarak manipüle etti." },
+      { "en": "They manipulated the market.", "tr": "Piyasayı manipüle ettiler." }
+    ]
+  },
+  {
+    "word": "measure",
+    "meanings": ["ölçmek"],
+    "examples": [
+      { "en": "We measured the room’s dimensions.", "tr": "Odanın ölçülerini aldık." },
+      { "en": "The device measures heart rate.", "tr": "Cihaz kalp atış hızını ölçer." },
+      { "en": "She measured the ingredients carefully.", "tr": "Malzemeleri dikkatlice ölçtü." },
+      { "en": "The impact was measured over time.", "tr": "Etkisi zamanla ölçüldü." },
+      { "en": "They measured public opinion.", "tr": "Kamuoyu ölçüldü." }
+    ]
+  },
+  {
+    "word": "monitor",
+    "meanings": ["izlemek", "takip etmek"],
+    "examples": [
+      { "en": "The nurses monitored the patient closely.", "tr": "Hemşireler hastayı yakından izledi." },
+      { "en": "We monitored progress daily.", "tr": "İlerlemeyi her gün takip ettik." },
+      { "en": "The system monitors activity automatically.", "tr": "Sistem etkinliği otomatik olarak izler." },
+      { "en": "He monitored the weather forecast.", "tr": "Hava tahminini takip etti." },
+      { "en": "They monitored security cameras all night.", "tr": "Gece boyunca güvenlik kameralarını izlediler." }
+    ]
+  },
+  {
+    "word": "motivate",
+    "meanings": ["motive etmek", "cesaretlendirmek"],
+    "examples": [
+      { "en": "Her speech motivated the team.", "tr": "Konuşması takımı motive etti." },
+      { "en": "Rewards can motivate students.", "tr": "Ödüller öğrencileri motive edebilir." },
+      { "en": "He was motivated by success.", "tr": "Başarı onu motive etti." },
+      { "en": "The coach motivated them before the match.", "tr": "Antrenör maçtan önce onları motive etti." },
+      { "en": "A good leader motivates others.", "tr": "İyi bir lider başkalarını motive eder." }
+    ]
+  },
+  {
+    "word": "notify",
+    "meanings": ["bildirmek"],
+    "examples": [
+      { "en": "Please notify me if anything changes.", "tr": "Bir şey değişirse lütfen beni bilgilendir." },
+      { "en": "They notified customers of delays.", "tr": "Müşterilere gecikmeleri bildirdiler." },
+      { "en": "She notified her manager immediately.", "tr": "Müdürünü hemen bilgilendirdi." },
+      { "en": "You will be notified by email.", "tr": "E-posta ile bilgilendirileceksiniz." },
+      { "en": "The police notified the family.", "tr": "Polis aileyi bilgilendirdi." }
+    ]
+  },
+  {
+    "word": "oblige",
+    "meanings": ["zorunda bırakmak", "lütf etmek"],
+    "examples": [
+      { "en": "He was obliged to follow the rules.", "tr": "Kurallara uymak zorunda bırakıldı." },
+      { "en": "Circumstances obliged them to cancel the trip.", "tr": "Koşullar onları seyahati iptal etmeye zorladı." },
+      { "en": "She obliged him with some advice.", "tr": "Ona biraz tavsiye vererek yardımcı oldu." },
+      { "en": "Guests are obliged to show their ID.", "tr": "Misafirler kimliklerini göstermek zorundadır." },
+      { "en": "He obliged me by opening the door.", "tr": "Kapıyı açarak bana lütufta bulundu." }
+    ]
+  },
+  {
+    "word": "overcome",
+    "meanings": ["üstesinden gelmek"],
+    "examples": [
+      { "en": "She overcame her fear of heights.", "tr": "Yükseklik korkusunun üstesinden geldi." },
+      { "en": "They overcame many obstacles.", "tr": "Birçok engelin üstesinden geldiler." },
+      { "en": "He overcame the illness.", "tr": "Hastalığı atlattı." },
+      { "en": "The team overcame pressure to win.", "tr": "Takım baskının üstesinden gelerek kazandı." },
+      { "en": "We can overcome this together.", "tr": "Bunun üstesinden birlikte gelebiliriz." }
+    ]
+  },
+  {
+    "word": "persuade",
+    "meanings": ["ikna etmek"],
+    "examples": [
+      { "en": "She persuaded him to stay.", "tr": "Onu kalmaya ikna etti." },
+      { "en": "They persuaded the board to approve the idea.", "tr": "Kurulu fikri onaylamaya ikna ettiler." },
+      { "en": "He tried to persuade her.", "tr": "Onu ikna etmeye çalıştı." },
+      { "en": "Evidence persuaded the judge.", "tr": "Kanıt hâkimi ikna etti." },
+      { "en": "She finally persuaded him to join.", "tr": "Sonunda onu katılmaya ikna etti." }
+    ]
+  },
+  {
+    "word": "predictable",
+    "meanings": ["tahmin edilebilir"],
+    "examples": [
+      { "en": "The ending of the movie was predictable.", "tr": "Filmin sonu tahmin edilebilirdi." },
+      { "en": "His behavior is very predictable.", "tr": "Davranışları çok tahmin edilebilir." },
+      { "en": "Weather here is rarely predictable.", "tr": "Buradaki hava nadiren tahmin edilebilirdir." },
+      { "en": "The pattern became predictable over time.", "tr": "Desen zamanla tahmin edilebilir hale geldi." },
+      { "en": "She made a predictable decision.", "tr": "Tahmin edilebilir bir karar verdi." }
+    ]
+  },
+  {
+    "word": "prejudice",
+    "meanings": ["önyargı"],
+    "examples": [
+      { "en": "We should avoid prejudice.", "tr": "Önyargıdan kaçınmalıyız." },
+      { "en": "He fought against social prejudice.", "tr": "Toplumsal önyargıya karşı mücadele etti." },
+      { "en": "Prejudice can harm relationships.", "tr": "Önyargı ilişkileri zedeleyebilir." },
+      { "en": "They tried to overcome their prejudice.", "tr": "Önyargılarını aşmaya çalıştılar." },
+      { "en": "Her words were influenced by prejudice.", "tr": "Sözleri önyargıdan etkilenmişti." }
+    ]
+  },
+  {
+    "word": "preserve",
+    "meanings": ["korumak", "muhafaza etmek"],
+    "examples": [
+      { "en": "We must preserve our environment.", "tr": "Çevremizi korumalıyız." },
+      { "en": "They preserved the historical building.", "tr": "Tarihi binayı korudular." },
+      { "en": "The tradition has been preserved for centuries.", "tr": "Gelenek yüzyıllardır korunmuştur." },
+      { "en": "This medicine helps preserve brain function.", "tr": "Bu ilaç beyin fonksiyonlarını korumaya yardımcı olur." },
+      { "en": "She preserved her childhood photos carefully.", "tr": "Çocukluk fotoğraflarını özenle sakladı." }
+    ]
+  },
+  {
+    "word": "proceed",
+    "meanings": ["devam etmek", "ilerlemek"],
+    "examples": [
+      { "en": "Please proceed with the presentation.", "tr": "Lütfen sunuma devam edin." },
+      { "en": "We can proceed after lunch.", "tr": "Öğle yemeğinden sonra devam edebiliriz." },
+      { "en": "The project will proceed as planned.", "tr": "Proje planlandığı gibi ilerleyecek." },
+      { "en": "He proceeded to explain the problem.", "tr": "Sorunu açıklamaya devam etti." },
+      { "en": "They proceeded along the main road.", "tr": "Ana yoldan devam ettiler." }
+    ]
+  },
+  {
+    "word": "prohibit",
+    "meanings": ["yasaklamak"],
+    "examples": [
+      { "en": "The law prohibits smoking indoors.", "tr": "Yasa iç mekânda sigara içmeyi yasaklıyor." },
+      { "en": "They prohibited the use of phones.", "tr": "Telefon kullanımını yasakladılar." },
+      { "en": "His health condition prohibits heavy exercise.", "tr": "Sağlık durumu ağır egzersizi yasaklıyor." },
+      { "en": "The school prohibits cheating.", "tr": "Okul hile yapmayı yasaklıyor." },
+      { "en": "The rules prohibit pets in the building.", "tr": "Kurallar binada evcil hayvanları yasaklıyor." }
+    ]
+  },
+  {
+    "word": "promote",
+    "meanings": ["desteklemek", "tanıtmak", "terfi ettirmek"],
+    "examples": [
+      { "en": "They promoted him to manager.", "tr": "Onu müdürlüğe terfi ettirdiler." },
+      { "en": "The company promotes healthy habits.", "tr": "Şirket sağlıklı alışkanlıkları destekliyor." },
+      { "en": "The campaign promotes their new product.", "tr": "Kampanya yeni ürünlerini tanıtıyor." },
+      { "en": "Exercise promotes good health.", "tr": "Egzersiz iyi sağlığı destekler." },
+      { "en": "She was promoted last year.", "tr": "Geçen yıl terfi etti." }
+    ]
+  },
+  {
+    "word": "propose",
+    "meanings": ["önermek", "teklif etmek"],
+    "examples": [
+      { "en": "He proposed a new strategy.", "tr": "Yeni bir strateji önerdi." },
+      { "en": "They proposed changes to the plan.", "tr": "Plan için değişiklik önerdiler." },
+      { "en": "She proposed that we meet earlier.", "tr": "Daha erken buluşmayı önerdi." },
+      { "en": "He proposed to his girlfriend.", "tr": "Kız arkadaşına evlenme teklif etti." },
+      { "en": "The idea was proposed by the team.", "tr": "Fikir ekip tarafından önerildi." }
+    ]
+  },
+  {
+    "word": "protest",
+    "meanings": ["protesto etmek"],
+    "examples": [
+      { "en": "People protested against the new law.", "tr": "İnsanlar yeni yasayı protesto etti." },
+      { "en": "Students protested the decision.", "tr": "Öğrenciler kararı protesto etti." },
+      { "en": "They protested outside the building.", "tr": "Binanın dışında protesto ettiler." },
+      { "en": "He protested his innocence.", "tr": "Masumiyetini protesto etti." },
+      { "en": "The group protested loudly.", "tr": "Grup yüksek sesle protesto etti." }
+    ]
+  },
+  {
+    "word": "qualify",
+    "meanings": ["nitelendirmek", "hak kazanmak"],
+    "examples": [
+      { "en": "She qualified for the finals.", "tr": "Finallere hak kazandı." },
+      { "en": "He qualified as a doctor.", "tr": "Doktor olarak nitelendirildi." },
+      { "en": "They qualified to participate.", "tr": "Katılmaya hak kazandılar." },
+      { "en": "The rules qualify certain exceptions.", "tr": "Kurallar bazı istisnaları nitelendiriyor." },
+      { "en": "She qualified for a scholarship.", "tr": "Burs kazanmaya hak kazandı." }
+    ]
+  },
+  {
+    "word": "recall",
+    "meanings": ["hatırlamak", "geri çağırmak"],
+    "examples": [
+      { "en": "I can't recall his name.", "tr": "Adını hatırlayamıyorum." },
+      { "en": "She recalls the event clearly.", "tr": "Olayı net bir şekilde hatırlıyor." },
+      { "en": "They recalled the faulty products.", "tr": "Hatalı ürünleri geri çağırdılar." },
+      { "en": "He recalled seeing her before.", "tr": "Onu daha önce gördüğünü hatırladı." },
+      { "en": "The company recalled its vehicles.", "tr": "Şirket araçlarını geri çağırdı." }
+    ]
+  },
+  {
+    "word": "recover",
+    "meanings": ["iyileşmek", "kurtarmak"],
+    "examples": [
+      { "en": "She recovered from the illness quickly.", "tr": "Hastalığı çabucak atlattı." },
+      { "en": "They recovered the stolen items.", "tr": "Çalınan eşyaları kurtardılar." },
+      { "en": "He is recovering well after surgery.", "tr": "Ameliyattan sonra iyi iyileşiyor." },
+      { "en": "The economy recovered slowly.", "tr": "Ekonomi yavaşça toparlandı." },
+      { "en": "She recovered her confidence.", "tr": "Özgüvenini geri kazandı." }
+    ]
+  },
+  {
+    "word": "reduce",
+    "meanings": ["azaltmak"],
+    "examples": [
+      { "en": "We need to reduce expenses.", "tr": "Giderleri azaltmamız gerekiyor." },
+      { "en": "The medicine reduces pain.", "tr": "İlaç ağrıyı azaltır." },
+      { "en": "They reduced prices for the holiday season.", "tr": "Tatıl sezonu için fiyatları düşürdüler." },
+      { "en": "She reduced the amount of sugar.", "tr": "Şeker miktarını azalttı." },
+      { "en": "The noise level must be reduced.", "tr": "Gürültü seviyesi azaltılmalıdır." }
+    ]
+  },
+  {
+    "word": "reflect",
+    "meanings": ["yansıtmak", "düşünmek"],
+    "examples": [
+      { "en": "The mirror reflects light.", "tr": "Ayna ışığı yansıtır." },
+      { "en": "His actions reflect his values.", "tr": "Eylemleri değerlerini yansıtır." },
+      { "en": "She reflected on her choices.", "tr": "Seçimleri üzerine düşündü." },
+      { "en": "The water reflected the sky.", "tr": "Su gökyüzünü yansıttı." },
+      { "en": "The report reflects recent trends.", "tr": "Rapor son trendleri yansıtır." }
+    ]
+  },
+  {
+    "word": "regret",
+    "meanings": ["pişman olmak"],
+    "examples": [
+      { "en": "He regrets his decision.", "tr": "Kararından pişman." },
+      { "en": "She regretted not speaking up.", "tr": "Konuşmadığı için pişman oldu." },
+      { "en": "They regret the delay.", "tr": "Gecikmeden dolayı pişmanlar." },
+      { "en": "I regret what I said earlier.", "tr": "Az önce söylediğim şeye pişmanım." },
+      { "en": "He regrets missing the opportunity.", "tr": "Fırsatı kaçırdığı için pişman." }
+    ]
+  },
+  {
+    "word": "relieve",
+    "meanings": ["hafifletmek", "rahatlatmak"],
+    "examples": [
+      { "en": "The medicine relieved her pain.", "tr": "İlaç ağrısını hafifletti." },
+      { "en": "Talking relieved his stress.", "tr": "Konuşmak stresini hafifletti." },
+      { "en": "The news relieved everyone.", "tr": "Haber herkesin içini rahatlattı." },
+      { "en": "She was relieved to hear the results.", "tr": "Sonuçları duyunca rahatladı." },
+      { "en": "The massage relieved muscle tension.", "tr": "Masaj kas gerginliğini azaltı." }
+    ]
+  },
+  {
+    "word": "rely",
+    "meanings": ["güvenmek"],
+    "examples": [
+      { "en": "You can rely on me.", "tr": "Bana güvenebilirsin." },
+      { "en": "She relies on her friends for support.", "tr": "Destek için arkadaşlarına güvenir." },
+      { "en": "We rely on technology every day.", "tr": "Her gün teknolojiye güveniyoruz." },
+      { "en": "He relies on public transport.", "tr": "Toplu taşımaya güvenir." },
+      { "en": "Don't rely too much on luck.", "tr": "Şansa fazla güvenme." }
+    ]
+  },
+  {
+    "word": "remind",
+    "meanings": ["hatırlatmak"],
+    "examples": [
+      { "en": "Please remind me to call her.", "tr": "Lütfen beni onu aramam için hatırlat." },
+      { "en": "This song reminds me of childhood.", "tr": "Bu şarkı bana çocukluğumu hatırlatıyor." },
+      { "en": "He reminded her about the appointment.", "tr": "Ona randevuyu hatırlattı." },
+      { "en": "She reminded him to lock the door.", "tr": "Ona kapıyı kilitlemesini hatırlattı." },
+      { "en": "The smell reminded him of home.", "tr": "Koku ona evini hatırlattı." }
+    ]
+  },
+  {
+    "word": "require",
+    "meanings": ["gerektirmek"],
+    "examples": [
+      { "en": "This job requires experience.", "tr": "Bu iş deneyim gerektirir." },
+      { "en": "The task requires patience.", "tr": "Görev sabır gerektirir." },
+      { "en": "The system requires an update.", "tr": "Sistem bir güncelleme gerektirir." },
+      { "en": "Travel requires planning.", "tr": "Seyahat planlama gerektirir." },
+      { "en": "The program requires a password.", "tr": "Program bir şifre gerektirir." }
+    ]
+  },
+  {
+    "word": "resolve",
+    "meanings": ["çözmek"],
+    "examples": [
+      { "en": "They resolved the conflict peacefully.", "tr": "Çatışmayı barışçıl bir şekilde çözdüler." },
+      { "en": "He resolved the misunderstanding.", "tr": "Yanlış anlaşılmayı çözdü." },
+      { "en": "The problem was resolved quickly.", "tr": "Sorun hızlıca çözüldü." },
+      { "en": "She resolved to study harder.", "tr": "Daha çok çalışmaya karar verdi." },
+      { "en": "The committee resolved the issue.", "tr": "Komite sorunu çözdü." }
+    ]
+  },
+  {
+    "word": "retire",
+    "meanings": ["emekli olmak"],
+    "examples": [
+      { "en": "She retired last year.", "tr": "Geçen yıl emekli oldu." },
+      { "en": "He plans to retire early.", "tr": "Erken emekli olmayı planlıyor." },
+      { "en": "They retired after 40 years of work.", "tr": "40 yıllık çalışmanın ardından emekli oldular." },
+      { "en": "She retired from teaching.", "tr": "Öğretmenlikten emekli oldu." },
+      { "en": "His father will retire soon.", "tr": "Babası yakında emekli olacak." }
+    ]
+  },
+  {
+    "word": "reward",
+    "meanings": ["ödüllendirmek", "ödül"],
+    "examples": [
+      { "en": "They rewarded him for his hard work.", "tr": "Onu sıkı çalışması için ödüllendirdiler." },
+      { "en": "She received a reward for bravery.", "tr": "Cesaret için bir ödül aldı." },
+      { "en": "Good habits bring good rewards.", "tr": "İyi alışkanlıklar iyi ödüller getirir." },
+      { "en": "The company rewards loyalty.", "tr": "Şirket sadakati ödüllendirir." },
+      { "en": "He earned a reward for helping others.", "tr": "Başkalarına yardım ettiği için bir ödül kazandı." }
+    ]
+  },
+  {
+    "word": "satisfy",
+    "meanings": ["tatmin etmek", "memnun etmek"],
+    "examples": [
+      { "en": "The meal satisfied everyone.", "tr": "Yemek herkesi memnun etti." },
+      { "en": "He didn’t satisfy the requirements.", "tr": "Gereksinimleri karşılamadı." },
+      { "en": "The explanation satisfied the audience.", "tr": "Açıklama izleyiciyi tatmin etti." },
+      { "en": "Nothing could satisfy him.", "tr": "Hiçbir şey onu tatmin edemedi." },
+      { "en": "She satisfied all conditions.", "tr": "Tüm şartları karşıladı." }
+    ]
+  },
+  {
+    "word": "seek",
+    "meanings": ["aramak", "talep etmek"],
+    "examples": [
+      { "en": "They are seeking solutions.", "tr": "Çözümler arıyorlar." },
+      { "en": "He sought advice from experts.", "tr": "Uzmanlardan tavsiye istedi." },
+      { "en": "She is seeking a new opportunity.", "tr": "Yeni bir fırsat arıyor." },
+      { "en": "They sought shelter from the storm.", "tr": "Fırtınadan korunmak için sığınak aradılar." },
+      { "en": "The police are seeking witnesses.", "tr": "Polis tanık arıyor." }
+    ]
+  },
+  {
+    "word": "simulate",
+    "meanings": ["taklit etmek", "simüle etmek"],
+    "examples": [
+      { "en": "The software simulates real-life situations.", "tr": "Yazılım gerçek yaşam durumlarını simüle eder." },
+      { "en": "They simulated the experiment.", "tr": "Deneyi simüle ettiler." },
+      { "en": "The robot simulates human movement.", "tr": "Robot insan hareketini taklit eder." },
+      { "en": "The game simulates driving.", "tr": "Oyun sürüşü simüle ediyor." },
+      { "en": "This model simulates weather patterns.", "tr": "Bu model hava desenlerini simüle eder." }
+    ]
+  },
+  {
+    "word": "strengthen",
+    "meanings": ["güçlendirmek"],
+    "examples": [
+      { "en": "Exercise strengthens the muscles.", "tr": "Egzersiz kasları güçlendirir." },
+      { "en": "The policy strengthens the economy.", "tr": "Politika ekonomiyi güçlendirir." },
+      { "en": "The training strengthened their skills.", "tr": "Eğitim becerilerini güçlendirdi." },
+      { "en": "Their relationship strengthened over time.", "tr": "İlişkileri zamanla güçlendi." },
+      { "en": "This plan will strengthen security.", "tr": "Bu plan güvenliği güçlendirecek." }
+    ]
+  },
+  {
+    "word": "struggle",
+    "meanings": ["mücadele etmek"],
+    "examples": [
+      { "en": "She struggled with the exam.", "tr": "Sınavla mücadele etti." },
+      { "en": "They struggled to survive.", "tr": "Hayatta kalmak için mücadele ettiler." },
+      { "en": "He struggled to pay the bills.", "tr": "Faturaları ödemek için zorlandı." },
+      { "en": "The team struggled in the first half.", "tr": "Takım ilk yarıda zorlandı." },
+      { "en": "She struggled to sleep.", "tr": "Uyumakta zorlandı." }
+    ]
+  },
+  {
+    "word": "summarize",
+    "meanings": ["özetlemek"],
+    "examples": [
+      { "en": "Can you summarize the article?", "tr": "Makaleyi özetleyebilir misin?" },
+      { "en": "He summarized the main points.", "tr": "Ana noktaları özetledi." },
+      { "en": "The report summarizes recent findings.", "tr": "Rapor son bulguları özetliyor." },
+      { "en": "She summarized the discussion.", "tr": "Tartışmayı özetledi." },
+      { "en": "The document summarizes the results.", "tr": "Belge sonuçları özetliyor." }
+    ]
+  },
+  {
+    "word": "supportive",
+    "meanings": ["destekleyici"],
+    "examples": [
+      { "en": "She is very supportive of her friends.", "tr": "Arkadaşlarına çok destekleyici." },
+      { "en": "The teacher was supportive during the exam.", "tr": "Öğretmen sınav sırasında destekleyiciydi." },
+      { "en": "A supportive environment helps you grow.", "tr": "Destekleyici bir ortam büyümeni sağlar." },
+      { "en": "He received supportive feedback.", "tr": "Destekleyici geri bildirim aldı." },
+      { "en": "They were very supportive during the crisis.", "tr": "Kriz sırasında çok destekleyiciydiler." }
+    ]
+  },
+  {
+    "word": "suspect",
+    "meanings": ["şüphelenmek"],
+    "examples": [
+      { "en": "I suspect he's lying.", "tr": "Yalan söylediğinden şüpheleniyorum." },
+      { "en": "She suspects something is wrong.", "tr": "Bir şeylerin yanlış olduğundan şüpheleniyor." },
+      { "en": "They suspected him immediately.", "tr": "Ondan hemen şüphelendiler." },
+      { "en": "The police suspect criminal activity.", "tr": "Polis suç faaliyetinden şüpheleniyor." },
+      { "en": "He suspects that they are hiding something.", "tr": "Bir şey sakladıklarından şüpheleniyor." }
+    ]
+  },
+  {
+    "word": "sustain",
+    "meanings": ["sürdürmek", "ayakta tutmak"],
+    "examples": [
+      { "en": "The company sustained heavy losses.", "tr": "Şirket ağır kayıplar yaşadı." },
+      { "en": "They sustained their success for years.", "tr": "Başarılarını yıllarca sürdürdüler." },
+      { "en": "She sustained injuries in the accident.", "tr": "Kazadan yaralarla kurtuldu." },
+      { "en": "A healthy diet sustains your energy.", "tr": "Sağlıklı bir diyet enerjini ayakta tutar." },
+      { "en": "The plan is difficult to sustain.", "tr": "Planı sürdürmek zordur." }
+    ]
+  },
+  {
+    "word": "tackle",
+    "meanings": ["ele almak", "çözmeye çalışmak"],
+    "examples": [
+      { "en": "We need to tackle this problem immediately.", "tr": "Bu problemi hemen ele almalıyız." },
+      { "en": "She tackled the difficult task.", "tr": "Zor görevi ele aldı." },
+      { "en": "They are tackling climate change.", "tr": "İklim değişikliğini ele alıyorlar." },
+      { "en": "He tackled the issue confidently.", "tr": "Konuyu güvenle ele aldı." },
+      { "en": "We must tackle these challenges together.", "tr": "Bu zorlukların üstesinden birlikte gelmeliyiz." }
+    ]
+  },
+  {
+    "word": "terminate",
+    "meanings": ["sonlandırmak"],
+    "examples": [
+      { "en": "They terminated the contract.", "tr": "Sözleşmeyi sonlandırdılar." },
+      { "en": "The project was terminated early.", "tr": "Proje erken sonlandırıldı." },
+      { "en": "He terminated the call suddenly.", "tr": "Ani bir şekilde telefonu kapattı." },
+      { "en": "The company terminated his employment.", "tr": "Şirket onun işine son verdi." },
+      { "en": "The process will terminate automatically.", "tr": "Süreç otomatik olarak sonlanacak." }
+    ]
+  },
+  {
+    "word": "tolerate",
+    "meanings": ["tahammül etmek"],
+    "examples": [
+      { "en": "I can't tolerate this noise.", "tr": "Bu gürültüye tahammül edemem." },
+      { "en": "She doesn’t tolerate bad behavior.", "tr": "Kötü davranışa tahammül etmez." },
+      { "en": "Plants tolerate heat differently.", "tr": "Bitkiler sıcağa farklı şekilde dayanır." },
+      { "en": "He tolerated the pain.", "tr": "Acıya dayandı." },
+      { "en": "We should not tolerate injustice.", "tr": "Adaletsizliğe tahammül etmemeliyiz." }
+    ]
+  },
+  {
+    "word": "trace",
+    "meanings": ["izini sürmek", "iz"],
+    "examples": [
+      { "en": "The police traced the call.", "tr": "Polis çağrının izini sürdü." },
+      { "en": "They traced the missing child.", "tr": "Kayıp çocuğun izini sürdüler." },
+      { "en": "There was no trace of him.", "tr": "Ondan hiçbir iz yoktu." },
+      { "en": "Scientists traced the origin of the virus.", "tr": "Bilim insanları virüsün kaynağını izledi." },
+      { "en": "She traced the drawing carefully.", "tr": "Çizimi dikkatlice kopyaladı." }
+    ]
+  },
+  {
+    "word": "transfer",
+    "meanings": ["aktarmak", "taşımak"],
+    "examples": [
+      { "en": "They transferred the data to another system.", "tr": "Verileri başka bir sisteme aktardılar." },
+      { "en": "He transferred to another department.", "tr": "Başka bir departmana geçti." },
+      { "en": "The money was transferred safely.", "tr": "Para güvenle aktarıldı." },
+      { "en": "She transferred the patient to another room.", "tr": "Hastayı başka bir odaya taşıdı." },
+      { "en": "Heat transfers from hot to cold areas.", "tr": "Isı sıcak bölgelerden soğuk bölgelere geçer." }
+    ]
+  },
+  {
+    "word": "transform",
+    "meanings": ["dönüştürmek"],
+    "examples": [
+      { "en": "Technology transformed the world.", "tr": "Teknoloji dünyayı dönüştürdü." },
+      { "en": "They transformed the old house into a café.", "tr": "Eski evi bir kafeye dönüştürdüler." },
+      { "en": "The experience transformed him.", "tr": "Deneyim onu değiştirdi." },
+      { "en": "Art transforms emotions.", "tr": "Sanat duyguları dönüştürür." },
+      { "en": "The city has been transformed over the years.", "tr": "Şehir yıllar içinde dönüştü." }
+    ]
+  },
+  {
+    "word": "undergo",
+    "meanings": ["maruz kalmak", "geçirmek"],
+    "examples": [
+      { "en": "He underwent surgery last week.", "tr": "Geçen hafta ameliyat geçirdi." },
+      { "en": "The building underwent major changes.", "tr": "Bina büyük değişiklikler geçirdi." },
+      { "en": "She is undergoing treatment.", "tr": "Tedavi görüyor." },
+      { "en": "The system underwent testing.", "tr": "Sistem testten geçti." },
+      { "en": "They underwent difficulties during the project.", "tr": "Proje sırasında zorluklar geçirdiler." }
+    ]
+  },
+  {
+    "word": "undermine",
+    "meanings": ["zayıflatmak", "baltalamak"],
+    "examples": [
+      { "en": "Rumors undermined his reputation.", "tr": "Söylentiler itibarını zayıflattı." },
+      { "en": "Stress undermines performance.", "tr": "Stres performansı zayıflatır." },
+      { "en": "She felt her authority was being undermined.", "tr": "Otoritesinin baltalandığını hissetti." },
+      { "en": "They undermined his confidence.", "tr": "Özgüvenini baltaladılar." },
+      { "en": "Corruption undermines trust.", "tr": "Yolsuzluk güveni zayıflatır." }
+    ]
+  },
+  {
+    "word": "undertake",
+    "meanings": ["üstlenmek"],
+    "examples": [
+      { "en": "He undertook the responsibility.", "tr": "Sorumluluğu üstlendi." },
+      { "en": "They undertook a difficult project.", "tr": "Zor bir projeyi üstlendiler." },
+      { "en": "The company undertook the renovation.", "tr": "Şirket yenilemeyi üstlendi." },
+      { "en": "She undertook to solve the issue.", "tr": "Sorunu çözmeyi üstlendi." },
+      { "en": "We undertook several tasks.", "tr": "Birçok görevi üstlendik." }
+    ]
+  },
+  {
+    "word": "unify",
+    "meanings": ["birleştirmek"],
+    "examples": [
+      { "en": "The leader unified the divided groups.", "tr": "Lider bölünmüş grupları birleştirdi." },
+      { "en": "The new policy unified the system.", "tr": "Yeni politika sistemi birleştirdi." },
+      { "en": "They aim to unify the departments.", "tr": "Departmanları birleştirmeyi hedefliyorlar." },
+      { "en": "The project unified the team.", "tr": "Proje ekibi birleştirdi." },
+      { "en": "Music can unify people.", "tr": "Müzik insanları birleştirebilir." }
+    ]
+  },
+  {
+    "word": "utilize",
+    "meanings": ["kullanmak", "yararlanmak"],
+    "examples": [
+      { "en": "They utilized solar energy.", "tr": "Güneş enerjisinden yararlandılar." },
+      { "en": "We should utilize our resources wisely.", "tr": "Kaynaklarımızı akıllıca kullanmalıyız." },
+      { "en": "He utilized the available tools.", "tr": "Mevcut araçları kullandı." },
+      { "en": "The space was utilized efficiently.", "tr": "Alan verimli şekilde kullanıldı." },
+      { "en": "They utilized technology to improve results.", "tr": "Sonuçları iyileştirmek için teknolojiden yararlandılar." }
+    ]
+  },
+  {
+    "word": "violate",
+    "meanings": ["ihlal etmek"],
+    "examples": [
+      { "en": "He violated the rules.", "tr": "Kuralları ihlal etti." },
+      { "en": "They violated the agreement.", "tr": "Anlaşmayı ihlal ettiler." },
+      { "en": "This action violates the law.", "tr": "Bu eylem yasayı ihlal ediyor." },
+      { "en": "Her rights were violated.", "tr": "Hakları ihlal edildi." },
+      { "en": "Noise at night violates community guidelines.", "tr": "Gece gürültü yapmak topluluk kurallarını ihlal eder." }
+    ]
+  },
+  {
+    "word": "withdraw",
+    "meanings": ["geri çekmek", "para çekmek"],
+    "examples": [
+      { "en": "He withdrew his application.", "tr": "Başvurusunu geri çekti." },
+      { "en": "She withdrew money from the ATM.", "tr": "ATM'den para çekti." },
+      { "en": "They withdrew their support.", "tr": "Desteklerini geri çektiler." },
+      { "en": "The troops withdrew from the area.", "tr": "Askerler bölgeden çekildi." },
+      { "en": "He withdrew from the competition.", "tr": "Yarışmadan çekildi." }
+    ]
+  },
+  {
+    "word": "withstand",
+    "meanings": ["dayanmak"],
+    "examples": [
+      { "en": "The building can withstand earthquakes.", "tr": "Bina depremlere dayanabilir." },
+      { "en": "He couldn't withstand the pressure.", "tr": "Baskıya dayanamadı." },
+      { "en": "The bridge can withstand strong winds.", "tr": "Köprü güçlü rüzgârlara dayanabilir." },
+      { "en": "She withstood the criticism.", "tr": "Eleştirilere dayandı." },
+      { "en": "The materials can withstand high heat.", "tr": "Malzemeler yüksek ısıya dayanabilir." }
+    ]
+  },
+  {
+    "word": "accuse",
+    "meanings": ["suçlamak"],
+    "examples": [
+      { "en": "They accused him of lying.", "tr": "Onu yalan söylemekle suçladılar." },
+      { "en": "She was accused of stealing.", "tr": "Hırsızlıkla suçlandı." },
+      { "en": "He accused them unfairly.", "tr": "Onları haksız yere suçladı." },
+      { "en": "They accused each other.", "tr": "Birbirlerini suçladılar." },
+      { "en": "He was accused without evidence.", "tr": "Kanıt olmadan suçlandı." }
+    ]
+  },
+  {
+    "word": "approximate",
+    "meanings": ["yaklaşık", "yaklaştırmak"],
+    "examples": [
+      { "en": "The approximate cost is $200.", "tr": "Yaklaşık maliyet 200 dolardır." },
+      { "en": "He gave an approximate answer.", "tr": "Yaklaşık bir cevap verdi." },
+      { "en": "The numbers approximate the real value.", "tr": "Sayılar gerçek değere yaklaşıyor." },
+      { "en": "This is only an approximate estimate.", "tr": "Bu sadece yaklaşık bir tahmindir." },
+      { "en": "They approximated the total distance.", "tr": "Toplam mesafeyi yaklaşık olarak hesapladılar." }
+    ]
+  },
+  {
+    "word": "arouse",
+    "meanings": ["uyandırmak"],
+    "examples": [
+      { "en": "The news aroused public interest.", "tr": "Haber halkın ilgisini uyandırdı." },
+      { "en": "His behavior aroused suspicion.", "tr": "Davranışı şüphe uyandırdı." },
+      { "en": "The speech aroused strong emotions.", "tr": "Konuşma güçlü duygular uyandırdı." },
+      { "en": "The story aroused curiosity.", "tr": "Hikâye merak uyandırdı." },
+      { "en": "The smell aroused memories.", "tr": "Koku anıları canlandırdı." }
+    ]
+  },
+  {
+    "word": "assign",
+    "meanings": ["atamak"],
+    "examples": [
+      { "en": "He assigned tasks to the team.", "tr": "Görevleri ekibe atadı." },
+      { "en": "They assigned her a new project.", "tr": "Ona yeni bir proje atadılar." },
+      { "en": "Students were assigned homework.", "tr": "Öğrencilere ödev verildi." },
+      { "en": "We assigned roles for the event.", "tr": "Etkinlik için roller atadık." },
+      { "en": "He was assigned to a new position.", "tr": "Yeni bir pozisyona atandı." }
+    ]
+  },
+  {
+    "word": "authorize",
+    "meanings": ["yetki vermek"],
+    "examples": [
+      { "en": "The manager authorized the payment.", "tr": "Yönetici ödemeyi onayladı." },
+      { "en": "Only doctors are authorized to prescribe medicine.", "tr": "Yalnızca doktorlar ilaç yazmaya yetkilidir." },
+      { "en": "He was authorized to speak on behalf of the team.", "tr": "Takım adına konuşmaya yetkilendirildi." },
+      { "en": "They authorized the project’s start.", "tr": "Projenin başlamasını onayladılar." },
+      { "en": "She authorized access to the files.", "tr": "Dosyalara erişimi onayladı." }
+    ]
+  },
+  {
+    "word": "cite",
+    "meanings": ["alıntı yapmak", "bahsetmek"],
+    "examples": [
+      { "en": "He cited several studies in his report.", "tr": "Raporunda birkaç çalışmadan alıntı yaptı." },
+      { "en": "She cited lack of time as the reason.", "tr": "Sebep olarak zaman eksikliğini gösterdi." },
+      { "en": "The article cited many experts.", "tr": "Makale birçok uzmana yer verdi." },
+      { "en": "He was cited for his achievements.", "tr": "Başarıları için anıldı." },
+      { "en": "They cited safety concerns.", "tr": "Güvenlik endişelerini belirttiler." }
+    ]
+  },
+  {
+    "word": "cooperate",
+    "meanings": ["iş birliği yapmak"],
+    "examples": [
+      { "en": "The teams cooperated successfully.", "tr": "Takımlar başarılı şekilde iş birliği yaptı." },
+      { "en": "We need everyone to cooperate.", "tr": "Herkesin iş birliği yapması gerekiyor." },
+      { "en": "They cooperated on the project.", "tr": "Projede iş birliği yaptılar." },
+      { "en": "The countries cooperated to reduce pollution.", "tr": "Ülkeler kirliliği azaltmak için iş birliği yaptı." },
+      { "en": "She cooperated with the investigation.", "tr": "Soruşturmaya iş birliği yaptı." }
+    ]
+  },
+  {
+    "word": "derive",
+    "meanings": ["türemek", "kaynaklanmak"],
+    "examples": [
+      { "en": "The word derives from French.", "tr": "Kelime Fransızcadan türemiştir." },
+      { "en": "He derives joy from teaching.", "tr": "Öğretmekten keyif alır." },
+      { "en": "The idea derives from ancient philosophy.", "tr": "Fikir antik felsefeden kaynaklanır." },
+      { "en": "Many benefits derive from healthy eating.", "tr": "Sağlıklı beslenmeden birçok fayda elde edilir." },
+      { "en": "The tradition derives from ancient rituals.", "tr": "Gelenek antik ritüellerden gelir." }
+    ]
+  },
+  {
+    "word": "disclose",
+    "meanings": ["ifşa etmek", "ortaya çıkarmak"],
+    "examples": [
+      { "en": "They disclosed the findings.", "tr": "Bulguları açıkladılar." },
+      { "en": "He refused to disclose any information.", "tr": "Herhangi bir bilgi vermeyi reddetti." },
+      { "en": "The report disclosed several issues.", "tr": "Rapor birçok sorunu ortaya çıkardı." },
+      { "en": "She disclosed her identity.", "tr": "Kimliğini açıkladı." },
+      { "en": "They disclosed the new plans publicly.", "tr": "Yeni planları halka açıkladılar." }
+    ]
+  },
+  {
+    "word": "distort",
+    "meanings": ["çarpıtmak"],
+    "examples": [
+      { "en": "The media distorted the story.", "tr": "Medya hikayeyi çarpıttı." },
+      { "en": "His words were distorted.", "tr": "Sözleri çarpıtıldı." },
+      { "en": "The lens distorted the image.", "tr": "Lens görüntüyü çarpıttı." },
+      { "en": "Rumors distorted the truth.", "tr": "Söylentiler gerçeği çarpıttı." },
+      { "en": "Heat distorted the metal.", "tr": "Isı metali eğip büktü." }
+    ]
+  },
+  {
+    "word": "evolve",
+    "meanings": ["evrimleşmek", "gelişmek"],
+    "examples": [
+      { "en": "Humans evolved over millions of years.", "tr": "İnsanlar milyonlarca yıl boyunca evrimleşti." },
+      { "en": "The company evolved into a global brand.", "tr": "Şirket küresel bir markaya dönüştü." },
+      { "en": "His ideas evolved over time.", "tr": "Fikirleri zamanla gelişti." },
+      { "en": "Technology evolves rapidly.", "tr": "Teknoloji hızlı gelişir." },
+      { "en": "Languages evolve naturally.", "tr": "Diller doğal olarak gelişir." }
+    ]
+  },
+  {
+    "word": "foresee",
+    "meanings": ["öngörmek"],
+    "examples": [
+      { "en": "They didn't foresee the consequences.", "tr": "Sonuçları öngöremediler." },
+      { "en": "I couldn’t foresee this outcome.", "tr": "Bu sonucu öngöremedim." },
+      { "en": "Experts foresee economic growth.", "tr": "Uzmanlar ekonomik büyüme öngörüyor." },
+      { "en": "No one could foresee the disaster.", "tr": "Kimse felaketi öngöremedi." },
+      { "en": "She foresaw the problems.", "tr": "Sorunları önceden gördü." }
+    ]
+  },
+  {
+    "word": "highlight",
+    "meanings": ["vurgulamak"],
+    "examples": [
+      { "en": "The report highlights key issues.", "tr": "Rapor önemli sorunları vurguluyor." },
+      { "en": "She highlighted the main points.", "tr": "Ana noktaları vurguladı." },
+      { "en": "The event highlighted local talent.", "tr": "Etkinlik yerel yetenekleri ön plana çıkardı." },
+      { "en": "He highlighted the need for change.", "tr": "Değişim ihtiyacını vurguladı." },
+      { "en": "The study highlights the importance of sleep.", "tr": "Çalışma uykunun önemini vurguluyor." }
+    ]
+  },
+  {
+    "word": "implement",
+    "meanings": ["uygulamak"],
+    "examples": [
+      { "en": "They implemented new rules.", "tr": "Yeni kuralları uyguladılar." },
+      { "en": "The system was implemented last year.", "tr": "Sistem geçen yıl uygulandı." },
+      { "en": "We implemented changes immediately.", "tr": "Değişiklikleri hemen uyguladık." },
+      { "en": "The plan will be implemented soon.", "tr": "Plan yakında uygulanacak." },
+      { "en": "He implemented the suggestions.", "tr": "Önerileri uyguladı." }
+    ]
+  },
+  {
+    "word": "interact",
+    "meanings": ["etkileşim kurmak"],
+    "examples": [
+      { "en": "Children interact easily.", "tr": "Çocuklar kolayca etkileşime girer." },
+      { "en": "The app allows users to interact.", "tr": "Uygulama kullanıcıların etkileşim kurmasına izin verir." },
+      { "en": "They interacted well during the activity.", "tr": "Etkinlik sırasında iyi etkileşim kurdular." },
+      { "en": "Humans interact through language.", "tr": "İnsanlar dil aracılığıyla etkileşim kurar." },
+      { "en": "The two systems interact seamlessly.", "tr": "İki sistem sorunsuz etkileşim kurar." }
+    ]
+  },
+  {
+    "word": "intervene",
+    "meanings": ["müdahale etmek"],
+    "examples": [
+      { "en": "The teacher intervened in the argument.", "tr": "Öğretmen tartışmaya müdahale etti." },
+      { "en": "He intervened to stop the fight.", "tr": "Kavgayı durdurmak için müdahale etti." },
+      { "en": "The police intervened quickly.", "tr": "Polis hızlıca müdahale etti." },
+      { "en": "We should not intervene unless necessary.", "tr": "Gerekmedikçe müdahale etmemeliyiz." },
+      { "en": "Doctors intervened to save the patient.", "tr": "Doktorlar hastayı kurtarmak için müdahale etti." }
+    ]
+  },
+  {
+    "word": "invest",
+    "meanings": ["yatırım yapmak"],
+    "examples": [
+      { "en": "They invested in technology.", "tr": "Teknolojiye yatırım yaptılar." },
+      { "en": "He invested all his money in stocks.", "tr": "Tüm parasını hisse senetlerine yatırdı." },
+      { "en": "She invested time in learning new skills.", "tr": "Yeni beceriler öğrenmeye zaman yatırdı." },
+      { "en": "Foreign companies invest heavily here.", "tr": "Yabancı şirketler burada yoğun yatırım yapıyor." },
+      { "en": "You should invest wisely.", "tr": "Akıllıca yatırım yapmalısın." }
+    ]
+  },
+  {
+    "word": "involve",
+    "meanings": ["dahil etmek", "içermek"],
+    "examples": [
+      { "en": "The job involves a lot of travel.", "tr": "İş çok seyahati içeriyor." },
+      { "en": "The project involves several experts.", "tr": "Proje birkaç uzmanı içeriyor." },
+      { "en": "He was not involved in the decision.", "tr": "Karara dahil edilmedi." },
+      { "en": "The plan involves major changes.", "tr": "Plan önemli değişiklikler içeriyor." },
+      { "en": "They are involved in community work.", "tr": "Topluluk işinde görev alıyorlar." }
+    ]
+  },
+  {
+    "word": "isolate",
+    "meanings": ["izole etmek", "ayırmak"],
+    "examples": [
+      { "en": "Researchers isolated the gene.", "tr": "Araştırmacılar geni izole etti." },
+      { "en": "He isolated the problem.", "tr": "Sorunu izole etti." },
+      { "en": "The country was isolated politically.", "tr": "Ülke siyasi olarak izole edildi." },
+      { "en": "They isolated the damaged part.", "tr": "Hasarlı kısmı ayırdılar." },
+      { "en": "The patient was isolated for safety.", "tr": "Hasta güvenlik için izole edildi." }
+    ]
+  },
+  {
+    "word": "legislate",
+    "meanings": ["yasalaştırmak", "yasa yapmak"],
+    "examples": [
+      { "en": "The government legislated new rules.", "tr": "Hükümet yeni kuralları yasalaştırdı." },
+      { "en": "They legislated to protect workers.", "tr": "Çalışanları korumak için yasa çıkardılar." },
+      { "en": "The country needs to legislate quickly.", "tr": "Ülkenin hızlıca yasa yapması gerekiyor." },
+      { "en": "They legislated strict traffic laws.", "tr": "Katı trafik yasaları çıkardılar." },
+      { "en": "Parliament legislated the reform.", "tr": "Parlamento reformu yasalaştırdı." }
+    ]
+  },
+  {
+    "word": "legitimate",
+    "meanings": ["meşru", "yasal"],
+    "examples": [
+      { "en": "He has a legitimate reason.", "tr": "Onun meşru bir nedeni var." },
+      { "en": "This is a legitimate concern.", "tr": "Bu meşru bir endişe." },
+      { "en": "The business is completely legitimate.", "tr": "İş tamamen yasaldır." },
+      { "en": "They questioned the legitimacy of the decision.", "tr": "Kararın meşruluğunu sorguladılar." },
+      { "en": "She made a legitimate complaint.", "tr": "O meşru bir şikayet yaptı." }
+    ]
+  },
+  {
+    "word": "liberate",
+    "meanings": ["özgürleştirmek", "serbest bırakmak"],
+    "examples": [
+      { "en": "The soldiers liberated the town.", "tr": "Askerler kasabayı özgürleştirdi." },
+      { "en": "The new law liberated many restrictions.", "tr": "Yeni yasa birçok kısıtlamayı kaldırdı." },
+      { "en": "Travel can liberate the mind.", "tr": "Seyahat zihin özgürleştirebilir." },
+      { "en": "He felt liberated after quitting his job.", "tr": "İşinden ayrıldıktan sonra özgür hissetti." },
+      { "en": "They liberated the hostages.", "tr": "Rehineleri serbest bıraktılar." }
+    ]
+  },
+  {
+    "word": "magnify",
+    "meanings": ["büyütmek", "abartmak"],
+    "examples": [
+      { "en": "The lens magnifies small objects.", "tr": "Mercek küçük objeleri büyütür." },
+      { "en": "He magnified the issue unnecessarily.", "tr": "Sorunu gereksiz yere abarttı." },
+      { "en": "The microscope magnifies bacteria.", "tr": "Mikroskop bakterileri büyütür." },
+      { "en": "The sound was magnified by the walls.", "tr": "Ses duvarlar tarafından büyütüldü." },
+      { "en": "Don’t magnify minor mistakes.", "tr": "Küçük hataları abartma." }
+    ]
+  },
+  {
+    "word": "manipulate",
+    "meanings": ["manipüle etmek"],
+    "examples": [
+      { "en": "He manipulated the results.", "tr": "Sonuçları manipüle etti." },
+      { "en": "She manipulated the data purposely.", "tr": "Verileri bilerek manipüle etti." },
+      { "en": "The device manipulates magnetic fields.", "tr": "Cihaz manyetik alanları manipüle eder." },
+      { "en": "They manipulated the situation.", "tr": "Durumu manipüle ettiler." },
+      { "en": "He knows how to manipulate people.", "tr": "İnsanları nasıl manipüle edeceğini biliyor." }
+    ]
+  },
+  {
+    "word": "mediate",
+    "meanings": ["arabuluculuk yapmak"],
+    "examples": [
+      { "en": "She mediated the conflict.", "tr": "Çatışmaya arabuluculuk yaptı." },
+      { "en": "He was asked to mediate the discussion.", "tr": "Tartışmayı yönetmesi istendi." },
+      { "en": "They mediated a peaceful agreement.", "tr": "Barışçıl bir anlaşmaya arabuluculuk ettiler." },
+      { "en": "The organization mediates disputes.", "tr": "Kuruluş anlaşmazlıklara arabuluculuk yapar." },
+      { "en": "She mediated between the two sides.", "tr": "İki taraf arasında arabuluculuk yaptı." }
+    ]
+  },
+  {
+    "word": "merge",
+    "meanings": ["birleştirmek"],
+    "examples": [
+      { "en": "The companies merged last year.", "tr": "Şirketler geçen yıl birleşti." },
+      { "en": "Two lanes merge into one here.", "tr": "Burada iki şerit bir şeride birleşiyor." },
+      { "en": "The traffic merged smoothly.", "tr": "Trafik sorunsuz birleşti." },
+      { "en": "They plan to merge the two departments.", "tr": "İki departmanı birleştirmeyi planlıyorlar." },
+      { "en": "His ideas merged with hers.", "tr": "Fikirleri onunkiyle birleşti." }
+    ]
+  },
+  {
+    "word": "misinterpret",
+    "meanings": ["yanlış yorumlamak"],
+    "examples": [
+      { "en": "She misinterpreted his words.", "tr": "Sözlerini yanlış yorumladı." },
+      { "en": "The data was misinterpreted.", "tr": "Veriler yanlış yorumlandı." },
+      { "en": "Don’t misinterpret my silence.", "tr": "Sessizliğimi yanlış yorumlama." },
+      { "en": "He misinterpreted the instructions.", "tr": "Talimatları yanlış yorumladı." },
+      { "en": "The media misinterpreted the event.", "tr": "Medya olayı yanlış yorumladı." }
+    ]
+  },
+  {
+    "word": "modify",
+    "meanings": ["değiştirmek"],
+    "examples": [
+      { "en": "They modified the design.", "tr": "Tasarımı değiştirdiler." },
+      { "en": "The rules were modified recently.", "tr": "Kurallar yakın zamanda değiştirildi." },
+      { "en": "He modified his behavior.", "tr": "Davranışını değiştirdi." },
+      { "en": "We modified the system.", "tr": "Sistemi değiştirdik." },
+      { "en": "She modified the recipe.", "tr": "Tarifi değiştirdi." }
+    ]
+  },
+  {
+    "word": "neglect",
+    "meanings": ["ihmal etmek"],
+    "examples": [
+      { "en": "He neglected his responsibilities.", "tr": "Sorumluluklarını ihmal etti." },
+      { "en": "They neglected the warning signs.", "tr": "Uyarı işaretlerini ihmal ettiler." },
+      { "en": "Don’t neglect your health.", "tr": "Sağlığını ihmal etme." },
+      { "en": "She neglected her plants.", "tr": "Bitkilerini ihmal etti." },
+      { "en": "The building was neglected for years.", "tr": "Bina yıllarca ihmal edildi." }
+    ]
+  },
+  {
+    "word": "negotiate",
+    "meanings": ["müzakere etmek"],
+    "examples": [
+      { "en": "They negotiated a better deal.", "tr": "Daha iyi bir anlaşma müzakere ettiler." },
+      { "en": "She negotiated with the manager.", "tr": "Yöneticiyle müzakere etti." },
+      { "en": "We need to negotiate the terms.", "tr": "Şartları müzakere etmeliyiz." },
+      { "en": "They negotiated for hours.", "tr": "Saatlerce müzakere ettiler." },
+      { "en": "The countries negotiated a peace treaty.", "tr": "Ülkeler barış anlaşması müzakere etti." }
+    ]
+  },
+  {
+    "word": "notify",
+    "meanings": ["bildirmek"],
+    "examples": [
+      { "en": "Please notify me of any updates.", "tr": "Herhangi bir güncelleme olursa beni bilgilendir." },
+      { "en": "They notified the police.", "tr": "Polisi bilgilendirdiler." },
+      { "en": "He notified the team immediately.", "tr": "Ekibi hemen bilgilendirdi." },
+      { "en": "Customers were notified by email.", "tr": "Müşteriler e-posta ile bilgilendirildi." },
+      { "en": "She notified her supervisor.", "tr": "Müdürünü bilgilendirdi." }
+    ]
+  },
+  {
+    "word": "obstruct",
+    "meanings": ["engellemek"],
+    "examples": [
+      { "en": "The fallen tree obstructed the road.", "tr": "Düşen ağaç yolu engelledi." },
+      { "en": "He obstructed the investigation.", "tr": "Soruşturmayı engelledi." },
+      { "en": "Clouds obstructed the view.", "tr": "Bulutlar manzarayı engelledi." },
+      { "en": "They obstructed justice.", "tr": "Adaleti engellediler." },
+      { "en": "Her doubts obstructed her progress.", "tr": "Şüpheleri ilerlemesini engelledi." }
+    ]
+  },
+  {
+    "word": "omit",
+    "meanings": ["atlamak", "çıkarmak"],
+    "examples": [
+      { "en": "He omitted important details.", "tr": "Önemli detayları atladı." },
+      { "en": "The name was omitted from the list.", "tr": "İsim listeden çıkarıldı." },
+      { "en": "Don’t omit any steps.", "tr": "Hiçbir adımı atlama." },
+      { "en": "She omitted a key part of the story.", "tr": "Hikayenin önemli bir kısmını çıkardı." },
+      { "en": "The document omitted evidence.", "tr": "Belge kanıtları içermiyordu." }
+    ]
+  },
+  {
+    "word": "overwhelm",
+    "meanings": ["bunaltmak", "ezmek"],
+    "examples": [
+      { "en": "The workload overwhelmed him.", "tr": "İş yükü onu bunalttı." },
+      { "en": "She was overwhelmed by emotions.", "tr": "Duygular tarafından bunaldı." },
+      { "en": "The news overwhelmed the community.", "tr": "Haber topluluğu sarstı." },
+      { "en": "The team was overwhelmed by the opponent.", "tr": "Takım rakip tarafından ezildi." },
+      { "en": "He felt overwhelmed with responsibilities.", "tr": "Sorumluluklarla bunalmış hissetti." }
+    ]
+  },
+  {
+    "word": "perceive",
+    "meanings": ["algılamak", "fark etmek"],
+    "examples": [
+      { "en": "She perceived a change in his mood.", "tr": "Onun ruh hâlinde bir değişiklik fark etti." },
+      { "en": "He is perceived as a leader.", "tr": "O bir lider olarak algılanıyor." },
+      { "en": "I perceived something strange.", "tr": "Tuhaf bir şey fark ettim." },
+      { "en": "They perceived the noise as a threat.", "tr": "Gürültüyü bir tehdit olarak algıladılar." },
+      { "en": "People perceive success differently.", "tr": "İnsanlar başarıyı farklı algılar." }
+    ]
+  },
+  {
+    "word": "portray",
+    "meanings": ["tasvir etmek", "betimlemek"],
+    "examples": [
+      { "en": "The movie portrays a true story.", "tr": "Film gerçek bir hikâyeyi tasvir eder." },
+      { "en": "He portrayed the character perfectly.", "tr": "Karakteri mükemmel şekilde canlandırdı." },
+      { "en": "The painting portrays a peaceful scene.", "tr": "Resim huzurlu bir sahne betimler." },
+      { "en": "She portrayed him as a hero.", "tr": "Onu bir kahraman olarak tasvir etti." },
+      { "en": "The book portrays life in the 18th century.", "tr": "Kitap 18. yüzyıldaki yaşamı betimler." }
+    ]
+  },
+  {
+    "word": "presume",
+    "meanings": ["varsaymak"],
+    "examples": [
+      { "en": "I presume he will be late.", "tr": "Geç kalacağını varsayıyorum." },
+      { "en": "She presumed he knew the truth.", "tr": "Gerçeği bildiğini varsaydı." },
+      { "en": "He is presumed dead.", "tr": "Öldüğü varsayılıyor." },
+      { "en": "They presumed it was safe.", "tr": "Güvenli olduğunu varsaydılar." },
+      { "en": "Don't presume anything.", "tr": "Hiçbir şeyi varsayma." }
+    ]
+  },
+  {
+    "word": "radiate",
+    "meanings": ["yaymak", "ışımak"],
+    "examples": [
+      { "en": "The heater radiates warmth.", "tr": "Isıtıcı sıcaklık yayar." },
+      { "en": "She radiates confidence.", "tr": "O özgüven saçar." },
+      { "en": "The sun radiates energy.", "tr": "Güneş enerji yayar." },
+      { "en": "He radiated happiness.", "tr": "Mutluluk saçıyordu." },
+      { "en": "Heat radiates from the fire.", "tr": "Isı ateşten yayılır." }
+    ]
+  },
+  {
+    "word": "reinforce",
+    "meanings": ["güçlendirmek", "pekiştirmek"],
+    "examples": [
+      { "en": "The teacher reinforced the lesson with examples.", "tr": "Öğretmen dersi örneklerle pekiştirdi." },
+      { "en": "Steel bars reinforce the structure.", "tr": "Çelik çubuklar yapıyı güçlendirir." },
+      { "en": "Her success reinforced her confidence.", "tr": "Başarısı özgüvenini güçlendirdi." },
+      { "en": "They reinforced the message.", "tr": "Mesajı güçlendirdiler." },
+      { "en": "Exercise reinforces muscles.", "tr": "Egzersiz kasları güçlendirir." }
+    ]
+  },
+  {
+    "word": "restore",
+    "meanings": ["restore etmek", "yenilemek", "eski haline getirmek"],
+    "examples": [
+      { "en": "They restored the old building.", "tr": "Eski binayı restore ettiler." },
+      { "en": "She restored the painting carefully.", "tr": "Tabloyu dikkatlice yeniledi." },
+      { "en": "The system was restored in an hour.", "tr": "Sistem bir saat içinde eski haline getirildi." },
+      { "en": "His confidence was restored.", "tr": "Özgüveni yeniden sağlandı." },
+      { "en": "The company restored customer trust.", "tr": "Şirket müşteri güvenini yeniden kazandı." }
+    ]
+  },
+  {
+    "word": "restrict",
+    "meanings": ["kısıtlamak"],
+    "examples": [
+      { "en": "The law restricts the sale of alcohol.", "tr": "Yasa alkol satışını kısıtlıyor." },
+      { "en": "They restricted access to the building.", "tr": "Binaya erişimi kısıtladılar." },
+      { "en": "His injury restricts movement.", "tr": "Sakatlığı hareketi kısıtlıyor." },
+      { "en": "The app restricts certain features.", "tr": "Uygulama bazı özellikleri kısıtlıyor." },
+      { "en": "The rules restrict students' behavior.", "tr": "Kurallar öğrencilerin davranışlarını kısıtlıyor." }
+    ]
+  },
+  {
+    "word": "retain",
+    "meanings": ["tutmak", "korumak"],
+    "examples": [
+      { "en": "The company retained most of its employees.", "tr": "Şirket çalışanlarının çoğunu elinde tuttu." },
+      { "en": "He retained all the information.", "tr": "Tüm bilgileri aklında tuttu." },
+      { "en": "The soil retains water.", "tr": "Toprak suyu tutar." },
+      { "en": "She retained her position.", "tr": "Pozisyonunu korudu." },
+      { "en": "The team retained their title.", "tr": "Takım unvanını korudu." }
+    ]
+  },
+  {
+    "word": "revise",
+    "meanings": ["gözden geçirmek", "revize etmek"],
+    "examples": [
+      { "en": "She revised her essay.", "tr": "Makalesini gözden geçirdi." },
+      { "en": "They revised the plan.", "tr": "Planı revize ettiler." },
+      { "en": "He revised for the exam.", "tr": "Sınava hazırlanmak için tekrar yaptı." },
+      { "en": "The book was revised in 2020.", "tr": "Kitap 2020'de revize edildi." },
+      { "en": "We need to revise our strategy.", "tr": "Stratejimizi gözden geçirmemiz gerekiyor." }
+    ]
+  },
+  {
+    "word": "simplify",
+    "meanings": ["basitleştirmek"],
+    "examples": [
+      { "en": "They simplified the process.", "tr": "Süreci basitleştirdiler." },
+      { "en": "The instructions were simplified.", "tr": "Talimatlar basitleştirildi." },
+      { "en": "She simplified the explanation.", "tr": "Açıklamayı basitleştirdi." },
+      { "en": "We must simplify the design.", "tr": "Tasarımı basitleştirmeliyiz." },
+      { "en": "He simplified the task.", "tr": "Görevi basitleştirdi." }
+    ]
+  },
+  {
+    "word": "specify",
+    "meanings": ["belirtmek", "açıklamak"],
+    "examples": [
+      { "en": "Please specify your requirements.", "tr": "Lütfen gereksinimlerinizi belirtin." },
+      { "en": "The form specifies all the details.", "tr": "Form tüm detayları belirtir." },
+      { "en": "She specified the date clearly.", "tr": "Tarihi açıkça belirtti." },
+      { "en": "The rules specify what is allowed.", "tr": "Kurallar neyin izinli olduğunu belirtir." },
+      { "en": "He didn’t specify the reason.", "tr": "Sebebi belirtmedi." }
+    ]
+  },
+  {
+    "word": "stimulate",
+    "meanings": ["uyarmak", "canlandırmak"],
+    "examples": [
+      { "en": "Coffee stimulates the brain.", "tr": "Kahve beyni uyarır." },
+      { "en": "The economy was stimulated by investment.", "tr": "Ekonomi yatırımla canlandırıldı." },
+      { "en": "The program stimulates creativity.", "tr": "Program yaratıcılığı teşvik eder." },
+      { "en": "Music can stimulate emotions.", "tr": "Müzik duyguları canlandırabilir." },
+      { "en": "Exercise stimulates blood flow.", "tr": "Egzersiz kan akışını uyarır." }
+    ]
+  },
+  {
+    "word": "substitute",
+    "meanings": ["yerine koymak", "yerini almak"],
+    "examples": [
+      { "en": "You can substitute honey for sugar.", "tr": "Şeker yerine bal kullanabilirsin." },
+      { "en": "He substituted the old parts.", "tr": "Eski parçaları değiştirdi." },
+      { "en": "She substituted for him in the meeting.", "tr": "Toplantıda onun yerine geçti." },
+      { "en": "Milk can substitute water in this recipe.", "tr": "Bu tarifte su yerine süt kullanılabilir." },
+      { "en": "We substituted one ingredient.", "tr": "Bir malzemeyi değiştirdik." }
+    ]
+  },
+  {
+    "word": "trigger",
+    "meanings": ["tetiklemek"],
+    "examples": [
+      { "en": "The news triggered protests.", "tr": "Haber protestoları tetikledi." },
+      { "en": "Stress can trigger headaches.", "tr": "Stres baş ağrılarını tetikleyebilir." },
+      { "en": "The alarm was triggered.", "tr": "Alarm tetiklendi." },
+      { "en": "His words triggered a discussion.", "tr": "Sözleri bir tartışmayı tetikledi." },
+      { "en": "The event triggered memories.", "tr": "Olay anıları tetikledi." }
+    ]
+  },
+  {
+    "word": "validate",
+    "meanings": ["doğrulamak", "geçerli kılmak"],
+    "examples": [
+      { "en": "The results were validated by experts.", "tr": "Sonuçlar uzmanlar tarafından doğrulandı." },
+      { "en": "You must validate your ticket.", "tr": "Biletinizi doğrulamalısınız." },
+      { "en": "The system validates user input.", "tr": "Sistem kullanıcı girişini doğrular." },
+      { "en": "Her feelings were validated.", "tr": "Onun duyguları geçerli kılındı." },
+      { "en": "He validated the data.", "tr": "Veriyi doğruladı." }
+    ]
+  },
+  {
+    "word": "viable",
+    "meanings": ["uygulanabilir", "yapılabilir"],
+    "examples": [
+      { "en": "This idea is not economically viable.", "tr": "Bu fikir ekonomik olarak uygulanabilir değil." },
+      { "en": "They are searching for a viable solution.", "tr": "Uygulanabilir bir çözüm arıyorlar." },
+      { "en": "The plan is viable.", "tr": "Plan uygulanabilir." },
+      { "en": "We need viable alternatives.", "tr": "Uygulanabilir alternatiflere ihtiyacımız var." },
+      { "en": "It's not a viable option.", "tr": "Bu uygulanabilir bir seçenek değil." }
+    ]
+  },
+  {
+    "word": "withhold",
+    "meanings": ["alıkoymak", "vermemek"],
+    "examples": [
+      { "en": "He withheld information.", "tr": "Bilgiyi alıkoydu." },
+      { "en": "They withheld payment.", "tr": "Ödemeyi yapmadılar." },
+      { "en": "She withheld her opinion.", "tr": "Fikrini belirtmedi." },
+      { "en": "The government withheld support.", "tr": "Hükümet desteği vermedi." },
+      { "en": "He withheld details intentionally.", "tr": "Detayları bilerek sakladı." }
+    ]
+  },
+  {
+    "word": "worsen",
+    "meanings": ["kötüleşmek", "kötüleştirmek"],
+    "examples": [
+      { "en": "His condition worsened.", "tr": "Durumu kötüleşti." },
+      { "en": "The weather worsened.", "tr": "Hava kötüleşti." },
+      { "en": "Stress worsened his symptoms.", "tr": "Stres semptomlarını kötüleştirdi." },
+      { "en": "The situation worsened overnight.", "tr": "Durum bir gecede kötüleşti." },
+      { "en": "Pollution worsened the environment.", "tr": "Kirlilik çevreyi kötüleştirdi." }
+    ]
+  },
+  {
+    "word": "absorb",
+    "meanings": ["emmek", "içine çekmek"],
+    "examples": [
+      { "en": "The sponge absorbed the water.", "tr": "Sünger suyu emdi." },
+      { "en": "Plants absorb sunlight.", "tr": "Bitkiler güneş ışığını emer." },
+      { "en": "He absorbed the information quickly.", "tr": "Bilgiyi hızlıca özümsedi." },
+      { "en": "The fabric absorbs sweat.", "tr": "Kumaş teri emer." },
+      { "en": "The shock was absorbed by the padding.", "tr": "Darbe dolgu malzemesi tarafından emildi." }
+    ]
+  },
+  {
+    "word": "adapt",
+    "meanings": ["uyum sağlamak", "adapte olmak"],
+    "examples": [
+      { "en": "She adapted quickly to the new job.", "tr": "Yeni işe hızla uyum sağladı." },
+      { "en": "Animals adapt to their environment.", "tr": "Hayvanlar çevrelerine uyum sağlar." },
+      { "en": "He adapted the story into a film.", "tr": "Hikayeyi filme uyarladı." },
+      { "en": "They adapted their strategy.", "tr": "Stratejilerini uyarladılar." },
+      { "en": "You must adapt to change.", "tr": "Değişime uyum sağlamalısın." }
+    ]
+  },
+  {
+    "word": "address",
+    "meanings": ["ele almak", "hitap etmek"],
+    "examples": [
+      { "en": "We must address this issue.", "tr": "Bu konuyu ele almalıyız." },
+      { "en": "She addressed the audience.", "tr": "İzleyiciye hitap etti." },
+      { "en": "The letter was addressed to him.", "tr": "Mektup ona hitap ediyordu." },
+      { "en": "They addressed the problem immediately.", "tr": "Sorunu hemen ele aldılar." },
+      { "en": "He addressed his concerns.", "tr": "Endişelerini dile getirdi." }
+    ]
+  },
+  {
+    "word": "advocate",
+    "meanings": ["savunmak", "desteklemek"],
+    "examples": [
+      { "en": "She advocates equal rights.", "tr": "Eşit hakları savunuyor." },
+      { "en": "He advocates a healthier lifestyle.", "tr": "Daha sağlıklı bir yaşam tarzını savunuyor." },
+      { "en": "They advocate for better education.", "tr": "Daha iyi eğitim için destek veriyorlar." },
+      { "en": "He advocates change.", "tr": "Değişimi savunuyor." },
+      { "en": "Many scientists advocate this theory.", "tr": "Birçok bilim insanı bu teoriyi destekliyor." }
+    ]
+  },
+  {
+    "word": "aggravate",
+    "meanings": ["kötüleştirmek", "azdırmak"],
+    "examples": [
+      { "en": "The cold weather aggravated his condition.", "tr": "Soğuk hava durumunu kötüleştirdi." },
+      { "en": "Her comment aggravated the situation.", "tr": "Onun yorumu durumu kötüleştirdi." },
+      { "en": "Stress can aggravate health problems.", "tr": "Stres sağlık sorunlarını kötüleştirebilir." },
+      { "en": "Scratching aggravates the rash.", "tr": "Kaşımak döküntüyü kötüleştirir." },
+      { "en": "He aggravated the conflict.", "tr": "Çatışmayı azdırdı." }
+    ]
+  },
+  {
+    "word": "allocate",
+    "meanings": ["tahsis etmek", "paylaştırmak"],
+    "examples": [
+      { "en": "The budget was allocated wisely.", "tr": "Bütçe akıllıca tahsis edildi." },
+      { "en": "They allocated resources equally.", "tr": "Kaynakları eşit şekilde paylaştırdılar." },
+      { "en": "We must allocate time for research.", "tr": "Araştırma için zaman ayırmamız gerekir." },
+      { "en": "Funds were allocated to education.", "tr": "Eğitime fon ayrıldı." },
+      { "en": "He allocated roles to each member.", "tr": "Her üyeye rol atadı." }
+    ]
+  },
+  {
+    "word": "anticipate",
+    "meanings": ["beklemek", "öngörmek"],
+    "examples": [
+      { "en": "They anticipated the results.", "tr": "Sonuçları öngördüler." },
+      { "en": "I didn’t anticipate such a reaction.", "tr": "Böyle bir tepki beklemiyordum." },
+      { "en": "She anticipated his arrival.", "tr": "Onun gelişini bekliyordu." },
+      { "en": "Experts anticipate economic growth.", "tr": "Uzmanlar ekonomik büyüme öngörüyor." },
+      { "en": "He anticipated the difficulties.", "tr": "Zorlukları öngördü." }
+    ]
+  },
+  {
+    "word": "arbitrate",
+    "meanings": ["hakemlik yapmak", "arabuluculuk yapmak"],
+    "examples": [
+      { "en": "He arbitrated the disagreement.", "tr": "Anlaşmazlığa hakemlik yaptı." },
+      { "en": "They asked him to arbitrate.", "tr": "Ondan arabuluculuk yapmasını istediler." },
+      { "en": "The court arbitrated the dispute.", "tr": "Mahkeme anlaşmazlığa hakemlik yaptı." },
+      { "en": "She arbitrated between the groups.", "tr": "Gruplar arasında arabuluculuk yaptı." },
+      { "en": "A neutral party arbitrated the conflict.", "tr": "Tarafsız bir kişi çatışmaya hakemlik yaptı." }
+    ]
+  },
+  {
+    "word": "attain",
+    "meanings": ["ulaşmak", "elde etmek"],
+    "examples": [
+      { "en": "She attained her goals.", "tr": "Hedeflerine ulaştı." },
+      { "en": "They attained a high level of success.", "tr": "Yüksek bir başarı seviyesine ulaştılar." },
+      { "en": "He attained the required score.", "tr": "Gerekli puana ulaştı." },
+      { "en": "The company attained global recognition.", "tr": "Şirket küresel tanınırlık elde etti." },
+      { "en": "She attained mastery in music.", "tr": "Müzikte ustalık seviyesine ulaştı." }
+    ]
+  },
+  {
+    "word": "boost",
+    "meanings": ["artırmak", "güçlendirmek"],
+    "examples": [
+      { "en": "Exercise boosts your energy.", "tr": "Egzersiz enerjiyi artırır." },
+      { "en": "They boosted sales last year.", "tr": "Geçen yıl satışları artırdılar." },
+      { "en": "Her speech boosted team morale.", "tr": "Konuşması takım moralini yükseltti." },
+      { "en": "The upgrade boosted performance.", "tr": "Yükseltme performansı artırdı." },
+      { "en": "He needs something to boost his confidence.", "tr": "Özgüvenini artırmak için bir şeylere ihtiyacı var." }
+    ]
+  },
+  {
+    "word": "broaden",
+    "meanings": ["genişletmek"],
+    "examples": [
+      { "en": "Travel broadens the mind.", "tr": "Seyahat zihni genişletir." },
+      { "en": "They broadened the road.", "tr": "Yolu genişlettiler." },
+      { "en": "She broadened her knowledge.", "tr": "Bilgisini genişletti." },
+      { "en": "The company broadened its services.", "tr": "Şirket hizmetlerini genişletti." },
+      { "en": "The course broadened my perspective.", "tr": "Kurs bakış açımı genişletti." }
+    ]
+  },
+  {
+    "word": "cease",
+    "meanings": ["durmak", "sona ermek"],
+    "examples": [
+      { "en": "The noise finally ceased.", "tr": "Gürültü sonunda durdu." },
+      { "en": "They ceased operations.", "tr": "Faaliyetleri durdurdular." },
+      { "en": "He ceased talking.", "tr": "Konuşmayı bıraktı." },
+      { "en": "Hostilities ceased after the agreement.", "tr": "Anlaşmadan sonra düşmanlıklar sona erdi." },
+      { "en": "The rain ceased abruptly.", "tr": "Yağmur aniden durdu." }
+    ]
+  },
+  {
+    "word": "clarify",
+    "meanings": ["açıklığa kavuşturmak"],
+    "examples": [
+      { "en": "Please clarify your question.", "tr": "Lütfen sorunuzu netleştirin." },
+      { "en": "He clarified the instructions.", "tr": "Talimatları açıkladı." },
+      { "en": "The report clarified the problem.", "tr": "Rapor sorunu netleştirdi." },
+      { "en": "She clarified her intentions.", "tr": "Niyetlerini netleştirdi." },
+      { "en": "The teacher clarified the concept.", "tr": "Öğretmen kavramı açıkladı." }
+    ]
+  },
+  {
+    "word": "coincide",
+    "meanings": ["çakışmak", "aynı zamana denk gelmek"],
+    "examples": [
+      { "en": "My trip coincides with the festival.", "tr": "Seyahatim festivalle çakışıyor." },
+      { "en": "Their opinions rarely coincide.", "tr": "Görüşleri nadiren örtüşür." },
+      { "en": "The two events coincided perfectly.", "tr": "İki etkinlik mükemmel şekilde çakıştı." },
+      { "en": "His arrival coincided with the meeting.", "tr": "Onun gelişi toplantıyla aynı zamana denk geldi." },
+      { "en": "The data does not coincide with our predictions.", "tr": "Veriler tahminlerimizle örtüşmüyor." }
+    ]
+  },
+  {
+    "word": "compile",
+    "meanings": ["derlemek", "toplamak"],
+    "examples": [
+      { "en": "They compiled a list of participants.", "tr": "Katılımcıların bir listesini derlediler." },
+      { "en": "The data was compiled from several sources.", "tr": "Veriler çeşitli kaynaklardan derlendi." },
+      { "en": "She compiled all her notes.", "tr": "Tüm notlarını derledi." },
+      { "en": "The report was compiled in two weeks.", "tr": "Rapor iki haftada derlendi." },
+      { "en": "He compiled a book of poems.", "tr": "Bir şiir kitabı derledi." }
+    ]
+  },
+  {
+    "word": "conceal",
+    "meanings": ["gizlemek", "örtmek"],
+    "examples": [
+      { "en": "He concealed the truth.", "tr": "Gerçeği gizledi." },
+      { "en": "She tried to conceal her emotions.", "tr": "Duygularını gizlemeye çalıştı." },
+      { "en": "The clouds concealed the sun.", "tr": "Bulutlar güneşi gizledi." },
+      { "en": "He concealed the letter in a drawer.", "tr": "Mektubu bir çekmeceye sakladı." },
+      { "en": "They concealed the evidence.", "tr": "Kanıtı gizlediler." }
+    ]
+  },
+  {
+    "word": "conform",
+    "meanings": ["uyum sağlamak"],
+    "examples": [
+      { "en": "Employees must conform to the rules.", "tr": "Çalışanlar kurallara uymalıdır." },
+      { "en": "He refuses to conform.", "tr": "Uyum sağlamayı reddediyor." },
+      { "en": "The building does not conform to safety standards.", "tr": "Bina güvenlik standartlarına uymuyor." },
+      { "en": "People tend to conform to social norms.", "tr": "İnsanlar genellikle sosyal normlara uyar." },
+      { "en": "The product conforms to EU regulations.", "tr": "Ürün AB düzenlemelerine uygundur." }
+    ]
+  },
+  {
+    "word": "constitute",
+    "meanings": ["oluşturmak", "teşkil etmek"],
+    "examples": [
+      { "en": "These changes constitute a major improvement.", "tr": "Bu değişiklikler büyük bir iyileşme teşkil ediyor." },
+      { "en": "Women constitute half the population.", "tr": "Kadınlar nüfusun yarısını oluşturur." },
+      { "en": "His actions constitute a crime.", "tr": "Onun eylemleri suç teşkil ediyor." },
+      { "en": "The book constitutes an important resource.", "tr": "Bu kitap önemli bir kaynak oluşturur." },
+      { "en": "The members constitute a strong team.", "tr": "Üyeler güçlü bir takım oluşturuyor." }
+    ]
+  },
+  {
+    "word": "contemplate",
+    "meanings": ["düşünmek", "tasarlamak"],
+    "examples": [
+      { "en": "She contemplated moving abroad.", "tr": "Yurt dışına taşınmayı düşündü." },
+      { "en": "He contemplated the meaning of life.", "tr": "Hayatın anlamını düşündü." },
+      { "en": "They contemplated several solutions.", "tr": "Birkaç çözümü düşündüler." },
+      { "en": "She sat quietly, contemplating.", "tr": "Sessizce oturup düşündü." },
+      { "en": "The team is contemplating a new strategy.", "tr": "Takım yeni bir strateji düşünüyor." }
+    ]
+  },
+  {
+    "word": "contradict",
+    "meanings": ["çelişmek", "karşı çıkmak"],
+    "examples": [
+      { "en": "His actions contradict his words.", "tr": "Eylemleri sözleriyle çelişiyor." },
+      { "en": "The witness contradicted the suspect’s story.", "tr": "Tanık şüphelinin hikayesiyle çelişti." },
+      { "en": "This data contradicts our theory.", "tr": "Bu veri teorimizle çelişiyor." },
+      { "en": "She contradicted him openly.", "tr": "Ona açıkça karşı çıktı." },
+      { "en": "The results contradict expectations.", "tr": "Sonuçlar beklentilerle çelişiyor." }
+    ]
+  },
+  {
+    "word": "contribute",
+    "meanings": ["katkıda bulunmak"],
+    "examples": [
+      { "en": "They contributed to the project.", "tr": "Projeye katkıda bulundular." },
+      { "en": "Exercise contributes to good health.", "tr": "Egzersiz sağlığa katkı sağlar." },
+      { "en": "She contributed ideas to the discussion.", "tr": "Tartışmaya fikirler kattı." },
+      { "en": "Many people contributed to the event.", "tr": "Birçok kişi etkinliğe katkıda bulundu." },
+      { "en": "The book contributed useful insights.", "tr": "Kitap faydalı içgörüler sağladı." }
+    ]
+  },
+  {
+    "word": "convey",
+    "meanings": ["iletmek", "aktarmak"],
+    "examples": [
+      { "en": "She conveyed her message clearly.", "tr": "Mesajını açıkça iletti." },
+      { "en": "The report conveys important information.", "tr": "Rapor önemli bilgileri aktarır." },
+      { "en": "His tone conveyed disappointment.", "tr": "Tonlaması hayal kırıklığı aktardı." },
+      { "en": "The painting conveys deep emotion.", "tr": "Resim derin duygular iletir." },
+      { "en": "Please convey my regards.", "tr": "Lütfen selamlarımı iletin." }
+    ]
+  },
+  {
+    "word": "coordinate",
+    "meanings": ["koordine etmek", "düzenlemek"],
+    "examples": [
+      { "en": "She coordinated the entire event.", "tr": "Tüm etkinliği koordine etti." },
+      { "en": "They coordinated the project together.", "tr": "Projeyi birlikte koordine ettiler." },
+      { "en": "The teams coordinated their efforts.", "tr": "Takımlar çabalarını koordine etti." },
+      { "en": "He coordinated the schedule.", "tr": "Takvimi düzenledi." },
+      { "en": "We coordinated the volunteers.", "tr": "Gönüllüleri organize ettik." }
+    ]
+  },
+  {
+    "word": "deduce",
+    "meanings": ["sonuç çıkarmak"],
+    "examples": [
+      { "en": "We deduced the answer from the data.", "tr": "Cevabı verilerden çıkardık." },
+      { "en": "He deduced the truth.", "tr": "Gerçeği çıkardı." },
+      { "en": "From her tone, I deduced she was upset.", "tr": "Tonundan üzgün olduğunu çıkardım." },
+      { "en": "Scientists deduced how it happened.", "tr": "Bilim insanları bunun nasıl olduğunu çıkardı." },
+      { "en": "They deduced the cause of the problem.", "tr": "Sorunun nedenini çıkardılar." }
+    ]
+  },
+  {
+    "word": "defer",
+    "meanings": ["ertelemek"],
+    "examples": [
+      { "en": "They deferred the meeting.", "tr": "Toplantıyı ertelediler." },
+      { "en": "He deferred his decision.", "tr": "Kararını erteledi." },
+      { "en": "We deferred the payment.", "tr": "Ödemeyi erteledik." },
+      { "en": "She deferred her plans.", "tr": "Planlarını erteledi." },
+      { "en": "The launch was deferred to next month.", "tr": "Lansman gelecek aya ertelendi." }
+    ]
+  },
+  {
+    "word": "depict",
+    "meanings": ["tasvir etmek", "göstermek"],
+    "examples": [
+      { "en": "The painting depicts a beautiful scene.", "tr": "Resim güzel bir sahneyi tasvir eder." },
+      { "en": "The book depicts ancient life.", "tr": "Kitap antik yaşamı tasvir eder." },
+      { "en": "The movie depicts real events.", "tr": "Film gerçek olayları gösterir." },
+      { "en": "The report depicts the situation clearly.", "tr": "Rapor durumu açıkça gösteriyor." },
+      { "en": "The image depicts the process.", "tr": "Görsel süreci göstermektedir." }
+    ]
+  },
+  {
+    "word": "derive",
+    "meanings": ["türemek", "kaynaklanmak"],
+    "examples": [
+      { "en": "The word derives from Latin.", "tr": "Kelime Latince'den türemiştir." },
+      { "en": "He derives joy from helping others.", "tr": "Başkalarına yardım etmekten joy alır." },
+      { "en": "The idea derives from old traditions.", "tr": "Fikir eski geleneklerden gelir." },
+      { "en": "Many benefits derive from exercise.", "tr": "Egzersizden birçok fayda elde edilir." },
+      { "en": "The tradition derives from ancient rituals.", "tr": "Gelenek eski ritüellerden kaynaklanır." }
+    ]
+  },
+  {
+    "word": "disrupt",
+    "meanings": ["bozmak", "aksatmak"],
+    "examples": [
+      { "en": "The storm disrupted transportation.", "tr": "Fırtına ulaşımı aksattı." },
+      { "en": "Noise disrupted my focus.", "tr": "Gürültü odağımı bozdu." },
+      { "en": "The event was disrupted by protests.", "tr": "Etkinlik protestolarla aksadı." },
+      { "en": "The attack disrupted the system.", "tr": "Saldırı sistemi bozdu." },
+      { "en": "His behavior disrupted the class.", "tr": "Davranışı sınıfı bozdu." }
+    ]
+  },
+  {
+    "word": "endure",
+    "meanings": ["dayanmak", "katlanmak"],
+    "examples": [
+      { "en": "She endured the pain.", "tr": "Acıya katlandı." },
+      { "en": "They endured many hardships.", "tr": "Birçok zorluğa dayanmak zorunda kaldılar." },
+      { "en": "He endured long hours of work.", "tr": "Uzun çalışma saatlerine katlandı." },
+      { "en": "The building endured the earthquake.", "tr": "Bina depreme dayandı." },
+      { "en": "She endured the criticism.", "tr": "Eleştiriye katlandı." }
+    ]
+  },
+  {
+    "word": "enforce",
+    "meanings": ["uygulamak", "zorla kabul ettirmek"],
+    "examples": [
+      { "en": "The police enforce the law.", "tr": "Polis yasaları uygular." },
+      { "en": "Rules must be strictly enforced.", "tr": "Kurallar sıkı şekilde uygulanmalı." },
+      { "en": "They enforced new policies.", "tr": "Yeni politikaları uyguladılar." },
+      { "en": "The contract will be enforced legally.", "tr": "Sözleşme yasal olarak uygulanacaktır." },
+      { "en": "He enforced discipline.", "tr": "Disiplin sağladı." }
+    ]
+  },
+  {
+    "word": "enhance",
+    "meanings": ["geliştirmek", "artırmak"],
+    "examples": [
+      { "en": "The upgrade enhanced performance.", "tr": "Yükseltme performansı artırdı." },
+      { "en": "She enhanced her skills.", "tr": "Becerilerini geliştirdi." },
+      { "en": "The software enhances productivity.", "tr": "Yazılım verimliliği artırır." },
+      { "en": "Colors enhance the design.", "tr": "Renkler tasarımı güçlendirir." },
+      { "en": "The changes enhanced user experience.", "tr": "Değişiklikler kullanıcı deneyimini geliştirdi." }
+    ]
+  },
+  {
+    "word": "entail",
+    "meanings": ["gerektirmek"],
+    "examples": [
+      { "en": "The job entails long hours.", "tr": "Bu iş uzun çalışma saatleri gerektirir." },
+      { "en": "The process entails several steps.", "tr": "Süreç birkaç adım gerektirir." },
+      { "en": "This change entails risks.", "tr": "Bu değişiklik riskler içerir." },
+      { "en": "Success entails hard work.", "tr": "Başarı sıkı çalışma gerektirir." },
+      { "en": "Their plan entails heavy costs.", "tr": "Planları yüksek maliyetler gerektiriyor." }
+    ]
+  },
+  {
+    "word": "enumerate",
+    "meanings": ["listelemek", "numaralandırmak"],
+    "examples": [
+      { "en": "They enumerated the benefits.", "tr": "Faydaları listelediler." },
+      { "en": "She enumerated her reasons.", "tr": "Nedenlerini sıraladı." },
+      { "en": "The report enumerates all issues.", "tr": "Rapor tüm sorunları sıralar." },
+      { "en": "He enumerated the steps clearly.", "tr": "Adımları net şekilde sıraladı." },
+      { "en": "The teacher enumerated the tasks.", "tr": "Öğretmen görevleri numaralandırdı." }
+    ]
+  },
+  {
+    "word": "evoke",
+    "meanings": ["anımsatmak", "çağrıştırmak"],
+    "examples": [
+      { "en": "The smell evoked childhood memories.", "tr": "Koku çocukluk anılarını çağrıştırdı." },
+      { "en": "The movie evoked strong emotions.", "tr": "Film güçlü duyguları uyandırdı." },
+      { "en": "Her words evoked hope.", "tr": "Sözleri umut uyandırdı." },
+      { "en": "The image evokes a peaceful feeling.", "tr": "Görsel huzurlu bir his uyandırır." },
+      { "en": "The song evoked nostalgia.", "tr": "Şarkı nostalji uyandırdı." }
+    ]
+  },
+  {
+    "word": "exceed",
+    "meanings": ["aşmak", "geçmek"],
+    "examples": [
+      { "en": "The cost exceeded our budget.", "tr": "Maliyet bütçemizi aştı." },
+      { "en": "He exceeded expectations.", "tr": "Beklentileri aştı." },
+      { "en": "Speed exceeded 120 km/h.", "tr": "Hız 120 km/saati geçti." },
+      { "en": "Sales exceeded last year’s figures.", "tr": "Satışlar geçen yılın rakamlarını geçti." },
+      { "en": "Noise levels exceeded the limit.", "tr": "Gürültü seviyeleri sınırı aştı." }
+    ]
+  },
+  {
+    "word": "exclude",
+    "meanings": ["hariç tutmak", "dışlamak"],
+    "examples": [
+      { "en": "They excluded him from the group.", "tr": "Onu gruptan dışladılar." },
+      { "en": "The price excludes tax.", "tr": "Fiyat vergi hariçtir." },
+      { "en": "He felt excluded.", "tr": "Kendini dışlanmış hissetti." },
+      { "en": "The results excluded two cases.", "tr": "Sonuçlar iki vakayı hariç tuttu." },
+      { "en": "They excluded the possibility.", "tr": "Olasılığı dışladılar." }
+    ]
+  },
+  {
+    "word": "facilitate",
+    "meanings": ["kolaylaştırmak"],
+    "examples": [
+      { "en": "The device facilitates communication.", "tr": "Cihaz iletişimi kolaylaştırır." },
+      { "en": "The changes facilitate progress.", "tr": "Değişiklikler ilerlemeyi kolaylaştırır." },
+      { "en": "Good tools facilitate learning.", "tr": "İyi araçlar öğrenmeyi kolaylaştırır." },
+      { "en": "They facilitated the process.", "tr": "Süreci kolaylaştırdılar." },
+      { "en": "The app facilitates booking.", "tr": "Uygulama rezervasyon yapmayı kolaylaştırır." }
+    ]
+  },
+  {
+    "word": "flourish",
+    "meanings": ["gelişmek", "büyümek"],
+    "examples": [
+      { "en": "The company flourished after the new policy.", "tr": "Yeni politikadan sonra şirket gelişti." },
+      { "en": "Her career flourished.", "tr": "Kariyeri gelişti." },
+      { "en": "Plants flourish in good soil.", "tr": "Bitkiler iyi toprakta gelişir." },
+      { "en": "The town flourished in the 19th century.", "tr": "Kasaba 19. yüzyılda gelişti." },
+      { "en": "Creativity flourishes in supportive environments.", "tr": "Yaratıcılık destekleyici ortamlarda gelişir." }
+    ]
+  },
+  {
+    "word": "formulate",
+    "meanings": ["formüle etmek", "oluşturmak"],
+    "examples": [
+      { "en": "Scientists formulated a new theory.", "tr": "Bilim insanları yeni bir teori formüle etti." },
+      { "en": "They formulated a strategy.", "tr": "Bir strateji oluşturdular." },
+      { "en": "He formulated the plan clearly.", "tr": "Planı net şekilde formüle etti." },
+      { "en": "The team formulated the questions.", "tr": "Takım soruları oluşturdu." },
+      { "en": "She formulated a solution.", "tr": "Bir çözüm formüle etti." }
+    ]
+  },
+  {
+    "word": "formulate",
+    "meanings": ["formüle etmek", "oluşturmak"],
+    "examples": [
+      { "en": "She formulated a new approach.", "tr": "Yeni bir yaklaşım formüle etti." },
+      { "en": "The scientists formulated a hypothesis.", "tr": "Bilim insanları bir hipotez formüle etti." },
+      { "en": "They formulated clear rules.", "tr": "Net kurallar oluşturdular." },
+      { "en": "He formulated his response carefully.", "tr": "Cevabını dikkatle formüle etti." },
+      { "en": "The team formulated a long-term plan.", "tr": "Takım uzun vadeli bir plan formüle etti." }
+    ]
+  },
+  {
+    "word": "forsake",
+    "meanings": ["terk etmek"],
+    "examples": [
+      { "en": "He forsook his old habits.", "tr": "Eski alışkanlıklarını bıraktı." },
+      { "en": "She felt forsaken by her friends.", "tr": "Arkadaşları tarafından terk edilmiş hissetti." },
+      { "en": "They forsook the project early.", "tr": "Projeyi erken aşamada terk ettiler." },
+      { "en": "He promised never to forsake her.", "tr": "Onu asla terk etmeyeceğine söz verdi." },
+      { "en": "The village was forsaken after the flood.", "tr": "Selden sonra köy terk edildi." }
+    ]
+  },
+  {
+    "word": "foster",
+    "meanings": ["teşvik etmek", "desteklemek"],
+    "examples": [
+      { "en": "The program fosters creativity.", "tr": "Program yaratıcılığı teşvik eder." },
+      { "en": "She fostered a positive environment.", "tr": "Olumlu bir ortam oluşturdu." },
+      { "en": "They foster economic growth.", "tr": "Ekonomik büyümeyi desteklerler." },
+      { "en": "Good teachers foster confidence.", "tr": "İyi öğretmenler özgüveni artırır." },
+      { "en": "The policy fosters collaboration.", "tr": "Politika iş birliğini teşvik eder." }
+    ]
+  },
+  {
+    "word": "gather",
+    "meanings": ["toplamak", "bir araya gelmek"],
+    "examples": [
+      { "en": "They gathered information.", "tr": "Bilgi topladılar." },
+      { "en": "The family gathered for dinner.", "tr": "Aile akşam yemeği için toplandı." },
+      { "en": "He gathered his belongings.", "tr": "Eşyalarını topladı." },
+      { "en": "Crowds gathered around the stage.", "tr": "Kalabalık sahnenin etrafında toplandı." },
+      { "en": "The clouds gathered in the sky.", "tr": "Gökyüzünde bulutlar toplandı." }
+    ]
+  },
+  {
+    "word": "grasp",
+    "meanings": ["kavramak", "anlamak"],
+    "examples": [
+      { "en": "He couldn't grasp the concept.", "tr": "Kavramı anlayamadı." },
+      { "en": "She grasped his hand tightly.", "tr": "Elini sıkıca tuttu." },
+      { "en": "They finally grasped the situation.", "tr": "Durumu sonunda anladılar." },
+      { "en": "He quickly grasped the main idea.", "tr": "Ana fikri hızlıca kavradı." },
+      { "en": "The child grasped the toy.", "tr": "Çocuk oyuncağı kavradı." }
+    ]
+  },
+  {
+    "word": "halt",
+    "meanings": ["durdurmak", "durmak"],
+    "examples": [
+      { "en": "They halted the project.", "tr": "Projeyi durdurdular." },
+      { "en": "The car came to a halt.", "tr": "Araba durdu." },
+      { "en": "Production halted due to a strike.", "tr": "Grev nedeniyle üretim durdu." },
+      { "en": "He halted his speech.", "tr": "Konuşmasını durdurdu." },
+      { "en": "The military halted the attack.", "tr": "Ordu saldırıyı durdurdu." }
+    ]
+  },
+  {
+    "word": "hinder",
+    "meanings": ["engellemek"],
+    "examples": [
+      { "en": "His injury hindered his progress.", "tr": "Sakatlığı ilerlemesini engelledi." },
+      { "en": "Bad weather hindered the rescue.", "tr": "Kötü hava kurtarmayı engelledi." },
+      { "en": "Fear can hinder success.", "tr": "Korku başarıyı engelleyebilir." },
+      { "en": "The delay hindered our plans.", "tr": "Gecikme planlarımızı engelledi." },
+      { "en": "Weak infrastructure hinders growth.", "tr": "Zayıf altyapı büyümeyi engeller." }
+    ]
+  },
+  {
+    "word": "illuminate",
+    "meanings": ["aydınlatmak"],
+    "examples": [
+      { "en": "The streets were illuminated by lamps.", "tr": "Sokaklar lambalarla aydınlatıldı." },
+      { "en": "The article illuminated the issue.", "tr": "Makale konuyu aydınlattı." },
+      { "en": "Her smile illuminated the room.", "tr": "Gülümsemesi odayı aydınlattı." },
+      { "en": "Experts illuminated the problem.", "tr": "Uzmanlar sorunu aydınlattı." },
+      { "en": "The documentary illuminated hidden facts.", "tr": "Belgesel gizli gerçekleri ortaya çıkardı." }
+    ]
+  },
+  {
+    "word": "immerse",
+    "meanings": ["daldırmak", "tamamen kendini vermek"],
+    "examples": [
+      { "en": "He immersed himself in his work.", "tr": "Kendini tamamen işine verdi." },
+      { "en": "The cloth was immersed in water.", "tr": "Bez suya daldırıldı." },
+      { "en": "She immersed herself in studying.", "tr": "Kendini çalışmaya adadı." },
+      { "en": "The experience immersed them in local culture.", "tr": "Deneyim onları yerel kültüre daldırdı." },
+      { "en": "He was immersed in thought.", "tr": "Düşüncelere dalmıştı." }
+    ]
+  },
+  {
+    "word": "impose",
+    "meanings": ["zorla uygulamak", "dayatmak"],
+    "examples": [
+      { "en": "The government imposed new taxes.", "tr": "Hükümet yeni vergiler uyguladı." },
+      { "en": "He imposed strict rules.", "tr": "Sıkı kurallar dayattı." },
+      { "en": "She didn't want to impose.", "tr": "Rahatsızlık vermek istemedi." },
+      { "en": "The judge imposed a fine.", "tr": "Hakim bir ceza kesti." },
+      { "en": "They imposed their beliefs on others.", "tr": "İnançlarını başkalarına dayattılar." }
+    ]
+  },
+  {
+    "word": "incorporate",
+    "meanings": ["dahil etmek", "birleştirmek"],
+    "examples": [
+      { "en": "The design incorporates modern elements.", "tr": "Tasarım modern unsurlar içeriyor." },
+      { "en": "They incorporated feedback into the plan.", "tr": "Geri bildirimi plana dahil ettiler." },
+      { "en": "He incorporated new techniques.", "tr": "Yeni teknikler ekledi." },
+      { "en": "The system incorporates advanced features.", "tr": "Sistem gelişmiş özellikler içerir." },
+      { "en": "We must incorporate these ideas.", "tr": "Bu fikirleri dahil etmeliyiz." }
+    ]
+  },
+  {
+    "word": "induce",
+    "meanings": ["ikna etmek", "neden olmak"],
+    "examples": [
+      { "en": "Nothing could induce him to change his mind.", "tr": "Hiçbir şey onu fikrini değiştirmeye ikna edemezdi." },
+      { "en": "The drug induced sleep.", "tr": "İlaç uykuya neden oldu." },
+      { "en": "Stress can induce illness.", "tr": "Stres hastalığa neden olabilir." },
+      { "en": "The film induced fear.", "tr": "Film korkuya neden oldu." },
+      { "en": "His behavior induced anger.", "tr": "Davranışı öfkeye neden oldu." }
+    ]
+  },
+  {
+    "word": "inflict",
+    "meanings": ["zarar vermek", "acı çektirmek"],
+    "examples": [
+      { "en": "The storm inflicted damage on the city.", "tr": "Fırtına şehirde hasara yol açtı." },
+      { "en": "He inflicted pain on himself.", "tr": "Kendine acı verdi." },
+      { "en": "The attack inflicted heavy losses.", "tr": "Saldırı ağır kayıplara neden oldu." },
+      { "en": "She never intended to inflict harm.", "tr": "Zarar vermek istememişti." },
+      { "en": "War inflicts suffering on civilians.", "tr": "Savaş sivillere acı çektirir." }
+    ]
+  },
+  {
+    "word": "inhabit",
+    "meanings": ["yaşamak", "ikamet etmek"],
+    "examples": [
+      { "en": "Many animals inhabit the forest.", "tr": "Birçok hayvan ormanda yaşar." },
+      { "en": "The island is inhabited by rare species.", "tr": "Ada nadir türler tarafından yaşanıyor." },
+      { "en": "Humans inhabit every continent.", "tr": "İnsanlar her kıtada yaşar." },
+      { "en": "No one inhabits this region.", "tr": "Bu bölgede kimse yaşamıyor." },
+      { "en": "They inhabit small villages.", "tr": "Küçük köylerde yaşıyorlar." }
+    ]
+  },
+  {
+    "word": "inhibit",
+    "meanings": ["engellemek", "baskılamak"],
+    "examples": [
+      { "en": "Fear inhibited his performance.", "tr": "Korku performansını engelledi." },
+      { "en": "The drug inhibits growth.", "tr": "İlaç büyümeyi baskılar." },
+      { "en": "His shyness inhibits him socially.", "tr": "Utangaçlığı onu sosyal olarak engelliyor." },
+      { "en": "Rules inhibit creativity.", "tr": "Kurallar yaratıcılığı engeller." },
+      { "en": "Cold weather inhibits plant development.", "tr": "Soğuk hava bitki gelişimini engeller." }
+    ]
+  },
+  {
+    "word": "integrate",
+    "meanings": ["entegre etmek", "birleştirmek"],
+    "examples": [
+      { "en": "The system integrates multiple tools.", "tr": "Sistem birçok aracı entegre eder." },
+      { "en": "She integrated the new method.", "tr": "Yeni yöntemi entegre etti." },
+      { "en": "They integrated the departments.", "tr": "Departmanları birleştirdiler." },
+      { "en": "We must integrate user feedback.", "tr": "Kullanıcı geri bildirimlerini entegre etmeliyiz." },
+      { "en": "He integrated into the team quickly.", "tr": "Takıma hızlıca uyum sağladı." }
+    ]
+  },
+  {
+    "word": "interfere",
+    "meanings": ["müdahale etmek", "karışmak"],
+    "examples": [
+      { "en": "Don’t interfere in their argument.", "tr": "Tartışmalarına karışma." },
+      { "en": "The noise interferes with my sleep.", "tr": "Gürültü uykumu bölüyor." },
+      { "en": "He interfered with the investigation.", "tr": "Soruşturmaya müdahale etti." },
+      { "en": "The signal interfered with the radio.", "tr": "Sinyal radyoyu bozdu." },
+      { "en": "She hates people interfering with her work.", "tr": "İşine karışılmasından nefret eder." }
+    ]
+  },
+  {
+    "word": "jeopardize",
+    "meanings": ["tehlikeye atmak"],
+    "examples": [
+      { "en": "He jeopardized the mission.", "tr": "Görevi tehlikeye attı." },
+      { "en": "Smoking jeopardizes your health.", "tr": "Sigara sağlığınızı tehlikeye atar." },
+      { "en": "Their mistakes jeopardized the project.", "tr": "Hataları projeyi tehlikeye attı." },
+      { "en": "She jeopardized her career.", "tr": "Kariyerini tehlikeye attı." },
+      { "en": "The delay jeopardized the deal.", "tr": "Gecikme anlaşmayı tehlikeye attı." }
+    ]
+  },
+  {
+    "word": "legislate",
+    "meanings": ["yasa yapmak"],
+    "examples": [
+      { "en": "The government legislated new regulations.", "tr": "Hükümet yeni düzenlemeler çıkardı." },
+      { "en": "They legislated strict environmental laws.", "tr": "Sıkı çevre yasaları çıkardılar." },
+      { "en": "The country needs to legislate quickly.", "tr": "Ülkenin hızlıca yasa çıkarması gerekiyor." },
+      { "en": "Parliament legislated a new tax.", "tr": "Parlamento yeni bir vergi yasası çıkardı." },
+      { "en": "They are planning to legislate reforms.", "tr": "Reformlar için yasa hazırlıyorlar." }
+    ]
+  },
+  {
+    "word": "merge",
+    "meanings": ["birleşmek", "birleştirmek"],
+    "examples": [
+      { "en": "The companies merged last year.", "tr": "Şirketler geçen yıl birleşti." },
+      { "en": "Two lanes merge into one here.", "tr": "Burada iki şerit tek şeride birleşir." },
+      { "en": "They plan to merge the departments.", "tr": "Departmanları birleştirmeyi planlıyorlar." },
+      { "en": "Traffic merged smoothly.", "tr": "Trafik sorunsuz birleşti." },
+      { "en": "Their ideas merged well.", "tr": "Fikirleri iyi şekilde birleşti." }
+    ]
+  },
+  {
+    "word": "overcome",
+    "meanings": ["üstesinden gelmek"],
+    "examples": [
+      { "en": "He overcame his fears.", "tr": "Korkularının üstesinden geldi." },
+      { "en": "They overcame many obstacles.", "tr": "Birçok engeli aştılar." },
+      { "en": "She overcame the difficulties.", "tr": "Zorlukların üstesinden geldi." },
+      { "en": "The team overcame strong opponents.", "tr": "Takım güçlü rakipleri yendi." },
+      { "en": "We can overcome this together.", "tr": "Bunun üstesinden birlikte gelebiliriz." }
+    ]
+  },
+  {
+    "word": "persist",
+    "meanings": ["ısrar etmek", "devam etmek"],
+    "examples": [
+      { "en": "She persisted despite challenges.", "tr": "Zorluklara rağmen devam etti." },
+      { "en": "The problem persisted for weeks.", "tr": "Sorun haftalarca devam etti." },
+      { "en": "He persisted in asking questions.", "tr": "Soru sormakta ısrar etti." },
+      { "en": "Pain persisted during the night.", "tr": "Ağrı gece boyunca devam etti." },
+      { "en": "They persisted with their plan.", "tr": "Planlarına devam ettiler." }
+    ]
+  },
+  {
+    "word": "plead",
+    "meanings": ["yalvarmak", "savunmak (mahkemede)"],
+    "examples": [
+      { "en": "She pleaded for help.", "tr": "Yardım için yalvardı." },
+      { "en": "He pleaded guilty.", "tr": "Suçunu kabul etti." },
+      { "en": "He pleaded for mercy.", "tr": "Merhamet diledi." },
+      { "en": "The lawyer pleaded his case.", "tr": "Avukat davasını savundu." },
+      { "en": "She pleaded innocence.", "tr": "Masumiyetini savundu." }
+    ]
+  },
+  {
+    "word": "provoke",
+       "meanings": ["kışkırtmak", "tetiklemek"],
+    "examples": [
+      { "en": "His comments provoked anger.", "tr": "Yorumları öfkeye neden oldu." },
+      { "en": "The news provoked strong reactions.", "tr": "Haber güçlü tepkilere neden oldu." },
+      { "en": "He provoked a fight.", "tr": "Kavga çıkardı." },
+      { "en": "The event provoked discussions.", "tr": "Olay tartışmaları tetikledi." },
+      { "en": "She provoked him intentionally.", "tr": "Onu bilerek kışkırttı." }
+    ]
+  },
+  {
+    "word": "recall",
+    "meanings": ["hatırlamak", "geri çağırmak"],
+    "examples": [
+      { "en": "I can't recall his name.", "tr": "Adını hatırlayamıyorum." },
+      { "en": "She recalled the event clearly.", "tr": "Olayı net bir şekilde hatırladı." },
+      { "en": "The company recalled faulty products.", "tr": "Şirket hatalı ürünleri geri çağırdı." },
+      { "en": "He recalled the conversation.", "tr": "Konuşmayı hatırladı." },
+      { "en": "I recall seeing him before.", "tr": "Onu daha önce gördüğümü hatırlıyorum." }
+    ]
+  },
+  {
+    "word": "recollect",
+    "meanings": ["anımsamak", "hatırlamak"],
+    "examples": [
+      { "en": "I cannot recollect the details.", "tr": "Detayları hatırlayamıyorum." },
+      { "en": "She recollected her childhood memories.", "tr": "Çocukluk anılarını hatırladı." },
+      { "en": "He recollected the incident later.", "tr": "Olayı daha sonra hatırladı." },
+      { "en": "He tried to recollect the facts.", "tr": "Gerçekleri hatırlamaya çalıştı." },
+      { "en": "I vaguely recollect the moment.", "tr": "O anı hafifçe hatırlıyorum." }
+    ]
+  },
+  {
+    "word": "refrain",
+    "meanings": ["kaçınmak", "uzak durmak"],
+    "examples": [
+      { "en": "Please refrain from smoking here.", "tr": "Lütfen burada sigara içmekten kaçının." },
+      { "en": "He refrained from commenting.", "tr": "Yorum yapmaktan kaçındı." },
+      { "en": "She refrained from arguing.", "tr": "Tartışmaktan uzak durdu." },
+      { "en": "They refrained from violence.", "tr": "Şiddetten kaçındılar." },
+      { "en": "I refrained from laughing.", "tr": "Gülmekten kendimi tuttum." }
+    ]
+  },
+  {
+    "word": "reinvent",
+    "meanings": ["yeniden icat etmek", "baştan oluşturmak"],
+    "examples": [
+      { "en": "She reinvented her career.", "tr": "Kariyerini baştan yarattı." },
+      { "en": "The company reinvented itself.", "tr": "Şirket kendini yeniden icat etti." },
+      { "en": "They reinvented the product.", "tr": "Ürünü yeniden tasarladılar." },
+      { "en": "He reinvented his lifestyle.", "tr": "Yaşam tarzını değiştirdi." },
+      { "en": "The artist reinvented her style.", "tr": "Sanatçı tarzını yeniden yarattı." }
+    ]
+  },
+  {
+    "word": "reside",
+    "meanings": ["ikamet etmek", "yaşamak"],
+    "examples": [
+      { "en": "They reside in the city center.", "tr": "Şehir merkezinde yaşıyorlar." },
+      { "en": "He resides abroad.", "tr": "Yurt dışında yaşıyor." },
+      { "en": "The family resides in a small village.", "tr": "Aile küçük bir köyde yaşıyor." },
+      { "en": "Authority resides with the committee.", "tr": "Yetki komitededir." },
+      { "en": "She resides with her parents.", "tr": "Ailesiyle yaşıyor." }
+    ]
+  },
+  {
+    "word": "retain",
+    "meanings": ["tutmak", "elde tutmak", "muhafaza etmek"],
+    "examples": [
+      { "en": "The company retained experienced staff.", "tr": "Şirket deneyimli personeli elinde tuttu." },
+      { "en": "He retained important documents.", "tr": "Önemli belgeleri sakladı." },
+      { "en": "The walls retain heat.", "tr": "Duvarlar ısıyı tutar." },
+      { "en": "She retained the information.", "tr": "Bilgiyi aklında tuttu." },
+      { "en": "The team retained its position.", "tr": "Takım pozisyonunu korudu." }
+    ]
+  },
+  {
+    "word": "scrutinize",
+    "meanings": ["incelemek", "dikkatle bakmak"],
+    "examples": [
+      { "en": "They scrutinized the documents.", "tr": "Belgeleri dikkatle incelediler." },
+      { "en": "He scrutinized every detail.", "tr": "Her detayı inceledi." },
+      { "en": "The report was scrutinized by experts.", "tr": "Rapor uzmanlar tarafından incelendi." },
+      { "en": "She scrutinized the contract before signing.", "tr": "İmzalamadan önce sözleşmeyi inceledi." },
+      { "en": "They scrutinized his behavior.", "tr": "Davranışını dikkatle incelediler." }
+    ]
+  },
+  {
+    "word": "converge",
+    "meanings": ["birleşmek", "yakınsamak"],
+    "examples": [
+      { "en": "The roads converge at the center.", "tr": "Yollar merkezde birleşir." },
+      { "en": "Their ideas converged over time.", "tr": "Fikirleri zamanla yakınlaştı." },
+      { "en": "Scientists' opinions converged on a solution.", "tr": "Bilim insanlarının görüşleri bir çözümde birleşti." },
+      { "en": "The data points converge here.", "tr": "Veri noktaları burada birleşiyor." },
+      { "en": "Crowds converged on the square.", "tr": "Kalabalık meydanda toplandı." }
+    ]
+  },
+  {
+    "word": "correlate",
+    "meanings": ["ilişkilendirmek", "bağlantı kurmak"],
+    "examples": [
+      { "en": "The data correlates with previous studies.", "tr": "Veri önceki çalışmalarla ilişkilidir." },
+      { "en": "These symptoms correlate with the disease.", "tr": "Bu belirtiler hastalıkla bağlantılıdır." },
+      { "en": "Income and education often correlate.", "tr": "Gelir ve eğitim genellikle ilişkilidir." },
+      { "en": "The results do not correlate well.", "tr": "Sonuçlar iyi bir ilişki göstermiyor." },
+      { "en": "He correlated the findings.", "tr": "Bulguları ilişkilendirdi." }
+    ]
+  },
+  {
+    "word": "deem",
+    "meanings": ["varsaymak", "görmek"],
+    "examples": [
+      { "en": "The judge deemed the evidence insufficient.", "tr": "Yargıç kanıtı yetersiz gördü." },
+      { "en": "They deemed the plan acceptable.", "tr": "Planı kabul edilebilir gördüler." },
+      { "en": "He was deemed responsible.", "tr": "Sorumlu kabul edildi." },
+      { "en": "The project was deemed a success.", "tr": "Proje başarılı görüldü." },
+      { "en": "She deemed it necessary.", "tr": "Bunu gerekli gördü." }
+    ]
+  },
+  {
+    "word": "deprive",
+    "meanings": ["yoksun bırakmak"],
+    "examples": [
+      { "en": "The illness deprived him of energy.", "tr": "Hastalık onu enerjiden yoksun bıraktı." },
+      { "en": "They were deprived of their rights.", "tr": "Haklarından mahrum bırakıldılar." },
+      { "en": "He was deprived of sleep.", "tr": "Uykusuz bırakıldı." },
+      { "en": "Poverty deprives many of opportunities.", "tr": "Yoksulluk birçok insanı fırsatlardan mahrum bırakır." },
+      { "en": "She felt deprived of attention.", "tr": "İlgiden yoksun hissetti." }
+    ]
+  },
+  {
+    "word": "divert",
+    "meanings": ["yönlendirmek", "saptırmak"],
+    "examples": [
+      { "en": "Traffic was diverted due to construction.", "tr": "İnşaat nedeniyle trafik yönlendirildi." },
+      { "en": "He diverted attention away.", "tr": "Dikkati başka yöne çekti." },
+      { "en": "They diverted the river.", "tr": "Nehri başka yöne çevirdiler." },
+      { "en": "The plan diverted resources.", "tr": "Plan kaynakları başka yöne aktardı." },
+      { "en": "The film diverted the audience.", "tr": "Film izleyiciyi eğlendirdi." }
+    ]
+  },
+  {
+    "word": "embark",
+    "meanings": ["başlamak", "gemi/uçak yolculuğuna çıkmak"],
+    "examples": [
+      { "en": "They embarked on a long journey.", "tr": "Uzun bir yolculuğa çıktılar." },
+      { "en": "She embarked on a new career.", "tr": "Yeni bir kariyere başladı." },
+      { "en": "The passengers embarked the ship.", "tr": "Yolcular gemiye bindi." },
+      { "en": "He embarked on a difficult task.", "tr": "Zor bir göreve başladı." },
+      { "en": "We are ready to embark.", "tr": "Yola çıkmaya hazırız." }
+    ]
+  },
+  {
+    "word": "empower",
+    "meanings": ["güçlendirmek", "yetki vermek"],
+    "examples": [
+      { "en": "Education empowers people.", "tr": "Eğitim insanları güçlendirir." },
+      { "en": "She empowered her team.", "tr": "Takımını güçlendirdi." },
+      { "en": "The law empowers the committee.", "tr": "Yasa komiteye yetki verir." },
+      { "en": "He felt empowered after the training.", "tr": "Eğitimden sonra kendini güçlü hissetti." },
+      { "en": "The project empowers women.", "tr": "Proje kadınları güçlendirir." }
+    ]
+  },
+  {
+    "word": "endure",
+    "meanings": ["katlanmak", "dayanmak"],
+    "examples": [
+      { "en": "She endured many hardships.", "tr": "Birçok zorluğa katlandı." },
+      { "en": "The structure endured the storm.", "tr": "Yapı fırtınaya dayandı." },
+      { "en": "He couldn't endure the pain.", "tr": "Acıya dayanamadı." },
+      { "en": "They endured criticism.", "tr": "Eleştirilere katlandılar." },
+      { "en": "Their friendship endured for years.", "tr": "Dostlukları yıllarca sürdü." }
+    ]
+  },
+  {
+    "word": "enforce",
+    "meanings": ["uygulamak", "zorla yaptırmak"],
+    "examples": [
+      { "en": "The police enforce the law.", "tr": "Polis yasayı uygular." },
+      { "en": "They enforced strict rules.", "tr": "Sıkı kuralları uyguladılar." },
+      { "en": "He enforced discipline.", "tr": "Disiplini sağladı." },
+      { "en": "The regulation must be enforced.", "tr": "Düzenleme uygulanmalıdır." },
+      { "en": "They enforced the agreement.", "tr": "Anlaşmayı uyguladılar." }
+    ]
+  },
+  {
+    "word": "enrich",
+    "meanings": ["zenginleştirmek"],
+    "examples": [
+      { "en": "Travel enriches your perspective.", "tr": "Seyahat bakış açını zenginleştirir." },
+      { "en": "Reading enriches the mind.", "tr": "Okumak zihni zenginleştirir." },
+      { "en": "They enriched the soil.", "tr": "Toprağı zenginleştirdiler." },
+      { "en": "The experience enriched her life.", "tr": "Deneyim hayatını zenginleştirdi." },
+      { "en": "He enriched the content with examples.", "tr": "İçeriği örneklerle zenginleştirdi." }
+    ]
+  },
+  {
+    "word": "entail",
+    "meanings": ["gerektirmek"],
+    "examples": [
+      { "en": "The job entails responsibility.", "tr": "Bu iş sorumluluk gerektirir." },
+      { "en": "The plan entails hard work.", "tr": "Plan çok çalışmayı gerektirir." },
+      { "en": "The task entails risk.", "tr": "Görev risk gerektirir." },
+      { "en": "Success entails effort.", "tr": "Başarı çaba gerektirir." },
+      { "en": "The process entails multiple stages.", "tr": "Süreç birçok aşama gerektirir." }
+    ]
+  },
+  {
+    "word": "equate",
+    "meanings": ["eşitlemek", "eşdeğer görmek"],
+    "examples": [
+      { "en": "People often equate wealth with success.", "tr": "İnsanlar genellikle zenginliği başarıyla eşdeğer görür." },
+      { "en": "He equated failure with weakness.", "tr": "Başarısızlığı zayıflıkla eş tuttu." },
+      { "en": "You can't equate these two concepts.", "tr": "Bu iki kavramı eşit tutamazsın." },
+      { "en": "Not all happiness can be equated to money.", "tr": "Tüm mutluluk paraya eş tutulamaz." },
+      { "en": "They equated the two results.", "tr": "İki sonucu eşit kabul ettiler." }
+    ]
+  },
+  {
+    "word": "evoke",
+    "meanings": ["çağrıştırmak", "uyandırmak"],
+    "examples": [
+      { "en": "The smell evoked old memories.", "tr": "Koku eski anıları çağrıştırdı." },
+      { "en": "The song evoked strong emotions.", "tr": "Şarkı güçlü duygular uyandırdı." },
+      { "en": "Her words evoked sadness.", "tr": "Sözleri üzüntü uyandırdı." },
+      { "en": "The picture evoked nostalgia.", "tr": "Resim nostalji uyandırdı." },
+      { "en": "The film evoked laughter.", "tr": "Film kahkaha uyandırdı." }
+    ]
+  },
+  {
+    "word": "exceed",
+    "meanings": ["aşmak", "geçmek"],
+    "examples": [
+      { "en": "Sales exceeded expectations.", "tr": "Satışlar beklentileri aştı." },
+      { "en": "He exceeded the speed limit.", "tr": "Hız sınırını aştı." },
+      { "en": "The cost exceeded the budget.", "tr": "Maliyet bütçeyi aştı." },
+      { "en": "Her performance exceeded all standards.", "tr": "Performansı tüm standartları geçti." },
+      { "en": "The event exceeded my hopes.", "tr": "Etkinlik beklentilerimi aştı." }
+    ]
+  },
+  {
+    "word": "exclude",
+    "meanings": ["hariç tutmak", "dışlamak"],
+    "examples": [
+      { "en": "They excluded him from the group.", "tr": "Onu gruptan dışladılar." },
+      { "en": "The price excludes tax.", "tr": "Fiyata vergi dahil değildir." },
+      { "en": "He felt excluded.", "tr": "Kendini dışlanmış hissetti." },
+      { "en": "The study excluded children.", "tr": "Çalışma çocukları kapsam dışı bıraktı." },
+      { "en": "She excluded irrelevant details.", "tr": "Alakasız detayları dışladı." }
+    ]
+  },
+  {
+    "word": "flee",
+    "meanings": ["kaçmak"],
+    "examples": [
+      { "en": "They fled the country.", "tr": "Ülkeden kaçtılar." },
+      { "en": "He fled the scene.", "tr": "Olay yerinden kaçtı." },
+      { "en": "People fled from danger.", "tr": "İnsanlar tehlikeden kaçtı." },
+      { "en": "She fled in panic.", "tr": "Panik içinde kaçtı." },
+      { "en": "Animals fled the forest fire.", "tr": "Hayvanlar orman yangınından kaçtı." }
+    ]
+  },
+  {
+    "word": "fluctuate",
+    "meanings": ["dalgalanmak"],
+    "examples": [
+      { "en": "Prices fluctuate daily.", "tr": "Fiyatlar günlük olarak dalgalanır." },
+      { "en": "Temperatures fluctuate widely.", "tr": "Sıcaklıklar büyük ölçüde değişir." },
+      { "en": "Her mood fluctuates.", "tr": "Ruhu dalgalanır." },
+      { "en": "Demand fluctuates over time.", "tr": "Talep zamanla dalgalanır." },
+      { "en": "Stock values fluctuate constantly.", "tr": "Hisse değerleri sürekli dalgalanır." }
+    ]
+  },
+  {
+    "word": "foresee",
+    "meanings": ["öngörmek"],
+    "examples": [
+      { "en": "He could not foresee the outcome.", "tr": "Sonucu öngöremedi." },
+      { "en": "They foresaw the crisis.", "tr": "Krizi öngördüler." },
+      { "en": "No one foresaw such success.", "tr": "Kimse böyle bir başarı öngörmedi." },
+      { "en": "Experts foresaw economic changes.", "tr": "Uzmanlar ekonomik değişiklikleri öngördü." },
+      { "en": "She foresaw the difficulties.", "tr": "Zorlukları önceden gördü." }
+    ]
+  },
+  {
+    "word": "grieve",
+    "meanings": ["üzülmek", "acı çekmek"],
+    "examples": [
+      { "en": "She grieved for months.", "tr": "Aylarca üzüldü." },
+      { "en": "They grieved their loss.", "tr": "Kaybın acısını yaşadılar." },
+      { "en": "He grieved silently.", "tr": "Sessizce acı çekti." },
+      { "en": "Time helps people grieve.", "tr": "Zaman insanların acısını hafifletir." },
+      { "en": "She grieved deeply when her friend left.", "tr": "Arkadaşı gidince derinden üzüldü." }
+    ]
+  },
+  {
+    "word": "immerse",
+    "meanings": ["kendini kaptırmak", "daldırmak"],
+    "examples": [
+      { "en": "She immersed herself in learning.", "tr": "Kendini öğrenmeye adadı." },
+      { "en": "He immersed the cloth in water.", "tr": "Bezi suya daldırdı." },
+      { "en": "They immersed in the culture.", "tr": "Kültüre tamamen daldılar." },
+      { "en": "He immersed in the project.", "tr": "Projeye kendini kaptırdı." },
+      { "en": "The room immersed in silence.", "tr": "Oda sessizliğe büründü." }
+    ]
+  },
+  {
+    "word": "infuse",
+    "meanings": ["aşılamak", "katmak"],
+    "examples": [
+      { "en": "Her speech infused hope.", "tr": "Konuşması umut aşıladı." },
+      { "en": "They infused the tea with herbs.", "tr": "Çaya bitkiler kattılar." },
+      { "en": "He infused energy into the team.", "tr": "Takıma enerji kattı." },
+      { "en": "The design infused elegance.", "tr": "Tasarım zarafet kattı." },
+      { "en": "His actions infused confidence.", "tr": "Davranışları güven aşıladı." }
+    ]
+  },
+  {
+    "word": "inquire",
+    "meanings": ["soru sormak", "araştırmak"],
+    "examples": [
+      { "en": "She inquired about the price.", "tr": "Fiyat hakkında sordu." },
+      { "en": "He inquired further details.", "tr": "Daha fazla detay sordu." },
+      { "en": "They inquired into the issue.", "tr": "Konuyu araştırdılar." },
+      { "en": "He inquired politely.", "tr": "Kibarca sordu." },
+      { "en": "Visitors inquired about the museum.", "tr": "Ziyaretçiler müze hakkında bilgi aldı." }
+    ]
+  },
+  {
+    "word": "mediate",
+    "meanings": ["aracılık yapmak", "arabuluculuk yapmak"],
+    "examples": [
+      { "en": "She mediated the dispute.", "tr": "Anlaşmazlıkta arabuluculuk yaptı." },
+      { "en": "The organization mediates conflicts.", "tr": "Organizasyon çatışmalara aracılık eder." },
+      { "en": "He mediated between the two sides.", "tr": "İki taraf arasında arabuluculuk yaptı." },
+      { "en": "Attempts were made to mediate peace.", "tr": "Barışı sağlamak için aracılık girişimleri oldu." },
+      { "en": "They mediated the negotiation.", "tr": "Müzakerede aracılık yaptılar." }
+    ]
+  },
+  {
+    "word": "overlap",
+    "meanings": ["örtüşmek"],
+    "examples": [
+      { "en": "Their schedules overlapped.", "tr": "Programları örtüştü." },
+      { "en": "The tasks overlap in many areas.", "tr": "Görevler birçok alanda örtüşüyor." },
+      { "en": "The two issues overlap.", "tr": "İki konu örtüşüyor." },
+      { "en": "Her interests overlap with his.", "tr": "İlgi alanları onunkiyle örtüşüyor." },
+      { "en": "The shapes overlap slightly.", "tr": "Şekiller hafifçe örtüşüyor." }
+    ]
+  },
+  {
+    "word": "acclaim",
+    "meanings": ["övmek", "alkışlamak"],
+    "examples": [
+      { "en": "The movie was critically acclaimed.", "tr": "Film eleştirmenlerce övüldü." },
+      { "en": "The audience acclaimed the performance.", "tr": "Seyirciler performansı alkışladı." },
+      { "en": "He was acclaimed as a genius.", "tr": "Bir dahi olarak övüldü." },
+      { "en": "Her book received widespread acclaim.", "tr": "Kitabı geniş çapta övgü aldı." },
+      { "en": "The project was highly acclaimed.", "tr": "Proje büyük övgü aldı." }
+    ]
+  },
+  {
+    "word": "acquire",
+    "meanings": ["edinmek", "kazanmak"],
+    "examples": [
+      { "en": "She acquired new skills.", "tr": "Yeni beceriler edindi." },
+      { "en": "The company acquired a small startup.", "tr": "Şirket küçük bir girişim satın aldı." },
+      { "en": "He acquired a rare painting.", "tr": "Nadir bir tablo edindi." },
+      { "en": "Children acquire language naturally.", "tr": "Çocuklar dili doğal olarak edinir." },
+      { "en": "He acquired experience over time.", "tr": "Zamanla deneyim kazandı." }
+    ]
+  },
+  {
+    "word": "adhesion",
+    "meanings": ["yapışma", "bağlılık"],
+    "examples": [
+      { "en": "Adhesion between the layers was weak.", "tr": "Katmanlar arasındaki yapışma zayıftı." },
+      { "en": "The glue ensures strong adhesion.", "tr": "Yapıştırıcı güçlü bir yapışma sağlar." },
+      { "en": "Adhesion to the rules is required.", "tr": "Kurallara bağlılık gereklidir." },
+      { "en": "The coating improved adhesion.", "tr": "Kaplama yapışmayı iyileştirdi." },
+      { "en": "Adhesion failure caused the damage.", "tr": "Yapışma hatası hasara neden oldu." }
+    ]
+  },
+  {
+    "word": "ameliorate",
+    "meanings": ["iyileştirmek", "düzeltmek"],
+    "examples": [
+      { "en": "The policy aims to ameliorate living conditions.", "tr": "Politika yaşam koşullarını iyileştirmeyi amaçlıyor." },
+      { "en": "They tried to ameliorate the situation.", "tr": "Durumu iyileştirmeye çalıştılar." },
+      { "en": "Medicine ameliorated his symptoms.", "tr": "İlaç semptomlarını iyileştirdi." },
+      { "en": "Efforts were made to ameliorate poverty.", "tr": "Yoksulluğu azaltmak için çaba gösterildi." },
+      { "en": "She ameliorated their concerns.", "tr": "Endişelerini hafifletti." }
+    ]
+  },
+  {
+    "word": "annex",
+    "meanings": ["ilhak etmek", "eklemek"],
+    "examples": [
+      { "en": "The country annexed the territory.", "tr": "Ülke bölgeyi ilhak etti." },
+      { "en": "They built an annex to the school.", "tr": "Okula ek bir bina yaptılar." },
+      { "en": "The document includes an annex.", "tr": "Belge bir ek içeriyor." },
+      { "en": "The empire annexed many regions.", "tr": "İmparatorluk birçok bölgeyi ilhak etti." },
+      { "en": "The annex provides additional info.", "tr": "Ek bölüm ek bilgi sağlar." }
+    ]
+  },
+  {
+    "word": "ascend",
+    "meanings": ["yükselmek", "tırmanmak", "çıkmak"],
+    "examples": [
+      { "en": "They ascended the mountain.", "tr": "Dağa tırmandılar." },
+      { "en": "The balloon ascended slowly.", "tr": "Balon yavaşça yükseldi." },
+      { "en": "She ascended the throne.", "tr": "Tahta çıktı." },
+      { "en": "The stairs ascend to the roof.", "tr": "Merdivenler çatıya çıkar." },
+      { "en": "He ascended in his career.", "tr": "Kariyerinde yükseldi." }
+    ]
+  },
+  {
+    "word": "attainable",
+    "meanings": ["ulaşılabilir"],
+    "examples": [
+      { "en": "The goal is challenging but attainable.", "tr": "Hedef zorlayıcı ama ulaşılabilir." },
+      { "en": "Success is attainable with effort.", "tr": "Başarı çabayla ulaşılabilir." },
+      { "en": "The company set attainable targets.", "tr": "Şirket ulaşılabilir hedefler belirledi." },
+      { "en": "Her dream became attainable.", "tr": "Hayali ulaşılabilir hale geldi." },
+      { "en": "This level is easily attainable.", "tr": "Bu seviye kolayca ulaşılabilir." }
+    ]
+  },
+  {
+    "word": "authenticate",
+    "meanings": ["doğrulamak", "kimlik doğrulamak"],
+    "examples": [
+      { "en": "The system authenticates users.", "tr": "Sistem kullanıcıları doğrular." },
+      { "en": "Experts authenticated the painting.", "tr": "Uzmanlar tabloyu doğruladı." },
+      { "en": "He authenticated his identity.", "tr": "Kimliğini doğruladı." },
+      { "en": "The document was authenticated.", "tr": "Belge doğrulandı." },
+      { "en": "Banks authenticate transactions.", "tr": "Bankalar işlemleri doğrular." }
+    ]
+  },
+  {
+    "word": "avenge",
+    "meanings": ["intikam almak"],
+    "examples": [
+      { "en": "He vowed to avenge his brother.", "tr": "Kardeşinin intikamını alacağına yemin etti." },
+      { "en": "They sought to avenge the attack.", "tr": "Saldırının intikamını almak istediler." },
+      { "en": "She wanted to avenge the injustice.", "tr": "Haksızlığın intikamını almak istedi." },
+      { "en": "The hero avenged his people.", "tr": "Kahraman halkının intikamını aldı." },
+      { "en": "He felt compelled to avenge the loss.", "tr": "Kaybın intikamını almaya zorunlu hissetti." }
+    ]
+  },
+
+  {
+    "word": "bewilder",
+    "meanings": ["şaşırtmak"],
+    "examples": [
+      { "en": "The question bewildered him.", "tr": "Soru onu şaşırttı." },
+      { "en": "The instructions bewildered users.", "tr": "Talimatlar kullanıcıları şaşırttı." },
+      { "en": "Her reaction bewildered everyone.", "tr": "Tepkisi herkesin kafasını karıştırdı." },
+      { "en": "He looked bewildered.", "tr": "Şaşkın görünüyordu." },
+      { "en": "The complexity bewildered them.", "tr": "Karmaşıklık onları şaşırttı." }
+    ]
+  },
+  {
+    "word": "bolster",
+    "meanings": ["desteklemek", "güçlendirmek"],
+    "examples": [
+      { "en": "Extra evidence bolstered the case.", "tr": "Ek kanıt davayı güçlendirdi." },
+      { "en": "They bolstered their reputation.", "tr": "İtibarlarını güçlendirdiler." },
+      { "en": "New policies bolstered confidence.", "tr": "Yeni politikalar güveni artırdı." },
+      { "en": "She bolstered the argument.", "tr": "Argümanı destekledi." },
+      { "en": "The company bolstered its position.", "tr": "Şirket pozisyonunu güçlendirdi." }
+    ]
+  },
+  {
+    "word": "brace",
+    "meanings": ["hazırlanmak", "sıkıca tutmak"],
+    "examples": [
+      { "en": "They braced for the impact.", "tr": "Çarpışmaya hazırlandılar." },
+      { "en": "Brace yourself for changes.", "tr": "Değişikliklere hazırlan." },
+      { "en": "He braced the door closed.", "tr": "Kapıyı sıkıca kapattı." },
+      { "en": "She braced against the wind.", "tr": "Rüzgara karşı kendini sabitledi." },
+      { "en": "The structure was braced for safety.", "tr": "Yapı güvenlik için desteklendi." }
+    ]
+  },
+  {
+    "word": "broaden",
+    "meanings": ["genişletmek"],
+    "examples": [
+      { "en": "Travel broadens the mind.", "tr": "Seyahat zihni genişletir." },
+      { "en": "They broadened the road.", "tr": "Yolu genişlettiler." },
+      { "en": "He broadened his knowledge.", "tr": "Bilgisini genişletti." },
+      { "en": "The company broadened its services.", "tr": "Şirket hizmetlerini genişletti." },
+      { "en": "Her experience broadened her perspective.", "tr": "Deneyimi bakış açısını genişletti." }
+    ]
+  },
+  {
+    "word": "ceasefire",
+    "meanings": ["ateşkes"],
+    "examples": [
+      { "en": "Both sides agreed to a ceasefire.", "tr": "İki taraf ateşkesi kabul etti." },
+      { "en": "The ceasefire lasted two months.", "tr": "Ateşkes iki ay sürdü." },
+      { "en": "They negotiated a ceasefire.", "tr": "Ateşkes müzakere ettiler." },
+      { "en": "The ceasefire ended suddenly.", "tr": "Ateşkes aniden sona erdi." },
+      { "en": "A temporary ceasefire was declared.", "tr": "Geçici bir ateşkes ilan edildi." }
+    ]
+  },
+  {
+    "word": "circumvent",
+    "meanings": ["atlatmak", "engel aşmak"],
+    "examples": [
+      { "en": "They circumvented the restrictions.", "tr": "Kısıtlamaları atlattılar." },
+      { "en": "He circumvented the rules legally.", "tr": "Kuralları yasal olarak aştı." },
+      { "en": "Hackers circumvented security.", "tr": "Hackerlar güvenliği aştı." },
+      { "en": "She found a way to circumvent the issue.", "tr": "Sorunu aşmanın bir yolunu buldu." },
+      { "en": "The team circumvented obstacles.", "tr": "Takım engelleri aştı." }
+    ]
+  },
+  {
+    "word": "coexist",
+       "meanings": ["bir arada yaşamak", "birlikte var olmak"],
+    "examples": [
+      { "en": "Different cultures coexist peacefully.", "tr": "Farklı kültürler barış içinde yaşar." },
+      { "en": "Animals and humans coexist in this area.", "tr": "Bu bölgede hayvanlar ve insanlar bir arada yaşar." },
+      { "en": "The two systems coexist.", "tr": "İki sistem birlikte var olur." },
+      { "en": "Old and new technology coexist here.", "tr": "Eski ve yeni teknoloji burada bir arada bulunur." },
+      { "en": "They learned to coexist despite differences.", "tr": "Farklılıklara rağmen bir arada yaşamayı öğrendiler." }
+    ]
+  },
+
+  {
+    "word": "condense",
+    "meanings": ["yoğunlaştırmak", "kısaltmak"],
+    "examples": [
+      { "en": "The article was condensed to one page.", "tr": "Makale bir sayfaya kısaltıldı." },
+      { "en": "Steam condensed into droplets.", "tr": "Buhar damlacıklara yoğunlaştı." },
+      { "en": "He condensed the speech.", "tr": "Konuşmayı kısalttı." },
+      { "en": "They condensed the information.", "tr": "Bilgiyi yoğunlaştırdılar." },
+      { "en": "The text was condensed for clarity.", "tr": "Metin netlik için kısaltıldı." }
+    ]
+  },
+  {
+    "word": "constitute",
+    "meanings": ["oluşturmak", "teşkil etmek"],
+    "examples": [
+      { "en": "These actions constitute a crime.", "tr": "Bu eylemler suç teşkil eder." },
+      { "en": "Women constitute half the population.", "tr": "Kadınlar nüfusun yarısını oluşturur." },
+      { "en": "The parts constitute a whole.", "tr": "Parçalar bir bütün oluşturur." },
+      { "en": "His behavior constitutes misconduct.", "tr": "Davranışı kötü davranış teşkil eder." },
+      { "en": "The committee constitutes five members.", "tr": "Komite beş üyeden oluşur." }
+    ]
+  },
+  {
+    "word": "contaminate",
+    "meanings": ["kirletmek", "bulaştırmak"],
+    "examples": [
+      { "en": "The water was contaminated.", "tr": "Su kirlenmişti." },
+      { "en": "Chemicals contaminated the soil.", "tr": "Kimyasallar toprağı kirletti." },
+      { "en": "The food was contaminated with bacteria.", "tr": "Yemek bakterilerle bulaşmıştı." },
+      { "en": "They avoided contaminating the samples.", "tr": "Numuneleri kirletmekten kaçındılar." },
+      { "en": "Air pollution contaminated the region.", "tr": "Hava kirliliği bölgeyi kirletti." }
+    ]
+  },
+  {
+    "word": "contend",
+    "meanings": ["öne sürmek", "mücadele etmek"],
+    "examples": [
+      { "en": "He contended that he was innocent.", "tr": "Masum olduğunu öne sürdü." },
+      { "en": "Several teams contended for the title.", "tr": "Birçok takım unvan için mücadele etti." },
+      { "en": "They contended with difficulties.", "tr": "Zorluklarla mücadele ettiler." },
+      { "en": "She contended the claim.", "tr": "İddiaya karşı çıktı." },
+      { "en": "He contended for leadership.", "tr": "Liderlik için mücadele etti." }
+    ]
+  },
+
+  {
+    "word": "defer",
+    "meanings": ["ertelemek"],
+    "examples": [
+      { "en": "They deferred the meeting.", "tr": "Toplantıyı ertelediler." },
+      { "en": "He deferred payment.", "tr": "Ödemeyi erteledi." },
+      { "en": "The decision was deferred.", "tr": "Karar ertelendi." },
+      { "en": "She deferred her plans.", "tr": "Planlarını erteledi." },
+      { "en": "They deferred action until Monday.", "tr": "Eylemi Pazartesi'ye kadar ertelediler." }
+    ]
+  },
+  {
+    "word": "deter",
+    "meanings": ["caydırmak"],
+    "examples": [
+      { "en": "High fines deter crime.", "tr": "Yüksek cezalar suçları caydırır." },
+      { "en": "The noise deterred the animals.", "tr": "Gürültü hayvanları uzaklaştırdı." },
+      { "en": "Nothing could deter him.", "tr": "Hiçbir şey onu caydıramadı." },
+      { "en": "Security cameras deter thieves.", "tr": "Güvenlik kameraları hırsızları caydırır." },
+      { "en": "The warning deterred them from trying again.", "tr": "Uyarı onları tekrar denemekten caydırdı." }
+    ]
+  },
+  {
+    "word": "detract",
+    "meanings": ["değerini düşürmek"],
+    "examples": [
+      { "en": "The error detracted from the quality.", "tr": "Hata kaliteyi düşürdü." },
+      { "en": "His attitude detracted from his success.", "tr": "Tavrı başarısını gölgeledi." },
+      { "en": "The noise detracted from the experience.", "tr": "Gürültü deneyimi bozdu." },
+      { "en": "The damage detracts from the value.", "tr": "Hasar değeri azaltır." },
+      { "en": "Mistakes detract from credibility.", "tr": "Hatalar güvenilirliği düşürür." }
+    ]
+  },
+
+  {
+    "word": "embody",
+    "meanings": ["somutlaştırmak", "temsil etmek"],
+    "examples": [
+      { "en": "She embodies strength and resilience.", "tr": "O güç ve dayanıklılığı temsil ediyor." },
+      { "en": "The design embodies simplicity.", "tr": "Tasarım sadeliği somutlaştırıyor." },
+      { "en": "He embodies the spirit of the company.", "tr": "Şirketin ruhunu temsil ediyor." },
+      { "en": "The law embodies equality.", "tr": "Yasa eşitliği somutlaştırır." },
+      { "en": "The team embodied excellence.", "tr": "Takım mükemmelliği temsil etti." }
+    ]
+  },
+  {
+    "word": "entice",
+    "meanings": ["cezbetmek", "ikna etmek"],
+    "examples": [
+      { "en": "The advertisement enticed customers.", "tr": "Reklam müşterileri cezbetti." },
+      { "en": "He was enticed by the offer.", "tr": "Teklifle cezbedildi." },
+      { "en": "The smell enticed everyone.", "tr": "Koku herkesi cezbetti." },
+      { "en": "They enticed workers with bonuses.", "tr": "İşçileri primlerle cezbettiler." },
+      { "en": "The discount enticed new buyers.", "tr": "İndirim yeni alıcıları cezbetti." }
+    ]
+  },
+  {
+    "word": "eradicate",
+    "meanings": ["yok etmek", "köklü biçimde ortadan kaldırmak"],
+    "examples": [
+      { "en": "They aim to eradicate poverty.", "tr": "Yoksulluğu ortadan kaldırmayı amaçlıyorlar." },
+      { "en": "The disease was eradicated.", "tr": "Hastalık yok edildi." },
+      { "en": "Efforts were made to eradicate corruption.", "tr": "Yolsuzluğu yok etmek için çaba gösterildi." },
+      { "en": "The virus was nearly eradicated.", "tr": "Virüs neredeyse yok edildi." },
+      { "en": "The campaign eradicated misinformation.", "tr": "Kampanya yanlış bilgiyi ortadan kaldırdı." }
+    ]
+  },
+  {
+    "word": "espouse",
+    "meanings": ["benimsemek", "desteklemek"],
+    "examples": [
+      { "en": "She espoused environmental causes.", "tr": "Çevreci davaları benimsedi." },
+      { "en": "They espoused new policies.", "tr": "Yeni politikaları desteklediler." },
+      { "en": "He espoused these beliefs.", "tr": "Bu inançları benimsedi." },
+      { "en": "The party espoused reform.", "tr": "Parti reformu destekledi." },
+      { "en": "The movement espoused equality.", "tr": "Hareket eşitliği savundu." }
+    ]
+  },
+  {
+    "word": "flatter",
+    "meanings": ["yalakalık etmek", "iltifat etmek"],
+    "examples": [
+      { "en": "She flattered him endlessly.", "tr": "Ona durmadan iltifat etti." },
+      { "en": "The praise flattered him.", "tr": "Övgü onu memnun etti." },
+      { "en": "He was flattered by the attention.", "tr": "İlgi onu memnun etti." },
+      { "en": "Don't flatter yourself.", "tr": "Kendini kandırma." },
+      { "en": "The outfit flatters her figure.", "tr": "Kıyafet vücudunu güzel gösteriyor." }
+    ]
+  },
+  {
+    "word": "forego",
+    "meanings": ["vazgeçmek", "yapmamak"],
+    "examples": [
+      { "en": "He decided to forego dessert.", "tr": "Tatlıdan vazgeçti." },
+      { "en": "They forewent their vacation plans.", "tr": "Tatili planlarından vazgeçtiler." },
+      { "en": "She forewent the opportunity.", "tr": "Fırsatı geri çevirdi." },
+      { "en": "He forewent luxury for simplicity.", "tr": "Lüksten sadelik için vazgeçti." },
+      { "en": "We forewent the bonus this year.", "tr": "Bu yıl primden vazgeçtik." }
+    ]
+  },
+  {
+    "word": "implicate",
+    "meanings": ["suça karıştırmak", "dahil etmek"],
+    "examples": [
+      { "en": "He was implicated in the scandal.", "tr": "Skandala karıştırıldı." },
+      { "en": "The evidence implicated several people.", "tr": "Kanıt birkaç kişiyi suçladı." },
+      { "en": "They implicated him in the crime.", "tr": "Onu suça dahil ettiler." },
+      { "en": "His actions implicated the company.", "tr": "Davranışları şirketi dahil etti." },
+      { "en": "She was indirectly implicated.", "tr": "Dolaylı olarak karıştı." }
+    ]
+  },
+  {
+    "word": "incite",
+    "meanings": ["kışkırtmak"],
+    "examples": [
+      { "en": "His speech incited anger.", "tr": "Konuşması öfkeyi kışkırttı." },
+      { "en": "The group incited violence.", "tr": "Grup şiddeti kışkırttı." },
+      { "en": "She incited the crowd.", "tr": "Kalabalığı kışkırttı." },
+      { "en": "The post incited debate.", "tr": "Gönderi tartışmayı tetikledi." },
+      { "en": "He was accused of inciting conflict.", "tr": "Çatışma kışkırtmakla suçlandı." }
+    ]
+  },
+  {
+    "word": "intertwine",
+    "meanings": ["birbirine dolanmak", "birleşmek"],
+    "examples": [
+      { "en": "Their stories intertwined.", "tr": "Hikayeleri iç içe geçti." },
+      { "en": "The branches intertwined.", "tr": "Dallar birbirine dolandı." },
+      { "en": "Their lives intertwined for years.", "tr": "Hayatları yıllarca iç içe geçti." },
+      { "en": "The themes intertwined beautifully.", "tr": "Temalar güzelce birleşti." },
+      { "en": "The cultures intertwined over time.", "tr": "Kültürler zamanla iç içe geçti." }
+    ]
+  },
+  {
+    "word": "jeer",
+    "meanings": ["alay etmek", "yuhalamak"],
+    "examples": [
+      { "en": "The crowd jeered the player.", "tr": "Kalabalık oyuncuyu yuhaladı." },
+      { "en": "He was jeered during the speech.", "tr": "Konuşma sırasında alaya alındı." },
+      { "en": "They jeered at his mistake.", "tr": "Hatasıyla alay ettiler." },
+      { "en": "She ignored the jeers.", "tr": "Yuhalamaları görmezden geldi." },
+      { "en": "The jeering grew louder.", "tr": "Yuhalamalar arttı." }
+    ]
+  }
+]

@@ -1,0 +1,2009 @@
+[
+  {
+    "word": "accommodate",
+    "meanings": ["uyum sağlamak", "barındırmak", "yer vermek"],
+    "examples": [
+      { "en": "The system must accommodate rapid changes in user behavior.", "tr": "Sistem, kullanıcı davranışındaki hızlı değişikliklere uyum sağlamalıdır." },
+      { "en": "The hotel can accommodate up to 500 guests during peak season.", "tr": "Otel yoğun sezonda 500'e kadar misafiri barındırabilir." },
+      { "en": "The plan was adjusted to accommodate new regulations.", "tr": "Plan, yeni düzenlemelere uyum sağlamak için değiştirildi." },
+      { "en": "She tried to accommodate everyone’s preferences.", "tr": "Herkesin tercihine uyum sağlamaya çalıştı." },
+      { "en": "The design accommodates both functionality and aesthetics.", "tr": "Tasarım hem işlevselliğe hem de estetiğe yer verir." }
+    ]
+  },
+  {
+    "word": "ambiguous",
+    "meanings": ["belirsiz", "muğlak"],
+    "examples": [
+      { "en": "His explanation was ambiguous and caused confusion.", "tr": "Açıklaması belirsizdi ve kafa karışıklığına yol açtı." },
+      { "en": "The law remains ambiguous on this matter.", "tr": "Kanun bu konuda belirsizliğini koruyor." },
+      { "en": "Her ambiguous tone made it difficult to interpret her stance.", "tr": "Muğlak tonu, tutumunu yorumlamayı zorlaştırdı." },
+      { "en": "The results were ambiguous due to limited data.", "tr": "Sonuçlar sınırlı veri nedeniyle belirsizdi." },
+      { "en": "He gave an ambiguous response to avoid responsibility.", "tr": "Sorumluluktan kaçınmak için muğlak bir cevap verdi." }
+    ]
+  },
+  {
+    "word": "anticipate",
+    "meanings": ["beklemek", "öngörmek"],
+    "examples": [
+      { "en": "The company failed to anticipate the increase in demand.", "tr": "Şirket talepteki artışı öngöremedi." },
+      { "en": "Researchers anticipate major changes in climate patterns.", "tr": "Araştırmacılar iklim modellerinde büyük değişiklikler bekliyor." },
+      { "en": "We anticipate completing the project by July.", "tr": "Projeyi Temmuz'a kadar tamamlamayı bekliyoruz." },
+      { "en": "He anticipated her objections and prepared answers.", "tr": "İtirazlarını öngördü ve cevaplar hazırladı." },
+      { "en": "The market shift was anticipated by analysts.", "tr": "Piyasa değişimi analistler tarafından öngörüldü." }
+    ]
+  },
+  {
+    "word": "apprehensive",
+    "meanings": ["endişeli", "kaygılı"],
+    "examples": [
+      { "en": "She felt apprehensive before the interview.", "tr": "Mülakattan önce kaygılı hissediyordu." },
+      { "en": "Many citizens are apprehensive about economic instability.", "tr": "Birçok vatandaş ekonomik istikrarsızlıktan endişeli." },
+      { "en": "He looked apprehensive as the results approached.", "tr": "Sonuçlar yaklaştıkça endişeli görünüyordu." },
+      { "en": "The students were apprehensive about the exam.", "tr": "Öğrenciler sınav hakkında kaygılıydı." },
+      { "en": "There was an apprehensive silence in the room.", "tr": "Odada kaygılı bir sessizlik vardı." }
+    ]
+  },
+  {
+    "word": "assertive",
+    "meanings": ["kendinden emin", "kararlı"],
+    "examples": [
+      { "en": "Being assertive can lead to more effective communication.", "tr": "Kararlı olmak daha etkili iletişime yol açabilir." },
+      { "en": "She became more assertive in expressing her ideas.", "tr": "Fikirlerini ifade etmede daha kararlı hale geldi." },
+      { "en": "His assertive tone resolved the disagreement.", "tr": "Kararlı tonu anlaşmazlığı çözdü." },
+      { "en": "Assertive leaders inspire confidence.", "tr": "Kararlı liderler güven verir." },
+      { "en": "He took an assertive stance during negotiations.", "tr": "Müzakerelerde kararlı bir duruş sergiledi." }
+    ]
+  },
+  {
+    "word": "coincide",
+    "meanings": ["aynı zamana denk gelmek", "örtüşmek"],
+    "examples": [
+      { "en": "The event coincides with a national holiday.", "tr": "Etkinlik ulusal bir tatille aynı zamana denk geliyor." },
+      { "en": "Their opinions rarely coincide.", "tr": "Görüşleri nadiren örtüşüyor." },
+      { "en": "The results coincide with previous studies.", "tr": "Sonuçlar önceki çalışmalarla örtüşüyor." },
+      { "en": "Our schedules do not coincide this week.", "tr": "Bu hafta programlarımız örtüşmüyor." },
+      { "en": "Her arrival coincided with the start of the meeting.", "tr": "Onun gelişi toplantının başlangıcına denk geldi." }
+    ]
+  },
+  {
+    "word": "compile",
+    "meanings": ["derlemek", "toplamak"],
+    "examples": [
+      { "en": "The data was compiled from multiple sources.", "tr": "Veri birden fazla kaynaktan derlendi." },
+      { "en": "He compiled a list of recommendations.", "tr": "Önerilerden oluşan bir liste derledi." },
+      { "en": "The report compiles valuable insights.", "tr": "Rapor değerli içgörüler derliyor." },
+      { "en": "Researchers compiled the results for comparison.", "tr": "Araştırmacılar karşılaştırma için sonuçları derledi." },
+      { "en": "They compiled information to support their claim.", "tr": "İddialarını desteklemek için bilgi topladılar." }
+    ]
+  },
+  {
+    "word": "contemplate",
+    "meanings": ["düşünmek", "tasarlamak", "düşünceye dalmak"],
+    "examples": [
+      { "en": "She contemplated moving abroad for better opportunities.", "tr": "Daha iyi fırsatlar için yurt dışına taşınmayı düşündü." },
+      { "en": "He sat by the window contemplating life.", "tr": "Pencerenin yanında oturup hayatı düşünüyordu." },
+      { "en": "The team is contemplating major structural changes.", "tr": "Takım büyük yapısal değişiklikleri düşünüyor." },
+      { "en": "I need time to contemplate your proposal.", "tr": "Teklifinizi düşünmek için zamana ihtiyacım var." },
+      { "en": "Contemplating failure can hinder progress.", "tr": "Başarısızlığı düşünmek ilerlemeyi engelleyebilir." }
+    ]
+  },
+
+  {
+    "word": "credible",
+    "meanings": ["inandırıcı", "güvenilir"],
+    "examples": [
+      { "en": "She provided credible evidence to support her claim.", "tr": "İddiasını desteklemek için güvenilir kanıt sundu." },
+      { "en": "The report lacks credible sources.", "tr": "Rapor güvenilir kaynaklardan yoksun." },
+      { "en": "A credible explanation is needed.", "tr": "İnandırıcı bir açıklamaya ihtiyaç var." },
+      { "en": "His background makes him a credible candidate.", "tr": "Geçmişi onu güvenilir bir aday yapıyor." },
+      { "en": "The witness was not considered credible.", "tr": "Tanık güvenilir kabul edilmedi." }
+    ]
+  },
+
+  {
+    "word": "criteria",
+    "meanings": ["kriterler", "ölçütler"],
+    "examples": [
+      { "en": "The candidates were evaluated based on strict criteria.", "tr": "Adaylar sıkı kriterlere göre değerlendirildi." },
+      { "en": "The criteria must be clearly defined.", "tr": "Kriterler açıkça tanımlanmalıdır." },
+      { "en": "Several criteria need to be met.", "tr": "Birçok kriterin karşılanması gerekiyor." },
+      { "en": "They updated the criteria to reflect new standards.", "tr": "Yeni standartları yansıtmak için kriterleri güncellediler." },
+      { "en": "The selection criteria remain unchanged.", "tr": "Seçim kriterleri değişmedi." }
+    ]
+  },
+
+  {
+    "word": "crucial",
+    "meanings": ["çok önemli", "kritik"],
+    "examples": [
+      { "en": "It is crucial to follow safety guidelines.", "tr": "Güvenlik kurallarına uymak çok önemlidir." },
+      { "en": "Communication plays a crucial role in teamwork.", "tr": "İletişim ekip çalışmasında kritik bir rol oynar." },
+      { "en": "Timing is crucial in this operation.", "tr": "Bu operasyonda zamanlama çok önemlidir." },
+      { "en": "Your contribution is crucial to the project's success.", "tr": "Katkınız projenin başarısı için kritiktir." },
+      { "en": "A crucial decision must be made soon.", "tr": "Yakında kritik bir karar verilmelidir." }
+    ]
+  },
+
+  {
+    "word": "cumulative",
+       "meanings": ["birikimli", "kümülatif"],
+    "examples": [
+      { "en": "The cumulative effect of small decisions can be significant.", "tr": "Küçük kararların birikimli etkisi önemli olabilir." },
+      { "en": "Cumulative data revealed long-term patterns.", "tr": "Kümülatif veriler uzun vadeli örüntüleri ortaya koydu." },
+      { "en": "Cumulative stress can lead to burnout.", "tr": "Birikimli stres tükenmişliğe yol açabilir." },
+      { "en": "The cumulative score determines the winner.", "tr": "Birikimli skor kazananı belirler." },
+      { "en": "The damage was the result of cumulative errors.", "tr": "Hasar, birikimli hataların sonucuydu." }
+    ]
+  },
+
+  {
+    "word": "deduce",
+    "meanings": ["sonuç çıkarmak", "akıl yürütmek"],
+    "examples": [
+      { "en": "From the evidence, we can deduce that he was present.", "tr": "Kanıtlardan onun orada olduğunu çıkarabiliriz." },
+      { "en": "Scientists deduced the structure of the molecule.", "tr": "Bilim insanları molekülün yapısını çıkardı." },
+      { "en": "It is difficult to deduce his intentions.", "tr": "Niyetlerini çıkarmak zor." },
+      { "en": "We can deduce a pattern from the results.", "tr": "Sonuçlardan bir örüntü çıkarabiliriz." },
+      { "en": "She deduced the cause of the problem quickly.", "tr": "Sorunun nedenini hızlıca çıkardı." }
+    ]
+  },
+
+  {
+    "word": "defy",
+    "meanings": ["karşı gelmek", "meydan okumak"],
+       "examples": [
+      { "en": "She continued to defy expectations.", "tr": "Beklentilere meydan okumaya devam etti." },
+      { "en": "His actions defy logic.", "tr": "Eylemleri mantığa karşı geliyor." },
+      { "en": "They defied the court order.", "tr": "Mahkeme kararına karşı geldiler." },
+      { "en": "The athlete defied the odds to win.", "tr": "Sporcu tüm zorluklara rağmen kazandı." },
+      { "en": "This result defies explanation.", "tr": "Bu sonuç açıklamaya meydan okuyor." }
+    ]
+  },
+
+  {
+    "word": "depict",
+    "meanings": ["tasvir etmek", "betimlemek"],
+    "examples": [
+      { "en": "The painting depicts a scene of serenity.", "tr": "Tablo huzurlu bir sahneyi tasvir ediyor." },
+      { "en": "The novel depicts life in the 19th century.", "tr": "Roman 19. yüzyıldaki yaşamı betimliyor." },
+      { "en": "The film depicts the harsh realities of war.", "tr": "Film savaşın acı gerçeklerini tasvir ediyor." },
+      { "en": "His speech depicted the challenges ahead.", "tr": "Konuşması karşıdaki zorlukları betimledi." },
+      { "en": "The report depicts current economic trends.", "tr": "Rapor güncel ekonomik eğilimleri betimliyor." }
+    ]
+  },
+
+  {
+    "word": "derive",
+    "meanings": ["elde etmek", "türemek", "kaynaklanmak"],
+    "examples": [
+      { "en": "Many English words are derived from Latin.", "tr": "Birçok İngilizce kelime Latince’den türemiştir." },
+      { "en": "He derives great pleasure from teaching.", "tr": "Öğretmekten büyük zevk alıyor." },
+      { "en": "The formula is derived from Newton’s laws.", "tr": "Formül Newton yasalarından türetilmiştir." },
+      { "en": "Values are derived from experience.", "tr": "Değerler deneyimden elde edilir." },
+      { "en": "The conclusion derives from several assumptions.", "tr": "Sonuç birkaç varsayımdan kaynaklanıyor." }
+    ]
+  },
+
+  {
+    "word": "deteriorate",
+    "meanings": ["kötüleşmek", "bozulmak"],
+    "examples": [
+      { "en": "The weather began to deteriorate rapidly.", "tr": "Hava hızla kötüleşmeye başladı." },
+      { "en": "His health deteriorated over time.", "tr": "Sağlığı zamanla kötüleşti." },
+      { "en": "Relations between the two countries deteriorated.", "tr": "İki ülke arasındaki ilişkiler bozuldu." },
+      { "en": "The building had deteriorated due to lack of maintenance.", "tr": "Bina bakım eksikliği nedeniyle bozulmuştu." },
+      { "en": "Air quality deteriorated during the winter months.", "tr": "Kış aylarında hava kalitesi kötüleşti." }
+    ]
+  },
+
+  {
+    "word": "devise",
+    "meanings": ["tasarlamak", "icat etmek", "planlamak"],
+    "examples": [
+      { "en": "The team devised a new strategy.", "tr": "Takım yeni bir strateji tasarladı." },
+      { "en": "Engineers devised a more efficient system.", "tr": "Mühendisler daha verimli bir sistem tasarladı." },
+      { "en": "They devised a plan to reduce pollution.", "tr": "Kirliliği azaltmak için bir plan tasarladılar." },
+      { "en": "He devised a clever solution.", "tr": "Zekice bir çözüm tasarladı." },
+      { "en": "The method was devised after years of research.", "tr": "Yöntem yıllar süren araştırmalardan sonra tasarlandı." }
+    ]
+  },
+
+  {
+    "word": "diminish",
+    "meanings": ["azalmak", "azaltmak"],
+    "examples": [
+      { "en": "His influence has diminished over the years.", "tr": "Etkisi yıllar içinde azaldı." },
+      { "en": "Efforts to diminish pollution have increased.", "tr": "Kirliliği azaltma çabaları arttı." },
+      { "en": "The value of the currency continues to diminish.", "tr": "Para biriminin değeri azalmaya devam ediyor." },
+      { "en": "Her enthusiasm diminished after the setback.", "tr": "Yaşadığı aksilikten sonra hevesi azaldı." },
+      { "en": "The noise gradually diminished.", "tr": "Gürültü yavaşça azaldı." }
+    ]
+  },
+
+  {
+    "word": "discrepancy",
+    "meanings": ["tutarsızlık", "uyuşmazlık"],
+    "examples": [
+      { "en": "There is a clear discrepancy between the reports.", "tr": "Raporlar arasında belirgin bir tutarsızlık var." },
+      { "en": "They found a discrepancy in the financial statements.", "tr": "Mali tablolarda bir tutarsızlık buldular." },
+      { "en": "The discrepancy must be investigated.", "tr": "Tutarsızlık araştırılmalıdır." },
+      { "en": "The results showed a slight discrepancy.", "tr": "Sonuçlar hafif bir uyuşmazlık gösterdi." },
+      { "en": "The discrepancy in numbers caused confusion.", "tr": "Sayılar arasındaki uyuşmazlık kafa karışıklığına neden oldu." }
+    ]
+  },
+
+  {
+    "word": "discretion",
+    "meanings": ["takdir yetkisi", "sakınma", "ihtiyat"],
+    "examples": [
+      { "en": "You may act at your own discretion.", "tr": "Kendi takdir yetkinizle hareket edebilirsiniz." },
+      { "en": "He handled the matter with great discretion.", "tr": "Konuyu büyük bir ihtiyatla ele aldı." },
+      { "en": "The judge used her discretion when issuing the sentence.", "tr": "Yargıç cezayı verirken takdir yetkisini kullandı." },
+      { "en": "Employees must use discretion when sharing information.", "tr": "Çalışanlar bilgi paylaşırken ihtiyatlı olmalıdır." },
+      { "en": "The decision is left to our discretion.", "tr": "Karar bizim takdirimize bırakıldı." }
+    ]
+  },
+
+  {
+    "word": "disrupt",
+    "meanings": ["aksatmak", "bozmak", "düzeni kırmak"],
+    "examples": [
+      { "en": "The strike disrupted public transportation.", "tr": "Grev toplu taşımayı aksattı." },
+      { "en": "Unexpected problems disrupted the workflow.", "tr": "Beklenmedik sorunlar iş akışını bozdu." },
+      { "en": "The new technology disrupted the industry.", "tr": "Yeni teknoloji sektörü altüst etti." },
+      { "en": "Noise disrupted the meeting.", "tr": "Gürültü toplantıyı böldü." },
+      { "en": "Their actions disrupted operations.", "tr": "Eylemleri operasyonları aksattı." }
+    ]
+  },
+
+  {
+    "word": "distort",
+    "meanings": ["çarpıtmak", "bozmak"],
+    "examples": [
+      { "en": "The media distorted the facts.", "tr": "Medya gerçekleri çarpıttı." },
+      { "en": "The lens distorted the image.", "tr": "Lens görüntüyü bozdu." },
+      { "en": "He distorted her words.", "tr": "Onun sözlerini çarpıttı." },
+      { "en": "The data was distorted by measurement errors.", "tr": "Veri ölçüm hataları nedeniyle bozuldu." },
+      { "en": "His perspective distorted his judgment.", "tr": "Bakış açısı yargısını çarpıttı." }
+    ]
+  },
+
+  {
+    "word": "diverse",
+    "meanings": ["çeşitli", "farklı"],
+    "examples": [
+      { "en": "The city is known for its diverse culture.", "tr": "Şehir çeşitli kültürüyle bilinir." },
+      { "en": "They hired employees from diverse backgrounds.", "tr": "Çeşitli geçmişlerden çalışanlar işe aldılar." },
+      { "en": "The company offers diverse opportunities.", "tr": "Şirket çeşitli fırsatlar sunuyor." },
+      { "en": "The country has a diverse climate.", "tr": "Ülke çeşitli iklimlere sahiptir." },
+      { "en": "Their interests are quite diverse.", "tr": "İlgi alanları oldukça çeşitlidir." }
+    ]
+  },
+
+  {
+    "word": "elaborate",
+    "meanings": ["ayrıntılı", "detaylandırmak"],
+    "examples": [
+      { "en": "She gave an elaborate description of the plan.", "tr": "Planın ayrıntılı bir açıklamasını yaptı." },
+      { "en": "The design is highly elaborate.", "tr": "Tasarım oldukça ayrıntılıdır." },
+      { "en": "Could you elaborate on your proposal?", "tr": "Teklifinizi detaylandırabilir misiniz?" },
+      { "en": "He wrote an elaborate report.", "tr": "Ayrıntılı bir rapor yazdı." },
+      { "en": "The decorations were elaborate and elegant.", "tr": "Süslemeler ayrıntılı ve zarifti." }
+    ]
+  },
+
+  {
+    "word": "emphasize",
+    "meanings": ["vurgulamak"],
+    "examples": [
+      { "en": "The report emphasizes the need for innovation.", "tr": "Rapor yenilik ihtiyacını vurguluyor." },
+      { "en": "She emphasized the importance of teamwork.", "tr": "Ekip çalışmasının önemini vurguladı." },
+      { "en": "They emphasized safety above everything else.", "tr": "Güvenliği her şeyin üzerinde tuttular." },
+      { "en": "He emphasized his concerns clearly.", "tr": "Endişelerini açıkça vurguladı." },
+      { "en": "The teacher emphasized critical thinking.", "tr": "Öğretmen eleştirel düşünmeyi vurguladı." }
+    ]
+  },
+
+  {
+    "word": "empirical",
+    "meanings": ["deneysel", "gözleme dayalı"],
+    "examples": [
+      { "en": "The theory lacks empirical evidence.", "tr": "Teori deneysel kanıtlardan yoksundur." },
+      { "en": "Empirical data supports the conclusion.", "tr": "Deneysel veriler sonucu destekliyor." },
+      { "en": "His research is entirely empirical.", "tr": "Araştırması tamamen gözleme dayalıdır." },
+      { "en": "They collected empirical observations.", "tr": "Deneysel gözlemler topladılar." },
+      { "en": "Empirical results confirmed the hypothesis.", "tr": "Deneysel sonuçlar hipotezi doğruladı." }
+    ]
+  },
+
+  {
+    "word": "endeavor",
+    "meanings": ["çaba", "gayret", "çabalamak"],
+    "examples": [
+      { "en": "Their endeavor to improve education continues.", "tr": "Eğitimi geliştirme çabaları devam ediyor." },
+      { "en": "She endeavored to complete the project on time.", "tr": "Projeyi zamanında tamamlamak için çabaladı." },
+      { "en": "Scientific endeavor drives innovation.", "tr": "Bilimsel çaba yeniliği yönlendirir." },
+      { "en": "He is engaged in an important endeavor.", "tr": "Önemli bir çabayla meşgul." },
+      { "en": "They endeavored to solve the issue peacefully.", "tr": "Sorunu barışçıl şekilde çözmeye çalıştılar." }
+    ]
+  },
+
+  {
+    "word": "enhance",
+    "meanings": ["geliştirmek", "artırmak"],
+    "examples": [
+      { "en": "The software update enhanced performance.", "tr": "Yazılım güncellemesi performansı artırdı." },
+      { "en": "Training programs enhance employee skills.", "tr": "Eğitim programları çalışan becerilerini geliştirir." },
+      { "en": "The new feature enhances user experience.", "tr": "Yeni özellik kullanıcı deneyimini geliştiriyor." },
+      { "en": "They enhanced the design for better efficiency.", "tr": "Daha iyi verimlilik için tasarımı geliştirdiler." },
+      { "en": "Her feedback enhanced the final result.", "tr": "Geri bildirimi nihai sonucu geliştirdi." }
+    ]
+  },
+
+  {
+    "word": "entail",
+    "meanings": ["gerektirmek", "içermek"],
+    "examples": [
+      { "en": "The job entails significant responsibility.", "tr": "Bu iş önemli sorumluluk gerektirir." },
+      { "en": "Expanding the system entails major costs.", "tr": "Sistemin genişletilmesi büyük maliyetler gerektirir." },
+      { "en": "Success entails hard work.", "tr": "Başarı sıkı çalışma gerektirir." },
+      { "en": "The process entails several stages.", "tr": "Süreç birkaç aşama içerir." },
+      { "en": "The decision entails long-term consequences.", "tr": "Karar uzun vadeli sonuçlar içerir." }
+    ]
+  },
+
+  {
+    "word": "equivalent",
+    "meanings": ["eşdeğer"],
+    "examples": [
+      { "en": "One euro is not equivalent to one dollar.", "tr": "Bir euro bir dolara eşdeğer değildir." },
+      { "en": "This qualification is equivalent to a master’s degree.", "tr": "Bu yeterlilik yüksek lisans derecesine eşdeğerdir." },
+      { "en": "Their roles are equivalent in importance.", "tr": "Rolleri önem bakımından eşdeğerdir." },
+      { "en": "The two terms are not equivalent.", "tr": "Bu iki terim eşdeğer değildir." },
+      { "en": "He earned an equivalent amount.", "tr": "Eşdeğer bir miktar kazandı." }
+    ]
+  },
+
+  {
+    "word": "evoke",
+    "meanings": ["çağrıştırmak", "anımsatmak", "duygu uyandırmak"],
+    "examples": [
+      { "en": "The music evoked memories of his childhood.", "tr": "Müzik çocukluk anılarını çağrıştırdı." },
+      { "en": "The painting evokes a feeling of calm.", "tr": "Tablo huzur duygusu uyandırıyor." },
+      { "en": "Her speech evoked strong emotions.", "tr": "Konuşması güçlü duygular uyandırdı." },
+      { "en": "The scent evoked summer evenings.", "tr": "Koku yaz akşamlarını anımsattı." },
+      { "en": "The story evokes vivid imagery.", "tr": "Hikâye canlı imgeler çağrıştırıyor." }
+    ]
+  },
+  {
+    "word": "feasible",
+    "meanings": ["mümkün", "uygulanabilir"],
+    "examples": [
+      { "en": "The proposal is technically feasible but financially challenging.", "tr": "Teklif teknik olarak mümkün ancak finansal açıdan zorlu." },
+      { "en": "We need to evaluate whether the plan is feasible in the long term.", "tr": "Planın uzun vadede uygulanabilir olup olmadığını değerlendirmemiz gerekiyor." },
+      { "en": "Building a new facility this year may not be feasible.", "tr": "Bu yıl yeni bir tesis inşa etmek mümkün olmayabilir." },
+      { "en": "They explored feasible alternatives to reduce costs.", "tr": "Maliyetleri düşürmek için uygulanabilir alternatifleri araştırdılar." },
+      { "en": "A feasible solution must be both affordable and effective.", "tr": "Uygulanabilir bir çözüm hem uygun maliyetli hem de etkili olmalıdır." }
+    ]
+  },
+  {
+    "word": "fluctuate",
+    "meanings": ["dalgalanmak", "değişmek"],
+    "examples": [
+      { "en": "Prices tend to fluctuate depending on the season.", "tr": "Fiyatlar sezona bağlı olarak dalgalanma eğilimindedir." },
+      { "en": "Demand fluctuated throughout the year.", "tr": "Talep yıl boyunca dalgalandı." },
+      { "en": "Her motivation fluctuates with her workload.", "tr": "Motivasyonu iş yüküne göre dalgalanıyor." },
+      { "en": "Economic indicators fluctuated unpredictably.", "tr": "Ekonomik göstergeler öngörülemez şekilde dalgalandı." },
+      { "en": "The company’s revenue fluctuated due to market changes.", "tr": "Şirketin geliri pazar değişiklikleri nedeniyle dalgalandı." }
+    ]
+  },
+  {
+    "word": "formulate",
+    "meanings": ["formüle etmek", "geliştirmek"],
+    "examples": [
+      { "en": "Scientists formulated a new method for analysis.", "tr": "Bilim insanları analiz için yeni bir yöntem geliştirdi." },
+      { "en": "The team formulated a detailed action plan.", "tr": "Takım ayrıntılı bir eylem planı hazırladı." },
+      { "en": "We must formulate clear goals for the project.", "tr": "Proje için net hedefler belirlemeliyiz." },
+      { "en": "He formulated his ideas into a practical model.", "tr": "Fikirlerini uygulanabilir bir modele dönüştürdü." },
+      { "en": "The committee formulated several recommendations.", "tr": "Komite birkaç öneri formüle etti." }
+    ]
+  },
+  {
+    "word": "foundation",
+    "meanings": ["temel", "dayanak", "kuruluş"],
+    "examples": [
+      { "en": "Trust is the foundation of any strong relationship.", "tr": "Güven, her güçlü ilişkinin temelidir." },
+      { "en": "The theory lacks a solid foundation.", "tr": "Teori sağlam bir temelden yoksun." },
+      { "en": "The organization was built on the foundation of equality.", "tr": "Kuruluş eşitlik temeli üzerine inşa edildi." },
+      { "en": "Strong foundations are essential for tall buildings.", "tr": "Uzun binalar için güçlü temeller gereklidir." },
+      { "en": "Her research laid the foundation for future studies.", "tr": "Araştırması gelecekteki çalışmalara temel oluşturdu." }
+    ]
+  },
+  {
+    "word": "formidable",
+    "meanings": ["zorlu", "korkutucu", "güçlü"],
+    "examples": [
+      { "en": "They face a formidable challenge.", "tr": "Zorlu bir meydan okumayla karşı karşıyalar." },
+      { "en": "She is a formidable opponent in debates.", "tr": "Tartışmalarda güçlü bir rakiptir." },
+      { "en": "The team overcame a formidable obstacle.", "tr": "Takım güçlü bir engeli aştı." },
+      { "en": "The task seemed formidable at first.", "tr": "Görev ilk başta zor görünüyordu." },
+      { "en": "His formidable talent impressed everyone.", "tr": "Onun güçlü yeteneği herkesi etkiledi." }
+    ]
+  },
+  {
+    "word": "foster",
+    "meanings": ["teşvik etmek", "desteklemek"],
+    "examples": [
+      { "en": "The new policy aims to foster creativity.", "tr": "Yeni politika yaratıcılığı teşvik etmeyi amaçlıyor." },
+      { "en": "They foster innovation in their workplace.", "tr": "İş yerlerinde yeniliği destekliyorlar." },
+      { "en": "Parents play a key role in fostering confidence.", "tr": "Ebeveynler özgüveni teşvik etmede önemli bir rol oynar." },
+      { "en": "The program fosters collaboration between departments.", "tr": "Program departmanlar arasında işbirliğini destekliyor." },
+      { "en": "Her feedback fostered significant improvements.", "tr": "Geri bildirimi önemli gelişmeleri teşvik etti." }
+    ]
+  },
+  {
+    "word": "friction",
+    "meanings": ["sürtüşme", "uyuşmazlık"],
+    "examples": [
+      { "en": "There was growing friction between the two teams.", "tr": "İki takım arasında artan bir uyuşmazlık vardı." },
+      { "en": "Cultural differences can cause friction in global companies.", "tr": "Kültürel farklılıklar küresel şirketlerde uyuşmazlığa neden olabilir." },
+      { "en": "The new rule created friction among employees.", "tr": "Yeni kural çalışanlar arasında sürtüşmeye neden oldu." },
+      { "en": "Reducing friction improves workflow.", "tr": "Sürtüşmenin azaltılması iş akışını iyileştirir." },
+      { "en": "There was noticeable friction in their partnership.", "tr": "Ortaklıklarında belirgin bir sürtüşme vardı." }
+    ]
+  },
+  {
+    "word": "gratify",
+       "meanings": ["memnun etmek", "tatmin etmek"],
+    "examples": [
+      { "en": "It gratified him to know his efforts were appreciated.", "tr": "Çabalarının takdir edildiğini bilmek onu memnun etti." },
+      { "en": "Positive feedback gratified the whole team.", "tr": "Olumlu geri bildirim tüm takımı tatmin etti." },
+      { "en": "She was gratified by the results of her work.", "tr": "Çalışmasının sonuçlarından memnun kaldı." },
+      { "en": "His success gratified his family.", "tr": "Başarısı ailesini memnun etti." },
+      { "en": "The award gratified years of dedication.", "tr": "Ödül, yılların özverisini tatmin etti." }
+    ]
+  },
+  {
+    "word": "hinder",
+    "meanings": ["engellemek", "aksatmak"],
+    "examples": [
+      { "en": "Lack of resources hindered the project’s progress.", "tr": "Kaynak eksikliği projenin ilerlemesini engelledi." },
+      { "en": "Distractions hinder productivity.", "tr": "Dikkat dağıtıcılar verimliliği engeller." },
+      { "en": "His injury hindered his performance.", "tr": "Sakatlığı performansını aksattı." },
+      { "en": "Bureaucracy often hinders quick decision-making.", "tr": "Bürokrasi genellikle hızlı karar almayı engeller." },
+      { "en": "Poor communication hindered collaboration.", "tr": "Zayıf iletişim işbirliğini engelledi." }
+    ]
+  },
+  {
+    "word": "hypothetical",
+    "meanings": ["varsayımsal"],
+    "examples": [
+      { "en": "This is only a hypothetical scenario.", "tr": "Bu sadece varsayımsal bir senaryodur." },
+      { "en": "They discussed hypothetical solutions to the issue.", "tr": "Soruna varsayımsal çözümler tartıştılar." },
+      { "en": "Her question was completely hypothetical.", "tr": "Sorusu tamamen varsayımsaldı." },
+      { "en": "The theory is based on hypothetical assumptions.", "tr": "Teori varsayımsal varsayımlara dayanıyor." },
+      { "en": "Let’s consider a hypothetical case.", "tr": "Varsayımsal bir durumu ele alalım." }
+    ]
+  },
+  {
+    "word": "imminent",
+    "meanings": ["eli kulağında", "yaklaşan"],
+    "examples": [
+      { "en": "The storm’s arrival seemed imminent.", "tr": "Fırtınanın gelişi eli kulağındaydı." },
+      { "en": "The company faced imminent bankruptcy.", "tr": "Şirket yaklaşan iflasla karşı karşıyaydı." },
+      { "en": "An imminent decision must be made.", "tr": "Yaklaşan bir karar verilmelidir." },
+      { "en": "The doctors warned that the risk was imminent.", "tr": "Doktorlar riskin yakın olduğunu belirtti." },
+      { "en": "The negotiations collapsed due to imminent conflict.", "tr": "Yaklaşan çatışma nedeniyle müzakereler çöktü." }
+    ]
+  },
+  {
+    "word": "impart",
+    "meanings": ["aktarmak", "vermek"],
+    "examples": [
+      { "en": "The teacher imparted valuable knowledge to her students.", "tr": "Öğretmen öğrencilerine değerli bilgiler aktardı." },
+      { "en": "Art can impart deep emotional meaning.", "tr": "Sanat derin duygusal anlamlar aktarabilir." },
+      { "en": "He imparted his experience to the new team members.", "tr": "Deneyimini yeni takım üyelerine aktardı." },
+      { "en": "Good leaders impart clarity and direction.", "tr": "İyi liderler netlik ve yönlendirme sağlar." },
+      { "en": "The mentor imparted wisdom gained over decades.", "tr": "Mentor yıllar boyunca edindiği bilgeliği aktardı." }
+    ]
+  },
+  {
+    "word": "implicit",
+    "meanings": ["örtük", "ima edilen"],
+    "examples": [
+      { "en": "There was implicit criticism in her tone.", "tr": "Tonunda örtük bir eleştiri vardı." },
+      { "en": "The message carried implicit meaning.", "tr": "Mesaj örtük bir anlam taşıyordu." },
+      { "en": "He gave implicit approval through silence.", "tr": "Sessizliğiyle örtük onay verdi." },
+      { "en": "Their relationship was based on implicit trust.", "tr": "İlişkileri örtük bir güvene dayanıyordu." },
+      { "en": "The agreement contained implicit obligations.", "tr": "Anlaşmada örtük yükümlülükler vardı." }
+    ]
+  },
+  {
+    "word": "incentive",
+    "meanings": ["teşvik", "özendirme"],
+    "examples": [
+      { "en": "The company offered financial incentives to increase productivity.", "tr": "Şirket verimliliği artırmak için finansal teşvikler sundu." },
+      { "en": "Tax incentives encourage investment.", "tr": "Vergi teşvikleri yatırımı teşvik eder." },
+      { "en": "There is little incentive for them to change.", "tr": "Değişmeleri için çok az teşvik var." },
+      { "en": "The bonus serves as an incentive for improvement.", "tr": "Prim gelişim için teşvik görevi görüyor." },
+      { "en": "They introduced incentives to retain employees.", "tr": "Çalışanları elde tutmak için teşvikler sundular." }
+    ]
+  },
+  {
+    "word": "incur",
+    "meanings": ["maruz kalmak", "uğramak"],
+    "examples": [
+      { "en": "The company incurred heavy losses last year.", "tr": "Şirket geçen yıl ağır kayıplara uğradı." },
+      { "en": "He incurred significant debt during college.", "tr": "Üniversite sırasında büyük borca girdi." },
+      { "en": "You may incur additional charges.", "tr": "Ek ücretlere maruz kalabilirsiniz." },
+      { "en": "Their actions incurred criticism from the public.", "tr": "Eylemleri halktan eleştiri aldı." },
+      { "en": "Failure to comply may incur penalties.", "tr": "Uyulmaması cezalara yol açabilir." }
+    ]
+  },
+  {
+    "word": "inevitable",
+    "meanings": ["kaçınılmaz"],
+    "examples": [
+      { "en": "Change is inevitable in every industry.", "tr": "Her sektörde değişim kaçınılmazdır." },
+      { "en": "The collapse of the system seemed inevitable.", "tr": "Sistemin çöküşü kaçınılmaz görünüyordu." },
+      { "en": "Conflict is inevitable in large teams.", "tr": "Büyük ekiplerde çatışma kaçınılmazdır." },
+      { "en": "Aging is an inevitable part of life.", "tr": "Yaşlanmak hayatın kaçınılmaz bir parçasıdır." },
+      { "en": "The outcome was inevitable after the mistake.", "tr": "Hata sonrası sonuç kaçınılmazdı." }
+    ]
+  },
+  {
+    "word": "infer",
+    "meanings": ["sonuç çıkarmak", "anlam çıkarmak"],
+    "examples": [
+      { "en": "From her reaction, I inferred that she was disappointed.", "tr": "Tepkisinden hayal kırıklığına uğradığını çıkardım." },
+      { "en": "We can infer the customer’s needs from the data.", "tr": "Verilerden müşterinin ihtiyaçlarını çıkarabiliriz." },
+      { "en": "It is difficult to infer intentions from a single action.", "tr": "Tek bir eylemden niyetleri çıkarmak zordur." },
+      { "en": "Scientists inferred the planet’s atmosphere from measurements.", "tr": "Bilim insanları ölçümlerden gezegenin atmosferini çıkardı." },
+      { "en": "He inferred the meaning of the text.", "tr": "Metnin anlamını çıkardı." }
+    ]
+  },
+  {
+    "word": "ingenious",
+    "meanings": ["zekice", "yaratıcı"],
+    "examples": [
+      { "en": "She found an ingenious way to solve the problem.", "tr": "Sorunu çözmek için zekice bir yol buldu." },
+      { "en": "The device has an ingenious design.", "tr": "Cihaz zekice bir tasarıma sahip." },
+      { "en": "He offered an ingenious solution.", "tr": "Zekice bir çözüm sundu." },
+      { "en": "Their plan was both simple and ingenious.", "tr": "Planları hem basit hem de zekiceydi." },
+      { "en": "The invention was the result of ingenious thinking.", "tr": "Buluş zekice düşünmenin bir sonucuydu." }
+    ]
+  },
+  {
+    "word": "inhibit",
+    "meanings": ["engellemek", "baskılamak"],
+    "examples": [
+      { "en": "Fear can inhibit creativity.", "tr": "Korku yaratıcılığı engelleyebilir." },
+      { "en": "The drug inhibits the growth of bacteria.", "tr": "İlaç bakterilerin büyümesini baskılar." },
+      { "en": "His shyness inhibited him from speaking.", "tr": "Utangaçlığı konuşmasını engelledi." },
+      { "en": "Excessive rules inhibit innovation.", "tr": "Aşırı kurallar yeniliği engeller." },
+      { "en": "Stress inhibits concentration.", "tr": "Stres konsantrasyonu engeller." }
+    ]
+  },
+  {
+    "word": "insight",
+    "meanings": ["içgörü", "kavrayış"],
+    "examples": [
+      { "en": "Her analysis provided deep insight into the issue.", "tr": "Analizi, soruna derin bir içgörü sağladı." },
+      { "en": "Experience offers valuable insights.", "tr": "Deneyim değerli içgörüler sunar." },
+      { "en": "The report gives insight into market trends.", "tr": "Rapor pazar eğilimlerine içgörü sağlar." },
+      { "en": "He had remarkable insight for his age.", "tr": "Yaşı için dikkat çekici bir kavrayışa sahipti." },
+      { "en": "We gained insight from the feedback.", "tr": "Geri bildirimden içgörü elde ettik." }
+    ]
+  },
+  {
+    "word": "integrate",
+    "meanings": ["entegre etmek", "bütünleştirmek"],
+    "examples": [
+      { "en": "The system integrates data from multiple sources.", "tr": "Sistem birden fazla kaynaktan veriyi entegre ediyor." },
+      { "en": "They integrated new technology into their workflow.", "tr": "Yeni teknolojiyi iş akışlarına entegre ettiler." },
+      { "en": "Immigrants gradually integrated into society.", "tr": "Göçmenler zamanla topluma entegre oldu." },
+      { "en": "He integrated the feedback into the design.", "tr": "Geri bildirimi tasarıma dahil etti." },
+      { "en": "The school integrates students from diverse backgrounds.", "tr": "Okul, çeşitli geçmişlerden öğrencileri bütünleştiriyor." }
+    ]
+  },
+  {
+    "word": "intervene",
+    "meanings": ["müdahale etmek", "araya girmek"],
+    "examples": [
+      { "en": "The teacher intervened to stop the argument.", "tr": "Öğretmen tartışmayı durdurmak için müdahale etti." },
+      { "en": "The government intervened in the crisis.", "tr": "Hükümet krize müdahale etti." },
+      { "en": "He intervened before things got worse.", "tr": "Durum daha kötüleşmeden müdahale etti." },
+      { "en": "Medical staff intervened immediately.", "tr": "Tıbbi personel hemen müdahale etti." },
+      { "en": "The organization intervened to protect civilians.", "tr": "Kuruluş sivilleri korumak için müdahale etti." }
+    ]
+  },
+  {
+    "word": "intricate",
+    "meanings": ["karmaşık", "detaylı"],
+    "examples": [
+      { "en": "The design features intricate patterns.", "tr": "Tasarım karmaşık desenler içeriyor." },
+      { "en": "She solved the intricate puzzle quickly.", "tr": "Karmaşık bulmacayı hızlıca çözdü." },
+      { "en": "The plan is intricate and requires careful execution.", "tr": "Plan karmaşık ve dikkatli uygulama gerektiriyor." },
+      { "en": "The novel’s plot is extremely intricate.", "tr": "Romanın konusu son derece karmaşık." },
+      { "en": "He explained the intricate mechanism.", "tr": "Karmaşık mekanizmayı açıkladı." }
+    ]
+  },
+  {
+    "word": "invoke",
+    "meanings": ["başvurmak", "çağırmak", "uyandırmak"],
+    "examples": [
+      { "en": "They invoked legal measures to resolve the dispute.", "tr": "Uyuşmazlığı çözmek için yasal yollara başvurdular." },
+      { "en": "His speech invoked a sense of unity.", "tr": "Konuşması birlik duygusu uyandırdı." },
+      { "en": "The poem invokes vivid imagery.", "tr": "Şiir canlı imgeler çağrıştırıyor." },
+      { "en": "He invoked his rights under the law.", "tr": "Yasa kapsamındaki haklarına başvurdu." },
+      { "en": "The ritual invoked ancient traditions.", "tr": "Ritüel eski gelenekleri çağırdı." }
+    ]
+  },
+  {
+    "word": "jurisdiction",
+    "meanings": ["yetki alanı", "yargı yetkisi"],
+    "examples": [
+      { "en": "The case falls under federal jurisdiction.", "tr": "Dava federal yetki alanına giriyor." },
+      { "en": "Each department has its own jurisdiction.", "tr": "Her departmanın kendi yetki alanı vardır." },
+      { "en": "The court lacks jurisdiction in this matter.", "tr": "Mahkemenin bu konuda yargı yetkisi yok." },
+      { "en": "The police acted outside their jurisdiction.", "tr": "Polis yetki alanlarının dışında hareket etti." },
+      { "en": "Jurisdiction varies between regions.", "tr": "Yetki alanı bölgelere göre değişir." }
+    ]
+  },
+  {
+    "word": "lenient",
+    "meanings": ["hoşgörülü", "yumuşak"],
+    "examples": [
+      { "en": "The teacher was surprisingly lenient with the class.", "tr": "Öğretmen sınıfa karşı şaşırtıcı derecede hoşgörülüydü." },
+      { "en": "The judge gave a lenient sentence.", "tr": "Yargıç yumuşak bir ceza verdi." },
+      { "en": "Her parents were lenient about curfew.", "tr": "Ailesi sokağa çıkma saatinde hoşgörülü davrandı." },
+      { "en": "The rules are more lenient for beginners.", "tr": "Kurallar yeni başlayanlar için daha hoşgörülüdür." },
+      { "en": "He received lenient treatment due to his age.", "tr": "Yaşı nedeniyle yumuşak bir muamele gördü." }
+    ]
+  },
+  {
+    "word": "liable",
+    "meanings": ["sorumlu", "yükümlü"],
+    "examples": [
+      { "en": "You may be held liable for damages.", "tr": "Hasarlardan sorumlu tutulabilirsiniz." },
+      { "en": "The company is liable for any losses.", "tr": "Şirket tüm kayıplardan sorumludur." },
+      { "en": "He is liable to pay the fine.", "tr": "Cezayı ödemekle yükümlüdür." },
+      { "en": "They could be held liable for negligence.", "tr": "İhmalkârlık nedeniyle sorumlu tutulabilirler." },
+      { "en": "Manufacturers are liable for defective products.", "tr": "Üreticiler kusurlu ürünlerden sorumludur." }
+    ]
+  },
+  {
+    "word": "lingering",
+    "meanings": ["uzun süren", "kalıcı"],
+    "examples": [
+      { "en": "She felt a lingering sense of doubt.", "tr": "Kalıcı bir şüphe duygusu hissetti." },
+      { "en": "The smell left a lingering aroma in the room.", "tr": "Koku odada kalıcı bir aroma bıraktı." },
+      { "en": "He had lingering pain after the surgery.", "tr": "Ameliyattan sonra uzun süren bir ağrısı vardı." },
+      { "en": "There was a lingering silence after the announcement.", "tr": "Duyuru sonrası uzun süren bir sessizlik oldu." },
+      { "en": "Her lingering questions remained unanswered.", "tr": "Uzun süredir kafasını kurcalayan sorular yanıtlanmamış kaldı." }
+    ]
+  },
+  {
+    "word": "magnify",
+    "meanings": ["büyütmek", "abartmak"],
+    "examples": [
+      { "en": "The microscope magnifies tiny particles.", "tr": "Mikroskop küçük parçacıkları büyütür." },
+      { "en": "He tends to magnify small problems.", "tr": "Küçük sorunları abartma eğilimindedir." },
+      { "en": "The lens magnified the image.", "tr": "Lens görüntüyü büyüttü." },
+      { "en": "Media coverage magnified the issue.", "tr": "Medya haberleri konuyu büyüttü." },
+      { "en": "Stress can magnify emotional reactions.", "tr": "Stres duygusal tepkileri abartabilir." }
+    ]
+  },
+  {
+    "word": "manifest",
+    "meanings": ["göstermek", "ortaya koymak"],
+    "examples": [
+      { "en": "His frustration manifested in his tone.", "tr": "Hayal kırıklığı tonunda ortaya çıktı." },
+      { "en": "The illness manifested quickly.", "tr": "Hastalık hızlıca kendini gösterdi." },
+      { "en": "Her talent manifested at an early age.", "tr": "Yetenekleri küçük yaşta ortaya çıktı." },
+      { "en": "The issue manifests in various forms.", "tr": "Sorun çeşitli şekillerde kendini gösteriyor." },
+      { "en": "Their commitment manifested in their work.", "tr": "Bağlılıkları çalışmalarında ortaya çıktı." }
+    ]
+  },
+  {
+    "word": "marginal",
+    "meanings": ["marjinal", "önemsiz derecede"],
+    "examples": [
+      { "en": "The error had only a marginal impact on the results.", "tr": "Hata sonuçlar üzerinde yalnızca marjinal bir etkiye sahipti." },
+      { "en": "They achieved marginal improvement.", "tr": "Marjinal bir gelişme elde ettiler." },
+      { "en": "The difference was marginal at best.", "tr": "Fark en fazla marjinaldi." },
+      { "en": "The group holds marginal political influence.", "tr": "Grup marjinal bir politik etkiye sahiptir." },
+      { "en": "Profit margins remained marginal last quarter.", "tr": "Kar marjları geçen çeyrekte marjinal kaldı." }
+    ]
+  },
+  {
+    "word": "meticulous",
+    "meanings": ["titiz", "dikkatli"],
+    "examples": [
+      { "en": "She is meticulous about her work.", "tr": "İşinde çok titizdir." },
+      { "en": "The project requires meticulous planning.", "tr": "Proje titiz bir planlama gerektiriyor." },
+      { "en": "He checked every detail meticulously.", "tr": "Her detayı titizlikle kontrol etti." },
+      { "en": "Their research process was meticulous.", "tr": "Araştırma süreçleri oldukça titizdi." },
+      { "en": "Meticulous attention to detail is essential.", "tr": "Detaylara titiz dikkat gereklidir." }
+    ]
+  },
+  {
+    "word": "mitigate",
+    "meanings": ["azaltmak", "hafifletmek"],
+    "examples": [
+      { "en": "The new measures aim to mitigate environmental damage.", "tr": "Yeni önlemler çevresel zararı azaltmayı hedefliyor." },
+      { "en": "Education can mitigate the effects of poverty.", "tr": "Eğitim yoksulluğun etkilerini hafifletebilir." },
+      { "en": "They took action to mitigate risks.", "tr": "Riskleri azaltmak için önlem aldılar." },
+      { "en": "The treatment mitigated the symptoms.", "tr": "Tedavi belirtileri hafifletti." },
+      { "en": "Better planning mitigates potential issues.", "tr": "Daha iyi planlama olası sorunları azaltır." }
+    ]
+  },
+  {
+    "word": "notion",
+    "meanings": ["kavram", "fikir", "inanış"],
+    "examples": [
+      { "en": "The notion of freedom varies across cultures.", "tr": "Özgürlük kavramı kültürlere göre değişir." },
+      { "en": "She challenged the traditional notions of success.", "tr": "Başarıya dair geleneksel düşünceleri sorguladı." },
+      { "en": "The notion seemed unrealistic at first.", "tr": "Fikir ilk başta gerçekçi görünmüyordu." },
+      { "en": "He rejects the notion that money equals happiness.", "tr": "Paranın mutluluğa eşit olduğu düşüncesini reddediyor." },
+      { "en": "There is a widespread notion that technology isolates people.", "tr": "Teknolojinin insanları yalnızlaştırdığına dair yaygın bir inanış var." }
+    ]
+  },
+  {
+    "word": "obligation",
+    "meanings": ["yükümlülük", "zorunluluk"],
+    "examples": [
+      { "en": "Citizens have an obligation to follow the law.", "tr": "Vatandaşların yasalara uymak gibi bir yükümlülüğü vardır." },
+      { "en": "He felt a moral obligation to help.", "tr": "Yardım etmek için ahlaki bir zorunluluk hissetti." },
+      { "en": "The contract outlines each party’s obligations.", "tr": "Sözleşme tarafların yükümlülüklerini belirtir." },
+      { "en": "She fulfilled all her obligations on time.", "tr": "Tüm yükümlülüklerini zamanında yerine getirdi." },
+      { "en": "There is no obligation to participate.", "tr": "Katılma zorunluluğu yoktur." }
+    ]
+  },
+  {
+    "word": "obscure",
+    "meanings": ["belirsiz", "anlaşılması güç", "gizlemek"],
+    "examples": [
+      { "en": "The meaning of the poem is deliberately obscure.", "tr": "Şiirin anlamı kasıtlı olarak belirsizdir." },
+      { "en": "His explanation only obscured the issue.", "tr": "Açıklaması yalnızca konuyu daha da kararttı." },
+      { "en": "The details remain obscure.", "tr": "Ayrıntılar belirsizliğini koruyor." },
+      { "en": "Clouds obscured the view of the mountains.", "tr": "Bulutlar dağ manzarasını gizledi." },
+      { "en": "The origins of the tradition are obscure.", "tr": "Geleneğin kökenleri belirsizdir." }
+    ]
+  },
+  {
+    "word": "optimistic",
+    "meanings": ["iyimser"],
+    "examples": [
+      { "en": "She remains optimistic despite the challenges.", "tr": "Zorluklara rağmen iyimserliğini koruyor." },
+      { "en": "Analysts are optimistic about economic recovery.", "tr": "Analistler ekonomik toparlanma konusunda iyimser." },
+      { "en": "He offered an optimistic perspective.", "tr": "İyimser bir bakış açısı sundu." },
+      { "en": "Their optimistic expectations were fulfilled.", "tr": "İyimser beklentileri gerçekleşti." },
+      { "en": "The results gave them an optimistic outlook.", "tr": "Sonuçlar onlara iyimser bir bakış açısı sağladı." }
+    ]
+  },
+  {
+    "word": "paradox",
+    "meanings": ["çelişki", "paradoks"],
+    "examples": [
+      { "en": "It is a paradox that technology connects and isolates us at the same time.", "tr": "Teknolojinin aynı anda bizi hem bağlaması hem de yalnızlaştırması bir paradokstur." },
+      { "en": "Her situation created a strange paradox.", "tr": "Durumu tuhaf bir paradoks yarattı." },
+      { "en": "The paradox lies in the fact that he is both shy and confident.", "tr": "Paradoks, hem utangaç hem de özgüvenli olmasında yatıyor." },
+      { "en": "The study revealed an interesting paradox.", "tr": "Çalışma ilginç bir paradoks ortaya koydu." },
+      { "en": "His behavior presents a paradox that is hard to explain.", "tr": "Davranışı açıklanması zor bir paradoks ortaya koyuyor." }
+    ]
+  },
+  {
+    "word": "perceive",
+    "meanings": ["algılamak", "görmek"],
+    "examples": [
+      { "en": "People perceive risk differently.", "tr": "İnsanlar riski farklı şekilde algılar." },
+      { "en": "She perceived the comment as offensive.", "tr": "Yorumu saldırgan olarak algıladı." },
+      { "en": "The artist perceives beauty in simple things.", "tr": "Sanatçı güzelliği basit şeylerde algılar." },
+      { "en": "He is perceived as a trustworthy leader.", "tr": "Güvenilir bir lider olarak algılanıyor." },
+      { "en": "We must perceive change as an opportunity.", "tr": "Değişimi bir fırsat olarak görmeliyiz." }
+    ]
+  },
+  {
+    "word": "persevere",
+    "meanings": ["sebat etmek", "ısrar etmek"],
+    "examples": [
+      { "en": "She persevered despite repeated failures.", "tr": "Tekrarlanan başarısızlıklara rağmen sebat etti." },
+      { "en": "Those who persevere often achieve their goals.", "tr": "Sebat edenler çoğu zaman hedeflerine ulaşır." },
+      { "en": "He persevered until the task was done.", "tr": "Görev tamamlanana kadar ısrar etti." },
+      { "en": "The team persevered under pressure.", "tr": "Takım baskı altında sebat etti." },
+      { "en": "Perseverance is essential for long-term success.", "tr": "Sebat, uzun vadeli başarı için gereklidir." }
+    ]
+  },
+  {
+    "word": "pivotal",
+    "meanings": ["çok önemli", "kilit"],
+    "examples": [
+      { "en": "This decision is pivotal to the future of the company.", "tr": "Bu karar şirketin geleceği için çok önemlidir." },
+      { "en": "He played a pivotal role in the negotiation.", "tr": "Müzakerede kilit bir rol oynadı." },
+      { "en": "Innovation is a pivotal factor in success.", "tr": "Yenilik başarıda kilit bir faktördür." },
+      { "en": "Her speech was pivotal in shaping public opinion.", "tr": "Konuşması kamuoyunu şekillendirmede kilit rol oynadı." },
+      { "en": "The event became a pivotal moment in history.", "tr": "Olay tarihte kritik bir an haline geldi." }
+    ]
+  },
+  {
+    "word": "plausible",
+    "meanings": ["mantıklı", "makul"],
+    "examples": [
+      { "en": "She offered a plausible explanation.", "tr": "Mantıklı bir açıklama sundu." },
+      { "en": "It is plausible that the results were influenced by external factors.", "tr": "Sonuçların dış etkenlerden etkilenmiş olması mantıklıdır." },
+      { "en": "The theory seems plausible at first glance.", "tr": "Teori ilk bakışta mantıklı görünüyor." },
+      { "en": "Their plan is ambitious but plausible.", "tr": "Planları iddialı ama makul." },
+      { "en": "There is no plausible reason for his absence.", "tr": "Onun yokluğu için makul bir neden yok." }
+    ]
+  },
+  {
+    "word": "predominant",
+    "meanings": ["baskın", "ağırlıklı"],
+    "examples": [
+      { "en": "English is the predominant language in business.", "tr": "İngilizce iş dünyasında baskın dildir." },
+      { "en": "The predominant view is supportive of the proposal.", "tr": "Baskın görüş teklifi destekliyor." },
+      { "en": "She has a predominant role in the project.", "tr": "Projede baskın bir rolü var." },
+      { "en": "The region’s predominant industry is tourism.", "tr": "Bölgenin baskın endüstrisi turizmdir." },
+      { "en": "The predominant color in the design is blue.", "tr": "Tasarımda baskın renk mavidir." }
+    ]
+  },
+  {
+    "word": "preliminary",
+    "meanings": ["ön", "hazırlık"],
+    "examples": [
+      { "en": "We conducted a preliminary analysis.", "tr": "Ön analiz yaptık." },
+      { "en": "The meeting was just a preliminary discussion.", "tr": "Toplantı sadece bir hazırlık tartışmasıydı." },
+      { "en": "Preliminary tests were successful.", "tr": "Ön testler başarılı oldu." },
+      { "en": "They reached a preliminary agreement.", "tr": "Ön bir anlaşmaya vardılar." },
+      { "en": "The results are preliminary and may change.", "tr": "Sonuçlar ön ve değişebilir niteliktedir." }
+    ]
+  },
+  {
+    "word": "prevail",
+    "meanings": ["hakim olmak", "üstün gelmek"],
+    "examples": [
+      { "en": "Justice will eventually prevail.", "tr": "Adalet er ya da geç üstün gelecektir." },
+      { "en": "Traditional methods no longer prevail.", "tr": "Geleneksel yöntemler artık hakim değil." },
+      { "en": "They prevailed despite tough competition.", "tr": "Zorlu rekabete rağmen üstün geldiler." },
+      { "en": "Common sense should prevail.", "tr": "Sağduyu hakim olmalıdır." },
+      { "en": "Peace finally prevailed in the region.", "tr": "Bölgede sonunda barış hakim oldu." }
+    ]
+  },
+  {
+    "word": "profound",
+    "meanings": ["derin", "köklü"],
+    "examples": [
+      { "en": "Her speech had a profound impact on the audience.", "tr": "Konuşması dinleyiciler üzerinde derin bir etki bıraktı." },
+      { "en": "He is known for his profound insights.", "tr": "Derin içgörüleriyle tanınır." },
+      { "en": "The change was profound and lasting.", "tr": "Değişim derin ve kalıcıydı." },
+      { "en": "She expressed profound gratitude.", "tr": "Derin bir minnettarlık ifade etti." },
+      { "en": "The experience had a profound influence on him.", "tr": "Deneyim onun üzerinde köklü bir etki bıraktı." }
+    ]
+  },
+  {
+    "word": "progressive",
+    "meanings": ["ilerici", "kademeli"],
+    "examples": [
+      { "en": "They support progressive policies.", "tr": "İlerici politikaları destekliyorlar." },
+      { "en": "The disease has a progressive nature.", "tr": "Hastalığın kademeli bir yapısı vardır." },
+      { "en": "The company takes a progressive approach to innovation.", "tr": "Şirket yeniliğe ilerici bir yaklaşım sergiliyor." },
+      { "en": "Her responsibilities increased progressively.", "tr": "Sorumlulukları kademeli olarak arttı." },
+      { "en": "Progressive change is often more sustainable.", "tr": "Kademeli değişim genellikle daha sürdürülebilirdir." }
+    ]
+  },
+  {
+    "word": "prominent",
+    "meanings": ["öne çıkan", "belirgin"],
+    "examples": [
+      { "en": "She is a prominent figure in the industry.", "tr": "Sektörde öne çıkan bir figürdür." },
+      { "en": "The tower is the most prominent feature of the skyline.", "tr": "Kule siluetin en belirgin özelliğidir." },
+      { "en": "He played a prominent role in the investigation.", "tr": "Soruşturmada belirgin bir rol oynadı." },
+      { "en": "The issue became increasingly prominent.", "tr": "Konu giderek daha belirgin hale geldi." },
+      { "en": "Prominent experts disagree on the matter.", "tr": "Önde gelen uzmanlar konu üzerinde anlaşamıyor." }
+    ]
+  },
+  {
+    "word": "prone",
+    "meanings": ["yatkın", "eğilimli"],
+    "examples": [
+      { "en": "Children are prone to infection.", "tr": "Çocuklar enfeksiyona yatkındır." },
+      { "en": "He is prone to making impulsive decisions.", "tr": "Ani kararlar almaya eğilimlidir." },
+      { "en": "The region is prone to earthquakes.", "tr": "Bölge depremlere eğilimlidir." },
+      { "en": "She is prone to overthinking.", "tr": "Fazla düşünmeye eğilimlidir." },
+      { "en": "Older buildings are prone to structural damage.", "tr": "Eski binalar yapısal hasara yatkındır." }
+    ]
+  },
+  {
+    "word": "rational",
+    "meanings": ["mantıklı", "akılcı"],
+    "examples": [
+      { "en": "We need a rational approach to the problem.", "tr": "Soruna mantıklı bir yaklaşım gerekli." },
+      { "en": "His argument was rational and convincing.", "tr": "Argümanı mantıklı ve ikna ediciydi." },
+      { "en": "A rational explanation is required.", "tr": "Mantıklı bir açıklama gereklidir." },
+      { "en": "She tried to remain rational in a stressful situation.", "tr": "Stresli bir durumda mantıklı kalmaya çalıştı." },
+      { "en": "Their decision was entirely rational.", "tr": "Kararları tamamen akılcıydı." }
+    ]
+  },
+  {
+    "word": "reconcile",
+    "meanings": ["uzlaştırmak", "barıştırmak"],
+    "examples": [
+      { "en": "They managed to reconcile their differences.", "tr": "Farklılıklarını uzlaştırmayı başardılar." },
+      { "en": "He tried to reconcile the conflicting ideas.", "tr": "Çelişkili fikirleri uzlaştırmaya çalıştı." },
+      { "en": "The data did not reconcile with previous results.", "tr": "Veri önceki sonuçlarla uyuşmadı." },
+      { "en": "She reconciled with her friend after years.", "tr": "Yıllar sonra arkadaşıyla barıştı." },
+      { "en": "The company reconciled financial discrepancies.", "tr": "Şirket mali tutarsızlıkları uzlaştırdı." }
+    ]
+  },
+  {
+    "word": "refine",
+    "meanings": ["iyileştirmek", "rafine etmek"],
+    "examples": [
+      { "en": "They refined the system for better performance.", "tr": "Daha iyi performans için sistemi iyileştirdiler." },
+      { "en": "She refined her technique over the years.", "tr": "Tekniğini yıllar içinde geliştirdi." },
+      { "en": "The plan was refined through feedback.", "tr": "Plan geri bildirimle iyileştirildi." },
+      { "en": "The software needs refinement.", "tr": "Yazılımın iyileştirilmesi gerekiyor." },
+      { "en": "They refined the model to increase accuracy.", "tr": "Doğruluğu artırmak için modeli rafine ettiler." }
+    ]
+  },
+  {
+    "word": "reluctant",
+    "meanings": ["isteksiz", "gönülsüz"],
+    "examples": [
+      { "en": "She was reluctant to share her opinion.", "tr": "Fikrini paylaşmakta isteksizdi." },
+      { "en": "They were reluctant to invest due to uncertainty.", "tr": "Belirsizlik nedeniyle yatırım yapmaya gönülsüzdüler." },
+      { "en": "He gave a reluctant answer.", "tr": "İsteksiz bir cevap verdi." },
+      { "en": "The team was reluctant to adopt the new system.", "tr": "Takım yeni sistemi benimsemeye isteksizdi." },
+      { "en": "She reluctantly agreed to the proposal.", "tr": "Teklifi gönülsüzce kabul etti." }
+    ]
+  },
+  {
+    "word": "resemble",
+    "meanings": ["benzemek"],
+    "examples": [
+      { "en": "He resembles his father.", "tr": "Babasına benziyor." },
+      { "en": "The two buildings resemble each other.", "tr": "İki bina birbirine benziyor." },
+      { "en": "Her style resembles that of a professional artist.", "tr": "Stili bir profesyonel sanatçınınkine benziyor." },
+      { "en": "The model resembles reality closely.", "tr": "Model gerçekliği yakından andırıyor." },
+      { "en": "They resemble ancient designs.", "tr": "Eski tasarımları andırıyorlar." }
+    ]
+  },
+  {
+    "word": "restore",
+    "meanings": ["yenilemek", "onarım yapmak"],
+    "examples": [
+      { "en": "The team restored the damaged building.", "tr": "Takım hasarlı binayı yeniledi." },
+      { "en": "Efforts were made to restore peace.", "tr": "Barışı sağlamak için çabalar gösterildi." },
+      { "en": "He restored the data from a backup.", "tr": "Verileri bir yedekten geri yükledi." },
+      { "en": "They restored the artwork to its original state.", "tr": "Sanat eserini orijinal haline getirdiler." },
+      { "en": "The policy restored public trust.", "tr": "Politika kamu güvenini yeniden tesis etti." }
+    ]
+  },
+  {
+    "word": "restrict",
+    "meanings": ["kısıtlamak", "sınırlamak"],
+    "examples": [
+      { "en": "The law restricts access to personal data.", "tr": "Yasa kişisel verilere erişimi kısıtlıyor." },
+      { "en": "They restricted movement during the emergency.", "tr": "Acil durumda hareketi kısıtladılar." },
+      { "en": "Her diet restricts sugar intake.", "tr": "Diyeti şeker alımını kısıtlıyor." },
+      { "en": "The rules restrict what can be published.", "tr": "Kurallar neyin yayınlanabileceğini kısıtlıyor." },
+      { "en": "Access is restricted to authorized personnel.", "tr": "Erişim yalnızca yetkili personele sınırlıdır." }
+    ]
+  },
+  {
+    "word": "retain",
+    "meanings": ["korumak", "elde tutmak"],
+    "examples": [
+      { "en": "The company aims to retain skilled employees.", "tr": "Şirket yetenekli çalışanları elde tutmayı hedefliyor." },
+      { "en": "He retained control over the project.", "tr": "Proje üzerinde kontrolü korudu." },
+      { "en": "The soil retains water well.", "tr": "Toprak suyu iyi tutar." },
+      { "en": "You must retain the receipt for refund.", "tr": "İade için fişi saklamalısınız." },
+      { "en": "They retained most of their customers.", "tr": "Müşterilerinin çoğunu elde tuttular." }
+    ]
+  },
+  {
+    "word": "rigorous",
+    "meanings": ["titiz", "sıkı", "katı"],
+    "examples": [
+      { "en": "The process involves rigorous testing.", "tr": "Süreç titiz testler içeriyor." },
+      { "en": "She followed a rigorous training program.", "tr": "Sıkı bir eğitim programı uyguladı." },
+      { "en": "The rules are enforced rigorously.", "tr": "Kurallar sıkı şekilde uygulanıyor." },
+      { "en": "They conducted a rigorous analysis.", "tr": "Titiz bir analiz yaptılar." },
+      { "en": "Admission requires rigorous evaluation.", "tr": "Kabul sıkı bir değerlendirme gerektirir." }
+    ]
+  },
+  {
+    "word": "salient",
+    "meanings": ["belirgin", "göze çarpan"],
+    "examples": [
+      { "en": "She highlighted the salient points of the report.", "tr": "Raporun belirgin noktalarını vurguladı." },
+      { "en": "The most salient feature of the design is its simplicity.", "tr": "Tasarımın en göze çarpan özelliği sadeliğidir." },
+      { "en": "The article summarizes the salient issues.", "tr": "Makale belirgin sorunları özetliyor." },
+      { "en": "He focused on the salient facts.", "tr": "Önemli gerçeklere odaklandı." },
+      { "en": "Salient differences emerged between the groups.", "tr": "Gruplar arasında belirgin farklılıklar ortaya çıktı." }
+    ]
+  },
+  {
+    "word": "simulate",
+    "meanings": ["taklit etmek", "simüle etmek"],
+    "examples": [
+      { "en": "The software simulates real-world conditions.", "tr": "Yazılım gerçek dünya koşullarını simüle ediyor." },
+      { "en": "They simulated the system to test its performance.", "tr": "Performansını test etmek için sistemi simüle ettiler." },
+      { "en": "The robot can simulate human movements.", "tr": "Robot insan hareketlerini taklit edebiliyor." },
+      { "en": "The study simulates population growth.", "tr": "Çalışma nüfus artışını simüle ediyor." },
+      { "en": "They used virtual reality to simulate the environment.", "tr": "Ortamı simüle etmek için sanal gerçeklik kullandılar." }
+    ]
+  },
+  {
+    "word": "skeptical",
+    "meanings": ["şüpheci"],
+    "examples": [
+      { "en": "She is skeptical about the accuracy of the report.", "tr": "Raporun doğruluğu konusunda şüpheci." },
+      { "en": "They remained skeptical despite the evidence.", "tr": "Kanıtlara rağmen şüpheci kaldılar." },
+      { "en": "He gave a skeptical look.", "tr": "Şüpheci bir bakış attı." },
+      { "en": "The public is increasingly skeptical.", "tr": "Halk giderek daha şüpheci." },
+      { "en": "Scientists are skeptical of the claim.", "tr": "Bilim insanları iddiaya şüpheyle yaklaşıyor." }
+    ]
+  },
+  {
+    "word": "stimulate",
+    "meanings": ["teşvik etmek", "canlandırmak"],
+    "examples": [
+      { "en": "The new policy aims to stimulate economic growth.", "tr": "Yeni politika ekonomik büyümeyi teşvik etmeyi amaçlıyor." },
+      { "en": "The experiment stimulates brain activity.", "tr": "Deney beyin aktivitesini uyarır." },
+      { "en": "Art stimulates creative thinking.", "tr": "Sanat yaratıcı düşünmeyi teşvik eder." },
+      { "en": "Exercise stimulates the immune system.", "tr": "Egzersiz bağışıklık sistemini canlandırır." },
+      { "en": "The article stimulated public debate.", "tr": "Makale kamuoyu tartışmasını canlandırdı." }
+    ]
+  },
+  {
+    "word": "substantially",
+    "meanings": ["büyük ölçüde", "kayda değer şekilde"],
+    "examples": [
+      { "en": "Costs have increased substantially.", "tr": "Maliyetler büyük ölçüde arttı." },
+      { "en": "Her performance improved substantially.", "tr": "Performansı kayda değer ölçüde arttı." },
+      { "en": "The city has grown substantially in recent years.", "tr": "Şehir son yıllarda önemli ölçüde büyüdü." },
+      { "en": "Their contributions differ substantially.", "tr": "Katkıları büyük ölçüde farklılık gösteriyor." },
+      { "en": "The policy has been substantially revised.", "tr": "Politika büyük ölçüde revize edildi." }
+    ]
+  },
+  {
+    "word": "subtle",
+    "meanings": ["ince", "gizli", "zor fark edilen"],
+    "examples": [
+      { "en": "She noticed the subtle changes in his behavior.", "tr": "Davranışındaki ince değişiklikleri fark etti." },
+      { "en": "The perfume has a subtle scent.", "tr": "Parfümün hafif bir kokusu var." },
+      { "en": "His criticism was subtle but effective.", "tr": "Eleştirisi ince ama etkiliydi." },
+      { "en": "There is a subtle difference between the two options.", "tr": "İki seçenek arasında ince bir fark var." },
+      { "en": "The film uses subtle symbolism.", "tr": "Film ince sembolizm kullanıyor." }
+    ]
+  },
+  {
+    "word": "succinct",
+    "meanings": ["özlü", "kısa ve net"],
+    "examples": [
+      { "en": "Her explanation was succinct and clear.", "tr": "Açıklaması özlü ve netti." },
+      { "en": "The summary provides a succinct overview.", "tr": "Özet kısa ve net bir bakış sunuyor." },
+      { "en": "He gave a succinct answer.", "tr": "Kısa ve öz bir cevap verdi." },
+      { "en": "The report is written in a succinct style.", "tr": "Rapor özlü bir tarzda yazılmış." },
+      { "en": "Please keep your remarks succinct.", "tr": "Lütfen yorumlarınızı kısa ve net tutun." }
+    ]
+  },
+  {
+    "word": "superficial",
+    "meanings": ["yüzeysel"],
+    "examples": [
+      { "en": "Their understanding of the topic is superficial.", "tr": "Konuyla ilgili anlayışları yüzeyseldir." },
+      { "en": "The scratch was only superficial.", "tr": "Çizik sadece yüzeyseldi." },
+      { "en": "She made a superficial analysis.", "tr": "Yüzeysel bir analiz yaptı." },
+      { "en": "He gave a superficial answer.", "tr": "Yüzeysel bir cevap verdi." },
+      { "en": "The changes were superficial rather than structural.", "tr": "Değişiklikler yapısal değil yüzeyseldi." }
+    ]
+  },
+  {
+    "word": "tangible",
+    "meanings": ["somut", "elle tutulur"],
+    "examples": [
+      { "en": "The project produced tangible results.", "tr": "Proje somut sonuçlar üretti." },
+      { "en": "She needed tangible evidence to believe him.", "tr": "Ona inanmak için somut kanıtlara ihtiyacı vardı." },
+      { "en": "The benefits are not immediately tangible.", "tr": "Faydalar hemen somut değildir." },
+      { "en": "He made a tangible contribution.", "tr": "Somut bir katkı yaptı." },
+      { "en": "There is no tangible proof of the claim.", "tr": "İddianın somut bir kanıtı yoktur." }
+    ]
+  },
+  {
+    "word": "tentative",
+    "meanings": ["geçici", "kesin olmayan", "çekingen"],
+    "examples": [
+      { "en": "They reached a tentative agreement.", "tr": "Geçici bir anlaşmaya vardılar." },
+      { "en": "Her smile was tentative at first.", "tr": "Gülümsemesi başlangıçta çekingen bir ifadeydi." },
+      { "en": "These results are tentative and require further study.", "tr": "Bu sonuçlar geçicidir ve daha fazla çalışma gerektirir." },
+      { "en": "He made a tentative suggestion.", "tr": "Çekingen bir öneride bulundu." },
+      { "en": "The schedule is still tentative.", "tr": "Program hâlâ kesin değil." }
+    ]
+  },
+  {
+    "word": "terminate",
+    "meanings": ["sonlandırmak"],
+    "examples": [
+      { "en": "The contract was terminated early.", "tr": "Sözleşme erken sonlandırıldı." },
+      { "en": "They decided to terminate the project.", "tr": "Projeyi sonlandırmaya karar verdiler." },
+      { "en": "His employment was terminated.", "tr": "İstihdamı sonlandırıldı." },
+      { "en": "The train terminates at the next station.", "tr": "Tren bir sonraki istasyonda son bulur." },
+      { "en": "The program will terminate automatically.", "tr": "Program otomatik olarak sonlanacaktır." }
+    ]
+  },
+  {
+    "word": "turbulent",
+    "meanings": ["türbülanslı", "çalkantılı"],
+    "examples": [
+      { "en": "They experienced turbulent weather.", "tr": "Çalkantılı hava koşulları yaşadılar." },
+      { "en": "The company went through a turbulent period.", "tr": "Şirket çalkantılı bir dönemden geçti." },
+      { "en": "The relationship was turbulent from the start.", "tr": "İlişki başından beri çalkantılıydı." },
+      { "en": "The economy is facing turbulent times.", "tr": "Ekonomi çalkantılı zamanlar yaşıyor." },
+      { "en": "The plane hit turbulent air.", "tr": "Uçak türbülanslı havaya girdi." }
+    ]
+  },
+  {
+    "word": "undermine",
+    "meanings": ["zayıflatmak", "sarsmak"],
+    "examples": [
+      { "en": "Constant criticism undermined her confidence.", "tr": "Sürekli eleştiri özgüvenini zayıflattı." },
+      { "en": "The scandal undermined public trust.", "tr": "Skandal kamu güvenini sarstı." },
+      { "en": "His actions undermined the agreement.", "tr": "Eylemleri anlaşmayı zayıflattı." },
+      { "en": "The disease undermines the immune system.", "tr": "Hastalık bağışıklık sistemini zayıflatır." },
+      { "en": "Competition undermined their market share.", "tr": "Rekabet pazar paylarını sarstı." }
+    ]
+  },
+  {
+    "word": "unprecedented",
+    "meanings": ["benzeri görülmemiş"],
+    "examples": [
+      { "en": "The pandemic caused unprecedented challenges.", "tr": "Pandemi benzeri görülmemiş zorluklara neden oldu." },
+      { "en": "They achieved unprecedented success.", "tr": "Benzeri görülmemiş bir başarı elde ettiler." },
+      { "en": "The situation is unprecedented in history.", "tr": "Durum tarihte eşi benzeri görülmemiştir." },
+      { "en": "Unprecedented demand overwhelmed the system.", "tr": "Benzeri görülmemiş talep sistemi zorladı." },
+      { "en": "The company is facing unprecedented growth.", "tr": "Şirket benzeri görülmemiş bir büyüme yaşıyor." }
+    ]
+  },
+  {
+    "word": "viable",
+    "meanings": ["uygulanabilir", "yapılabilir"],
+    "examples": [
+      { "en": "They proposed a viable solution.", "tr": "Uygulanabilir bir çözüm önerdiler." },
+      { "en": "The plan is economically viable.", "tr": "Plan ekonomik olarak uygulanabilir." },
+      { "en": "There are no viable alternatives.", "tr": "Uygulanabilir alternatif yok." },
+      { "en": "He questioned whether the idea was viable.", "tr": "Fikrin uygulanabilir olup olmadığını sorguladı." },
+      { "en": "The project remains viable despite challenges.", "tr": "Projeye yönelik zorluklara rağmen uygulanabilir durumda." }
+    ]
+  },
+  {
+    "word": "volatile",
+    "meanings": ["değişken", "istikrarsız"],
+    "examples": [
+      { "en": "The market is extremely volatile.", "tr": "Piyasa son derece değişken." },
+      { "en": "His mood is quite volatile.", "tr": "Ruhu oldukça değişken." },
+      { "en": "Volatile chemicals must be handled carefully.", "tr": "Uçucu kimyasallar dikkatli şekilde kullanılmalıdır." },
+      { "en": "The region is politically volatile.", "tr": "Bölge politik olarak istikrarsız." },
+      { "en": "Prices remain volatile due to uncertainty.", "tr": "Belirsizlik nedeniyle fiyatlar hâlâ değişken." }
+    ]
+  },
+  {
+    "word": "withstand",
+    "meanings": ["dayanmak", "karşı koymak"],
+    "examples": [
+      { "en": "The building can withstand earthquakes.", "tr": "Bina depremlere dayanabilir." },
+      { "en": "He withstood immense pressure.", "tr": "Büyük baskıya dayandı." },
+      { "en": "The bridge was designed to withstand heavy loads.", "tr": "Köprü ağır yükleri taşıyacak şekilde tasarlandı." },
+      { "en": "Their friendship withstood the test of time.", "tr": "Dostlukları zamanın testine dayandı." },
+      { "en": "The material withstands extreme temperatures.", "tr": "Malzeme aşırı sıcaklıklara dayanır." }
+    ]
+  },
+  {
+    "word": "warrant",
+    "meanings": ["haklı çıkarmak", "garanti etmek"],
+    "examples": [
+      { "en": "The situation does not warrant panic.", "tr": "Durum paniği haklı çıkarmıyor." },
+      { "en": "His behavior warrants further investigation.", "tr": "Davranışı daha fazla araştırmayı haklı çıkarıyor." },
+      { "en": "The evidence does not warrant such a conclusion.", "tr": "Kanıt bu tür bir sonucu haklı çıkarmaz." },
+      { "en": "The product comes with a two-year warranty.", "tr": "Ürün iki yıllık garanti ile gelir." },
+      { "en": "Circumstances warranted immediate action.", "tr": "Koşullar derhal harekete geçmeyi gerektirdi." }
+    ]
+  },
+  {
+    "word": "adjacent",
+    "meanings": ["bitişik", "yanında"],
+    "examples": [
+      { "en": "The hotel is adjacent to the beach.", "tr": "Otel plaja bitişiktir." },
+      { "en": "The two rooms are adjacent.", "tr": "İki oda birbirine bitişiktir." },
+      { "en": "Their office is adjacent to ours.", "tr": "Ofisleri bizimkine bitişik." },
+      { "en": "The garden is adjacent to the house.", "tr": "Bahçe eve bitişik." },
+      { "en": "The adjacent fields were flooded.", "tr": "Bitişik tarlalar su altında kaldı." }
+    ]
+  },
+  {
+    "word": "advocate (noun)",
+    "meanings": ["savunucu"],
+    "examples": [
+      { "en": "She is a strong advocate for human rights.", "tr": "İnsan hakları için güçlü bir savunucudur." },
+      { "en": "He is an advocate of free speech.", "tr": "O, ifade özgürlüğünün savunucusudur." },
+      { "en": "They became advocates for environmental causes.", "tr": "Çevresel nedenlerin savunucuları oldular." },
+      { "en": "He is an advocate for equal education.", "tr": "O, eşit eğitim için bir savunucudur." },
+      { "en": "The group has many advocates worldwide.", "tr": "Grubun dünya çapında birçok savunucusu var." }
+    ]
+  },
+  {
+    "word": "albeit",
+    "meanings": ["-e rağmen"],
+    "examples": [
+      { "en": "He accepted the offer, albeit reluctantly.", "tr": "Teklifi kabul etti, her ne kadar isteksiz olsa da." },
+      { "en": "It was a good result, albeit unexpected.", "tr": "Beklenmedik olsa da iyi bir sonuçtu." },
+      { "en": "She continued, albeit with difficulty.", "tr": "Zorlukla da olsa devam etti." },
+      { "en": "The journey was enjoyable, albeit long.", "tr": "Yolculuk uzun olsa da keyifliydi." },
+      { "en": "He succeeded, albeit narrowly.", "tr": "Az bir farkla da olsa başardı." }
+    ]
+  },
+  {
+    "word": "alleviate",
+    "meanings": ["hafifletmek"],
+    "examples": [
+      { "en": "The new policy will alleviate financial pressure.", "tr": "Yeni politika finansal baskıyı hafifletecek." },
+      { "en": "Medicine helped alleviate his pain.", "tr": "İlaç acısını hafifletti." },
+      { "en": "Better planning alleviates stress.", "tr": "Daha iyi planlama stresi azaltır." },
+      { "en": "They took action to alleviate poverty.", "tr": "Yoksulluğu hafifletmek için harekete geçtiler." },
+      { "en": "Open communication alleviates misunderstandings.", "tr": "Açık iletişim yanlış anlamaları hafifletir." }
+    ]
+  },
+
+  {
+    "word": "arbitrary",
+    "meanings": ["keyfi", "rastgele"],
+    "examples": [
+      { "en": "The decision seemed arbitrary and unfair.", "tr": "Karar keyfi ve adaletsiz görünüyordu." },
+      { "en": "He made an arbitrary choice.", "tr": "Rastgele bir seçim yaptı." },
+      { "en": "The rules are arbitrary and confusing.", "tr": "Kurallar keyfi ve kafa karıştırıcı." },
+      { "en": "Arbitrary limits restrict creativity.", "tr": "Keyfi sınırlar yaratıcılığı kısıtlar." },
+      { "en": "Their actions appeared arbitrary.", "tr": "Eylemleri keyfi görünüyordu." }
+    ]
+  },
+
+  {
+    "word": "attainable",
+    "meanings": ["ulaşılabilir"],
+    "examples": [
+      { "en": "Their goals are ambitious but attainable.", "tr": "Hedefleri iddialı ama ulaşılabilir." },
+      { "en": "Success is attainable with hard work.", "tr": "Başarı sıkı çalışmayla ulaşılabilir." },
+      { "en": "This level of efficiency is easily attainable.", "tr": "Bu verimlilik seviyesi kolayca ulaşılabilir." },
+      { "en": "He set attainable milestones.", "tr": "Ulaşılabilir hedefler belirledi." },
+      { "en": "The target is attainable within a year.", "tr": "Hedef bir yıl içinde ulaşılabilir." }
+    ]
+  },
+  {
+    "word": "behalf",
+    "meanings": ["adına"],
+    "examples": [
+      { "en": "She spoke on behalf of the entire team.", "tr": "Tüm takım adına konuştu." },
+      { "en": "He accepted the award on her behalf.", "tr": "Ödülü onun adına aldı." },
+      { "en": "They acted on behalf of the company.", "tr": "Şirket adına hareket ettiler." },
+      { "en": "We filed the request on your behalf.", "tr": "Talebi sizin adınıza ilettik." },
+      { "en": "He negotiated on their behalf.", "tr": "Onlar adına müzakere etti." }
+    ]
+  },
+  {
+    "word": "coherent",
+    "meanings": ["tutarlı"],
+    "examples": [
+      { "en": "Her explanation was coherent and logical.", "tr": "Açıklaması tutarlı ve mantıklıydı." },
+      { "en": "We need a coherent strategy.", "tr": "Tutarlı bir stratejiye ihtiyacımız var." },
+      { "en": "The argument lacks coherent structure.", "tr": "Argüman tutarlı bir yapıdan yoksun." },
+      { "en": "He expressed his thoughts coherently.", "tr": "Düşüncelerini tutarlı bir şekilde ifade etti." },
+      { "en": "The plan must remain coherent with our mission.", "tr": "Plan misyonumuzla tutarlı kalmalıdır." }
+    ]
+  },
+  {
+    "word": "confer",
+    "meanings": ["danışmak", "görüşmek", "sunmak"],
+    "examples": [
+      { "en": "They conferred before making a decision.", "tr": "Karar vermeden önce görüştüler." },
+      { "en": "The university conferred an honorary degree on her.", "tr": "Üniversite ona fahri derece verdi." },
+      { "en": "We need to confer with the legal team.", "tr": "Hukuk ekibiyle görüşmemiz gerekiyor." },
+      { "en": "This system confers several advantages.", "tr": "Bu sistem birçok avantaj sunuyor." },
+      { "en": "He conferred with his partners.", "tr": "Ortaklarıyla danıştı." }
+    ]
+  },
+  {
+    "word": "consecutive",
+    "meanings": ["ardışık"],
+    "examples": [
+      { "en": "He won the award for three consecutive years.", "tr": "Üç yıl üst üste ödül kazandı." },
+      { "en": "The company reported consecutive losses.", "tr": "Şirket ardışık kayıplar bildirdi." },
+      { "en": "They completed the tasks in consecutive order.", "tr": "Görevleri ardışık sırayla tamamladılar." },
+      { "en": "Temperatures remained high for five consecutive days.", "tr": "Sıcaklık beş gün üst üste yüksek kaldı." },
+      { "en": "She broke the record for consecutive wins.", "tr": "Ardışık galibiyet rekorunu kırdı." }
+    ]
+  },
+  {
+    "word": "credible",
+    "meanings": ["güvenilir"],
+    "examples": [
+      { "en": "The witness was not considered credible.", "tr": "Tanık güvenilir kabul edilmedi." },
+      { "en": "They need credible evidence.", "tr": "Güvenilir kanıtlara ihtiyaçları var." },
+      { "en": "His story doesn’t sound credible.", "tr": "Hikayesi güvenilir gelmiyor." },
+      { "en": "A credible source confirmed the details.", "tr": "Güvenilir bir kaynak ayrıntıları doğruladı." },
+      { "en": "The research lacks credible data.", "tr": "Araştırma güvenilir verilerden yoksun." }
+    ]
+  },
+  {
+    "word": "dedicated",
+    "meanings": ["kendini adamış", "özverili"],
+    "examples": [
+      { "en": "She is a dedicated student.", "tr": "O kendini adamış bir öğrencidir." },
+      { "en": "The team worked with dedication.", "tr": "Takım özveriyle çalıştı." },
+      { "en": "He is dedicated to improving the system.", "tr": "Sistemi geliştirmeye kendini adamış durumda." },
+      { "en": "They dedicated years to their research.", "tr": "Araştırmalarına yıllarını adadılar." },
+      { "en": "The facility is dedicated to training.", "tr": "Tesis eğitime adanmıştır." }
+    ]
+  },
+
+  {
+    "word": "defer",
+    "meanings": ["ertelemek"],
+    "examples": [
+      { "en": "They had to defer the meeting.", "tr": "Toplantıyı ertelemek zorunda kaldılar." },
+      { "en": "He deferred his decision.", "tr": "Kararını erteledi." },
+      { "en": "Payments may be deferred for six months.", "tr": "Ödemeler altı ay ertelenebilir." },
+      { "en": "She deferred her plans due to illness.", "tr": "Hastalık nedeniyle planlarını erteledi." },
+      { "en": "We cannot defer this any longer.", "tr": "Bunu daha fazla erteleyemeyiz." }
+    ]
+  },
+
+  {
+    "word": "dwell",
+    "meanings": ["ikamet etmek", "uzun uzun düşünmek"],
+    "examples": [
+      { "en": "They dwell in the countryside.", "tr": "Kırsalda ikamet ediyorlar." },
+      { "en": "Don’t dwell on the past.", "tr": "Geçmişte takılı kalma." },
+      { "en": "He dwelled on the problem for hours.", "tr": "Saatlerce sorun üzerinde düşündü." },
+      { "en": "Some animals dwell underground.", "tr": "Bazı hayvanlar yer altında yaşar." },
+      { "en": "She tends to dwell on negative thoughts.", "tr": "Olumsuz düşünceler üzerinde çok durma eğilimindedir." }
+    ]
+  },
+
+  {
+    "word": "elusive",
+    "meanings": ["ele geçmesi zor", "tanımlanması zor"],
+    "examples": [
+      { "en": "The solution remains elusive.", "tr": "Çözüm hâlâ bulunması zor." },
+      { "en": "He is an elusive figure.", "tr": "O yakalanması zor bir figürdür." },
+      { "en": "Success can be elusive.", "tr": "Başarı ulaşılması zor olabilir." },
+      { "en": "The concept is somewhat elusive.", "tr": "Kavram biraz zor anlaşılır." },
+      { "en": "The cat proved elusive.", "tr": "Kedi yakalanması zor olduğunu kanıtladı." }
+    ]
+  },
+
+  {
+    "word": "feasible",
+    "meanings": ["uygulanabilir"],
+    "examples": [
+      { "en": "Their plan is feasible.", "tr": "Plan uygulanabilir." },
+      { "en": "It’s not financially feasible.", "tr": "Finansal olarak uygulanabilir değil." },
+      { "en": "We need feasible solutions.", "tr": "Uygulanabilir çözümlere ihtiyacımız var." },
+      { "en": "This target is feasible within two years.", "tr": "Bu hedef iki yıl içinde ulaşılabilir." },
+      { "en": "The option is feasible but risky.", "tr": "Seçenek uygulanabilir fakat risklidir." }
+    ]
+  },
+
+  {
+    "word": "improvise",
+    "meanings": ["doğaçlama yapmak"],
+    "examples": [
+      { "en": "He improvised the entire speech.", "tr": "Konuşmayı tamamen doğaçlama yaptı." },
+      { "en": "The musicians improvised beautifully.", "tr": "Müzisyenler harika doğaçlama yaptı." },
+      { "en": "She had to improvise when the plan failed.", "tr": "Plan başarısız olunca doğaçlama yapmak zorunda kaldı." },
+      { "en": "They improvised a temporary solution.", "tr": "Geçici bir çözüm doğaçladılar." },
+      { "en": "He improvised a shelter from broken wood.", "tr": "Kırık odunlardan geçici bir barınak doğaçladı." }
+    ]
+  },
+
+  {
+    "word": "inevitably",
+    "meanings": ["kaçınılmaz olarak"],
+    "examples": [
+      { "en": "Mistakes will inevitably occur.", "tr": "Hatalar kaçınılmaz olarak gerçekleşecektir." },
+      { "en": "His actions inevitably led to conflict.", "tr": "Eylemleri kaçınılmaz olarak çatışmaya yol açtı." },
+      { "en": "Technology inevitably evolves.", "tr": "Teknoloji kaçınılmaz olarak gelişir." },
+      { "en": "The delay will inevitably affect the outcome.", "tr": "Gecikme kaçınılmaz olarak sonucu etkileyecek." },
+      { "en": "The truth will inevitably emerge.", "tr": "Gerçek kaçınılmaz olarak ortaya çıkacaktır." }
+    ]
+  },
+
+  {
+    "word": "legitimate",
+    "meanings": ["meşru", "yasal"],
+       "examples": [
+      { "en": "They raised legitimate concerns.", "tr": "Meşru kaygılar dile getirdiler." },
+      { "en": "Is this a legitimate business?", "tr": "Bu meşru bir iş mi?" },
+      { "en": "He provided a legitimate reason.", "tr": "Meşru bir neden sundu." },
+      { "en": "She questioned the legitimacy of the decision.", "tr": "Kararın meşruluğunu sorguladı." },
+      { "en": "The claim may not be legitimate.", "tr": "İddia meşru olmayabilir." }
+    ]
+  },
+
+  {
+    "word": "lucrative",
+    "meanings": ["karlı", "kazançlı"],
+    "examples": [
+      { "en": "They found a lucrative opportunity.", "tr": "Karlı bir fırsat buldular." },
+      { "en": "The business became highly lucrative.", "tr": "İş oldukça kazançlı hale geldi." },
+      { "en": "She made a lucrative investment.", "tr": "Kazançlı bir yatırım yaptı." },
+      { "en": "The deal was extremely lucrative.", "tr": "Anlaşma son derece kazançlıydı." },
+      { "en": "He left his job for a more lucrative offer.", "tr": "Daha kârlı bir teklif için işinden ayrıldı." }
+    ]
+  },
+
+  {
+    "word": "noteworthy",
+    "meanings": ["dikkate değer"],
+    "examples": [
+      { "en": "Her achievements are noteworthy.", "tr": "Başarıları dikkate değerdir." },
+      { "en": "The difference is small but noteworthy.", "tr": "Fark küçük ama dikkate değerdir." },
+      { "en": "Several noteworthy points were raised.", "tr": "Birçok dikkat çekici nokta gündeme geldi." },
+      { "en": "He made a noteworthy contribution.", "tr": "Dikkate değer bir katkı yaptı." },
+      { "en": "The project reached a noteworthy milestone.", "tr": "Proje dikkate değer bir aşamaya ulaştı." }
+    ]
+  },
+  {
+    "word": "novice",
+    "meanings": ["acemi", "yeni başlayan"],
+    "examples": [
+      { "en": "Even a novice can use this tool effectively.", "tr": "Bir acemi bile bu aracı etkili şekilde kullanabilir." },
+      { "en": "She is no longer a novice in the field.", "tr": "Artık bu alanda acemi değil." },
+      { "en": "The training program is designed for novices.", "tr": "Eğitim programı yeni başlayanlar için tasarlandı." },
+      { "en": "He made several mistakes as a novice.", "tr": "Bir acemi olarak birkaç hata yaptı." },
+      { "en": "Novices often struggle with advanced concepts.", "tr": "Acemiler genellikle ileri düzey kavramlarla zorlanır." }
+    ]
+  },
+  {
+    "word": "oblivious",
+    "meanings": ["habersiz", "farkında olmayan"],
+    "examples": [
+      { "en": "He walked through the crowd, oblivious to the chaos around him.", "tr": "Etrafındaki kaostan habersiz kalabalığın içinden yürüdü." },
+      { "en": "She seemed oblivious to the consequences.", "tr": "Sonuçların farkında değil gibiydi." },
+      { "en": "They were oblivious to the danger.", "tr": "Tehlikenin farkında değillerdi." },
+      { "en": "He remained oblivious to the noise.", "tr": "Gürültünün farkında değildi." },
+      { "en": "She is often oblivious to her own mistakes.", "tr": "Kendi hatalarının sık sık farkında değildir." }
+    ]
+  },
+  {
+    "word": "omission",
+    "meanings": ["ihmal", "atlama"],
+    "examples": [
+      { "en": "The report contained several omissions.", "tr": "Rapor birkaç ihmal içeriyordu." },
+      { "en": "His omission of important details caused confusion.", "tr": "Önemli detayları atlaması karışıklığa neden oldu." },
+      { "en": "The omission was deliberate.", "tr": "Atlama kasıtlıydı." },
+      { "en": "Omissions can lead to misunderstanding.", "tr": "İhmaller yanlış anlamaya yol açabilir." },
+      { "en": "He apologized for the omission.", "tr": "Atlama nedeniyle özür diledi." }
+    ]
+  },
+  {
+    "word": "onerous",
+    "meanings": ["ağır", "külfetli"],
+    "examples": [
+      { "en": "The task was extremely onerous.", "tr": "Görev son derece yorucuydu." },
+      { "en": "The new regulations are financially onerous.", "tr": "Yeni düzenlemeler mali açıdan külfetli." },
+      { "en": "He found the responsibilities quite onerous.", "tr": "Sorumlulukları oldukça ağır buldu." },
+      { "en": "Carrying out the plan proved onerous.", "tr": "Planı uygulamak zorlayıcı oldu." },
+      { "en": "They opposed the onerous conditions.", "tr": "Külfetli koşullara karşı çıktılar." }
+    ]
+  },
+  {
+    "word": "oscillate",
+    "meanings": ["dalgalanmak", "salınmak"],
+    "examples": [
+      { "en": "Prices oscillate based on seasonal demand.", "tr": "Fiyatlar mevsimsel talebe göre dalgalanır." },
+      { "en": "Her mood oscillated throughout the day.", "tr": "Ruhu gün boyunca dalgalandı." },
+      { "en": "The fan oscillates to cool the entire room.", "tr": "Vantilatör tüm odayı soğutmak için salınır." },
+      { "en": "Public opinion oscillates on the issue.", "tr": "Kamuoyu bu konuda sürekli değişiyor." },
+      { "en": "The device oscillates at high frequencies.", "tr": "Cihaz yüksek frekanslarda salınır." }
+    ]
+  },
+  {
+    "word": "outlandish",
+    "meanings": ["tuhaf", "alışılmadık"],
+    "examples": [
+      { "en": "He often wears outlandish outfits.", "tr": "Sık sık tuhaf kıyafetler giyer." },
+      { "en": "The idea sounded outlandish at first.", "tr": "Fikir ilk başta alışılmadık geliyordu." },
+      { "en": "She told an outlandish story.", "tr": "Alışılmadık bir hikâye anlattı." },
+      { "en": "The proposal was too outlandish to accept.", "tr": "Öneri kabul edilemeyecek kadar tuhaftı." },
+      { "en": "He came up with an outlandish solution.", "tr": "Aşırı tuhaf bir çözüm buldu." }
+    ]
+  },
+  {
+    "word": "oversee",
+    "meanings": ["denetlemek", "yönetmek"],
+    "examples": [
+      { "en": "She was hired to oversee the project.", "tr": "Projeyi denetlemek için işe alındı." },
+      { "en": "He oversees the entire department.", "tr": "Tüm departmanı yönetiyor." },
+      { "en": "They appointed a supervisor to oversee operations.", "tr": "Operasyonları denetlemek için bir denetçi atadılar." },
+      { "en": "The committee oversees policy implementation.", "tr": "Komite politika uygulamasını denetliyor." },
+      { "en": "He oversees financial planning.", "tr": "Finansal planlamayı yönetiyor." }
+    ]
+  },
+  {
+    "word": "paralyze",
+    "meanings": ["felç etmek", "etkisiz hale getirmek"],
+    "examples": [
+      { "en": "The injury paralyzed his leg.", "tr": "Sakatlık bacağını felç etti." },
+      { "en": "Fear paralyzed him.", "tr": "Korku onu hareketsiz bıraktı." },
+      { "en": "The strike paralyzed transportation.", "tr": "Grev ulaşımı felç etti." },
+      { "en": "A sudden shock paralyzed the system.", "tr": "Ani bir şok sistemi etkisiz hale getirdi." },
+      { "en": "Her anxiety paralyzed her ability to think clearly.", "tr": "Kaygısı açık düşünme yeteneğini felç etti." }
+    ]
+  },
+  {
+    "word": "perpetuate",
+    "meanings": ["sürdürmek", "devam ettirmek"],
+    "examples": [
+      { "en": "The myth was perpetuated for centuries.", "tr": "Efsane yüzyıllarca sürdürüldü." },
+      { "en": "Their actions perpetuate inequality.", "tr": "Eylemleri eşitsizliği sürdürür." },
+      { "en": "He perpetuated the tradition.", "tr": "Gelenekleri devam ettirdi." },
+      { "en": "The media often perpetuates stereotypes.", "tr": "Medya sık sık stereotipleri sürdürür." },
+      { "en": "The cycle of poverty is perpetuated by lack of education.", "tr": "Yoksulluk döngüsü eğitim eksikliğiyle sürdürülür." }
+    ]
+  },
+  {
+    "word": "pertinent",
+    "meanings": ["ilgili", "yerinde"],
+    "examples": [
+      { "en": "Her question was highly pertinent.", "tr": "Sorusu oldukça yerindeydi." },
+      { "en": "Please provide all pertinent details.", "tr": "Lütfen tüm ilgili ayrıntıları sağlayın." },
+      { "en": "The information wasn’t pertinent to the issue.", "tr": "Bilgi mesele ile ilgili değildi." },
+      { "en": "He made several pertinent observations.", "tr": "Çeşitli yerinde gözlemler yaptı." },
+      { "en": "Only pertinent data should be included.", "tr": "Yalnızca ilgili veriler dahil edilmelidir." }
+    ]
+  },
+  {
+    "word": "postulate",
+    "meanings": ["varsaymak"],
+    "examples": [
+      { "en": "The theory postulates the existence of dark matter.", "tr": "Teori karanlık maddenin varlığını varsayar." },
+      { "en": "He postulated that behavior is influenced by environment.", "tr": "Davranışın çevresel faktörlerden etkilendiğini öne sürdü." },
+      { "en": "The idea postulates a new way of thinking.", "tr": "Fikir yeni bir düşünme biçimi varsayar." },
+      { "en": "Scientists postulate several hypotheses.", "tr": "Bilim insanları çeşitli hipotezler öne sürer." },
+      { "en": "His argument postulates that freedom requires responsibility.", "tr": "Argümanı özgürlüğün sorumluluk gerektirdiğini varsayar." }
+    ]
+  },
+  {
+    "word": "preclude",
+    "meanings": ["önlemek", "engel olmak"],
+    "examples": [
+      { "en": "His schedule precludes regular exercise.", "tr": "Programı düzenli egzersiz yapmasını engelliyor." },
+      { "en": "Financial problems precluded completion of the project.", "tr": "Mali sorunlar projenin tamamlanmasını engelledi." },
+      { "en": "The agreement precludes future lawsuits.", "tr": "Anlaşma gelecekteki davaları önler." },
+      { "en": "Poor health precluded him from attending.", "tr": "Kötü sağlık durumu katılmasını engelledi." },
+      { "en": "Age alone does not preclude success.", "tr": "Yaş tek başına başarıyı engellemez." }
+    ]
+  },
+  {
+    "word": "predecessor",
+    "meanings": ["selef", "önceki kişi"],
+    "examples": [
+      { "en": "He learned from his predecessor.", "tr": "Selefinden öğrendi." },
+      { "en": "The new model is faster than its predecessor.", "tr": "Yeni model selefinden daha hızlı." },
+      { "en": "His predecessor left detailed notes.", "tr": "Selefi detaylı notlar bıraktı." },
+      { "en": "She replaced her predecessor last year.", "tr": "Geçen yıl selefinin yerine geçti." },
+      { "en": "The system improved significantly compared to its predecessor.", "tr": "Sistem selefine kıyasla önemli ölçüde gelişti." }
+    ]
+  },
+  {
+    "word": "premise",
+    "meanings": ["öncül", "varsayım"],
+    "examples": [
+      { "en": "His argument is based on a false premise.", "tr": "Argümanı yanlış bir varsayıma dayanıyor." },
+      { "en": "The premise of the theory is widely accepted.", "tr": "Teorinin öncülü geniş çapta kabul görüyor." },
+      { "en": "The film starts with an intriguing premise.", "tr": "Film ilgi çekici bir varsayımla başlıyor." },
+      { "en": "The plan relies on several key premises.", "tr": "Plan çeşitli temel varsayımlara dayanıyor." },
+      { "en": "If the premise is wrong, the conclusion collapses.", "tr": "Öncül yanlışsa sonuç çöker." }
+    ]
+  },
+  {
+    "word": "prevalent",
+    "meanings": ["yaygın"],
+    "examples": [
+      { "en": "This belief is prevalent in many cultures.", "tr": "Bu inanış birçok kültürde yaygındır." },
+      { "en": "The disease is most prevalent among children.", "tr": "Hastalık en çok çocuklar arasında yaygındır." },
+      { "en": "Such behavior is not prevalent here.", "tr": "Bu tür davranış burada yaygın değildir." },
+      { "en": "Prevalent trends change over time.", "tr": "Yaygın eğilimler zamanla değişir." },
+      { "en": "Violence is less prevalent than often assumed.", "tr": "Şiddet genellikle düşünüldüğünden daha az yaygındır." }
+    ]
+  },
+  {
+    "word": "proponent",
+    "meanings": ["destekçi", "savunucu"],
+    "examples": [
+      { "en": "She is a strong proponent of renewable energy.", "tr": "Yenilenebilir enerjinin güçlü bir destekçisidir." },
+      { "en": "He became a proponent of digital education.", "tr": "Dijital eğitimin savunucusu oldu." },
+      { "en": "Proponents argue that the benefits outweigh the risks.", "tr": "Destekçiler faydaların risklerden ağır bastığını savunuyor." },
+      { "en": "The plan has many proponents.", "tr": "Planın birçok destekçisi var." },
+      { "en": "He is a leading proponent of the reform.", "tr": "Reformun önde gelen savunucularındandır." }
+    ]
+  },
+  {
+    "word": "provisional",
+    "meanings": ["geçici"],
+    "examples": [
+      { "en": "They reached a provisional agreement.", "tr": "Geçici bir anlaşmaya vardılar." },
+      { "en": "The appointment is provisional.", "tr": "Görev ataması geçicidir." },
+      { "en": "These results are provisional.", "tr": "Bu sonuçlar geçicidir." },
+      { "en": "He received provisional approval.", "tr": "Geçici onay aldı." },
+      { "en": "The numbers are provisional and subject to change.", "tr": "Rakamlar geçicidir ve değişebilir." }
+    ]
+  },
+  {
+    "word": "qualitative",
+    "meanings": ["nitel"],
+    "examples": [
+      { "en": "The study includes qualitative data.", "tr": "Çalışma nitel veriler içeriyor." },
+      { "en": "Qualitative research focuses on behaviors.", "tr": "Nitel araştırma davranışlara odaklanır." },
+      { "en": "They conducted a qualitative analysis.", "tr": "Nitel bir analiz yaptılar." },
+      { "en": "Qualitative results require interpretation.", "tr": "Nitel sonuçlar yorumlama gerektirir." },
+      { "en": "The findings are mostly qualitative.", "tr": "Bulgular çoğunlukla niteliktedir." }
+    ]
+  },
+  {
+    "word": "quantitative",
+    "meanings": ["nicel"],
+    "examples": [
+      { "en": "The report includes quantitative data.", "tr": "Rapor nicel veriler içeriyor." },
+      { "en": "Quantitative analysis supports the findings.", "tr": "Nicel analiz bulguları destekliyor." },
+      { "en": "They measured progress quantitatively.", "tr": "İlerlemeyi nicel olarak ölçtüler." },
+      { "en": "Quantitative research requires large samples.", "tr": "Nicel araştırma büyük örnekler gerektirir." },
+      { "en": "The study combined qualitative and quantitative methods.", "tr": "Çalışma nitel ve nicel yöntemleri birleştirdi." }
+    ]
+  },
+  {
+    "word": "rebuke",
+    "meanings": ["azarlamak", "kınamak"],
+    "examples": [
+      { "en": "The manager rebuked him for being late.", "tr": "Müdür onu geç kaldığı için azarladı." },
+      { "en": "She received a sharp rebuke.", "tr": "Keskin bir kınama aldı." },
+      { "en": "His actions were widely rebuked.", "tr": "Eylemleri geniş çapta kınandı." },
+      { "en": "He rebuked the team for their mistakes.", "tr": "Takımı hatalarından dolayı azarladı." },
+      { "en": "The decision drew public rebuke.", "tr": "Karar kamuoyundan kınama aldı." }
+    ]
+  },
+  {
+    "word": "acclaim",
+    "meanings": ["övmek", "alkışlamak"],
+    "examples": [
+      { "en": "The film was widely acclaimed by critics.", "tr": "Film eleştirmenler tarafından geniş çapta övüldü." },
+      { "en": "Her performance received international acclaim.", "tr": "Performansı uluslararası övgü aldı." },
+      { "en": "The book was acclaimed as a masterpiece.", "tr": "Kitap bir başyapıt olarak övüldü." },
+      { "en": "He became an acclaimed writer.", "tr": "O, övgü alan bir yazar oldu." },
+      { "en": "The innovative design gained public acclaim.", "tr": "Yenilikçi tasarım halktan övgü aldı." }
+    ]
+  },
+  {
+    "word": "adept",
+    "meanings": ["usta", "becerikli"],
+    "examples": [
+      { "en": "She is adept at solving complex problems.", "tr": "Karmaşık problemleri çözmede ustadır." },
+      { "en": "He became adept in negotiation techniques.", "tr": "Müzakere tekniklerinde becerikli hale geldi." },
+      { "en": "The team is adept at adapting to change.", "tr": "Takım değişime uyum sağlamakta beceriklidir." },
+      { "en": "She handled the situation adeptly.", "tr": "Durumu ustalıkla yönetti." },
+      { "en": "He is adept at managing large groups.", "tr": "Büyük grupları yönetmede ustadır." }
+    ]
+  },
+  {
+    "word": "affluent",
+    "meanings": ["varlıklı"],
+    "examples": [
+      { "en": "They grew up in an affluent neighborhood.", "tr": "Varlıklı bir mahallede büyüdüler." },
+      { "en": "The city is known for its affluent residents.", "tr": "Şehir varlıklı sakinleriyle bilinir." },
+      { "en": "Affluent families often invest heavily in education.", "tr": "Varlıklı aileler genellikle eğitime büyük yatırım yapar." },
+      { "en": "He lived an affluent lifestyle.", "tr": "Varlıklı bir yaşam tarzı sürdü." },
+      { "en": "Affluent areas tend to have better infrastructure.", "tr": "Varlıklı bölgelerde genellikle daha iyi altyapı vardır." }
+    ]
+  },
+  {
+    "word": "allegiance",
+    "meanings": ["sadakat", "bağlılık"],
+    "examples": [
+      { "en": "They pledged allegiance to the organization.", "tr": "Kuruluşa sadakat sözü verdiler." },
+      { "en": "He switched allegiance after the conflict.", "tr": "Çatışmadan sonra bağlılığını değiştirdi." },
+      { "en": "Employees are expected to show allegiance to company values.", "tr": "Çalışanların şirket değerlerine bağlılık göstermesi beklenir." },
+      { "en": "Her allegiance was questioned.", "tr": "Bağlılığı sorgulandı." },
+      { "en": "The group demanded absolute allegiance.", "tr": "Grup kesin bağlılık talep etti." }
+    ]
+  },
+  {
+    "word": "alleviation",
+    "meanings": ["hafifletme", "azaltma"],
+    "examples": [
+      { "en": "The policy focuses on the alleviation of poverty.", "tr": "Politika yoksulluğun azaltılmasına odaklanıyor." },
+      { "en": "Pain alleviation is the first priority.", "tr": "Ağrının hafifletilmesi ilk önceliktir." },
+      { "en": "The charity aims at alleviation of suffering.", "tr": "Hayır kurumu acıların hafifletilmesini amaçlıyor." },
+      { "en": "Effective alleviation requires long-term planning.", "tr": "Etkili hafifletme uzun vadeli planlama gerektirir." },
+      { "en": "Economic alleviation programs were introduced.", "tr": "Ekonomik hafifletme programları tanıtıldı." }
+    ]
+  },
+  {
+    "word": "ambivalence",
+    "meanings": ["ikirciklik", "kararsızlık"],
+    "examples": [
+      { "en": "She felt ambivalence about the decision.", "tr": "Karar hakkında ikircikli hissetti." },
+      { "en": "His ambivalence made the discussion difficult.", "tr": "Onun kararsızlığı tartışmayı zorlaştırdı." },
+      { "en": "The public shows ambivalence toward the change.", "tr": "Kamu değişime karşı ikircikli davranıyor." },
+      { "en": "The ambivalence in his tone was noticeable.", "tr": "Tonundaki ikirciklik fark ediliyordu." },
+      { "en": "Ambivalence often arises in complex choices.", "tr": "Karmaşık seçimlerde ikirciklik sıkça ortaya çıkar." }
+    ]
+  },
+  {
+    "word": "analogous",
+    "meanings": ["benzer", "kıyaslanabilir"],
+       "examples": [
+      { "en": "These two processes are analogous.", "tr": "Bu iki süreç benzerdir." },
+      { "en": "Her situation is analogous to mine.", "tr": "Durumu benimkine benzer." },
+      { "en": "The two systems operate in an analogous way.", "tr": "İki sistem benzer bir şekilde çalışır." },
+      { "en": "The behavior is analogous to what we observed before.", "tr": "Davranış, daha önce gözlemlediğimize benzer." },
+      { "en": "He used an analogous example to explain the concept.", "tr": "Kavramı açıklamak için benzer bir örnek kullandı." }
+    ]
+  },
+  {
+    "word": "anomaly",
+    "meanings": ["sapma", "anormallik"],
+    "examples": [
+      { "en": "The data revealed several anomalies.", "tr": "Veriler birkaç anormallik ortaya koydu." },
+      { "en": "Such anomalies often indicate system issues.", "tr": "Bu tür anormallikler genellikle sistem sorunlarını gösterir." },
+      { "en": "The anomaly requires further investigation.", "tr": "Anormallik daha fazla araştırma gerektiriyor." },
+      { "en": "Scientists detected an unusual anomaly.", "tr": "Bilim insanları alışılmadık bir anormallik tespit etti." },
+      { "en": "The results include one major anomaly.", "tr": "Sonuçlar önemli bir sapma içeriyor." }
+    ]
+  },
+  {
+    "word": "appraise",
+    "meanings": ["değerlendirmek", "kıymet biçmek"],
+    "examples": [
+      { "en": "The expert appraised the painting.", "tr": "Uzman tabloyu değerlendirdi." },
+      { "en": "They appraised the situation carefully.", "tr": "Durumu dikkatlice değerlendirdiler." },
+      { "en": "The property was appraised at a high value.", "tr": "Mülk yüksek bir değere biçildi." },
+      { "en": "She appraised his performance objectively.", "tr": "Performansını objektif olarak değerlendirdi." },
+      { "en": "We must appraise the risks before proceeding.", "tr": "Devam etmeden önce riskleri değerlendirmeliyiz." }
+    ]
+  },
+  {
+    "word": "arbitrary",
+    "meanings": ["keyfi", "rastgele"],
+    "examples": [
+      { "en": "The rule seemed arbitrary and unreasonable.", "tr": "Kural keyfi ve mantıksız görünüyordu." },
+      { "en": "They made an arbitrary decision.", "tr": "Keyfi bir karar verdiler." },
+      { "en": "The limits were set arbitrarily.", "tr": "Sınırlar rastgele belirlendi." },
+      { "en": "His choice was completely arbitrary.", "tr": "Seçimi tamamen keyfiydi." },
+      { "en": "Arbitrary restrictions hinder innovation.", "tr": "Keyfi kısıtlamalar yeniliği engeller." }
+    ]
+  },
+  {
+    "word": "assertion",
+    "meanings": ["iddia", "sav"],
+    "examples": [
+      { "en": "His assertion lacked evidence.", "tr": "İddiası kanıttan yoksundu." },
+      { "en": "The report confirms their assertion.", "tr": "Rapor onların iddiasını doğruluyor." },
+      { "en": "Her assertion was challenged by experts.", "tr": "İddiası uzmanlar tarafından sorgulandı." },
+      { "en": "He made bold assertions about the results.", "tr": "Sonuçlar hakkında iddialı savlarda bulundu." },
+      { "en": "The assertion turned out to be false.", "tr": "İddia yanlış çıktı." }
+    ]
+  },
+  {
+    "word": "attest",
+    "meanings": ["kanıtlamak", "doğrulamak"],
+    "examples": [
+      { "en": "Many studies attest to the benefits of exercise.", "tr": "Birçok çalışma egzersizin faydalarını kanıtlıyor." },
+      { "en": "Her success attests to her hard work.", "tr": "Başarısı sıkı çalıştığını doğruluyor." },
+      { "en": "The document attests to his identity.", "tr": "Belge kimliğini doğruluyor." },
+      { "en": "Experts attest that the method is reliable.", "tr": "Uzmanlar yöntemin güvenilir olduğunu doğruluyor." },
+      { "en": "The findings attest to the theory’s validity.", "tr": "Bulgular teorinin geçerliliğini kanıtlıyor." }
+    ]
+  },
+  {
+    "word": "augment",
+    "meanings": ["artırmak", "büyütmek"],
+    "examples": [
+      { "en": "They augmented the system with new features.", "tr": "Sistemi yeni özelliklerle geliştirdiler." },
+      { "en": "Her income was augmented by freelance work.", "tr": "Geliri serbest çalışmalarla artırıldı." },
+      { "en": "The company aims to augment productivity.", "tr": "Şirket verimliliği artırmayı hedefliyor." },
+      { "en": "He augmented his knowledge through practice.", "tr": "Bilgisini pratik yaparak artırdı." },
+      { "en": "Funding was augmented by donations.", "tr": "Fon bağışlarla artırıldı." }
+    ]
+  },
+  {
+    "word": "avid",
+    "meanings": ["hevesli", "istekli"],
+    "examples": [
+      { "en": "She is an avid reader.", "tr": "O hevesli bir okuyucudur." },
+      { "en": "He is an avid supporter of the team.", "tr": "Takımın istekli bir destekçisidir." },
+      { "en": "They are avid learners.", "tr": "Onlar hevesli öğrenenlerdir." },
+      { "en": "She took avid interest in science.", "tr": "Bilime büyük ilgi duydu." },
+      { "en": "He is an avid traveler.", "tr": "O hevesli bir gezgindir." }
+    ]
+  },
+
+  {
+    "word": "bolster",
+    "meanings": ["desteklemek", "güçlendirmek"],
+    "examples": [
+      { "en": "The evidence bolstered his claim.", "tr": "Kanıt iddiasını güçlendirdi." },
+      { "en": "They bolstered the system with new security measures.", "tr": "Sistemi yeni güvenlik önlemleriyle güçlendirdiler." },
+      { "en": "Her confidence was bolstered by the positive feedback.", "tr": "Olumlu geri bildirim özgüvenini artırdı." },
+      { "en": "The argument is bolstered by research.", "tr": "Argüman araştırmalarla destekleniyor." },
+      { "en": "They bolstered the economy with incentives.", "tr": "Ekonomiyi teşviklerle güçlendirdiler." }
+    ]
+  },
+
+  {
+    "word": "brevity",
+    "meanings": ["kısalık", "özlük"],
+    "examples": [
+      { "en": "The speech was praised for its brevity.", "tr": "Konuşma kısalığı nedeniyle övüldü." },
+      { "en": "Brevity is essential in summaries.", "tr": "Özette kısalık esastır." },
+      { "en": "He appreciated the brevity of the message.", "tr": "Mesajın özlü oluşunu takdir etti." },
+      { "en": "The article conveys its ideas with brevity.", "tr": "Makale fikirlerini özlü bir şekilde iletir." },
+      { "en": "She valued clarity and brevity in writing.", "tr": "Yazıda açıklığı ve özlülüğü önemserdi." }
+    ]
+  },
+
+  {
+    "word": "chronological",
+    "meanings": ["kronolojik"],
+    "examples": [
+      { "en": "The events are listed in chronological order.", "tr": "Olaylar kronolojik sırayla listelenmiştir." },
+      { "en": "He prepared a chronological timeline.", "tr": "Kronolojik bir zaman çizelgesi hazırladı." },
+      { "en": "The biography is not entirely chronological.", "tr": "Biyografi tamamen kronolojik değildir." },
+      { "en": "The records were arranged chronologically.", "tr": "Kayıtlar kronolojik olarak düzenlendi." },
+      { "en": "The report lacked chronological structure.", "tr": "Rapor kronolojik yapıdan yoksundu." }
+    ]
+  },
+
+  {
+    "word": "circumvent",
+    "meanings": ["atlatmak", "etrafından dolaşmak"],
+    "examples": [
+      { "en": "They found a way to circumvent the restrictions.", "tr": "Kısıtlamaları aşmanın bir yolunu buldular." },
+      { "en": "He circumvented the rule legally.", "tr": "Kuralı yasal olarak atlattı." },
+      { "en": "The system helps circumvent common errors.", "tr": "Sistem yaygın hataları atlatmaya yardımcı olur." },
+      { "en": "They circumvented the issue temporarily.", "tr": "Sorunu geçici olarak atlattılar." },
+      { "en": "Creative thinking can circumvent obstacles.", "tr": "Yaratıcı düşünme engelleri atlatabilir." }
+    ]
+  },
+
+  {
+    "word": "cohesive",
+    "meanings": ["uyumlu", "birleşik"],
+    "examples": [
+      { "en": "The team worked as a cohesive unit.", "tr": "Takım uyumlu bir birim olarak çalıştı." },
+      { "en": "Her writing is clear and cohesive.", "tr": "Yazısı açık ve uyumludur." },
+      { "en": "They presented a cohesive argument.", "tr": "Uyumlu bir argüman sundular." },
+      { "en": "The group lacked cohesive vision.", "tr": "Grup uyumlu bir vizyondan yoksundu." },
+      { "en": "Cohesive communities foster trust.", "tr": "Uyumlu topluluklar güveni teşvik eder." }
+    ]
+  },
+
+  {
+    "word": "competent",
+    "meanings": ["yetkin", "yeterli"],
+    "examples": [
+      { "en": "She is competent in her field.", "tr": "Kendi alanında yetkindir." },
+      { "en": "The team is highly competent.", "tr": "Takım oldukça yetkindir." },
+      { "en": "He performed the task competently.", "tr": "Görevi yetkin bir şekilde yerine getirdi." },
+      { "en": "Competent leadership is essential.", "tr": "Yetkin liderlik gereklidir." },
+      { "en": "They hired a competent specialist.", "tr": "Yetkin bir uzman tuttular." }
+    ]
+  },
+
+  {
+    "word": "complacent",
+    "meanings": ["rahatına düşkün", "kendinden memnun"],
+    "examples": [
+      { "en": "He became complacent after early success.", "tr": "Erken başarıdan sonra kendinden memnun hale geldi." },
+      { "en": "Complacent attitudes hinder progress.", "tr": "Rahatına düşkün tavırlar ilerlemeyi engeller." },
+      { "en": "The team grew complacent over time.", "tr": "Takım zamanla gevşedi." },
+      { "en": "She warned against becoming complacent.", "tr": "Rahatlamaya karşı uyardı." },
+      { "en": "Complacency can lead to failure.", "tr": "Rahatlık başarısızlığa yol açabilir." }
+    ]
+  },
+
+  {
+    "word": "comprehensive",
+    "meanings": ["kapsamlı"],
+    "examples": [
+      { "en": "They conducted a comprehensive review.", "tr": "Kapsamlı bir inceleme yaptılar." },
+      { "en": "The plan is thorough and comprehensive.", "tr": "Plan ayrıntılı ve kapsamlıdır." },
+      { "en": "It offers a comprehensive solution.", "tr": "Kapsamlı bir çözüm sunar." },
+      { "en": "A comprehensive study supports the theory.", "tr": "Kapsamlı bir çalışma teoriyi destekliyor." },
+      { "en": "We need a more comprehensive approach.", "tr": "Daha kapsamlı bir yaklaşıma ihtiyacımız var." }
+    ]
+  },
+
+  {
+    "word": "conducive",
+    "meanings": ["uygun", "elverişli"],
+    "examples": [
+      { "en": "A quiet room is conducive to studying.", "tr": "Sessiz bir oda çalışmaya elverişlidir." },
+      { "en": "The environment is not conducive to innovation.", "tr": "Ortam yeniliğe uygun değil." },
+      { "en": "Healthy habits are conducive to success.", "tr": "Sağlıklı alışkanlıklar başarıya elverişlidir." },
+      { "en": "The schedule is conducive to productivity.", "tr": "Program verimliliğe uygundur." },
+      { "en": "The atmosphere was conducive to discussion.", "tr": "Atmosfer tartışmaya elverişliydi." }
+    ]
+  },
+  {
+    "word": "credible",
+    "meanings": ["güvenilir"],
+    "examples": [
+      { "en": "We need credible evidence.", "tr": "Güvenilir kanıtlara ihtiyacımız var." },
+      { "en": "The witness was not credible.", "tr": "Tanık güvenilir değildi." },
+      { "en": "Her story sounds credible.", "tr": "Hikayesi güvenilir geliyor." },
+      { "en": "A credible source confirmed the news.", "tr": "Güvenilir bir kaynak haberi doğruladı." },
+      { "en": "Credibility is essential in journalism.", "tr": "Gazetecilikte güvenilirlik esastır." }
+    ]
+  },
+
+  {
+    "word": "deplete",
+    "meanings": ["tüketmek", "boşaltmak"],
+    "examples": [
+      { "en": "Resources are being rapidly depleted.", "tr": "Kaynaklar hızla tükeniyor." },
+      { "en": "The drought depleted water supplies.", "tr": "Kuraklık su kaynaklarını tüketti." },
+      { "en": "Stress can deplete your energy.", "tr": "Stres enerjinizi tüketebilir." },
+      { "en": "Overfishing depletes the oceans.", "tr": "Aşırı avlanma okyanusları tüketir." },
+      { "en": "They depleted their savings.", "tr": "Birikimlerini tükettiler." }
+    ]
+  },
+
+  {
+    "word": "derivative",
+    "meanings": ["türetilmiş", "özgün olmayan"],
+    "examples": [
+      { "en": "The film was criticized as derivative.", "tr": "Film özgün olmadığı için eleştirildi." },
+      { "en": "His style seems derivative of earlier artists.", "tr": "Tarzı daha önceki sanatçılardan türetilmiş gibi görünüyor." },
+      { "en": "The idea is interesting but derivative.", "tr": "Fikir ilginç ama özgün değil." },
+      { "en": "The song felt derivative and predictable.", "tr": "Şarkı türetilmiş ve tahmin edilebilirdi." },
+      { "en": "The design is too derivative to stand out.", "tr": "Tasarım göze çarpacak kadar özgün değil." }
+    ]
+  },
+
+  {
+    "word": "detrimental",
+    "meanings": ["zararlı"],
+    "examples": [
+      { "en": "Smoking is detrimental to health.", "tr": "Sigara sağlık için zararlıdır." },
+      { "en": "The policy may be detrimental to small businesses.", "tr": "Politika küçük işletmelere zararlı olabilir." },
+      { "en": "Excessive screen time is detrimental to sleep.", "tr": "Aşırı ekran kullanımı uykuya zararlıdır." },
+      { "en": "The chemicals have a detrimental effect.", "tr": "Kimyasallar zararlı bir etki yapıyor." },
+      { "en": "Stress can be detrimental in the long term.", "tr": "Stres uzun vadede zararlı olabilir." }
+    ]
+  },
+
+  {
+    "word": "diligent",
+    "meanings": ["çalışkan", "gayretli"],
+    "examples": [
+      { "en": "She is diligent in her studies.", "tr": "Derslerinde çalışkandır." },
+      { "en": "He is known for his diligent work ethic.", "tr": "Çalışkan iş ahlakıyla bilinir." },
+      { "en": "Diligent preparation is essential.", "tr": "Gayretli hazırlık gereklidir." },
+      { "en": "The team worked diligently.", "tr": "Takım gayretle çalıştı." },
+      { "en": "A diligent student rarely misses assignments.", "tr": "Gayretli bir öğrenci ödev kaçırmaz." }
+    ]
+  },
+
+  {
+    "word": "discrepancy",
+    "meanings": ["tutarsızlık", "çelişki"],
+    "examples": [
+      { "en": "There is a discrepancy between the reports.", "tr": "Raporlar arasında bir tutarsızlık var." },
+      { "en": "They noticed a discrepancy in the data.", "tr": "Veride bir çelişki fark ettiler." },
+      { "en": "The discrepancy requires investigation.", "tr": "Tutarsızlığın araştırılması gerekiyor." },
+      { "en": "He explained the discrepancy.", "tr": "Çelişkiyi açıkladı." },
+      { "en": "Serious discrepancies emerged during the audit.", "tr": "Denetim sırasında ciddi tutarsızlıklar ortaya çıktı." }
+    ]
+  }
+]

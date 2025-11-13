@@ -1,0 +1,2179 @@
+[
+  {
+    "word": "aberration",
+    "meanings": ["sapma", "aykırılık", "normdan uzaklaşma"],
+    "examples": [
+      { "en": "The scientist argued that the unexpected results were an aberration, not a flaw in the theory.", "tr": "Bilim insanı, beklenmedik sonuçların teoride bir hata değil, bir sapma olduğunu savundu." },
+      { "en": "Her sudden outburst was seen as an aberration from her usually calm behavior.", "tr": "Onun ani patlaması, genelde sakin davranışından bir aykırılık olarak görüldü." },
+      { "en": "Economic instability in the region was dismissed as a temporary aberration.", "tr": "Bölgedeki ekonomik istikrarsızlık geçici bir sapma olarak değerlendirildi." },
+      { "en": "The novel explores moral aberrations within corrupt societies.", "tr": "Roman, yozlaşmış toplumlar içindeki ahlaki sapmaları inceliyor." },
+      { "en": "He considered the incident an aberration rather than a pattern.", "tr": "O, olayı bir örüntüden ziyade bir sapma olarak değerlendirdi." }
+    ]
+  },
+  {
+    "word": "abstain",
+    "meanings": ["çekimser kalmak", "kaçınmak"],
+    "examples": [
+      { "en": "Many voters chose to abstain due to a lack of confidence in either candidate.", "tr": "Birçok seçmen, hiçbir adaya güvenmedikleri için çekimser kalmayı seçti." },
+      { "en": "He decided to abstain from sugar for health reasons.", "tr": "Sağlık nedenleriyle şekeri tüketmekten kaçınmaya karar verdi." },
+      { "en": "Members of the committee abstained to avoid political conflict.", "tr": "Komite üyeleri siyasi çatışmadan kaçınmak için çekimser kaldı." },
+      { "en": "She abstained from making a comment until all evidence was presented.", "tr": "Tüm kanıtlar sunulana kadar yorum yapmaktan kaçındı." },
+      { "en": "The report urged nations to abstain from actions that deepen the crisis.", "tr": "Rapor, ülkeleri krizi derinleştiren eylemlerden kaçınmaya çağırdı." }
+    ]
+  },
+  {
+    "word": "acquiesce",
+    "meanings": ["sessizce kabul etmek", "boyun eğmek"],
+    "examples": [
+      { "en": "Although hesitant, she eventually acquiesced to the committee's decision.", "tr": "Tereddüt etmesine rağmen, sonunda komitenin kararını sessizce kabul etti." },
+      { "en": "He refused to acquiesce to demands he found unreasonable.", "tr": "Mantıksız bulduğu taleplere boyun eğmeyi reddetti." },
+      { "en": "The villagers acquiesced when they realized resistance was futile.", "tr": "Direnişin boşuna olduğunu anlayınca köylüler boyun eğdi." },
+      { "en": "She acquiesced without protest, though her disappointment was evident.", "tr": "Hayal kırıklığı belirgin olsa da itiraz etmeden kabul etti." },
+      { "en": "The board acquiesced to the new regulations under political pressure.", "tr": "Yönetim kurulu siyasi baskı altında yeni düzenlemeleri kabul etti." }
+    ]
+  },
+
+  {
+    "word": "admonish",
+    "meanings": ["uyarmak", "hafifçe azarlamak"],
+    "examples": [
+      { "en": "The professor admonished the students for their lack of preparation.", "tr": "Profesör, öğrencileri hazırlıksızlıkları için uyardı." },
+      { "en": "She gently admonished him for his careless remarks.", "tr": "Ona dikkatsiz sözleri için nazikçe çıkıştı." },
+      { "en": "The report admonishes governments to act before the situation worsens.", "tr": "Rapor, hükümetleri durum kötüleşmeden harekete geçmeye çağırıyor." },
+      { "en": "He admonished his team not to let success breed complacency.", "tr": "Takımını başarının rehavete yol açmasına izin vermemeleri konusunda uyardı." },
+      { "en": "Parents often admonish children for behaviors they consider unsafe.", "tr": "Ebeveynler, tehlikeli buldukları davranışlar için çocuklarını sıkça uyarır." }
+    ]
+  },
+
+  {
+    "word": "alleviate",
+    "meanings": ["hafifletmek", "azaltmak"],
+    "examples": [
+      { "en": "International aid helped alleviate the suffering in the region.", "tr": "Uluslararası yardım bölgedeki acıyı hafifletmeye yardımcı oldu." },
+      { "en": "The new policy aims to alleviate the financial burden on families.", "tr": "Yeni politika ailelerin mali yükünü azaltmayı amaçlıyor." },
+      { "en": "Meditation can alleviate symptoms of stress and anxiety.", "tr": "Meditasyon stres ve kaygı belirtilerini hafifletebilir." },
+      { "en": "Technology has alleviated many challenges in modern communication.", "tr": "Teknoloji modern iletişimdeki birçok zorluğu hafifletti." },
+      { "en": "Doctors work tirelessly to alleviate the suffering of their patients.", "tr": "Doktorlar, hastalarının acılarını hafifletmek için yorulmadan çalışır." }
+    ]
+  },
+
+  {
+    "word": "ambiguity",
+    "meanings": ["belirsizlik", "muğlaklık"],
+    "examples": [
+      { "en": "The legal text contains several ambiguities that may cause disputes.", "tr": "Yasal metin anlaşmazlıklara yol açabilecek birçok belirsizlik içeriyor." },
+      { "en": "Her ambiguous answer only deepened the mystery.", "tr": "Onun muğlak cevabı gizemi daha da derinleştirdi." },
+      { "en": "Political statements often rely on ambiguity to avoid accountability.", "tr": "Siyasi açıklamalar genellikle sorumluluktan kaçmak için belirsizliğe dayanır." },
+      { "en": "The poem thrives on linguistic ambiguity and multiple interpretations.", "tr": "Şiir, dilsel belirsizlik ve çoklu yorumlardan beslenir." },
+      { "en": "Ambiguity in communication can easily lead to misunderstandings.", "tr": "İletişimdeki belirsizlik yanlış anlamalara yol açabilir." }
+    ]
+  },
+
+  {
+    "word": "anachronistic",
+    "meanings": ["tarihsel bağlam dışı", "çağdışı"],
+    "examples": [
+      { "en": "The historian argued that the depiction of technology in the film was anachronistic.", "tr": "Tarihçi, filmdeki teknoloji tasvirinin çağdışı olduğunu savundu." },
+      { "en": "Using paper ballots may seem anachronistic in a digital age.", "tr": "Dijital çağda kâğıt oy pusulası kullanmak çağdışı görünebilir." },
+      { "en": "The novel includes deliberately anachronistic references for stylistic effect.", "tr": "Roman, stilistik etki için kasıtlı olarak tarihsel bağlam dışı göndermeler içeriyor." },
+      { "en": "Some argue that traditional education methods are increasingly anachronistic.", "tr": "Bazıları geleneksel eğitim yöntemlerinin giderek çağdışı olduğunu savunuyor." },
+      { "en": "The painting’s anachronistic details challenge viewers’ expectations.", "tr": "Tablodaki çağdışı detaylar izleyicilerin beklentilerini zorlar." }
+    ]
+  },
+
+  {
+    "word": "antediluvian",
+    "meanings": ["çok eski", "modası geçmiş"],
+    "examples": [
+      { "en": "His views on gender roles are practically antediluvian.", "tr": "Onun cinsiyet rolleri konusundaki görüşleri neredeyse çağdışı." },
+      { "en": "The office still relies on antediluvian software systems.", "tr": "Ofis hâlâ çok eski yazılım sistemlerine bağlı." },
+      { "en": "The museum houses antediluvian tools used by early civilizations.", "tr": "Müze, erken medeniyetler tarafından kullanılan çok eski araçlara ev sahipliği yapıyor." },
+      { "en": "The argument feels antediluvian in today’s progressive climate.", "tr": "Bu argüman günümüzün ilerici ortamında oldukça eski moda kalıyor." },
+      { "en": "He dismissed the criticism as antediluvian and irrelevant.", "tr": "Eleştiriyi çağdışı ve ilgisiz olarak reddetti." }
+    ]
+  },
+
+  {
+    "word": "apocryphal",
+    "meanings": ["doğruluğu şüpheli", "uydurma"],
+    "examples": [
+      { "en": "Many apocryphal stories circulate about the founder’s early life.", "tr": "Kurucunun gençliği hakkında birçok uydurma hikâye dolaşıyor." },
+      { "en": "The quote is widely repeated, though its origin is apocryphal.", "tr": "Alıntı yaygın olarak tekrarlanıyor, ancak kökeni şüpheli." },
+      { "en": "Historians treat the tale as apocryphal due to lack of evidence.", "tr": "Tarihçiler, kanıt eksikliği nedeniyle hikâyeyi uydurma kabul ediyor." },
+      { "en": "His explanation sounded apocryphal, lacking any concrete detail.", "tr": "Onun açıklaması somut detaylardan yoksun olduğundan uydurma geliyordu." },
+      { "en": "Apocryphal accounts complicate our understanding of ancient events.", "tr": "Uydurma anlatılar antik olayları anlamamızı zorlaştırıyor." }
+    ]
+  },
+  {
+    "word": "arcane",
+    "meanings": ["gizli", "anlaşılması güç", "esrarengiz"],
+    "examples": [
+      { "en": "The manuscript is filled with arcane symbols only experts can decipher.", "tr": "El yazması, yalnızca uzmanların çözebileceği esrarengiz sembollerle dolu." },
+      { "en": "He has an arcane understanding of ancient ritual practices.", "tr": "Antik ritüel uygulamaları hakkında anlaşılması güç bir bilgisi var." },
+      { "en": "The software contains arcane settings hidden from regular users.", "tr": "Yazılım, normal kullanıcıların göremediği gizli ayarlar içeriyor." },
+      { "en": "Arcane cultural references make the novel challenging for newcomers.", "tr": "Esrarengiz kültürel göndermeler romanı yeni okurlar için zorlaştırıyor." },
+      { "en": "The professor's arcane explanation left most students confused.", "tr": "Profesörün anlaşılması güç açıklaması çoğu öğrenciyi şaşkına çevirdi." }
+    ]
+  },
+
+  {
+    "word": "archetype",
+    "meanings": ["arketip", "ilk örnek", "öz model"],
+    "examples": [
+      { "en": "The hero archetype appears in countless mythological traditions.", "tr": "Kahraman arketipi sayısız mitolojik gelenekte görülür." },
+      { "en": "She became the archetype of modern entrepreneurial success.", "tr": "O, modern girişimcilik başarısının arketipi haline geldi." },
+      { "en": "The film explores the archetype of the tragic anti-hero.", "tr": "Film, trajik anti-kahraman arketipini inceliyor." },
+      { "en": "This building is considered an archetype of early minimalist architecture.", "tr": "Bu yapı, erken minimalist mimarinin arketipi olarak kabul edilir." },
+      { "en": "Writers often rely on archetypes to construct relatable characters.", "tr": "Yazarlar, ilişkilenebilir karakterler oluşturmak için sıkça arketiplere başvurur." }
+    ]
+  },
+
+  {
+    "word": "assiduous",
+    "meanings": ["gayretli", "özenli", "titiz"],
+    "examples": [
+      { "en": "Her assiduous research contributed greatly to the final publication.", "tr": "Onun özenli araştırması nihai yayına büyük katkı sağladı." },
+      { "en": "He is known for his assiduous attention to detail.", "tr": "Detaylara titiz dikkat göstermesiyle bilinir." },
+      { "en": "The interns worked assiduously to meet the tight deadline.", "tr": "Stajyerler sıkı teslim tarihine yetişmek için gayretle çalıştı." },
+      { "en": "Their assiduous efforts eventually transformed the company.", "tr": "Gayretli çabaları sonunda şirketi dönüştürdü." },
+      { "en": "The novel reflects the author’s assiduous craftsmanship.", "tr": "Roman, yazarın özenli ustalığını yansıtır." }
+    ]
+  },
+
+  {
+    "word": "belligerent",
+    "meanings": ["saldırgan", "kavgacı"],
+    "examples": [
+      { "en": "His belligerent tone escalated the argument unnecessarily.", "tr": "Onun saldırgan tonu tartışmayı gereksiz yere tırmandırdı." },
+      { "en": "Several belligerent nations refused to engage in peace talks.", "tr": "Birçok saldırgan ulus barış görüşmelerine katılmayı reddetti." },
+      { "en": "She became increasingly belligerent after the accusations.", "tr": "Suçlamalardan sonra giderek daha kavgacı oldu." },
+      { "en": "The crowd grew belligerent as tensions rose.", "tr": "Gerginlik arttıkça kalabalık daha saldırgan hale geldi." },
+      { "en": "His belligerent stance isolated him from the group.", "tr": "Onun kavgacı tavrı onu gruptan izole etti." }
+    ]
+  },
+
+  {
+    "word": "cacophony",
+    "meanings": ["gürültü karmaşası", "kakofoni"],
+    "examples": [
+      { "en": "The city streets were filled with a cacophony of horns and voices.", "tr": "Şehir sokakları korna ve insan seslerinden oluşan bir gürültü karmaşasıyla doluydu." },
+      { "en": "The argument dissolved into a cacophony of accusations.", "tr": "Tartışma, suçlamaların bir kakofonisine dönüştü." },
+      { "en": "At dawn, a cacophony of birds disrupted my sleep.", "tr": "Şafakta, kuşların kakofonisi uykumu böldü." },
+      { "en": "The meeting ended in a cacophony of conflicting opinions.", "tr": "Toplantı, çelişen görüşlerin gürültüsünde sona erdi." },
+      { "en": "The composer intentionally blended cacophony with harmony.", "tr": "Besteci, kasıtlı olarak kakofoni ile uyumu harmanladı." }
+    ]
+  },
+
+  {
+    "word": "capricious",
+    "meanings": ["değişken", "kaprisli", "öngörülemez"],
+    "examples": [
+      { "en": "Financial markets can be capricious in times of uncertainty.", "tr": "Belirsizlik dönemlerinde finansal piyasalar öngörülemez olabilir." },
+      { "en": "Her capricious decisions made long-term planning impossible.", "tr": "Onun değişken kararları uzun vadeli planlamayı imkânsız kıldı." },
+      { "en": "The weather in this region is notoriously capricious.", "tr": "Bu bölgedeki hava meşhur derecede değişkendir." },
+      { "en": "He criticized the government’s capricious policy changes.", "tr": "Hükümetin öngörülemez politika değişikliklerini eleştirdi." },
+      { "en": "Her capricious mood swings unsettled everyone.", "tr": "Değişken ruh hâli herkesin huzurunu kaçırdı." }
+    ]
+  },
+
+  {
+    "word": "cathartic",
+    "meanings": ["arındırıcı", "rahatlatıcı"],
+    "examples": [
+      { "en": "Writing about her trauma proved deeply cathartic.", "tr": "Travması hakkında yazmak onun için derin bir arınma sağladı." },
+      { "en": "The film offers a cathartic release for viewers confronting grief.", "tr": "Film, yasla yüzleşen izleyiciler için arındırıcı bir rahatlama sunuyor." },
+      { "en": "His confession had a cathartic effect on the entire group.", "tr": "Onun itirafı tüm grup üzerinde rahatlatıcı bir etki yarattı." },
+      { "en": "Art can serve as a cathartic outlet for suppressed emotions.", "tr": "Sanat, bastırılmış duygular için arındırıcı bir çıkış görevi görebilir." },
+      { "en": "The protest became a cathartic moment for the community.", "tr": "Protesto, toplum için arındırıcı bir an hâline geldi." }
+    ]
+  },
+
+  {
+    "word": "circumspect",
+    "meanings": ["ihtiyatlı", "temkinli"],
+    "examples": [
+      { "en": "He remained circumspect when discussing sensitive topics.", "tr": "Hassas konuları tartışırken temkinli davrandı." },
+      { "en": "Investors are circumspect amid unpredictable market trends.", "tr": "Yatırımcılar, öngörülemez piyasa trendleri karşısında ihtiyatlı." },
+      { "en": "The committee took a circumspect approach to the proposal.", "tr": "Komite, teklife ihtiyatlı bir yaklaşım benimsedi." },
+      { "en": "She answered the journalist’s questions in a circumspect manner.", "tr": "Gazetecinin sorularına ihtiyatlı bir şekilde cevap verdi." },
+      { "en": "Their circumspect behavior prevented further escalation.", "tr": "Onların temkinli davranışı daha fazla tırmanışı önledi." }
+    ]
+  },
+
+  {
+    "word": "coalesce",
+    "meanings": ["birleşmek", "kaynaşmak"],
+    "examples": [
+      { "en": "Several small movements coalesced into a powerful political force.", "tr": "Birkaç küçük hareket güçlü bir siyasi güç hâline kaynaştı." },
+      { "en": "The droplets coalesced into a larger body of water.", "tr": "Damlacıklar birleşerek daha büyük bir su kütlesi oluşturdu." },
+      { "en": "The team gradually coalesced around a unified vision.", "tr": "Takım yavaşça ortak bir vizyon etrafında birleşti." },
+      { "en": "Various ideas coalesced into a coherent plan.", "tr": "Çeşitli fikirler uyumlu bir plana dönüştü." },
+      { "en": "The communities coalesced after years of division.", "tr": "Topluluklar yıllar süren ayrılıktan sonra kaynaştı." }
+    ]
+  },
+
+  {
+    "word": "colloquial",
+    "meanings": ["günlük dile ait", "konuşma diline özgü"],
+    "examples": [
+      { "en": "Her dissertation avoids colloquial expressions to maintain academic tone.", "tr": "Tezi, akademik üslubu korumak için konuşma dili ifadelerinden kaçınıyor." },
+      { "en": "He struggled to understand the colloquial phrases used by locals.", "tr": "Yöre halkının kullandığı günlük ifadeleri anlamakta zorlandı." },
+      { "en": "Colloquial language can make a story feel more authentic.", "tr": "Günlük dil, bir hikâyeyi daha otantik hissettirebilir." },
+      { "en": "The translation fails to capture the colloquial humor of the original.", "tr": "Çeviri, orijinalin konuşma dili mizahını yakalayamıyor." },
+      { "en": "Colloquial speech varies significantly across regions.", "tr": "Günlük konuşma dili bölgeler arasında büyük ölçüde değişir." }
+    ]
+  },
+  {
+    "word": "conflagration",
+    "meanings": ["büyük yangın", "büyük çatışma"],
+    "examples": [
+      { "en": "The slightest spark could trigger a massive conflagration in the dry forest.", "tr": "En küçük kıvılcım, kuru ormanda dev bir yangını tetikleyebilirdi." },
+      { "en": "The political scandal ignited a conflagration of public outrage.", "tr": "Siyasi skandal, halk arasında büyük bir öfke patlaması yarattı." },
+      { "en": "Historical records describe a conflagration that destroyed half the city.", "tr": "Tarihsel kayıtlar şehrin yarısını yok eden bir büyük yangını anlatır." },
+      { "en": "Diplomats worked to prevent a regional conflagration.", "tr": "Diplomatlar bölgesel bir çatışmayı engellemek için çalıştı." },
+      { "en": "His resignation set off a conflagration within the organization.", "tr": "Onun istifası kurum içinde büyük bir çatışma yarattı." }
+    ]
+  },
+
+  {
+    "word": "conjecture",
+    "meanings": ["tahmin", "varsayım"],
+    "examples": [
+      { "en": "The cause of the phenomenon remains a matter of conjecture.", "tr": "Fenomenin nedeni hâlâ bir varsayım konusu." },
+      { "en": "Her explanation was dismissed as mere conjecture.", "tr": "Onun açıklaması sadece bir tahmin olarak reddedildi." },
+      { "en": "Much of the early research is based on conjecture rather than evidence.", "tr": "Erken araştırmaların çoğu kanıttan ziyade varsayımlara dayanıyor." },
+      { "en": "The theory originated from a bold scientific conjecture.", "tr": "Teori, cesur bir bilimsel varsayımdan ortaya çıktı." },
+      { "en": "Journalists filled the gap in facts with conjecture.", "tr": "Gazeteciler, gerçeklerdeki boşluğu varsayımlarla doldurdu." }
+    ]
+  },
+
+  {
+    "word": "contravene",
+    "meanings": ["ihlâl etmek", "aykırı davranmak"],
+    "examples": [
+      { "en": "The proposal was rejected because it contravenes international law.", "tr": "Teklif, uluslararası hukuka aykırı olduğu için reddedildi." },
+      { "en": "He was fined for contravening safety regulations.", "tr": "Güvenlik düzenlemelerini ihlâl ettiği için para cezası aldı." },
+      { "en": "Their actions appear to contravene the company’s ethical standards.", "tr": "Onların eylemleri şirketin etik standartlarını ihlâl ediyor gibi görünüyor." },
+      { "en": "The decision contravenes previous agreements made by both parties.", "tr": "Karar, her iki tarafça yapılan önceki anlaşmaları ihlâl ediyor." },
+      { "en": "Publishing the data would contravene confidentiality obligations.", "tr": "Verilerin yayınlanması gizlilik yükümlülüklerini ihlâl eder." }
+    ]
+  },
+
+  {
+    "word": "conundrum",
+    "meanings": ["karmaşık sorun", "ikilem"],
+    "examples": [
+      { "en": "The team faced a moral conundrum with no clear solution.", "tr": "Ekip, açık bir çözümü olmayan ahlaki bir ikilemle karşı karşıyaydı." },
+      { "en": "Climate change presents a global conundrum requiring collective action.", "tr": "İklim değişikliği kolektif eylem gerektiren küresel bir sorun sunuyor." },
+      { "en": "The riddle seemed simple but turned into a complex conundrum.", "tr": "Bilmece basit görünüyordu ama karmaşık bir probleme dönüştü." },
+      { "en": "He found himself in a legal conundrum after the contract dispute.", "tr": "Sözleşme anlaşmazlığından sonra kendini hukuki bir çıkmazda buldu." },
+      { "en": "The novel builds its tension around a central philosophical conundrum.", "tr": "Roman, gerilimini merkezi bir felsefi ikilem üzerine kuruyor." }
+    ]
+  },
+
+  {
+    "word": "copious",
+    "meanings": ["bol miktarda", "çok sayıda"],
+    "examples": [
+      { "en": "She took copious notes during the lecture.", "tr": "Ders sırasında bol miktarda not aldı." },
+      { "en": "The book is supported by copious historical references.", "tr": "Kitap, çok sayıda tarihsel gönderme ile destekleniyor." },
+      { "en": "His copious apologies failed to repair the damage.", "tr": "Onun bol bol yaptığı özürler zararı telafi edemedi." },
+      { "en": "The researchers gathered copious data over the course of several years.", "tr": "Araştırmacılar birkaç yıl boyunca bol miktarda veri topladı." },
+      { "en": "Copious rainfall caused widespread flooding.", "tr": "Yoğun yağış geniş çaplı sel baskınlarına yol açtı." }
+    ]
+  },
+
+  {
+    "word": "corporeal",
+    "meanings": ["bedensel", "maddi", "fiziksel"],
+    "examples": [
+      { "en": "The story blurs the line between corporeal reality and imagination.", "tr": "Hikâye, bedensel gerçeklik ile hayal arasındaki çizgiyi bulanıklaştırıyor." },
+      { "en": "Meditation helps individuals become more aware of their corporeal presence.", "tr": "Meditasyon, bireylerin bedensel varlıklarının daha farkında olmasına yardımcı olur." },
+      { "en": "Ghosts in folklore often lack a corporeal form.", "tr": "Folklordaki hayaletler genellikle maddi bir forma sahip değildir." },
+      { "en": "The sculpture emphasizes the corporeal strength of the human figure.", "tr": "Heykel, insan bedeninin fiziksel gücünü vurgular." },
+      { "en": "The theory distinguishes between corporeal and spiritual existence.", "tr": "Teori, maddi ve ruhsal varoluş arasında ayrım yapar." }
+    ]
+  },
+
+  {
+    "word": "credence",
+    "meanings": ["inandırıcılık", "güven", "kredi"],
+    "examples": [
+      { "en": "The evidence gave credence to her claims.", "tr": "Kanıtlar onun iddialarına inandırıcılık kattı." },
+      { "en": "His calm demeanor lends credence to his leadership.", "tr": "Onun sakin tavrı liderliğine güven kazandırıyor." },
+      { "en": "The rumor gained credence after several officials commented on it.", "tr": "Bazı yetkililer yorum yaptıktan sonra söylenti daha inandırıcı hâle geldi." },
+      { "en": "The study lends little credence to the proposed hypothesis.", "tr": "Çalışma önerilen hipoteze pek inandırıcılık kazandırmıyor." },
+      { "en": "Her testimony gave credence to the investigation.", "tr": "Onun ifadeleri soruşturmaya güven kazandırdı." }
+    ]
+  },
+
+  {
+    "word": "deleterious",
+    "meanings": ["zararlı", "olumsuz etkili"],
+    "examples": [
+      { "en": "The chemicals have deleterious effects on the environment.", "tr": "Kimyasallar çevre üzerinde zararlı etkilere sahip." },
+      { "en": "Stress can exert deleterious influence on mental health.", "tr": "Stres, zihinsel sağlık üzerinde olumsuz etki yaratabilir." },
+      { "en": "The policy had unintended deleterious consequences.", "tr": "Politikanın beklenmedik zararlı sonuçları oldu." },
+      { "en": "Long-term exposure to noise proved deleterious to hearing.", "tr": "Uzun süreli gürültü maruziyeti işitmeye zararlı olduğu kanıtlandı." },
+      { "en": "His remarks had a deleterious impact on team morale.", "tr": "Onun sözleri takım moraline olumsuz etki etti." }
+    ]
+  },
+
+  {
+    "word": "demarcate",
+    "meanings": ["sınır çizmek", "ayırmak"],
+    "examples": [
+      { "en": "The treaty demarcated the borders between the two nations.", "tr": "Anlaşma, iki ulus arasındaki sınırları çizdi." },
+      { "en": "The study attempts to demarcate ethical boundaries in scientific research.", "tr": "Çalışma, bilimsel araştırmalarda etik sınırları belirlemeye çalışıyor." },
+      { "en": "Clear rules are needed to demarcate responsibilities.", "tr": "Sorumlulukları ayırmak için net kurallar gereklidir." },
+      { "en": "The fence demarcates the private property from public land.", "tr": "Çit, özel mülkü kamu arazisinden ayırıyor." },
+      { "en": "The categories are poorly demarcated and often overlap.", "tr": "Kategoriler zayıf şekilde sınırlandırılmış ve sık sık örtüşüyor." }
+    ]
+  },
+
+  {
+    "word": "denigrate",
+    "meanings": ["kötülemek", "küçümsemek"],
+    "examples": [
+      { "en": "He was criticized for denigrating the achievements of others.", "tr": "Başkalarının başarılarını küçümsediği için eleştirildi." },
+      { "en": "The article unfairly denigrates the entire profession.", "tr": "Makale, tüm mesleği haksız bir şekilde kötüliyor." },
+      { "en": "She refused to denigrate her competitors to gain an advantage.", "tr": "Avantaj elde etmek için rakiplerini kötülemeyi reddetti." },
+      { "en": "The film denigrates historical events for dramatic effect.", "tr": "Film, dramatik etki adına tarihi olayları küçümsüyor." },
+      { "en": "He felt denigrated by the dismissive tone of the report.", "tr": "Raporun küçümseyen tonundan dolayı kendini aşağılanmış hissetti." }
+    ]
+  },
+  {
+    "word": "disparate",
+    "meanings": ["tamamen farklı", "uyumsuz"],
+    "examples": [
+      { "en": "The study attempts to unify several disparate theories into one framework.", "tr": "Çalışma, birkaç tamamen farklı teoriyi tek bir çerçevede birleştirmeye çalışıyor." },
+      { "en": "The two cultures, though disparate, influenced each other over time.", "tr": "İki kültür tamamen farklı olsa da zamanla birbirini etkiledi." },
+      { "en": "He managed to bring together disparate viewpoints in the discussion.", "tr": "Tartışmada uyumsuz görüşleri bir araya getirmeyi başardı." },
+      { "en": "The museum showcases disparate pieces from different eras.", "tr": "Müze, farklı dönemlerden uyumsuz parçalar sergiliyor." },
+      { "en": "Their disparate backgrounds made collaboration challenging.", "tr": "Tamamen farklı geçmişleri iş birliğini zorlaştırdı." }
+    ]
+  },
+
+  {
+    "word": "disseminate",
+    "meanings": ["yaymak", "dağıtmak"],
+    "examples": [
+      { "en": "The organization works to disseminate accurate health information.", "tr": "Organizasyon doğru sağlık bilgilerini yaymak için çalışıyor." },
+      { "en": "Scholars disseminate their research through conferences and journals.", "tr": "Akademisyenler araştırmalarını konferanslar ve dergiler aracılığıyla yayar." },
+      { "en": "The internet rapidly disseminates new ideas worldwide.", "tr": "İnternet yeni fikirleri dünya çapında hızla yayar." },
+      { "en": "Propaganda was disseminated to influence public opinion.", "tr": "Kamuoyunu etkilemek için propaganda yayıldı." },
+      { "en": "The foundation disseminates findings to policymakers.", "tr": "Vakfın bulguları karar alıcılara iletilir." }
+    ]
+  },
+
+  {
+    "word": "effervescent",
+    "meanings": ["coşkulu", "kabarcıklı", "enerjik"],
+    "examples": [
+      { "en": "Her effervescent personality made her instantly likable.", "tr": "Onun coşkulu kişiliği hemen sevilmesini sağladı." },
+      { "en": "The effervescent reaction indicated a chemical change.", "tr": "Kabarcıklı reaksiyon kimyasal bir değişime işaret ediyordu." },
+      { "en": "The crowd's effervescent energy filled the stadium.", "tr": "Kalabalığın enerjik coşkusu stadyumu doldurdu." },
+      { "en": "He spoke with an effervescent enthusiasm that inspired everyone.", "tr": "Herkesi motive eden coşkulu bir heyecanla konuştu." },
+      { "en": "An effervescent atmosphere surrounded the launch event.", "tr": "Lansman etkinliğini coşkulu bir atmosfer sardı." }
+    ]
+  },
+
+  {
+    "word": "egregious",
+    "meanings": ["korkunç derecede kötü", "fahiş"],
+    "examples": [
+      { "en": "The company apologized for its egregious oversight.", "tr": "Şirket fahiş hatası için özür diledi." },
+      { "en": "His egregious behavior violated several ethical principles.", "tr": "Onun korkunç davranışı birçok etik ilkeyi ihlal etti." },
+      { "en": "The report revealed egregious corruption within the agency.", "tr": "Rapor, kurum içinde korkunç bir yolsuzluğu ortaya çıkardı." },
+      { "en": "Such an egregious error cannot be ignored.", "tr": "Böylesine fahiş bir hata göz ardı edilemez." },
+      { "en": "The government was criticized for its egregious misuse of funds.", "tr": "Hükümet fonları fahiş şekilde yanlış kullanmakla eleştirildi." }
+    ]
+  },
+
+  {
+    "word": "enervate",
+    "meanings": ["zayıflatmak", "güçten düşürmek"],
+    "examples": [
+      { "en": "The extreme heat enervated the athletes.", "tr": "Aşırı sıcak sporcuları güçten düşürdü." },
+      { "en": "Long-term stress can enervate even the strongest individuals.", "tr": "Uzun süreli stres en güçlü bireyleri bile zayıflatabilir." },
+      { "en": "The tedious negotiations enervated the entire team.", "tr": "Sıkıcı müzakereler tüm ekibi güçten düşürdü." },
+      { "en": "Her illness enervated her to the point of exhaustion.", "tr": "Hastalığı onu tükenmişlik noktasına kadar zayıflattı." },
+      { "en": "The lack of progress enervated their motivation.", "tr": "İlerleme eksikliği motivasyonlarını zayıflattı." }
+    ]
+  },
+
+  {
+    "word": "equanimity",
+    "meanings": ["sükunet", "soğukkanlılık"],
+    "examples": [
+      { "en": "She handled the crisis with impressive equanimity.", "tr": "Krizi etkileyici bir soğukkanlılıkla yönetti." },
+      { "en": "Maintaining equanimity during conflict is difficult.", "tr": "Çatışma sırasında sükuneti korumak zordur." },
+      { "en": "He reacted with equanimity despite the harsh criticism.", "tr": "Sert eleştiriye rağmen soğukkanlılıkla tepki verdi." },
+      { "en": "Meditation helped him cultivate equanimity.", "tr": "Meditasyon ona sükunet kazandırdı." },
+      { "en": "Her equanimity reassured the entire team.", "tr": "Onun sükuneti tüm ekibi rahatlattı." }
+    ]
+  },
+
+  {
+    "word": "equivocate",
+    "meanings": ["yan çizmek", "kaçamak cevap vermek"],
+    "examples": [
+      { "en": "The spokesperson continued to equivocate instead of offering clarity.", "tr": "Sözcü, netlik sağlamak yerine kaçamak cevaplar vermeye devam etti." },
+      { "en": "He equivocated when asked about his intentions.", "tr": "Niyetleri sorulduğunda yan çizdi." },
+      { "en": "Politicians often equivocate to avoid accountability.", "tr": "Politikacılar, sorumluluktan kaçmak için sıkça yan çizer." },
+      { "en": "She equivocated rather than admit her mistake.", "tr": "Hatasını kabul etmek yerine kaçamak konuştu." },
+      { "en": "His equivocation frustrated the interviewers.", "tr": "Onun kaçamak konuşması mülakat yapanları hayal kırıklığına uğrattı." }
+    ]
+  },
+
+  {
+    "word": "esoteric",
+    "meanings": ["anlaşılması zor", "sadece uzmanlarca bilinen"],
+    "examples": [
+      { "en": "The philosopher's esoteric ideas puzzled the audience.", "tr": "Filozofun anlaşılması zor fikirleri seyirciyi şaşırttı." },
+      { "en": "The subject is too esoteric for general readers.", "tr": "Konu genel okuyucular için fazla uzmanlık gerektiriyor." },
+      { "en": "The manuscript contains esoteric references to ancient rituals.", "tr": "El yazması antik ritüellere dair anlaşılması güç referanslar içeriyor." },
+      { "en": "He enjoys studying esoteric branches of mathematics.", "tr": "O, matematiğin anlaşılması güç alanlarını incelemeyi seviyor." },
+      { "en": "The lecture delved into esoteric theological concepts.", "tr": "Ders, anlaşılması zor teolojik kavramlara daldı." }
+    ]
+  },
+
+  {
+    "word": "fastidious",
+    "meanings": ["titiz", "zor beğenen"],
+    "examples": [
+      { "en": "She is fastidious about keeping her workspace organized.", "tr": "Çalışma alanını düzenli tutma konusunda titizdir." },
+      { "en": "The editor is known for his fastidious attention to detail.", "tr": "Editör, detaylara olan titiz dikkatliğiyle bilinir." },
+      { "en": "He became fastidious about his diet.", "tr": "Diyeti konusunda zor beğenen hale geldi." },
+      { "en": "Their fastidious standards improved the project.", "tr": "Onların titiz standartları projeyi geliştirdi." },
+      { "en": "She reviewed the documents with fastidious care.", "tr": "Belgeleri titiz bir özenle inceledi." }
+    ]
+  },
+
+  {
+    "word": "flummox",
+    "meanings": ["şaşırtmak", "aklını karıştırmak"],
+    "examples": [
+      { "en": "The complex instructions flummoxed even the experts.", "tr": "Karmaşık talimatlar uzmanları bile şaşırttı." },
+      { "en": "He was flummoxed by her sudden change of attitude.", "tr": "Onun ani tavır değişikliği karşısında şaşkına döndü." },
+      { "en": "The puzzle flummoxed every participant.", "tr": "Bulmaca tüm katılımcıların aklını karıştırdı." },
+      { "en": "Her ambiguous response flummoxed the interviewer.", "tr": "Onun muğlak cevabı mülakatçiyi şaşkına çevirdi." },
+      { "en": "The legal jargon flummoxed ordinary citizens.", "tr": "Hukuki jargon sıradan vatandaşların aklını karıştırdı." }
+    ]
+  },
+
+  {
+    "word": "fluctuate",
+    "meanings": ["dalgalanmak", "değişmek"],
+    "examples": [
+      { "en": "Energy prices fluctuate depending on global conditions.", "tr": "Enerji fiyatları küresel koşullara göre dalgalanır." },
+      { "en": "Her motivation fluctuates throughout the year.", "tr": "Onun motivasyonu yıl boyunca değişkenlik gösterir." },
+      { "en": "The data fluctuates too much to draw a conclusion.", "tr": "Veriler bir sonuca varmak için fazla dalgalanıyor." },
+      { "en": "Population numbers fluctuate seasonally.", "tr": "Nüfus sayıları mevsimsel olarak dalgalanır." },
+      { "en": "The stock fluctuated wildly after the announcement.", "tr": "Hisse senedi duyurudan sonra aşırı dalgalandı." }
+    ]
+  },
+
+  {
+    "word": "fortuitous",
+    "meanings": ["tesadüfi", "şans eseri"],
+    "examples": [
+      { "en": "Their meeting was entirely fortuitous.", "tr": "Onların karşılaşması tamamen tesadüfi idi." },
+      { "en": "A fortuitous discovery changed the course of the research.", "tr": "Şans eseri yapılan bir keşif araştırmanın gidişatını değiştirdi." },
+      { "en": "The timing of the event proved fortuitous for investors.", "tr": "Etkinliğin zamanlaması yatırımcılar için şanslı oldu." },
+      { "en": "Her fortuitous encounter led to a new opportunity.", "tr": "Onun tesadüfi karşılaşması yeni bir fırsata yol açtı." },
+      { "en": "The similarities may be fortuitous rather than intentional.", "tr": "Benzerlikler kasıtlı olmaktan ziyade tesadüfi olabilir." }
+    ]
+  },
+
+  {
+    "word": "gregarious",
+    "meanings": ["sosyal", "topluluk içinde yaşayan"],
+    "examples": [
+      { "en": "He is naturally gregarious and makes friends easily.", "tr": "O, doğuştan sosyaldir ve kolayca arkadaş edinir." },
+      { "en": "Gregarious animals thrive in cooperative groups.", "tr": "Topluluk halinde yaşayan hayvanlar işbirlikçi gruplarda gelişir." },
+      { "en": "Her gregarious nature suited her career in public relations.", "tr": "Onun sosyal yapısı halkla ilişkiler kariyerine uygundu." },
+      { "en": "The event attracted a gregarious crowd.", "tr": "Etkinlik sosyal bir kalabalık çekti." },
+      { "en": "He became less gregarious after moving to the city.", "tr": "Şehre taşındıktan sonra daha az sosyal oldu." }
+    ]
+  },
+
+  {
+    "word": "haphazard",
+    "meanings": ["rastgele", "düzensiz"],
+    "examples": [
+      { "en": "The documents were arranged in a haphazard manner.", "tr": "Belgeler düzensiz bir şekilde düzenlenmişti." },
+      { "en": "His haphazard decisions caused long-term problems.", "tr": "Onun rastgele kararları uzun vadeli sorunlara yol açtı." },
+      { "en": "The city developed haphazardly without proper planning.", "tr": "Şehir uygun planlama olmadan rastgele gelişti." },
+      { "en": "The experiment produced haphazard results.", "tr": "Deney düzensiz sonuçlar üretti." },
+      { "en": "Books were piled haphazardly across the room.", "tr": "Kitaplar odanın her tarafına rastgele yığılmıştı." }
+    ]
+  },
+
+  {
+    "word": "idiosyncratic",
+    "meanings": ["kendine özgü", "alışılmadık"],
+    "examples": [
+      { "en": "Her writing style is highly idiosyncratic.", "tr": "Onun yazma stili oldukça kendine özgüdür." },
+      { "en": "The artist is known for his idiosyncratic use of color.", "tr": "Sanatçı, renkleri alışılmadık kullanımıyla bilinir." },
+      { "en": "His idiosyncratic habits confused his coworkers.", "tr": "Onun alışılmadık alışkanlıkları iş arkadaşlarını şaşkına çevirdi." },
+      { "en": "The system has several idiosyncratic features.", "tr": "Sistemin birkaç kendine özgü özelliği vardır." },
+      { "en": "Their idiosyncratic approach produced remarkable insights.", "tr": "Onların kendine özgü yaklaşımı dikkate değer içgörüler üretti." }
+    ]
+  },
+
+  {
+    "word": "impeccable",
+    "meanings": ["kusursuz", "mükemmel"],
+    "examples": [
+      { "en": "Her academic record is impeccable.", "tr": "Onun akademik geçmişi kusursuzdur." },
+      { "en": "The chef is known for impeccable technique.", "tr": "Şef kusursuz tekniğiyle bilinir." },
+      { "en": "He delivered an impeccable performance.", "tr": "O kusursuz bir performans sergiledi." },
+      { "en": "The service at the hotel was simply impeccable.", "tr": "Oteldeki hizmet gerçekten kusursuzdu." },
+      { "en": "She always maintains impeccable manners.", "tr": "Her zaman kusursuz nezaketini korur." }
+    ]
+  },
+
+  {
+    "word": "incongruous",
+    "meanings": ["uygunsuz", "tutarsız"],
+    "examples": [
+      { "en": "His casual clothes looked incongruous at the formal event.", "tr": "Günlük kıyafetleri resmi etkinlikte uygunsuz görünüyordu." },
+      { "en": "The bright painting seemed incongruous in the dark hallway.", "tr": "Parlak tablo karanlık koridorda tutarsız görünüyordu." },
+      { "en": "Her actions were incongruous with her stated beliefs.", "tr": "Onun eylemleri ifade ettiği inançlarla tutarsızdı." },
+      { "en": "The sound was incongruous with the peaceful setting.", "tr": "Ses huzurlu ortamla uyumsuzdu." },
+      { "en": "The two arguments appear incongruous when compared closely.", "tr": "İki argüman yakından incelendiğinde tutarsız görünüyor." }
+    ]
+  },
+
+  {
+    "word": "ineffable",
+    "meanings": ["tarif edilemez", "kelimelere dökülemez"],
+    "examples": [
+      { "en": "The view from the mountain was of ineffable beauty.", "tr": "Dağdan manzara tarif edilemez bir güzelliğe sahipti." },
+      { "en": "She felt an ineffable joy upon hearing the news.", "tr": "Haberi duyunca tarif edilemez bir sevinç hissetti." },
+      { "en": "The experience left him with an ineffable sense of wonder.", "tr": "Deneyim onda kelimelere dökülemez bir hayranlık duygusu bıraktı." },
+      { "en": "Certain emotions are simply ineffable.", "tr": "Bazı duygular kelimelerle ifade edilemez." },
+      { "en": "The ritual carried an ineffable significance for the community.", "tr": "Ritüel, topluluk için tarif edilemez bir öneme sahipti." }
+    ]
+  },
+  {
+    "word": "abstruse",
+    "meanings": ["anlaşılması güç", "muğlak"],
+    "examples": [
+      { "en": "The professor’s abstruse explanation confused the entire class.", "tr": "Profesörün anlaşılması güç açıklaması tüm sınıfı şaşırttı." },
+      { "en": "He enjoys reading abstruse philosophical texts.", "tr": "Anlaşılması zor felsefi metinler okumayı seviyor." },
+      { "en": "The concept is abstruse to anyone without a scientific background.", "tr": "Bilimsel geçmişi olmayanlar için kavram anlaşılması güçtür." },
+      { "en": "Her theory remains abstruse despite several revisions.", "tr": "Birçok revizyona rağmen teorisi hâlâ muğlak." },
+      { "en": "The book delves into abstruse metaphysical ideas.", "tr": "Kitap, karmaşık metafizik fikirlere dalıyor." }
+    ]
+  },
+  {
+    "word": "acumen",
+    "meanings": ["keskin zekâ", "sezgi gücü"],
+    "examples": [
+      { "en": "Her business acumen impressed the investors.", "tr": "Onun iş zekâsı yatırımcıları etkiledi." },
+      { "en": "He has remarkable political acumen.", "tr": "Olağanüstü politik sezgiye sahiptir." },
+      { "en": "His strategic acumen guided the company through the crisis.", "tr": "Stratejik sezgisi şirketi krizden geçirdi." },
+      { "en": "The role requires financial acumen.", "tr": "Bu rol finansal sezgi gerektirir." },
+      { "en": "She navigated the negotiations with notable acumen.", "tr": "Müzakereleri dikkate değer bir zekâyla yönetti." }
+    ]
+  },
+  {
+    "word": "alacrity",
+    "meanings": ["isteklilik", "heves"],
+    "examples": [
+      { "en": "She accepted the offer with surprising alacrity.", "tr": "Teklifi şaşırtıcı bir istekle kabul etti." },
+      { "en": "He responded with alacrity to every request.", "tr": "Her talebe hevesle cevap verdi." },
+      { "en": "The team tackled the challenge with alacrity.", "tr": "Ekip zorluğu istekle ele aldı." },
+      { "en": "Her alacrity to help made her well-liked.", "tr": "Yardım etmeye olan hevesi onu sevilen biri yaptı." },
+      { "en": "They complied with alacrity to the new rules.", "tr": "Yeni kurallara hevesle uyum sağladılar." }
+    ]
+  },
+  {
+    "word": "ameliorate",
+    "meanings": ["iyileştirmek", "düzeltmek"],
+    "examples": [
+      { "en": "The reforms aim to ameliorate living conditions.", "tr": "Reformlar yaşam koşullarını iyileştirmeyi amaçlıyor." },
+      { "en": "Medicine ameliorated his symptoms.", "tr": "İlaç semptomlarını hafifletti." },
+      { "en": "They hope to ameliorate the ongoing conflict.", "tr": "Devam eden çatışmayı iyileştirmeyi umuyorlar." },
+      { "en": "Technology can ameliorate communication barriers.", "tr": "Teknoloji iletişim engellerini azaltabilir." },
+      { "en": "Policies were implemented to ameliorate poverty.", "tr": "Yoksulluğu azaltmak için politikalar uygulandı." }
+    ]
+  },
+  {
+    "word": "anachronism",
+    "meanings": ["tarihe aykırılık", "zaman uyumsuzluğu"],
+    "examples": [
+      { "en": "Using typewriters today feels like an anachronism.", "tr": "Bugün daktilo kullanmak bir anacronism gibi geliyor." },
+      { "en": "The film contains several historical anachronisms.", "tr": "Film birçok tarihsel uyumsuzluk içeriyor." },
+      { "en": "His views are considered anachronisms in modern society.", "tr": "Onun görüşleri modern toplumda çağ dışı kabul edilir." },
+      { "en": "The novel intentionally employs anachronisms.", "tr": "Roman kasıtlı olarak zaman uyumsuzlukları kullanır." },
+      { "en": "Wearing armor to a debate is an obvious anachronism.", "tr": "Bir tartışmaya zırh giymek açık bir zaman uyumsuzluğudur." }
+    ]
+  },
+  {
+    "word": "antipathy",
+    "meanings": ["derin nefret", "iğrenme"],
+    "examples": [
+      { "en": "There is long-standing antipathy between the two groups.", "tr": "İki grup arasında uzun süredir bir nefret var." },
+      { "en": "He felt an immediate antipathy toward dishonesty.", "tr": "Dürüst olmayan davranışlara karşı derin bir nefret hissetti." },
+      { "en": "Her antipathy toward corruption was evident.", "tr": "Onun yolsuzluğa karşı nefretinin belirgindi." },
+      { "en": "Political antipathy hindered cooperation.", "tr": "Siyasi nefret işbirliğini engelledi." },
+      { "en": "The proposal met with strong antipathy.", "tr": "Teklif güçlü bir nefretle karşılandı." }
+    ]
+  },
+  {
+    "word": "apotheosis",
+    "meanings": ["yüceltme", "zirve noktası"],
+    "examples": [
+      { "en": "The final chapter is the apotheosis of her literary style.", "tr": "Son bölüm onun edebi stilinin zirvesidir." },
+      { "en": "The concert marked the apotheosis of his career.", "tr": "Konser onun kariyerinin zirvesini işaret etti." },
+      { "en": "The festival is the apotheosis of the city's culture.", "tr": "Festival şehrin kültürünün en yüksek noktasıdır." },
+      { "en": "Her bravery reached apotheosis during the crisis.", "tr": "Onun cesareti kriz sırasında zirveye ulaştı." },
+      { "en": "The painting represents the apotheosis of romantic art.", "tr": "Tablo romantik sanatın zirvesini temsil eder." }
+    ]
+  },
+  {
+    "word": "arbitrary",
+    "meanings": ["keyfi", "nedensiz"],
+    "examples": [
+      { "en": "The decision seemed completely arbitrary.", "tr": "Karar tamamen keyfi görünüyordu." },
+      { "en": "He criticized the arbitrary rules.", "tr": "Keyfi kuralları eleştirdi." },
+      { "en": "Arbitrary enforcement caused public concern.", "tr": "Keyfi uygulama halkta endişe yarattı." },
+      { "en": "The process lacked transparency and felt arbitrary.", "tr": "Süreç şeffaf değildi ve keyfi görünüyordu." },
+      { "en": "She disliked the arbitrary grading system.", "tr": "Keyfi notlandırma sisteminden hoşlanmadı." }
+    ]
+  },
+  {
+    "word": "avarice",
+    "meanings": ["açgözlülük"],
+    "examples": [
+      { "en": "His downfall was caused by his avarice.", "tr": "Çöküşü açgözlülüğünden kaynaklandı." },
+      { "en": "The story warns against human avarice.", "tr": "Hikâye insan açgözlülüğüne karşı uyarır." },
+      { "en": "Corporate avarice neglected the workers.", "tr": "Kurumsal açgözlülük işçileri ihmal etti." },
+      { "en": "Her avarice corrupted her values.", "tr": "Açgözlülüğü değerlerini bozdu." },
+      { "en": "Avarice fueled the scandal.", "tr": "Skandalı açgözlülük körükledi." }
+    ]
+  },
+  {
+    "word": "bellicose",
+    "meanings": ["savaşçı", "kavgacı"],
+    "examples": [
+      { "en": "His bellicose rhetoric alarmed the audience.", "tr": "Onun savaşçı söylemi izleyiciyi alarma geçirdi." },
+      { "en": "The nation adopted a bellicose stance.", "tr": "Ülke savaşçı bir tavır benimsedi." },
+      { "en": "Bellicose leaders often provoke conflict.", "tr": "Savaşçı liderler sıklıkla çatışma kışkırtır." },
+      { "en": "Her bellicose remarks escalated tensions.", "tr": "Onun kavgacı yorumları gerginliği artırdı." },
+      { "en": "The debate turned bellicose quickly.", "tr": "Tartışma hızla kavgacı hale geldi." }
+    ]
+  },
+
+  {
+    "word": "cacophonous",
+    "meanings": ["gürültülü", "rahatsız edici"],
+    "examples": [
+      { "en": "The room filled with cacophonous laughter.", "tr": "Oda rahatsız edici kahkahalarla doldu." },
+      { "en": "The machinery produced a cacophonous roar.", "tr": "Makineler gürültülü bir uğultu çıkardı." },
+      { "en": "The debate became a cacophonous mess.", "tr": "Tartışma gürültülü bir kaosa dönüştü." },
+      { "en": "The market is a cacophonous environment.", "tr": "Pazar gürültülü bir ortamdır." },
+      { "en": "The two instruments created a cacophonous blend.", "tr": "İki enstrüman rahatsız edici bir karışım oluşturdu." }
+    ]
+  },
+
+  {
+    "word": "censure",
+    "meanings": ["kınamak", "eleştirmek"],
+    "examples": [
+      { "en": "The official was censured for misconduct.", "tr": "Yetkili kötü davranışı nedeniyle kınandı." },
+      { "en": "He faced public censure for his remarks.", "tr": "Sözleri nedeniyle kamuoyu tarafından eleştirildi." },
+      { "en": "The report censured the organization’s failures.", "tr": "Rapor, örgütün hatalarını kınadı." },
+      { "en": "Her actions were met with severe censure.", "tr": "Onun eylemleri ağır eleştiriyle karşılandı." },
+      { "en": "The committee issued a formal censure.", "tr": "Komite resmi bir kınama yayınladı." }
+    ]
+  },
+
+  {
+    "word": "chagrin",
+    "meanings": ["üzüntü", "büyük hayal kırıklığı"],
+    "examples": [
+      { "en": "To his chagrin, the proposal was rejected.", "tr": "Onun büyük üzüntüsüne, teklif reddedildi." },
+      { "en": "She felt chagrin after her mistake.", "tr": "Hatasından sonra büyük hayal kırıklığı hissetti." },
+      { "en": "The loss caused considerable chagrin.", "tr": "Kayıp büyük bir üzüntü yarattı." },
+      { "en": "His chagrin was visible on his face.", "tr": "Üzüntüsü yüzünden okunuyordu." },
+      { "en": "They expressed chagrin at the outcome.", "tr": "Sonuç karşısında hayal kırıklıklarını dile getirdiler." }
+    ]
+  },
+
+  {
+    "word": "circumvent",
+    "meanings": ["etrafından dolanmak", "atlatmak"],
+    "examples": [
+      { "en": "They found a way to circumvent the restriction.", "tr": "Kısıtlamayı atlatmanın bir yolunu buldular." },
+      { "en": "Hackers attempted to circumvent the security system.", "tr": "Hackerlar güvenlik sistemini atlatmaya çalıştı." },
+      { "en": "She circumvented bureaucracy by speaking directly.", "tr": "Bürokrasiyi doğrudan konuşarak atlattı." },
+      { "en": "He circumvented the rule creatively.", "tr": "Kuralı yaratıcı şekilde aştı." },
+      { "en": "The proposal sought to circumvent legal barriers.", "tr": "Teklif yasal engelleri aşmayı hedefliyordu." }
+    ]
+  },
+
+  {
+    "word": "coerce",
+    "meanings": ["zorlamak", "baskı yapmak"],
+    "examples": [
+      { "en": "He was coerced into signing the agreement.", "tr": "Anlaşmayı imzalamaya zorlandı." },
+      { "en": "They coercively collected the payments.", "tr": "Ödemeleri zorlayarak topladılar." },
+      { "en": "The regime coerced citizens into silence.", "tr": "Rejim vatandaşları sessizliğe zorladı." },
+      { "en": "She refused to be coerced into compliance.", "tr": "Baskıyla uyum sağlamayı reddetti." },
+      { "en": "Coercion undermines genuine consent.", "tr": "Zorlama gerçek rızayı geçersiz kılar." }
+    ]
+  },
+
+  {
+    "word": "commiserate",
+    "meanings": ["acı paylaşmak", "teselli etmek"],
+    "examples": [
+      { "en": "Friends gathered to commiserate with the family.", "tr": "Arkadaşlar aileyle acılarını paylaşmak için toplandı." },
+      { "en": "She commiserated with him after the loss.", "tr": "Kayıptan sonra onunla acısını paylaştı." },
+      { "en": "They commiserated about their difficult workload.", "tr": "Zor iş yükleri hakkında dertleştiler." },
+      { "en": "He commiserated over the failed project.", "tr": "Başarısız proje hakkında teselli etti." },
+      { "en": "We commiserated with our colleague after the setback.", "tr": "Aksilikten sonra çalışma arkadaşımızı teselli ettik." }
+    ]
+  },
+
+  {
+    "word": "conflagration",
+    "meanings": ["büyük yangın", "büyük çatışma"],
+    "examples": [
+      { "en": "The drought turned the region into a potential conflagration.", "tr": "Kuraklık bölgeyi potansiyel bir büyük yangına çevirdi." },
+      { "en": "The scandal sparked a political conflagration.", "tr": "Skandal siyasi bir büyük çatışma yarattı." },
+      { "en": "The war escalated into a continental conflagration.", "tr": "Savaş kıtasal bir çatışmaya dönüştü." },
+      { "en": "The fire grew into a full conflagration overnight.", "tr": "Yangın bir gecede büyük bir yangına dönüştü." },
+      { "en": "Diplomats worked to prevent a global conflagration.", "tr": "Diplomatlar küresel bir çatışmayı engellemek için çalıştı." }
+    ]
+  },
+
+  {
+    "word": "credulous",
+    "meanings": ["saf", "kolay inanan"],
+    "examples": [
+      { "en": "The credulous crowd believed every rumor.", "tr": "Saf kalabalık duyduğu her söylentiye inandı." },
+      { "en": "He preyed on credulous individuals.", "tr": "Kolay inanan kişilerden faydalandı." },
+      { "en": "Her credulous nature made her vulnerable.", "tr": "Onun saf yapısı onu savunmasız kıldı." },
+      { "en": "Children can be surprisingly credulous.", "tr": "Çocuklar şaşırtıcı derecede saf olabilir." },
+      { "en": "A credulous audience is easily misled.", "tr": "Saf bir izleyici kolayca yanıltılır." }
+    ]
+  },
+
+  {
+    "word": "decorum",
+    "meanings": ["görgü", "uygun davranış"],
+    "examples": [
+      { "en": "The situation required strict decorum.", "tr": "Durum katı bir görgü gerektiriyordu." },
+      { "en": "He behaved with utmost decorum.", "tr": "Son derece uygun bir davranış sergiledi." },
+      { "en": "She expected professional decorum from everyone.", "tr": "Herkesten profesyonel bir görgü bekliyordu." },
+      { "en": "The argument quickly lost all decorum.", "tr": "Tartışma hızla tüm uygunluğu kaybetti." },
+      { "en": "Maintaining decorum was essential in the meeting.", "tr": "Toplantıda uygun davranışı korumak çok önemliydi." }
+    ]
+  },
+
+  {
+    "word": "delineate",
+    "meanings": ["tanımlamak", "tasvir etmek"],
+       "examples": [
+      { "en": "The guidelines clearly delineate each responsibility.", "tr": "Kılavuzlar her sorumluluğu açıkça tanımlar." },
+      { "en": "The map delineates the border precisely.", "tr": "Harita sınırı kesin şekilde gösterir." },
+      { "en": "The report delineated numerous issues.", "tr": "Rapor çok sayıda sorunu tanımladı." },
+      { "en": "Her speech delineated the administration’s vision.", "tr": "Konuşması yönetimin vizyonunu tasvir etti." },
+      { "en": "The contract delineates all terms in detail.", "tr": "Sözleşme tüm şartları detaylı şekilde tanımlar." }
+    ]
+  },
+
+  {
+    "word": "denouement",
+    "meanings": ["çözülme", "final bölüm"],
+    "examples": [
+      { "en": "The novel’s denouement surprised readers.", "tr": "Romanın final bölümü okuyucuları şaşırttı." },
+      { "en": "The film’s denouement tied all storylines together.", "tr": "Filmin çözülme bölümü tüm hikâyeleri birleştirdi." },
+      { "en": "The political denouement unfolded quickly.", "tr": "Siyasi çözülme hızlı bir şekilde gelişti." },
+      { "en": "Audiences awaited the play’s denouement eagerly.", "tr": "Seyirciler oyunun finalini heyecanla bekledi." },
+      { "en": "The denouement revealed the truth at last.", "tr": "Final bölümünde sonunda gerçek ortaya çıktı." }
+    ]
+  },
+
+  {
+    "word": "diatribe",
+    "meanings": ["sert eleştiri", "ağır saldırı"],
+    "examples": [
+      { "en": "He launched into a diatribe against corruption.", "tr": "Yolsuzluğa karşı sert bir saldırıya girişti." },
+      { "en": "The article was a diatribe directed at the government.", "tr": "Makale hükümete yönelik sert bir eleştiriydi." },
+      { "en": "Her speech turned into a personal diatribe.", "tr": "Konuşması kişisel bir saldırıya dönüştü." },
+      { "en": "The debate devolved into mutual diatribes.", "tr": "Tartışma karşılıklı saldırılara dönüştü." },
+      { "en": "Commentators criticized his unnecessary diatribe.", "tr": "Yorumcular onun gereksiz saldırısını eleştirdi." }
+    ]
+  },
+
+  {
+    "word": "didactic",
+    "meanings": ["öğretici", "ders verici"],
+    "examples": [
+      { "en": "The novel has a didactic tone.", "tr": "Roman öğretici bir tona sahiptir." },
+      { "en": "Her speech became overly didactic.", "tr": "Konuşması fazlasıyla ders verici hale geldi." },
+      { "en": "The book is both entertaining and didactic.", "tr": "Kitap hem eğlenceli hem de öğretici." },
+      { "en": "His didactic manner annoyed the audience.", "tr": "Onun öğretici tarzı izleyiciyi rahatsız etti." },
+      { "en": "The film avoids being didactic despite its message.", "tr": "Film mesajına rağmen ders verir bir hâle gelmekten kaçınıyor." }
+    ]
+  },
+
+  {
+    "word": "dissonance",
+    "meanings": ["uyumsuzluk", "çatışma"],
+    "examples": [
+      { "en": "There was a dissonance between his words and actions.", "tr": "Sözleri ve eylemleri arasında uyumsuzluk vardı." },
+      { "en": "The music intentionally created dissonance.", "tr": "Müzik kasıtlı olarak uyumsuzluk yarattı." },
+      { "en": "Social dissonance intensified the conflict.", "tr": "Toplumsal uyumsuzluk çatışmayı artırdı." },
+      { "en": "She felt a dissonance within her beliefs.", "tr": "İnançları arasında bir çatışma hissetti." },
+      { "en": "The debate revealed ideological dissonance.", "tr": "Tartışma ideolojik bir uyumsuzluğu ortaya çıkardı." }
+    ]
+  },
+
+  {
+    "word": "efficacious",
+    "meanings": ["etkili", "etkisini gösteren"],
+    "examples": [
+      { "en": "The treatment proved highly efficacious.", "tr": "Tedavi son derece etkili olduğu kanıtlandı." },
+      { "en": "They searched for an efficacious solution.", "tr": "Etkili bir çözüm aradılar." },
+      { "en": "The policy was not as efficacious as expected.", "tr": "Politika beklendiği kadar etkili olmadı." },
+      { "en": "This method is particularly efficacious in emergencies.", "tr": "Bu yöntem özellikle acil durumlarda etkilidir." },
+      { "en": "He found the new strategy far more efficacious.", "tr": "Yeni stratejiyi çok daha etkili buldu." }
+    ]
+  },
+
+  {
+    "word": "elicit",
+    "meanings": ["ortaya çıkarmak", "tepki almak"],
+    "examples": [
+      { "en": "The question elicited an unexpected response.", "tr": "Soru beklenmedik bir tepki ortaya çıkardı." },
+      { "en": "The comedian elicited laughter from the crowd.", "tr": "Komedyen kalabalıktan kahkaha aldı." },
+      { "en": "Her speech elicited strong emotions.", "tr": "Konuşması güçlü duygular ortaya çıkardı." },
+      { "en": "The investigation elicited new information.", "tr": "Soruşturma yeni bilgiler ortaya çıkardı." },
+      { "en": "The teacher elicited thoughtful answers.", "tr": "Öğretmen düşünceli cevaplar aldı." }
+    ]
+  },
+
+  {
+    "word": "enmity",
+    "meanings": ["düşmanlık", "kin"],
+    "examples": [
+      { "en": "Long-standing enmity divided the two families.", "tr": "Uzun süredir devam eden düşmanlık iki aileyi böldü." },
+      { "en": "Political enmity fuelled the conflict.", "tr": "Siyasi düşmanlık çatışmayı körükledi." },
+      { "en": "He felt no enmity despite the insult.", "tr": "Hakarete rağmen kin hissetmedi." },
+      { "en": "Old enmities resurfaced during the elections.", "tr": "Eski düşmanlıklar seçim sırasında yeniden ortaya çıktı." },
+      { "en": "The agreement helped reduce enmity.", "tr": "Anlaşma düşmanlığı azaltmaya yardımcı oldu." }
+    ]
+  },
+
+  {
+    "word": "ephemeral",
+    "meanings": ["kısa ömürlü", "geçici"],
+    "examples": [
+      { "en": "Fame is often ephemeral.", "tr": "Şöhret çoğunlukla kısa ömürlüdür." },
+      { "en": "The sunset created an ephemeral beauty.", "tr": "Gün batımı geçici bir güzellik yarattı." },
+      { "en": "Their joy proved ephemeral.", "tr": "Sevinçleri kısa sürdü." },
+      { "en": "Trends in fashion are notoriously ephemeral.", "tr": "Moda trendleri ünlü derecede geçicidir." },
+      { "en": "The effect was powerful but ephemeral.", "tr": "Etkisi güçlü ama geçiciydi." }
+    ]
+  },
+
+  {
+    "word": "eschew",
+    "meanings": ["kaçınmak", "sakınmak"],
+    "examples": [
+      { "en": "He eschewed luxury in favor of simplicity.", "tr": "Lüksten kaçınarak sadeliği tercih etti." },
+      { "en": "Scholars eschew biased interpretations.", "tr": "Akademisyenler yanlı yorumlardan kaçınır." },
+      { "en": "She eschews social media entirely.", "tr": "Sosyal medyadan tamamen kaçınır." },
+      { "en": "The diet eschews processed foods.", "tr": "Diyet işlenmiş gıdaları tamamen dışlar." },
+      { "en": "He eschewed conflict whenever possible.", "tr": "Mümkün olduğunda çatışmadan kaçınırdı." }
+    ]
+  },
+
+  {
+    "word": "exacerbate",
+    "meanings": ["kötüleştirmek", "şiddetlendirmek"],
+    "examples": [
+      { "en": "The new policy exacerbated existing inequalities.", "tr": "Yeni politika mevcut eşitsizlikleri kötüleştirdi." },
+      { "en": "His remarks exacerbated tensions.", "tr": "Sözleri gerginliği artırdı." },
+      { "en": "The drought exacerbated the crisis.", "tr": "Kuraklık krizi şiddetlendirdi." },
+      { "en": "Lack of support exacerbated her stress.", "tr": "Destek eksikliği stresini artırdı." },
+      { "en": "The injury was exacerbated by continued pressure.", "tr": "Devam eden baskı sakatlığı kötüleştirdi." }
+    ]
+  },
+  {
+    "word": "expedite",
+    "meanings": ["hızlandırmak"],
+    "examples": [
+      { "en": "The board requested measures to expedite the approval process.", "tr": "Yönetim, onay sürecini hızlandıracak önlemler talep etti." },
+      { "en": "Technology can expedite communication across departments.", "tr": "Teknoloji departmanlar arası iletişimi hızlandırabilir." },
+      { "en": "We need additional staff to expedite the project.", "tr": "Projeyi hızlandırmak için ek personele ihtiyacımız var." },
+      { "en": "The new policy expedites emergency responses.", "tr": "Yeni politika acil müdahaleleri hızlandırıyor." },
+      { "en": "She expedited the negotiations with her expertise.", "tr": "Uzmanlığı sayesinde müzakereleri hızlandırdı." }
+    ]
+  },
+
+  {
+    "word": "fortitude",
+    "meanings": ["dayanıklılık", "cesaret"],
+    "examples": [
+      { "en": "She faced the hardship with remarkable fortitude.", "tr": "Zorluğu olağanüstü bir dayanıklılıkla karşıladı." },
+      { "en": "His fortitude during the crisis inspired the team.", "tr": "Krizdeki cesareti ekibi motive etti." },
+      { "en": "They endured the long winter with great fortitude.", "tr": "Uzun kışı büyük bir dayanıklılıkla atlattılar." },
+      { "en": "Fortitude is essential in leadership roles.", "tr": "Liderlikte dayanıklılık esastır." },
+      { "en": "The novel portrays human fortitude against adversity.", "tr": "Roman, zorluklara karşı insan dayanıklılığını tasvir eder." }
+    ]
+  },
+
+  {
+    "word": "gratuitous",
+    "meanings": ["gereksiz", "yersiz"],
+    "examples": [
+      { "en": "The film was criticized for its gratuitous violence.", "tr": "Film gereksiz şiddet içerdiği için eleştirildi." },
+      { "en": "His gratuitous remark offended everyone.", "tr": "Onun yersiz yorumu herkesi rahatsız etti." },
+      { "en": "The novel avoids gratuitous descriptions.", "tr": "Roman gereksiz betimlemelerden kaçınır." },
+      { "en": "Such gratuitous actions undermine trust.", "tr": "Bu tür yersiz eylemler güveni zedeler." },
+      { "en": "The apology seemed gratuitous and insincere.", "tr": "Özür gereksiz ve samimiyetsiz görünüyordu." }
+    ]
+  },
+
+  {
+    "word": "harbinger",
+    "meanings": ["habercisi", "ön belirtisi"],
+    "examples": [
+      { "en": "Dark clouds were a harbinger of the approaching storm.", "tr": "Karanlık bulutlar yaklaşan fırtınanın habercisiydi." },
+      { "en": "The policy shift is seen as a harbinger of reform.", "tr": "Politika değişikliği reformun habercisi olarak görülüyor." },
+      { "en": "His resignation was a harbinger of deeper issues.", "tr": "Onun istifası daha derin sorunların habercisiydi." },
+      { "en": "The new technology is a harbinger of future trends.", "tr": "Yeni teknoloji gelecekteki trendlerin habercisidir." },
+      { "en": "The sudden silence served as a harbinger of danger.", "tr": "Ani sessizlik tehlikenin habercisi oldu." }
+    ]
+  },
+
+  {
+    "word": "hedonistic",
+    "meanings": ["hazcı"],
+    "examples": [
+      { "en": "The novel criticizes the hedonistic values of modern society.", "tr": "Roman modern toplumun hazcı değerlerini eleştiriyor." },
+      { "en": "He pursued a hedonistic lifestyle without considering consequences.", "tr": "Sonuçları düşünmeden hazcı bir yaşam sürdü." },
+      { "en": "The city’s nightlife fosters a hedonistic culture.", "tr": "Şehrin gece hayatı hazcı bir kültürü teşvik ediyor." },
+      { "en": "Her hedonistic tendencies conflicted with the group's principles.", "tr": "Onun hazcı eğilimleri grubun ilkeleriyle çatıştı." },
+      { "en": "The film depicts a hedonistic society in moral decline.", "tr": "Film, ahlaki çöküşte olan hazcı bir toplumu tasvir ediyor." }
+    ]
+  },
+
+  {
+    "word": "implacable",
+    "meanings": ["yatıştırılamaz", "durmak bilmeyen"],
+    "examples": [
+      { "en": "The implacable rain lasted for days.", "tr": "Durmak bilmeyen yağmur günlerce sürdü." },
+      { "en": "He remained an implacable opponent of the proposal.", "tr": "Teklifin yatıştırılamaz bir karşıtı olarak kaldı." },
+      { "en": "Her implacable determination drove her success.", "tr": "Onun durmak bilmeyen kararlılığı başarısını getirdi." },
+      { "en": "The implacable advance of technology reshapes industries.", "tr": "Teknolojinin durdurulamaz ilerleyişi sektörleri dönüştürüyor." },
+      { "en": "The conflict persisted due to implacable hostilities.", "tr": "Çatışma yatıştırılamaz düşmanlıklar nedeniyle sürdü." }
+    ]
+  },
+
+  {
+    "word": "intransigent",
+    "meanings": ["uzlaşmaz", "katı tutumlu"],
+    "examples": [
+      { "en": "Both sides remained intransigent during negotiations.", "tr": "Her iki taraf da müzakerelerde uzlaşmaz kaldı." },
+      { "en": "Her intransigent views hindered compromise.", "tr": "Onun katı tutumu uzlaşmayı engelledi." },
+      { "en": "The committee was criticized for its intransigent stance.", "tr": "Komite uzlaşmaz tutumu nedeniyle eleştirildi." },
+      { "en": "He grew increasingly intransigent over time.", "tr": "Zamanla giderek daha uzlaşmaz hale geldi." },
+      { "en": "Intransigence prolonged the conflict unnecessarily.", "tr": "Uzlaşmazlık çatışmayı gereksiz yere uzattı." }
+    ]
+  },
+
+  {
+    "word": "magnanimous",
+    "meanings": ["bağışlayıcı", "cömert"],
+    "examples": [
+      { "en": "Despite the rivalry, he offered a magnanimous handshake.", "tr": "Rekabetlerine rağmen bağışlayıcı bir şekilde el sıkıştı." },
+      { "en": "Her magnanimous spirit made her widely admired.", "tr": "Onun cömert ruhu onu çokça takdir edilen biri yaptı." },
+      { "en": "He was magnanimous in victory.", "tr": "Zaferde bağışlayıcıydı." },
+      { "en": "The magnanimous gesture repaired their friendship.", "tr": "Cömert jest dostluklarını onardı." },
+      { "en": "Her magnanimity contrasted with his pettiness.", "tr": "Onun cömertliği onun küçüklüğüyle zıtlık oluşturdu." }
+    ]
+  },
+
+  {
+    "word": "malevolent",
+    "meanings": ["kötü niyetli", "zarar vermeyi isteyen"],
+    "examples": [
+      { "en": "A malevolent smile spread across his face.", "tr": "Yüzünde kötü niyetli bir gülümseme belirdi." },
+      { "en": "The story depicts a malevolent force haunting the town.", "tr": "Hikâye kasabayı musallat olan kötü niyetli bir gücü tasvir ediyor." },
+      { "en": "Her malevolent intentions became clear.", "tr": "Onun kötü niyetli amaçları ortaya çıktı." },
+      { "en": "They feared the malevolent influence of the new leader.", "tr": "Yeni liderin kötü niyetli etkisinden korktular." },
+      { "en": "The malevolence in his tone startled everyone.", "tr": "Ses tonundaki kötülük herkesi şaşırttı." }
+    ]
+  },
+
+  {
+    "word": "mendacious",
+    "meanings": ["yalancı", "gerçeği çarpıtan"],
+    "examples": [
+      { "en": "The witness was known for his mendacious statements.", "tr": "Tanık yalancı ifadeleriyle biliniyordu." },
+      { "en": "A mendacious rumor spread throughout the city.", "tr": "Şehirde yalancı bir söylenti yayıldı." },
+      { "en": "His mendacity eventually destroyed his reputation.", "tr": "Onun yalancılığı sonunda itibarını yok etti." },
+      { "en": "The article criticized the politician’s mendacious claims.", "tr": "Makale politikacının yalan iddialarını eleştirdi." },
+      { "en": "Her mendacious behavior shocked her colleagues.", "tr": "Yalan davranışları çalışma arkadaşlarını şok etti." }
+    ]
+  },
+
+  {
+    "word": "mercurial",
+    "meanings": ["değişken", "ani ruh hali değişen"],
+    "examples": [
+      { "en": "Her mercurial temperament made collaboration unpredictable.", "tr": "Onun değişken ruh hali işbirliğini öngörülemez kılıyordu." },
+      { "en": "The artist had a mercurial personality.", "tr": "Sanatçının değişken bir kişiliği vardı." },
+      { "en": "The market has been mercurial this month.", "tr": "Piyasa bu ay oldukça değişkendi." },
+      { "en": "His mercurial decisions frustrated the board.", "tr": "Onun değişken kararları yönetimi kızdırdı." },
+      { "en": "The climate is mercurial in spring.", "tr": "İlkbaharda hava oldukça değişken olur." }
+    ]
+  },
+
+  {
+    "word": "nefarious",
+    "meanings": ["kötücül", "ahlaksız"],
+    "examples": [
+      { "en": "The syndicate was involved in nefarious activities.", "tr": "Çete kötücül faaliyetlerde bulunuyordu." },
+      { "en": "She uncovered a nefarious plot.", "tr": "O, kötü niyetli bir plan ortaya çıkardı." },
+      { "en": "His nefarious past caught up with him.", "tr": "Onun kötü geçmişi peşini bırakamadı." },
+      { "en": "The law targets nefarious individuals exploiting the vulnerable.", "tr": "Yasa, savunmasızları sömüren kötücül bireyleri hedef alıyor." },
+      { "en": "They exposed the organization’s nefarious dealings.", "tr": "Kurumun kötücül işleri ortaya çıkarıldı." }
+    ]
+  },
+
+  {
+    "word": "nonchalant",
+    "meanings": ["kayıtsız", "sakin ve umursamaz"],
+    "examples": [
+      { "en": "He remained nonchalant despite the chaos around him.", "tr": "Etrafındaki kaosa rağmen kayıtsız kaldı." },
+      { "en": "Her nonchalant attitude confused the committee.", "tr": "Onun kayıtsız tavrı komiteyi şaşırttı." },
+      { "en": "He spoke in a nonchalant manner about the crisis.", "tr": "Kriz hakkında kayıtsız bir şekilde konuştu." },
+      { "en": "She gave a nonchalant shrug when questioned.", "tr": "Sorgulandığında kayıtsızca omuz silkti." },
+      { "en": "His nonchalance was mistaken for arrogance.", "tr": "Onun kayıtsızlığı kibir sanıldı." }
+    ]
+  },
+
+  {
+    "word": "obfuscate",
+    "meanings": ["gizlemek", "bilinçli olarak karıştırmak"],
+    "examples": [
+      { "en": "The report obfuscated the true cause of the problem.", "tr": "Rapor sorunun gerçek nedenini gizledi." },
+      { "en": "He used jargon to obfuscate his lack of knowledge.", "tr": "Bilgisizliğini gizlemek için jargon kullandı." },
+      { "en": "The instructions were intentionally obfuscated.", "tr": "Talimatlar kasıtlı olarak karıştırılmıştı." },
+      { "en": "Politicians often obfuscate their intentions.", "tr": "Politikacılar sıklıkla niyetlerini gizler." },
+      { "en": "The complexity of the data obfuscated meaningful patterns.", "tr": "Verinin karmaşıklığı anlamlı desenleri gizledi." }
+    ]
+  },
+
+  {
+    "word": "ostracize",
+    "meanings": ["dışlamak"],
+    "examples": [
+      { "en": "He was ostracized by the community after the scandal.", "tr": "Skandal sonrası toplum tarafından dışlandı." },
+      { "en": "They ostracized anyone who disagreed with them.", "tr": "Kendileriyle aynı fikirde olmayan herkesi dışladılar." },
+      { "en": "She felt ostracized by her peers.", "tr": "Akranları tarafından dışlandığını hissetti." },
+      { "en": "The group ostracized him for breaking tradition.", "tr": "Gelenekleri bozduğu için onu dışladılar." },
+      { "en": "The policy effectively ostracized vulnerable individuals.", "tr": "Politika savunmasız bireyleri fiilen dışladı." }
+    ]
+  },
+
+  {
+    "word": "paradigm",
+    "meanings": ["model", "kalıp", "paradigma"],
+    "examples": [
+      { "en": "The new discovery challenged the existing scientific paradigm.", "tr": "Yeni keşif mevcut bilimsel paradigmayı zorladı." },
+      { "en": "Her work established a new paradigm in literature.", "tr": "Onun çalışması edebiyatta yeni bir paradigma oluşturdu." },
+      { "en": "The industry undergoes a paradigm shift.", "tr": "Sektör bir paradigma değişimi geçiriyor." },
+      { "en": "He provided a fresh paradigm for analyzing data.", "tr": "O, veriyi analiz etmek için yeni bir model sundu." },
+      { "en": "The research created a paradigm for future studies.", "tr": "Araştırma gelecekteki çalışmalar için bir model oluşturdu." }
+    ]
+  },
+
+  {
+    "word": "pariah",
+    "meanings": ["toplum dışı bırakılan kişi"],
+    "examples": [
+      { "en": "He became a pariah after the controversy.", "tr": "Tartışmadan sonra toplum dışı biri haline geldi." },
+      { "en": "She felt like a pariah among her colleagues.", "tr": "Meslektaşları arasında kendini dışlanmış hissetti." },
+      { "en": "The company turned into a pariah in the industry.", "tr": "Şirket sektörde dışlanan bir hale geldi." },
+      { "en": "He was treated as a social pariah.", "tr": "O, sosyal olarak dışlanan biri olarak muamele gördü." },
+      { "en": "His actions made him a political pariah.", "tr": "Onun eylemleri onu politik bir dışlanan yaptı." }
+    ]
+  },
+
+  {
+    "word": "perfunctory",
+    "meanings": ["özensiz", "gelişigüzel"],
+    "examples": [
+      { "en": "He gave a perfunctory apology.", "tr": "Özensiz bir özür verdi." },
+      { "en": "Her perfunctory responses ended the conversation.", "tr": "Onun özensiz yanıtları sohbeti bitirdi." },
+      { "en": "The inspection was far too perfunctory.", "tr": "Denetim fazlasıyla gelişigüzeldi." },
+      { "en": "He performed the task in a perfunctory way.", "tr": "Görevi gelişigüzel bir şekilde yaptı." },
+      { "en": "Perfunctory effort won’t solve the issue.", "tr": "Özensiz bir çaba sorunu çözmez." }
+    ]
+  },
+
+  {
+    "word": "pernicious",
+       "meanings": ["çok zararlı", "ölümcül etkili"],
+    "examples": [
+      { "en": "The pernicious influence of misinformation is growing.", "tr": "Yanlış bilginin zararlı etkisi büyüyor." },
+      { "en": "Smoking has pernicious health consequences.", "tr": "Sigara içmenin zararlı sağlık sonuçları vardır." },
+      { "en": "Her pernicious behavior damaged many relationships.", "tr": "Onun zararlı davranışları birçok ilişkiye zarar verdi." },
+      { "en": "The disease proved pernicious despite treatment.", "tr": "Hastalığın tedaviye rağmen ölümcül olduğu kanıtlandı." },
+      { "en": "Pernicious stereotypes harm society.", "tr": "Zararlı stereotipler topluma zarar verir." }
+    ]
+  },
+
+  {
+    "word": "placate",
+    "meanings": ["yatıştırmak"],
+    "examples": [
+      { "en": "The manager tried to placate the angry customers.", "tr": "Müdür öfkeli müşterileri yatıştırmaya çalıştı." },
+      { "en": "He offered concessions to placate the opposition.", "tr": "Muhalefeti yatıştırmak için tavizler verdi." },
+      { "en": "Her gentle tone placated the frightened child.", "tr": "Onun yumuşak tonu korkmuş çocuğu rahatlattı." },
+      { "en": "The apology did little to placate him.", "tr": "Özür onu pek yatıştırmadı." },
+      { "en": "The government sought to placate public concerns.", "tr": "Hükümet halkın endişelerini yatıştırmaya çalıştı." }
+    ]
+  },
+
+  {
+    "word": "proclivity",
+    "meanings": ["eğilim", "meyil"],
+    "examples": [
+      { "en": "He has a proclivity for taking unnecessary risks.", "tr": "Gereksiz riskler alma eğilimi var." },
+      { "en": "Her proclivity toward art was evident early on.", "tr": "Sanata olan eğilimi erken yaşta belliydi." },
+      { "en": "The team showed a proclivity for innovation.", "tr": "Ekip yeniliğe bir eğilim gösterdi." },
+      { "en": "His proclivity for detail improved the project.", "tr": "Detaya yönelik eğilimi projeyi geliştirdi." },
+      { "en": "She has a proclivity for diplomacy.", "tr": "Diplomaside bir yetenek eğilimi var." }
+    ]
+  },
+
+  {
+    "word": "propensity",
+    "meanings": ["eğilim", "doğal yatkınlık"],
+    "examples": [
+      { "en": "He has a natural propensity for leadership.", "tr": "Doğuştan liderliğe bir yatkınlığı var." },
+      { "en": "Her propensity to overthink slows progress.", "tr": "Aşırı düşünmeye olan eğilimi ilerlemeyi yavaşlatıyor." },
+      { "en": "Humans have a propensity for storytelling.", "tr": "İnsanların hikâye anlatmaya doğal bir yatkınlığı vardır." },
+      { "en": "He displayed a troubling propensity for aggression.", "tr": "Saldırganlığa yönelik endişe verici bir eğilim gösterdi." },
+      { "en": "The system has a propensity to fail under pressure.", "tr": "Sistem baskı altında arızalanmaya eğilimlidir." }
+    ]
+  },
+
+  {
+    "word": "quintessential",
+    "meanings": ["en mükemmel örnek", "öz"],
+    "examples": [
+      { "en": "She is the quintessential example of elegance.", "tr": "O, zarafetin mükemmel örneğidir." },
+      { "en": "Paris is the quintessential romantic city.", "tr": "Paris romantik şehrin özüdür." },
+      { "en": "The dish is quintessentially Italian.", "tr": "Bu yemek İtalyan mutfağının özüdür." },
+      { "en": "His speech captured the quintessential spirit of the movement.", "tr": "Konuşması hareketin öz ruhunu yansıttı." },
+      { "en": "The novel represents quintessential modernism.", "tr": "Roman modernizmin özü sayılır." }
+    ]
+  },
+
+  {
+    "word": "raze",
+    "meanings": ["yerle bir etmek", "yıkmak"],
+    "examples": [
+      { "en": "The old building was razed to make space for a new park.", "tr": "Eski bina yeni bir park için yerle bir edildi." },
+      { "en": "The war razed entire neighborhoods.", "tr": "Savaş tüm mahalleleri yok etti." },
+      { "en": "The storm razed the coastal village.", "tr": "Fırtına sahil köyünü yerle bir etti." },
+      { "en": "Developers plan to raze the structure next year.", "tr": "Geliştiriciler yapıyı gelecek yıl yıkmayı planlıyor." },
+      { "en": "The regime razed historical sites during the conflict.", "tr": "Rejim çatışma sırasında tarihi yerleri yok etti." }
+    ]
+  },
+
+  {
+    "word": "recalcitrant",
+    "meanings": ["inatçı", "itaatsiz"],
+    "examples": [
+      { "en": "The recalcitrant student refused to follow instructions.", "tr": "İnatçı öğrenci talimatlara uymayı reddetti." },
+      { "en": "The recalcitrant group stalled negotiations.", "tr": "İnatçı grup müzakereleri durdurdu." },
+      { "en": "His recalcitrant attitude created constant conflict.", "tr": "Onun inatçı tavrı sürekli çatışma yarattı." },
+      { "en": "The animal was recalcitrant and hard to control.", "tr": "Hayvan inatçıydı ve kontrolü zordu." },
+      { "en": "Recalcitrance within the team hindered progress.", "tr": "Ekip içindeki inatçılık ilerlemeyi engelledi." }
+    ]
+  },
+
+  {
+    "word": "recrimination",
+    "meanings": ["karşılıklı suçlama"],
+    "examples": [
+      { "en": "The meeting devolved into bitter recriminations.", "tr": "Toplantı acı karşılıklı suçlamalara dönüştü." },
+      { "en": "They exchanged recriminations instead of solutions.", "tr": "Çözüm yerine karşılıklı suçlamalar yaptılar." },
+      { "en": "The crisis triggered a wave of political recrimination.", "tr": "Kriz siyasi karşı suçlamaları tetikledi." },
+      { "en": "Recriminations damaged the organization’s unity.", "tr": "Karşı suçlamalar örgütün birliğini zedeledi." },
+      { "en": "He avoided recrimination to maintain peace.", "tr": "Barışı korumak için karşı suçlamadan kaçındı." }
+    ]
+  },
+
+  {
+    "word": "sagacious",
+    "meanings": ["bilge", "akıllı"],
+    "examples": [
+      { "en": "Her sagacious advice helped him avoid disaster.", "tr": "Onun bilgece tavsiyesi felaketi önlemeye yardımcı oldu." },
+      { "en": "The leader is admired for his sagacious decisions.", "tr": "Lider bilge kararlarıyla takdir edilir." },
+      { "en": "A sagacious investor anticipates market shifts.", "tr": "Bilge bir yatırımcı piyasa değişimlerini öngörür." },
+      { "en": "The novel’s protagonist is a sagacious elder.", "tr": "Romanın kahramanı bilge bir yaşlıdır." },
+      { "en": "Her sagacity earned her widespread respect.", "tr": "Onun bilgeliği geniş bir saygı kazandırdı." }
+    ]
+  },
+
+  {
+    "word": "sedulous",
+    "meanings": ["çalışkan", "gayretli"],
+    "examples": [
+      { "en": "Her sedulous efforts resulted in success.", "tr": "Onun gayretli çabaları başarıyla sonuçlandı." },
+      { "en": "He approached the problem with sedulous care.", "tr": "Soruna gayretli bir özenle yaklaştı." },
+      { "en": "Sedulous study led him to mastery.", "tr": "Gayretli çalışma onu ustalığa götürdü." },
+      { "en": "Their sedulous work ethic impressed the company.", "tr": "Onların çalışkan iş ahlakı şirketi etkiledi." },
+      { "en": "She maintained sedulous attention to detail.", "tr": "Detaylara gayretli bir dikkat gösterdi." }
+    ]
+  },
+
+  {
+    "word": "spurious",
+    "meanings": ["sahte", "asılsız"],
+    "examples": [
+      { "en": "The theory was dismissed as spurious.", "tr": "Teori asılsız olarak reddedildi." },
+      { "en": "He spread spurious information online.", "tr": "O, internette asılsız bilgiler yaydı." },
+      { "en": "The report contained spurious statistics.", "tr": "Rapor sahte istatistikler içeriyordu." },
+      { "en": "Her accusations were entirely spurious.", "tr": "Onun suçlamaları tamamen asılsızdı." },
+      { "en": "Spurious claims misled the public.", "tr": "Asılsız iddialar halkı yanılttı." }
+    ]
+  },
+
+  {
+    "word": "stymie",
+    "meanings": ["engellemek", "kösteklemek"],
+    "examples": [
+      { "en": "Progress was stymied by financial constraints.", "tr": "İlerleme finansal kısıtlamalar nedeniyle engellendi." },
+      { "en": "Bureaucracy stymied the project.", "tr": "Bürokrasi projeyi köstekledi." },
+      { "en": "His stubbornness stymied negotiations.", "tr": "Onun inadı müzakereleri engelledi." },
+      { "en": "The investigation was stymied by missing data.", "tr": "Soruşturma eksik veriler nedeniyle aksadı." },
+      { "en": "They refused to let obstacles stymie their goals.", "tr": "Engellerin hedeflerini kösteklemesine izin vermediler." }
+    ]
+  },
+
+  {
+    "word": "tantamount",
+    "meanings": ["eşdeğer", "aynı anlama gelen"],
+    "examples": [
+      { "en": "His silence was tantamount to an admission of guilt.", "tr": "Onun sessizliği suçun kabulüne eşdeğerdi." },
+      { "en": "Ignoring the warnings is tantamount to negligence.", "tr": "Uyarıları görmezden gelmek ihmal ile aynı anlama gelir." },
+      { "en": "The act was tantamount to betrayal.", "tr": "Eylem ihanetle eşdeğerdi." },
+      { "en": "Her refusal was tantamount to a rejection.", "tr": "Onun reddi bir geri çevirme ile eşdeğerdi." },
+      { "en": "The delay was tantamount to abandonment.", "tr": "Gecikme terk etme ile aynı anlama geliyordu." }
+    ]
+  },
+
+  {
+    "word": "temerity",
+    "meanings": ["cüret", "küstahlık"],
+    "examples": [
+      { "en": "He had the temerity to question the director’s decision.", "tr": "Yönetmenin kararını sorgulama cüreti gösterdi." },
+      { "en": "Her temerity shocked the audience.", "tr": "Onun cüreti izleyiciyi şaşırttı." },
+      { "en": "They criticized his temerity in confronting authority.", "tr": "Otoriteye karşı çıkma cüretini eleştirdiler." },
+      { "en": "His temerity bordered on recklessness.", "tr": "Onun cüreti dikkatsizliğe yakındı." },
+      { "en": "She admired his temerity to speak the truth.", "tr": "Gerçeği söyleme cesaretine hayran kaldı." }
+    ]
+  },
+
+  {
+    "word": "trepidation",
+    "meanings": ["kaygı", "endişeli beklenti"],
+    "examples": [
+      { "en": "He approached the exam with trepidation.", "tr": "Sınava kaygıyla yaklaştı." },
+      { "en": "There was trepidation about the upcoming changes.", "tr": "Yaklaşan değişiklikler hakkında kaygı vardı." },
+      { "en": "Her voice trembled with trepidation.", "tr": "Sesi endişeyle titredi." },
+      { "en": "The announcement was met with trepidation.", "tr": "Duyuru endişeyle karşılandı." },
+      { "en": "He waited in trepidation for the results.", "tr": "Sonuçları kaygıyla bekledi." }
+    ]
+  },
+
+  {
+    "word": "ubiquitous",
+    "meanings": ["her yerde bulunan"],
+    "examples": [
+      { "en": "Smartphones have become ubiquitous in modern life.", "tr": "Akıllı telefonlar modern yaşamda her yerde bulunur hale geldi." },
+      { "en": "The brand’s logo is ubiquitous worldwide.", "tr": "Markanın logosu dünya çapında her yerde." },
+      { "en": "Surveillance cameras are ubiquitous in the city.", "tr": "Gözetim kameraları şehirde her yerde." },
+      { "en": "The theme of isolation is ubiquitous in his works.", "tr": "Yalnızlık teması eserlerinde her yerde karşımıza çıkar." },
+      { "en": "Ubiquitous misinformation complicates public debate.", "tr": "Her yerde bulunan yanlış bilgi kamu tartışmalarını zorlaştırıyor." }
+    ]
+  },
+
+  {
+    "word": "vacillate",
+    "meanings": ["kararsız kalmak", "iki seçenek arasında gidip gelmek"],
+    "examples": [
+      { "en": "He vacillated between two career options.", "tr": "İki kariyer seçeneği arasında kararsız kaldı." },
+      { "en": "The committee vacillated on the decision for weeks.", "tr": "Komite haftalarca karar konusunda kararsız kaldı." },
+      { "en": "She vacillated before finally responding.", "tr": "Sonunda cevap vermeden önce kararsızlık yaşadı." },
+      { "en": "His support vacillated depending on circumstances.", "tr": "Desteği koşullara bağlı olarak değişiyordu." },
+      { "en": "The market vacillated unpredictably.", "tr": "Piyasa öngörülemez biçimde dalgalandı." }
+    ]
+  },
+
+  {
+    "word": "vindicate",
+    "meanings": ["aklamak", "haklı çıkarmak"],
+    "examples": [
+      { "en": "New evidence vindicated the accused.", "tr": "Yeni kanıt suçlanan kişiyi akladı." },
+      { "en": "Her success vindicated her methods.", "tr": "Başarısı yöntemlerini haklı çıkardı." },
+      { "en": "The results vindicated the research team.", "tr": "Sonuçlar araştırma ekibini haklı çıkardı." },
+      { "en": "He felt vindicated after the report’s release.", "tr": "Rapor yayınlandıktan sonra haklı çıktığını hissetti." },
+      { "en": "The theory was vindicated by later studies.", "tr": "Teori daha sonraki çalışmalarla doğrulandı." }
+    ]
+  },
+
+  {
+    "word": "vitriolic",
+    "meanings": ["zehirli, iğneleyici"],
+    "examples": [
+      { "en": "His vitriolic comments shocked the audience.", "tr": "Onun iğneleyici yorumları izleyiciyi şoke etti." },
+      { "en": "The debate turned vitriolic quickly.", "tr": "Tartışma hızla zehirli bir hâle geldi." },
+      { "en": "She authored a vitriolic critique of the policy.", "tr": "Politikanın zehirli bir eleştirisini yazdı." },
+      { "en": "Vitriolic language deepened divisions.", "tr": "Zehirli dil ayrılıkları derinleştirdi." },
+      { "en": "His vitriol alienated supporters.", "tr": "Onun zehirli söylemleri destekçilerini uzaklaştırdı." }
+    ]
+  },
+
+  {
+    "word": "wane",
+    "meanings": ["azalmak", "gücünü kaybetmek"],
+    "examples": [
+      { "en": "Public interest began to wane.", "tr": "Kamu ilgisi azalmaya başladı." },
+      { "en": "His enthusiasm waned over time.", "tr": "Onun heyecanı zamanla azaldı." },
+      { "en": "The moon wanes after the full phase.", "tr": "Ay dolunaydan sonra küçülür." },
+      { "en": "Their influence is slowly waning.", "tr": "Etkileri yavaşça azalıyor." },
+      { "en": "Support for the policy waned significantly.", "tr": "Politikaya destek önemli ölçüde azaldı." }
+    ]
+  },
+  {
+    "word": "abrogate",
+    "meanings": ["feshetmek", "yürürlükten kaldırmak"],
+    "examples": [
+      { "en": "The government decided to abrogate the outdated law.", "tr": "Hükümet, eski yasayı yürürlükten kaldırmaya karar verdi." },
+      { "en": "The treaty was abrogated after years of tension.", "tr": "Antlaşma yıllarca süren gerginlikten sonra feshedildi." },
+      { "en": "He argued that the clause should be abrogated immediately.", "tr": "Maddenin hemen feshedilmesi gerektiğini savundu." },
+      { "en": "The committee voted to abrogate previous regulations.", "tr": "Komite önceki düzenlemeleri yürürlükten kaldırmak için oy verdi." },
+      { "en": "The decision effectively abrogated worker protections.", "tr": "Karar işçi korumalarını fiilen ortadan kaldırdı." }
+    ]
+  },
+
+  {
+    "word": "accretion",
+    "meanings": ["birikim", "yavaşça artış"],
+    "examples": [
+      { "en": "The coastline expanded due to sediment accretion.", "tr": "Kıyı şeridi, tortu birikimi nedeniyle genişledi." },
+      { "en": "Knowledge grows through gradual accretion of experience.", "tr": "Bilgi, deneyimin yavaşça birikmesiyle artar." },
+      { "en": "The accretion of wealth intensified inequality.", "tr": "Servet birikimi eşitsizliği artırdı." },
+      { "en": "The project expanded through accretion rather than planning.", "tr": "Proje planlamadan ziyade birikim yoluyla büyüdü." },
+      { "en": "Accretion of dust threatened the machinery.", "tr": "Toz birikimi makineleri tehdit etti." }
+    ]
+  },
+
+  {
+    "word": "adulation",
+    "meanings": ["aşırı övgü", "yaltaklanma"],
+    "examples": [
+      { "en": "The celebrity received endless adulation from fans.", "tr": "Ünlü, hayranlarından bitmeyen bir övgü aldı." },
+      { "en": "He disliked the adulation surrounding his success.", "tr": "Başarısı etrafındaki aşırı övgüden hoşlanmadı." },
+      { "en": "The politician thrived on public adulation.", "tr": "Politikacı, halkın aşırı övgüsüyle güçlendi." },
+      { "en": "Adulation can distort a leader’s judgement.", "tr": "Aşırı övgü bir liderin yargısını bozabilir." },
+      { "en": "Her work deserved praise, but not blind adulation.", "tr": "Onun çalışması övgüyü hak etti ama körü körüne yaltaklanmayı değil." }
+    ]
+  },
+
+  {
+    "word": "amelioration",
+    "meanings": ["iyileştirme", "düzelme"],
+    "examples": [
+      { "en": "The report outlined strategies for economic amelioration.", "tr": "Rapor ekonomik iyileştirme stratejilerini ana hatlarıyla sundu." },
+      { "en": "Significant amelioration occurred after reforms.", "tr": "Reformlardan sonra önemli bir iyileşme yaşandı." },
+      { "en": "The NGO works for the amelioration of living conditions.", "tr": "STK yaşam koşullarının iyileştirilmesi için çalışıyor." },
+      { "en": "Amelioration of the crisis required coordinated action.", "tr": "Krizin iyileştirilmesi için koordineli eylem gerekiyordu." },
+      { "en": "Even small steps can lead to meaningful amelioration.", "tr": "Küçük adımlar bile anlamlı düzelmelere yol açabilir." }
+    ]
+  },
+
+  {
+    "word": "animosity",
+    "meanings": ["düşmanlık", "kin"],
+    "examples": [
+      { "en": "Historic animosity still divides the two nations.", "tr": "Tarihi düşmanlık iki ulusu hâlâ bölüyor." },
+      { "en": "There was clear animosity between the rivals.", "tr": "Rakipler arasında açık bir düşmanlık vardı." },
+      { "en": "He tried to mask his animosity with polite words.", "tr": "Düşmanlığını kibar sözlerle gizlemeye çalıştı." },
+      { "en": "Animosity escalated after the conflict.", "tr": "Çatışmadan sonra düşmanlık arttı." },
+      { "en": "Her animosity toward him was impossible to ignore.", "tr": "Ona karşı duyduğu kin göz ardı edilemezdi." }
+    ]
+  },
+
+  {
+    "word": "aplomb",
+    "meanings": ["özgüven", "soğukkanlılık"],
+    "examples": [
+      { "en": "She handled the complex situation with admirable aplomb.", "tr": "Karmaşık durumu hayranlık uyandıran bir soğukkanlılıkla yönetti." },
+      { "en": "He delivered the presentation with great aplomb.", "tr": "Sunumu büyük bir özgüvenle yaptı." },
+      { "en": "Her aplomb under pressure impressed everyone.", "tr": "Baskı altındaki soğukkanlılığı herkesi etkiledi." },
+      { "en": "He navigated the negotiation with calm aplomb.", "tr": "Müzakereleri sakin bir özgüvenle yönetti." },
+      { "en": "Aplomb in crisis distinguishes true leaders.", "tr": "Krizdeki soğukkanlılık gerçek liderleri ayırır." }
+    ]
+  },
+
+  {
+    "word": "ascribe",
+    "meanings": ["atfetmek", "bağlamak"],
+    "examples": [
+      { "en": "Many ascribe the victory to his leadership.", "tr": "Birçok kişi zaferi onun liderliğine atfeder." },
+      { "en": "The failure was wrongly ascribed to the interns.", "tr": "Başarısızlık yanlış bir şekilde stajyerlere bağlandı." },
+      { "en": "He ascribed her silence to exhaustion.", "tr": "Onun sessizliğini yorgunluğa bağladı." },
+      { "en": "Some ascribe the phenomenon to climate change.", "tr": "Bazıları olguyu iklim değişikliğine bağlar." },
+      { "en": "Motives cannot be easily ascribed in complex cases.", "tr": "Karmaşık durumlarda motivasyonlar kolayca atfedilemez." }
+    ]
+  },
+
+  {
+    "word": "attenuate",
+    "meanings": ["zayıflatmak", "azaltmak"],
+    "examples": [
+      { "en": "Vaccination attenuates the severity of the disease.", "tr": "Aşılama hastalığın şiddetini azaltır." },
+      { "en": "Soundproof walls attenuate external noise.", "tr": "Ses yalıtımlı duvarlar dış gürültüyü azaltır." },
+      { "en": "The reforms attenuated the economic impact.", "tr": "Reformlar ekonomik etkiyi zayıflattı." },
+      { "en": "His apology did little to attenuate the anger.", "tr": "Onun özrü öfkeyi pek azaltmadı." },
+      { "en": "The effect of the drug attenuates over time.", "tr": "İlacın etkisi zamanla zayıflar." }
+    ]
+  },
+
+  {
+    "word": "besmirch",
+    "meanings": ["lekelemek", "itibarını kirletmek"],
+    "examples": [
+      { "en": "His rivals tried to besmirch his reputation.", "tr": "Rakipleri onun itibarını lekelemeye çalıştı." },
+      { "en": "The scandal besmirched the company’s image.", "tr": "Skandal şirketin imajını kirletti." },
+      { "en": "She refused to let lies besmirch her career.", "tr": "Yalanların kariyerini lekelemesine izin vermedi." },
+      { "en": "The accusation besmirched her good name.", "tr": "Suçlama onun iyi adını kirletti." },
+      { "en": "He accused the media of trying to besmirch him.", "tr": "Medyanın kendisini lekelemeye çalıştığını iddia etti." }
+    ]
+  },
+
+  {
+    "word": "bilateral",
+    "meanings": ["iki taraflı", "karşılıklı"],
+    "examples": [
+      { "en": "The two countries signed a new bilateral agreement.", "tr": "İki ülke yeni bir karşılıklı anlaşma imzaladı." },
+      { "en": "Bilateral cooperation improved trade.", "tr": "Karşılıklı iş birliği ticareti geliştirdi." },
+      { "en": "Bilateral talks resumed after months of silence.", "tr": "Aylar süren sessizlikten sonra karşılıklı görüşmeler yeniden başladı." },
+      { "en": "A bilateral effort is needed to resolve the conflict.", "tr": "Çatışmayı çözmek için karşılıklı çaba gerekiyor." },
+      { "en": "The policy promotes bilateral partnerships.", "tr": "Politika karşılıklı ortaklıkları teşvik ediyor." }
+    ]
+  },
+
+  {
+    "word": "bombastic",
+    "meanings": ["abartılı", "şişirilmiş"],
+    "examples": [
+      { "en": "His bombastic speech lacked substance.", "tr": "Onun abartılı konuşması içerikten yoksundu." },
+      { "en": "The article criticizes bombastic political rhetoric.", "tr": "Makale abartılı siyasi söylemi eleştiriyor." },
+      { "en": "Her writing is vivid but never bombastic.", "tr": "Onun yazısı canlıdır ama asla şişirilmiş değildir." },
+      { "en": "He dismissed the claims as bombastic exaggerations.", "tr": "İddiaları abartılı ifadeler olarak reddetti." },
+      { "en": "Bombastic language weakens the argument.", "tr": "Abartılı dil argümanı zayıflatır." }
+    ]
+  },
+
+  {
+    "word": "camaraderie",
+    "meanings": ["yoldaşlık", "samimi arkadaşlık"],
+    "examples": [
+      { "en": "Camaraderie among teammates boosted morale.", "tr": "Takım arkadaşları arasındaki yoldaşlık morali artırdı." },
+      { "en": "The volunteers shared a deep camaraderie.", "tr": "Gönüllüler derin bir yoldaşlık paylaştı." },
+      { "en": "Camaraderie developed quickly during the retreat.", "tr": "Gezide hızlıca samimi bir arkadaşlık oluştu." },
+      { "en": "Her leadership strengthened group camaraderie.", "tr": "Onun liderliği grup yoldaşlığını güçlendirdi." },
+      { "en": "Camaraderie is essential in high-stress jobs.", "tr": "Samimi arkadaşlık stresli işlerde çok önemlidir." }
+    ]
+  },
+
+  {
+    "word": "catalyze",
+    "meanings": ["tetiklemek", "katalizlemek"],
+    "examples": [
+      { "en": "The discovery catalyzed new research directions.", "tr": "Keşif yeni araştırma yönlerini tetikledi." },
+      { "en": "Her speech catalyzed a wave of activism.", "tr": "Onun konuşması bir aktivizm dalgasını tetikledi." },
+      { "en": "Funds are needed to catalyze innovation.", "tr": "Yeniliği tetiklemek için fon gerekiyor." },
+      { "en": "The crisis catalyzed rapid policy changes.", "tr": "Kriz hızlı politika değişikliklerini tetikledi." },
+      { "en": "Education can catalyze economic growth.", "tr": "Eğitim ekonomik büyümeyi katalizleyebilir." }
+    ]
+  },
+
+  {
+    "word": "clemency",
+    "meanings": ["merhamet", "ceza indirimi"],
+    "examples": [
+      { "en": "The prisoner requested clemency from the court.", "tr": "Mahkûm mahkemeden merhamet talep etti." },
+      { "en": "The governor granted clemency to several inmates.", "tr": "Vali birkaç mahkûma ceza indirimi verdi." },
+      { "en": "Clemency was offered due to mitigating circumstances.", "tr": "Hafifletici koşullar nedeniyle merhamet gösterildi." },
+      { "en": "He appealed for clemency after sentencing.", "tr": "Hükümden sonra merhamet için başvurdu." },
+      { "en": "The president faced criticism for excessive clemency.", "tr": "Başkan aşırı merhamet gösterdiği için eleştirildi." }
+    ]
+  },
+
+  {
+    "word": "compunction",
+    "meanings": ["vicdan azabı", "pişmanlık"],
+    "examples": [
+      { "en": "He felt no compunction about his decision.", "tr": "Kararı hakkında hiçbir vicdan azabı hissetmedi." },
+      { "en": "She acted without compunction.", "tr": "Vicdan azabı olmadan hareket etti." },
+      { "en": "Compunction overwhelmed him after the argument.", "tr": "Tartışmadan sonra vicdan azabı onu sardı." },
+      { "en": "He showed genuine compunction for his actions.", "tr": "Eylemleri için gerçek bir pişmanlık gösterdi." },
+      { "en": "The apology seemed forced, lacking compunction.", "tr": "Özür zoraki görünüyordu, pişmanlık içermiyordu." }
+    ]
+  },
+
+  {
+    "word": "conscript",
+       "meanings": ["askere almak", "zorunlu hizmete çağırmak"],
+    "examples": [
+      { "en": "Young men were conscripted into the army.", "tr": "Genç erkekler orduya alındı." },
+      { "en": "The regime conscripted thousands for forced labor.", "tr": "Rejim binlerce kişiyi zorunlu çalışmaya çağırdı." },
+      { "en": "He opposed being conscripted.", "tr": "Askere alınmaya karşı çıktı." },
+      { "en": "The conscripted soldiers lacked proper training.", "tr": "Askere alınan askerler yeterli eğitime sahip değildi." },
+      { "en": "The law allows the government to conscript citizens.", "tr": "Yasa hükümete vatandaşları askere alma yetkisi verir." }
+    ]
+  },
+
+  {
+    "word": "consternation",
+    "meanings": ["dehşet", "şaşkınlık"],
+    "examples": [
+      { "en": "The announcement caused widespread consternation.", "tr": "Açıklama geniş çaplı bir şaşkınlık yarattı." },
+      { "en": "She stared in consternation at the results.", "tr": "Sonuçlara dehşetle baktı." },
+      { "en": "The team reacted with consternation.", "tr": "Ekip dehşet içinde tepki verdi." },
+      { "en": "His resignation created consternation within the organization.", "tr": "Onun istifası kurum içinde büyük bir şaşkınlık yarattı." },
+      { "en": "The event left the audience in consternation.", "tr": "Etkinlik izleyiciyi şaşkınlığa uğrattı." }
+    ]
+  },
+
+  {
+    "word": "copacetic",
+    "meanings": ["eksiksiz iyi", "yolunda"],
+    "examples": [
+      { "en": "Everything seemed copacetic during the inspection.", "tr": "Denetim sırasında her şey yolunda görünüyordu." },
+      { "en": "He assured us that the situation was copacetic.", "tr": "Durumun tamamen iyi olduğunu temin etti." },
+      { "en": "Their relationship appeared copacetic despite rumors.", "tr": "Söylentilere rağmen ilişkileri yolunda görünüyordu." },
+      { "en": "The results were surprisingly copacetic.", "tr": "Sonuçlar şaşırtıcı şekilde iyiydi." },
+      { "en": "She confirmed that all arrangements were copacetic.", "tr": "Tüm düzenlemelerin yolunda olduğunu doğruladı." }
+    ]
+  },
+
+  {
+    "word": "corollary",
+    "meanings": ["doğal sonuç", "zorunlu çıkarım"],
+    "examples": [
+      { "en": "Increased demand is a corollary of population growth.", "tr": "Artan talep nüfus artışının doğal bir sonucudur." },
+      { "en": "Economic instability is the corollary of weak institutions.", "tr": "Ekonomik istikrarsızlık zayıf kurumların bir sonucudur." },
+      { "en": "His theory suggests several corollaries.", "tr": "Onun teorisi birkaç doğal sonuç öngörür." },
+      { "en": "The corollary of the change was rising costs.", "tr": "Değişimin doğal sonucu artan maliyetlerdi." },
+      { "en": "One corollary of innovation is disruption.", "tr": "Yeniliğin bir doğal sonucu da kesintidir." }
+    ]
+  },
+
+  {
+    "word": "deleterious",
+    "meanings": ["zararlı", "tehlikeli"],
+    "examples": [
+      { "en": "The chemicals have deleterious effects on health.", "tr": "Kimyasallar sağlığa zararlı etkilere sahiptir." },
+      { "en": "His actions had deleterious consequences for the team.", "tr": "Onun eylemleri ekip için zararlı sonuçlar doğurdu." },
+      { "en": "Social isolation can be deleterious to mental health.", "tr": "Sosyal izolasyon zihinsel sağlığa zararlı olabilir." },
+      { "en": "Overuse of antibiotics has deleterious impacts.", "tr": "Antibiyotiklerin aşırı kullanımı zararlı etkilere sahiptir." },
+      { "en": "The policy unintentionally caused deleterious effects.", "tr": "Politika istemeden zararlı etkiler yarattı." }
+    ]
+  },
+
+  {
+    "word": "disconcerting",
+    "meanings": ["rahatsız edici", "şaşırtıcı"],
+    "examples": [
+      { "en": "His disconcerting silence worried everyone.", "tr": "Onun rahatsız edici sessizliği herkesi endişelendirdi." },
+      { "en": "The results were disconcerting to the researchers.", "tr": "Sonuçlar araştırmacıları şaşırttı." },
+      { "en": "It was disconcerting to see the plan fail so quickly.", "tr": "Planın bu kadar çabuk başarısız olması rahatsız ediciydi." },
+      { "en": "Her expression was strangely disconcerting.", "tr": "Onun ifadesi tuhaf derecede rahatsız ediciydi." },
+      { "en": "The sudden change in tone was disconcerting.", "tr": "Tonun ani değişimi rahatsız ediciydi." }
+    ]
+  },
+
+  {
+    "word": "disrepute",
+    "meanings": ["kötü şöhret", "itibarsızlık"],
+    "examples": [
+      { "en": "The scandal placed the institution in disrepute.", "tr": "Skandal kurumu kötü şöhrete soktu." },
+      { "en": "He feared falling into disrepute.", "tr": "İtibarsızlaşmaktan korkuyordu." },
+      { "en": "The brand recovered from years of disrepute.", "tr": "Marka yıllarca süren kötü şöhretten kurtuldu." },
+      { "en": "His behavior brought disrepute to the profession.", "tr": "Onun davranışı mesleğe kötü bir şöhret getirdi." },
+      { "en": "The committee worked to reverse the disrepute.", "tr": "Komite itibarsızlığı tersine çevirmek için çalıştı." }
+    ]
+  },
+
+  {
+    "word": "elucidate",
+    "meanings": ["açıklığa kavuşturmak"],
+    "examples": [
+      { "en": "The professor elucidated the complex concept.", "tr": "Profesör karmaşık kavramı açıklığa kavuşturdu." },
+      { "en": "The data helped elucidate the root of the problem.", "tr": "Veriler sorunun kaynağını açıklamaya yardımcı oldu." },
+      { "en": "She elucidated her argument clearly.", "tr": "Argümanını açık bir şekilde açıklığa kavuşturdu." },
+      { "en": "The study elucidates the mechanisms involved.", "tr": "Çalışma ilgili mekanizmaları açıklığa kavuşturuyor." },
+      { "en": "Experts were invited to elucidate the findings.", "tr": "Bulguları açıklamak için uzmanlar davet edildi." }
+    ]
+  },
+
+  {
+    "word": "enrapture",
+    "meanings": ["büyülemek", "mest etmek"],
+    "examples": [
+      { "en": "The performance enraptured the audience.", "tr": "Performans izleyiciyi mest etti." },
+      { "en": "She was enraptured by the breathtaking scenery.", "tr": "Nefes kesici manzaraya hayran kaldı." },
+      { "en": "The melody enraptured everyone in the room.", "tr": "Melodi odadaki herkesi büyüledi." },
+      { "en": "His storytelling enraptured the children.", "tr": "Onun hikâye anlatışı çocukları büyüledi." },
+      { "en": "The artwork enraptured art critics worldwide.", "tr": "Sanat eseri dünya çapındaki eleştirmenleri büyüledi." }
+    ]
+  },
+
+  {
+    "word": "entreat",
+    "meanings": ["yalvarmak", "rica etmek"],
+    "examples": [
+      { "en": "She entreated him to reconsider his decision.", "tr": "Kararını yeniden gözden geçirmesi için ona yalvardı." },
+      { "en": "He entreated the crowd for calm.", "tr": "Kalabalığa sakin olmaları için ricada bulundu." },
+      { "en": "They entreated the king for mercy.", "tr": "Kraldan merhamet dilediler." },
+      { "en": "She entreated the committee to extend the deadline.", "tr": "Komiteye son tarihi uzatmaları için yalvardı." },
+      { "en": "He entreated them not to reveal the secret.", "tr": "Sırrı açıklamamaları için onlara yalvardı." }
+    ]
+  },
+
+  {
+    "word": "extol",
+    "meanings": ["övmek", "yüceltmek"],
+    "examples": [
+      { "en": "The article extolled the scientist's achievements.", "tr": "Makale bilim insanının başarılarını övdü." },
+      { "en": "He extolled the virtues of discipline.", "tr": "Disiplinin erdemlerini yüceltti." },
+      { "en": "The speech extolled the nation's resilience.", "tr": "Konuşma ülkenin direncini yüceltti." },
+      { "en": "She extolled his talents publicly.", "tr": "Onun yeteneklerini halka açık şekilde övdü." },
+      { "en": "Critics extolled the film as a masterpiece.", "tr": "Eleştirmenler filmi bir başyapıt olarak övdü." }
+    ]
+  },
+
+  {
+    "word": "fledgling",
+    "meanings": ["yeni, acemi"],
+    "examples": [
+      { "en": "The fledgling company attracted major investors.", "tr": "Yeni şirket büyük yatırımcıları çekti." },
+      { "en": "He is still a fledgling writer.", "tr": "O hâlâ acemi bir yazar." },
+      { "en": "The fledgling movement gained momentum.", "tr": "Yeni hareket ivme kazandı." },
+      { "en": "The organization supports fledgling entrepreneurs.", "tr": "Organizasyon yeni girişimcileri destekliyor." },
+      { "en": "Her fledgling skills developed rapidly.", "tr": "Onun acemi becerileri hızla gelişti." }
+    ]
+  },
+
+  {
+    "word": "foist",
+    "meanings": ["zorla kabul ettirmek"],
+    "examples": [
+      { "en": "He tried to foist his opinions on the group.", "tr": "Görüşlerini gruba zorla kabul ettirmeye çalıştı." },
+      { "en": "They foisted extra responsibilities on the interns.", "tr": "Stajyerlere ekstra sorumlulukları zorla yüklediler." },
+      { "en": "The company foisted low-quality products on customers.", "tr": "Şirket müşterilere düşük kaliteli ürünleri zorla sattı." },
+      { "en": "He refused to let others foist blame on him.", "tr": "Başkalarının suçu ona yüklemesine izin vermedi." },
+      { "en": "The law prevents advertisers from foisting misleading claims.", "tr": "Yasa reklamcıların yanıltıcı iddiaları zorla kabul ettirmesini engeller." }
+    ]
+  },
+
+  {
+    "word": "forbear",
+    "meanings": ["kaçınmak", "sabretmek"],
+    "examples": [
+      { "en": "He forbore from making a harsh comment.", "tr": "Sert bir yorum yapmaktan kaçındı." },
+      { "en": "They forbore retaliation to maintain peace.", "tr": "Barışı korumak için misillemeden kaçındılar." },
+      { "en": "She forbore her anger and remained calm.", "tr": "Öfkesinden kaçınıp sakin kaldı." },
+      { "en": "He forbore from responding immediately.", "tr": "Hemen cevap vermekten kaçındı." },
+      { "en": "Forbearance was required in the tense negotiation.", "tr": "Gergin müzakerede sabır gerekliydi." }
+    ]
+  },
+
+  {
+    "word": "garrulous",
+    "meanings": ["geveze", "çok konuşan"],
+    "examples": [
+      { "en": "The garrulous host talked endlessly.", "tr": "Geveze ev sahibi durmaksızın konuştu." },
+      { "en": "He grew increasingly garrulous after drinking.", "tr": "İçtikten sonra giderek daha konuşkan oldu." },
+      { "en": "Her garrulous nature annoyed her colleagues.", "tr": "Onun geveze hali meslektaşlarını rahatsız etti." },
+      { "en": "The garrulous storyteller captivated the children.", "tr": "Geveze hikâye anlatıcı çocukları büyüledi." },
+      { "en": "He was too garrulous to keep secrets.", "tr": "Sır saklayamayacak kadar gevezeydi." }
+    ]
+  },
+
+  {
+    "word": "grandiloquent",
+    "meanings": ["aşırı süslü konuşan"],
+    "examples": [
+      { "en": "His grandiloquent speech amused the audience.", "tr": "Onun aşırı süslü konuşması izleyiciyi eğlendirdi." },
+      { "en": "She avoided grandiloquent language in her writing.", "tr": "Yazılarında aşırı süslü dilden kaçındı." },
+      { "en": "The essay mocked grandiloquent political rhetoric.", "tr": "Makale süslü siyasi söylemle dalga geçti." },
+      { "en": "He used grandiloquent phrases to sound impressive.", "tr": "Etkileyici görünmek için aşırı süslü ifadeler kullandı." },
+      { "en": "Grandiloquence weakened the clarity of his message.", "tr": "Süslü konuşması mesajının netliğini zayıflattı." }
+    ]
+  },
+
+  {
+    "word": "impecunious",
+    "meanings": ["parasız", "yoksul"],
+    "examples": [
+      { "en": "He spent his impecunious youth studying at public libraries.", "tr": "Parasız gençliğini halk kütüphanelerinde okuyarak geçirdi." },
+      { "en": "The impecunious artist struggled to buy supplies.", "tr": "Yoksul sanatçı malzeme almakta zorlandı." },
+      { "en": "She supported impecunious students through scholarships.", "tr": "O, burslarla yoksul öğrencileri destekledi." },
+      { "en": "He joked about his impecunious lifestyle.", "tr": "Yoksul yaşam tarzı hakkında şaka yaptı." },
+      { "en": "The charity aids impecunious families.", "tr": "Hayır kurumu yoksul ailelere yardım ediyor." }
+    ]
+  },
+
+  {
+    "word": "inexorable",
+    "meanings": ["durdurulamaz", "kaçınılmaz"],
+    "examples": [
+      { "en": "The inexorable advance of technology reshapes industries.", "tr": "Teknolojinin durdurulamaz ilerleyişi sektörleri yeniden şekillendiriyor." },
+      { "en": "Time moves with inexorable certainty.", "tr": "Zaman durdurulamaz bir kesinlikle akar." },
+      { "en": "The crisis followed an inexorable path.", "tr": "Kriz kaçınılmaz bir yol izledi." },
+      { "en": "Despite efforts, the decline was inexorable.", "tr": "Çabalara rağmen çöküş kaçınılmazdı." },
+      { "en": "Her determination was inexorable.", "tr": "Onun kararlılığı durdurulamazdı." }
+    ]
+  },
+
+  {
+    "word": "inscrutable",
+    "meanings": ["anlaşılmaz", "çözülmesi zor"],
+    "examples": [
+      { "en": "He remained inscrutable despite the intense questioning.", "tr": "Yoğun sorgulamaya rağmen anlaşılmaz kaldı." },
+      { "en": "Her inscrutable expression made interpretation difficult.", "tr": "Onun anlaşılmaz ifadesi yorumu zorlaştırdı." },
+      { "en": "The universe holds many inscrutable mysteries.", "tr": "Evren birçok anlaşılmaz gizem barındırır." },
+      { "en": "His motives were inscrutable.", "tr": "Onun motivasyonları anlaşılmazdı." },
+      { "en": "The data presented an inscrutable pattern.", "tr": "Veri anlaşılması güç bir desen sundu." }
+    ]
+  },
+
+  {
+    "word": "insidious",
+    "meanings": ["gizlice ilerleyen", "sinsi"],
+    "examples": [
+      { "en": "The disease has an insidious onset.", "tr": "Hastalığın başlangıcı sinsidir." },
+      { "en": "Insidious misinformation spread throughout social media.", "tr": "Sinsi yanlış bilgi sosyal medyada yayıldı." },
+      { "en": "The insidious effects of pollution became evident.", "tr": "Kirliliğin sinsi etkileri ortaya çıktı." },
+      { "en": "He warned about the insidious rise of extremism.", "tr": "Aşırıcılığın sinsi yükselişi konusunda uyardı." },
+      { "en": "Stress can have insidious impacts on health.", "tr": "Stres sağlığa sinsi etkiler yapabilir." }
+    ]
+  },
+
+  {
+    "word": "internecine",
+    "meanings": ["karşılıklı yıkıcı", "iç çatışma ile ilgili"],
+    "examples": [
+      { "en": "The party suffered from internecine conflicts.", "tr": "Parti iç çatışmalardan zarar gördü." },
+      { "en": "Internecine rivalry weakened the movement.", "tr": "Karşılıklı yıkıcı rekabet hareketi zayıflattı." },
+      { "en": "The war devolved into internecine violence.", "tr": "Savaş içsel yıkıcı şiddete dönüştü." },
+      { "en": "Internecine struggles destroyed the alliance.", "tr": "İç çatışmalar ittifakı yok etti." },
+      { "en": "The company collapsed due to internecine divisions.", "tr": "Şirket iç bölünmeler nedeniyle çöktü." }
+    ]
+  },
+
+  {
+    "word": "intimation",
+    "meanings": ["ima", "üstü kapalı işaret"],
+    "examples": [
+      { "en": "She gave no intimation of her plans.", "tr": "Planları hakkında hiçbir ima vermedi." },
+      { "en": "His tone carried an intimation of warning.", "tr": "Ses tonu bir uyarı iması taşıyordu." },
+      { "en": "There was a faint intimation of regret in his voice.", "tr": "Sesinde hafif bir pişmanlık iması vardı." },
+      { "en": "The gesture was an intimation of trust.", "tr": "Jest bir güven işaretiydi." },
+      { "en": "He interpreted her silence as an intimation of agreement.", "tr": "Onun sessizliğini bir onay iması olarak yorumladı." }
+    ]
+  },
+  {
+    "word": "aberrant",
+    "meanings": ["sapmış", "normalden farklı"],
+    "examples": [
+      { "en": "His aberrant behavior alarmed the committee.", "tr": "Onun sapmış davranışı komiteyi alarma geçirdi." },
+      { "en": "The data showed an aberrant pattern.", "tr": "Veri anormal bir desen gösterdi." },
+      { "en": "Aberrant weather conditions disrupted the event.", "tr": "Anormal hava koşulları etkinliği bozdu." },
+      { "en": "Scientists investigated the aberrant results.", "tr": "Bilim insanları anormal sonuçları araştırdı." },
+      { "en": "Her reaction was considered aberrant by her peers.", "tr": "Onun tepkisi akranları tarafından sapmış olarak görüldü." }
+    ]
+  },
+
+  {
+    "word": "acerbic",
+    "meanings": ["iğneleyici", "sert"],
+    "examples": [
+      { "en": "His acerbic comments offended several colleagues.", "tr": "Onun iğneleyici yorumları birkaç meslektaşını kırdı." },
+      { "en": "She delivered an acerbic critique of the film.", "tr": "Filmin sert bir eleştirisini yaptı." },
+      { "en": "His acerbic tone made negotiations difficult.", "tr": "Onun sert tonu müzakereleri zorlaştırdı." },
+      { "en": "Her acerbic wit amused the crowd.", "tr": "Onun iğneleyici esprileri kalabalığı eğlendirdi." },
+      { "en": "The article was known for its acerbic style.", "tr": "Makale iğneleyici tarzıyla biliniyordu." }
+    ]
+  },
+
+  {
+    "word": "acquiesce",
+    "meanings": ["kabul etmek", "boyun eğmek"],
+    "examples": [
+      { "en": "She eventually acquiesced to the board’s decision.", "tr": "Sonunda yönetimin kararına boyun eğdi." },
+      { "en": "He refused to acquiesce without proper explanation.", "tr": "Uygun bir açıklama olmadan kabul etmeyi reddetti." },
+      { "en": "The community acquiesced to the new regulations.", "tr": "Toplum yeni düzenlemeleri kabul etti." },
+      { "en": "He acquiesced reluctantly after hours of debate.", "tr": "Saatler süren tartışmadan sonra isteksizce kabul etti." },
+      { "en": "Acquiescence was the only practical option.", "tr": "Kabul etmek tek pratik seçenekti." }
+    ]
+  },
+
+  {
+    "word": "admonish",
+    "meanings": ["uyarmak", "azarlamak"],
+    "examples": [
+      { "en": "The teacher admonished the class for their noise.", "tr": "Öğretmen sınıfı gürültüleri için azarladı." },
+      { "en": "She admonished him not to repeat the mistake.", "tr": "Hatanın tekrar edilmemesi için onu uyardı." },
+      { "en": "He was gently admonished by his mentor.", "tr": "Mentoru tarafından nazikçe uyarıldı." },
+      { "en": "The report admonished authorities for negligence.", "tr": "Rapor, yetkilileri ihmal nedeniyle uyardı." },
+      { "en": "His mother admonished him for being late.", "tr": "Annesi geç kaldığı için onu azarladı." }
+    ]
+  },
+
+  {
+    "word": "alleviate",
+    "meanings": ["hafifletmek", "azaltmak"],
+    "examples": [
+      { "en": "The medicine alleviated her symptoms.", "tr": "İlaç belirtilerini hafifletti." },
+      { "en": "Policies were introduced to alleviate poverty.", "tr": "Yoksulluğu azaltmak için politikalar getirildi." },
+      { "en": "He tried to alleviate her concerns.", "tr": "Onun endişelerini gidermeye çalıştı." },
+      { "en": "The program aims to alleviate strain on hospitals.", "tr": "Program hastanelerdeki yükü hafifletmeyi amaçlıyor." },
+      { "en": "Improved infrastructure alleviates traffic issues.", "tr": "Gelişmiş altyapı trafik sorunlarını azaltır." }
+    ]
+  },
+
+  {
+    "word": "anachronistic",
+    "meanings": ["çağ dışı", "zamana uymayan"],
+    "examples": [
+      { "en": "The story’s anachronistic elements confused readers.", "tr": "Hikâyenin çağ dışı unsurları okuyucuları şaşırttı." },
+      { "en": "His views seem increasingly anachronistic.", "tr": "Onun görüşleri giderek daha çağ dışı görünüyor." },
+      { "en": "The technology appeared oddly anachronistic.", "tr": "Teknoloji tuhaf şekilde zamana uymuyordu." },
+      { "en": "The film was criticized for anachronistic dialogue.", "tr": "Film çağ dışı diyalogları nedeniyle eleştirildi." },
+      { "en": "She rejected the anachronistic traditions.", "tr": "Çağ dışı gelenekleri reddetti." }
+    ]
+  },
+
+  {
+    "word": "antediluvian",
+    "meanings": ["çok eski", "aşırı eski moda"],
+    "examples": [
+      { "en": "His antediluvian beliefs clashed with modern values.", "tr": "Onun çok eski inançları modern değerlerle çelişti." },
+      { "en": "The device looks almost antediluvian.", "tr": "Cihaz neredeyse taş devrinden kalma gibi görünüyor." },
+      { "en": "They mocked his antediluvian mindset.", "tr": "Onun aşırı eski moda zihniyetiyle dalga geçtiler." },
+      { "en": "The library contained antediluvian manuscripts.", "tr": "Kütüphane çok eski el yazmaları içeriyordu." },
+      { "en": "The rules felt antediluvian to the new members.", "tr": "Yeni üyelere kurallar aşırı eski moda geldi." }
+    ]
+  },
+
+  {
+    "word": "apocryphal",
+    "meanings": ["şüpheli doğrulukta"],
+    "examples": [
+      { "en": "The story is fascinating but likely apocryphal.", "tr": "Hikâye etkileyici ama muhtemelen uydurma." },
+      { "en": "He quoted an apocryphal anecdote.", "tr": "O, doğruluğu şüpheli bir anekdot aktardı." },
+      { "en": "Many apocryphal accounts circulated about the event.", "tr": "Olay hakkında birçok uydurma anlatı dolaştı." },
+      { "en": "The legend is charming but apocryphal.", "tr": "Efsane çekici ama doğruluğu şüpheli." },
+      { "en": "Historians dismissed the apocryphal document.", "tr": "Tarihçiler o şüpheli belgeyi reddetti." }
+    ]
+  },
+
+  {
+    "word": "asperity",
+    "meanings": ["sertlik", "kaba davranış"],
+    "examples": [
+      { "en": "He addressed the crowd with unexpected asperity.", "tr": "Kalabalığa beklenmedik bir sertlikle hitap etti." },
+      { "en": "Her voice carried a note of asperity.", "tr": "Sesinde bir sertlik tonu vardı." },
+      { "en": "Negotiations were marked by asperity.", "tr": "Müzakereler sertlikle dikkat çekti." },
+      { "en": "The criticism was delivered with asperity.", "tr": "Eleştiri sert bir üslupla yapıldı." },
+      { "en": "His asperity startled his colleagues.", "tr": "Onun sertliği meslektaşlarını şaşırttı." }
+    ]
+  },
+
+  {
+    "word": "assiduous",
+    "meanings": ["özverili", "çalışkan"],
+    "examples": [
+      { "en": "Her assiduous research produced groundbreaking findings.", "tr": "Onun özverili araştırması çığır açan bulgular ortaya çıkardı." },
+      { "en": "He is known for his assiduous work ethic.", "tr": "O, özverili iş ahlakıyla bilinir." },
+      { "en": "Assiduous planning ensured success.", "tr": "Özverili planlama başarıyı garantiledi." },
+      { "en": "Their assiduous efforts were finally rewarded.", "tr": "Onların çalışkan çabaları sonunda ödüllendirildi." },
+      { "en": "Assiduity is essential for scientific progress.", "tr": "Özveri bilimsel ilerleme için şarttır." }
+    ]
+  },
+
+  {
+    "word": "baleful",
+    "meanings": ["uğursuz", "zarar verici"],
+    "examples": [
+      { "en": "She cast a baleful glance at him.", "tr": "Ona uğursuz bir bakış attı." },
+      { "en": "The baleful influence of corruption damaged the nation.", "tr": "Yolsuzluğun uğursuz etkisi ülkeye zarar verdi." },
+      { "en": "A baleful silence filled the room.", "tr": "Odayı uğursuz bir sessizlik doldurdu." },
+      { "en": "The storm clouds looked baleful.", "tr": "Fırtına bulutları uğursuz görünüyordu." },
+      { "en": "His baleful presence intimidated everyone.", "tr": "Onun uğursuz varlığı herkesi ürküttü." }
+    ]
+  },
+
+  {
+    "word": "banal",
+    "meanings": ["sıradan", "bayat"],
+    "examples": [
+      { "en": "The speech was criticized for being banal and predictable.", "tr": "Konuşma sıradan ve tahmin edilebilir olduğu için eleştirildi." },
+      { "en": "He avoided banal expressions in his writing.", "tr": "Yazılarında bayat ifadelerden kaçındı." },
+      { "en": "The plot felt disappointingly banal.", "tr": "Konu hayal kırıklığı yaratacak kadar sıradandı." },
+      { "en": "The conversation turned into banal small talk.", "tr": "Sohbet sıradan küçük konuşmalara dönüştü." },
+      { "en": "Critics dismissed the film as banal.", "tr": "Eleştirmenler filmi sıradan olarak değerlendirdi." }
+    ]
+  },
+
+  {
+    "word": "beleaguer",
+    "meanings": ["kuşatmak", "rahatsız etmek"],
+    "examples": [
+      { "en": "The city was beleaguered for months.", "tr": "Şehir aylarca kuşatma altında kaldı." },
+      { "en": "He felt beleaguered by constant demands.", "tr": "Sürekli talepler tarafından rahatsız edilmiş hissetti." },
+      { "en": "The organization was beleaguered by scandals.", "tr": "Organizasyon skandallarla kuşatıldı." },
+      { "en": "Her inbox was beleaguered with messages.", "tr": "Gelen kutusu mesajlarla kuşatıldı." },
+      { "en": "The campaign was beleaguered by setbacks.", "tr": "Kampanya aksiliklerle kuşatıldı." }
+    ]
+  },
+
+  {
+    "word": "boorish",
+    "meanings": ["kaba", "görgüsüz"],
+    "examples": [
+      { "en": "His boorish behavior ruined the evening.", "tr": "Onun kaba davranışı akşamı mahvetti." },
+      { "en": "She found his boorish jokes irritating.", "tr": "Onun kaba şakalarını rahatsız edici buldu." },
+      { "en": "The guest’s boorish manners shocked everyone.", "tr": "Misafirin görgüsüz davranışları herkesi şoke etti." },
+      { "en": "He apologized for his boorish comments.", "tr": "Kaba yorumları için özür diledi." },
+      { "en": "Boorishness has no place in professional settings.", "tr": "Görgüsüzlüğün profesyonel ortamlarda yeri yoktur." }
+    ]
+  },
+
+  {
+    "word": "burnish",
+    "meanings": ["parlatmak", "cilalamak"],
+    "examples": [
+      { "en": "She worked to burnish the brand's image.", "tr": "Markanın imajını parlatmak için çalıştı." },
+      { "en": "The company launched a campaign to burnish its reputation.", "tr": "Şirket, itibarını parlatmak için bir kampanya başlattı." },
+      { "en": "He burnished his public persona with charity work.", "tr": "Hayır işleriyle imajını parlatttı." },
+      { "en": "The craftsman burnished the metal carefully.", "tr": "Zanaatkâr metali özenle cilaladı." },
+      { "en": "They sought to burnish their credentials.", "tr": "Niteliklerini parlatmaya çalıştılar." }
+    ]
+  },
+
+  {
+    "word": "choleric",
+    "meanings": ["öfkeli", "kolay sinirlenen"],
+    "examples": [
+      { "en": "His choleric temperament made cooperation difficult.", "tr": "Onun öfkeli mizacı iş birliğini zorlaştırdı." },
+      { "en": "She avoided his choleric outbursts.", "tr": "Onun öfkeli patlamalarından kaçındı." },
+      { "en": "The manager’s choleric response stunned the staff.", "tr": "Müdürün öfkeli tepkisi çalışanları şaşırttı." },
+      { "en": "He learned to control his choleric tendencies.", "tr": "Öfkeli eğilimlerini kontrol etmeyi öğrendi." },
+      { "en": "The argument ended in choleric shouting.", "tr": "Tartışma öfke dolu bağırışlarla bitti." }
+    ]
+  },
+
+  {
+    "word": "clandestine",
+    "meanings": ["gizli", "saklı"],
+    "examples": [
+      { "en": "They held a clandestine meeting late at night.", "tr": "Gece geç saatte gizli bir toplantı yaptılar." },
+      { "en": "The group engaged in clandestine operations.", "tr": "Grup gizli operasyonlara girişti." },
+      { "en": "The documents were exchanged in a clandestine manner.", "tr": "Belgeler gizli bir şekilde değiş tokuş edildi." },
+      { "en": "He maintained a clandestine relationship.", "tr": "Gizli bir ilişki sürdürdü." },
+      { "en": "Authorities discovered a clandestine network.", "tr": "Yetkililer gizli bir ağ keşfetti." }
+    ]
+  },
+
+  {
+    "word": "concomitant",
+    "meanings": ["eşlik eden", "birlikte görülen"],
+    "examples": [
+      { "en": "Economic growth often brings concomitant challenges.", "tr": "Ekonomik büyüme genellikle eşlik eden zorluklar getirir." },
+      { "en": "The illness has several concomitant symptoms.", "tr": "Hastalığın birkaç eşlik eden belirtisi var." },
+      { "en": "Technological advances and concomitant risks emerged.", "tr": "Teknolojik ilerlemeler ve eşlik eden riskler ortaya çıktı." },
+      { "en": "Urbanization has concomitant environmental costs.", "tr": "Kentleşmenin eşlik eden çevresel maliyetleri vardır." },
+      { "en": "Her success brought concomitant responsibilities.", "tr": "Onun başarısı beraberinde sorumluluklar getirdi." }
+    ]
+  },
+
+  {
+    "word": "condone",
+    "meanings": ["görmezden gelmek", "hoş görmek"],
+    "examples": [
+      { "en": "The committee refused to condone unethical behavior.", "tr": "Komite etik olmayan davranışları hoş görmeyi reddetti." },
+      { "en": "He cannot condone such negligence.", "tr": "Böyle bir ihmali hoş göremez." },
+      { "en": "The school will not condone bullying.", "tr": "Okul zorbalığı hoş görmeyecek." },
+      { "en": "She inadvertently condoned the misconduct.", "tr": "Farkında olmadan kötü davranışı hoş gördü." },
+      { "en": "Condoning lies leads to deeper problems.", "tr": "Yalanları hoş görmek daha büyük sorunlara yol açar." }
+    ]
+  },
+
+  {
+    "word": "contiguous",
+    "meanings": ["bitişik", "komşu"],
+    "examples": [
+      { "en": "The two buildings are contiguous.", "tr": "İki bina bitişiktir." },
+      { "en": "Contiguous regions share cultural similarities.", "tr": "Komşu bölgeler kültürel benzerlikler paylaşır." },
+      { "en": "The forest is contiguous with the mountains.", "tr": "Orman dağlarla bitişiktir." },
+      { "en": "The rooms form one contiguous space.", "tr": "Odalar bitişik bir alan oluşturuyor." },
+      { "en": "Contiguous borders facilitated trade.", "tr": "Bitişik sınırlar ticareti kolaylaştırdı." }
+    ]
+  },
+
+  {
+    "word": "deference",
+    "meanings": ["saygı", "hürmet"],
+    "examples": [
+      { "en": "They treated the elder with deep deference.", "tr": "Yaşlıya derin bir saygı ile davrandılar." },
+      { "en": "He nodded in deference to her expertise.", "tr": "Onun uzmanlığına hürmeten başını salladı." },
+      { "en": "The judge acted with deference to precedent.", "tr": "Yargıç emsallere saygıyla davrandı." },
+      { "en": "Employees showed deference to their leader.", "tr": "Çalışanlar liderlerine saygı gösterdi." },
+      { "en": "She spoke with deference and humility.", "tr": "Saygı ve alçakgönüllülükle konuştu." }
+    ]
+  },
+
+  {
+    "word": "defunct",
+    "meanings": ["artık geçersiz", "işlevsiz"],
+    "examples": [
+      { "en": "The defunct company left thousands unemployed.", "tr": "İşlevsiz hale gelen şirket binlerce kişiyi işsiz bıraktı." },
+      { "en": "The law is now defunct.", "tr": "Yasa artık geçersiz." },
+      { "en": "The building belongs to a defunct organization.", "tr": "Bina artık işlevsiz bir kuruma ait." },
+      { "en": "The defunct system was replaced with a modern one.", "tr": "İşlevsiz sistem modern bir sistemle değiştirildi." },
+      { "en": "The machine has been defunct for years.", "tr": "Makine yıllardır çalışmıyor." }
+    ]
+  },
+
+  {
+    "word": "delineation",
+    "meanings": ["tasvir", "ayrıntılı belirleme"],
+    "examples": [
+      { "en": "The map provides a clear delineation of borders.", "tr": "Harita sınırların net bir tasvirini sunuyor." },
+      { "en": "His book offers a detailed delineation of social issues.", "tr": "Kitabı sosyal sorunların ayrıntılı bir analizini sunuyor." },
+      { "en": "The report included a delineation of responsibilities.", "tr": "Rapor sorumlulukların ayrıntılı belirlemesini içeriyordu." },
+      { "en": "The film's delineation of characters is remarkable.", "tr": "Filmin karakter tasviri dikkat çekicidir." },
+      { "en": "Accurate delineation is crucial for legal clarity.", "tr": "Hukuki netlik için doğru belirleme çok önemlidir." }
+    ]
+  },
+
+  {
+    "word": "dichotomy",
+    "meanings": ["ikilik", "bölünme"],
+    "examples": [
+      { "en": "The novel explores the dichotomy between freedom and duty.", "tr": "Roman özgürlük ve görev arasındaki ikiliği inceliyor." },
+      { "en": "There is a clear dichotomy in public opinion.", "tr": "Kamuoyunda belirgin bir ikilik var." },
+      { "en": "Her work highlights the dichotomy of modern identity.", "tr": "Çalışması modern kimliğin ikiliğini vurguluyor." },
+      { "en": "A false dichotomy oversimplifies the issue.", "tr": "Yanlış bir ikilik sorunu aşırı basitleştirir." },
+      { "en": "The study reveals a dichotomy between theory and practice.", "tr": "Çalışma teori ve uygulama arasındaki ayrımı ortaya çıkarıyor." }
+    ]
+  },
+
+  {
+    "word": "disdain",
+    "meanings": ["küçümseme", "hor görme"],
+    "examples": [
+      { "en": "She looked at the suggestion with open disdain.", "tr": "Öneriye açık bir küçümsemeyle baktı." },
+      { "en": "He spoke with disdain about the outdated system.", "tr": "Eski sistem hakkında küçümseyerek konuştu." },
+      { "en": "Disdain was evident in his tone.", "tr": "Ses tonunda küçümseme açıktı." },
+      { "en": "They showed disdain for his inexperience.", "tr": "Onun deneyimsizliğini küçümsediler." },
+      { "en": "He hides his disdain behind polite words.", "tr": "Küçümsemesini kibar sözlerin arkasına saklıyor." }
+    ]
+  },
+
+  {
+    "word": "disparage",
+    "meanings": ["kötülemek", "küçümsemek"],
+    "examples": [
+      { "en": "He disparaged her achievements publicly.", "tr": "Onun başarılarını halka açık şekilde kötüledi." },
+      { "en": "The article unfairly disparaged the organization.", "tr": "Makale örgütü haksız şekilde kötüledi." },
+      { "en": "She disliked how he disparaged others.", "tr": "Onun başkalarını küçümsemesinden hoşlanmadı." },
+      { "en": "Competitors tried to disparage the product.", "tr": "Rakipler ürünü kötülemeye çalıştı." },
+      { "en": "Disparaging remarks created tension.", "tr": "Kötüleyici yorumlar gerginlik yarattı." }
+    ]
+  },
+
+  {
+    "word": "dissipate",
+    "meanings": ["dağıtmak", "yok olmak"],
+    "examples": [
+      { "en": "The fog slowly dissipated.", "tr": "Sis yavaşça dağıldı." },
+      { "en": "His anger dissipated after the apology.", "tr": "Özürden sonra öfkesi dağıldı." },
+      { "en": "The crowd dissipated quickly.", "tr": "Kalabalık hızla dağıldı." },
+      { "en": "Energy dissipates as heat.", "tr": "Enerji ısı olarak dağılır." },
+      { "en": "Their efforts dissipated due to lack of direction.", "tr": "Yön eksikliği nedeniyle çabaları boşa gitti." }
+    ]
+  },
+
+  {
+    "word": "encroach",
+    "meanings": ["tecavüz etmek", "hak ihlali yapmak"],
+    "examples": [
+      { "en": "New developments encroached on wildlife habitats.", "tr": "Yeni gelişmeler doğal yaşam alanlarını işgal etti." },
+      { "en": "He felt his privacy was being encroached upon.", "tr": "Mahremiyetinin ihlal edildiğini hissetti." },
+      { "en": "The project encroached on public land.", "tr": "Proje kamu arazisine tecavüz etti." },
+      { "en": "Their responsibilities should not encroach on ours.", "tr": "Onların sorumlulukları bizimkilerin üzerine çıkmamalı." },
+      { "en": "The empire encroached steadily into new territories.", "tr": "İmparatorluk yeni topraklara sürekli olarak yayıldı." }
+    ]
+  },
+
+  {
+    "word": "ennui",
+    "meanings": ["sıkıntı", "bıkkınlık"],
+    "examples": [
+      { "en": "He felt a deep sense of ennui during the long winter.", "tr": "Uzun kış boyunca derin bir bıkkınlık hissetti." },
+      { "en": "Ennui settled over him as he repeated the same routine.", "tr": "Aynı rutini tekrarlarken sıkıntı içine çöktü." },
+      { "en": "The film captures the ennui of suburban life.", "tr": "Film banliyö yaşamının bıkkınlığını yansıtır." },
+      { "en": "She experienced ennui despite her success.", "tr": "Başarısına rağmen bıkkınlık yaşadı." },
+      { "en": "The endless meetings produced overwhelming ennui.", "tr": "Bitmek bilmeyen toplantılar büyük bir sıkıntı yarattı." }
+    ]
+  },
+
+  {
+    "word": "epistolary",
+    "meanings": ["mektup biçiminde"],
+    "examples": [
+      { "en": "The novel has an epistolary structure.", "tr": "Roman mektup biçiminde bir yapıya sahip." },
+      { "en": "They maintained an epistolary friendship for years.", "tr": "Yıllarca mektup üzerinden süren bir dostlukları oldu." },
+      { "en": "Her epistolary exchanges reveal her inner world.", "tr": "Onun mektup yazışmaları iç dünyasını ortaya çıkarıyor." },
+      { "en": "The story unfolds through epistolary documents.", "tr": "Hikâye mektup tarzı belgeler üzerinden gelişiyor." },
+      { "en": "Epistolary writing requires emotional nuance.", "tr": "Mektup biçimi yazım duygusal incelik gerektirir." }
+    ]
+  },
+
+  {
+    "word": "equanimity",
+    "meanings": ["sükunet", "olgunluk"],
+    "examples": [
+      { "en": "She faced the crisis with remarkable equanimity.", "tr": "Krizi olağanüstü bir sükunetle karşıladı." },
+      { "en": "His equanimity under pressure impressed everyone.", "tr": "Baskı altındaki sükuneti herkesi etkiledi." },
+      { "en": "He maintained equanimity despite the insults.", "tr": "Hakaretlere rağmen sakinliğini korudu." },
+      { "en": "Meditation helps cultivate equanimity.", "tr": "Meditasyon sükunet geliştirmeye yardımcı olur." },
+      { "en": "Equanimity is vital for leadership.", "tr": "Sükunet liderlik için çok önemlidir." }
+    ]
+  }
+]
