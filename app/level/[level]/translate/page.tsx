@@ -1,0 +1,149 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import { useParams, useRouter } from "next/navigation";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { WordData, Example } from "@/types/word";
+import { ArrowRight, ArrowLeft, Heart, Repeat, Home } from "lucide-react";
+import { TranslateIcon } from "@phosphor-icons/react";
+
+export default function TranslatePage() {
+  const { level } = useParams<{ level: string }>();
+  const router = useRouter();
+
+  const [sentences, setSentences] = useState<Example[]>([]);
+  const [index, setIndex] = useState(0);
+  const [showTranslation, setShowTranslation] = useState(false);
+  const [direction, setDirection] = useState<"en-tr" | "tr-en">("en-tr");
+
+  useEffect(() => {
+    const loadExamples = async () => {
+      const res = await fetch(`/data/levels/${level}.json`, {
+        cache: "no-store",
+      });
+      const words: WordData[] = await res.json();
+
+      const allExamples = words.flatMap((w) => w.examples);
+      const shuffled = allExamples.sort(() => 0.5 - Math.random());
+      setSentences(shuffled);
+      setIndex(0);
+    };
+
+    loadExamples();
+  }, [level]);
+
+  const current = sentences[index];
+  const total = sentences.length;
+
+  if (!current)
+    return (
+      <div className="flex items-center justify-center h-[70vh] text-slate-500">
+        Cümleler yükleniyor...
+      </div>
+    );
+
+  const handleNext = () => {
+    if (index + 1 < total) {
+      setIndex((prev) => prev + 1);
+      setShowTranslation(false);
+    }
+  };
+
+  const handlePrev = () => {
+    if (index > 0) {
+      setIndex((prev) => prev - 1);
+      setShowTranslation(false);
+    }
+  };
+
+  const sentence = direction === "en-tr" ? current.en : current.tr;
+  const translation = direction === "en-tr" ? current.tr : current.en;
+
+  return (
+    <div className="">
+      <div className="flex justify-between items-center mb-6">
+        <Button
+          variant="ghost"
+          className="text-xs flex items-center text-slate-500 hover:text-indigo-600 hover:bg-transparent pl-0"
+          onClick={() => router.push(`/level/${level}`)}
+        >
+          <Home className="w-4 text-indigo-600" />
+          Ana Menüye Dön
+        </Button>
+
+        <Button
+          className="text-xs [&_svg]:size-3 font-bold text-white bg-indigo-600 hover:bg-indigo-500 shadow-none transition-all active:scale-90"
+          onClick={() =>
+            setDirection(direction === "en-tr" ? "tr-en" : "en-tr")
+          }
+        >
+          {direction === "en-tr" ? "tr" : "en"}
+          <Repeat width={12} height={12} className="text-yellow-300" />
+          {direction === "en-tr" ? "en" : "tr"}
+        </Button>
+      </div>
+
+      <Card className="border-2 border-indigo-100 shadow-none">
+        <CardContent className="p-6 flex flex-col items-center">
+          <p className="text-lg text-slate-900 font-medium text-center">
+            {sentence}
+          </p>
+
+          {showTranslation && (
+            <p className="text-base text-indigo-600 text-center border-t border-slate-200 pt-6 mt-6 w-full">
+              {translation}
+            </p>
+          )}
+
+          {!showTranslation && (
+            <Button
+              onClick={() => setShowTranslation(true)}
+              className="rounded-full bg-indigo-600 hover:bg-indigo-500 text-white mt-6 h-auto py-3 px-6"
+            >
+              <TranslateIcon className="text-yellow-300" />
+              Çeviriyi Göster
+            </Button>
+          )}
+
+          <div className="flex items-center gap-3 mt-6">
+            <Button
+              variant="outline"
+              size="icon"
+              className="border-2 border-pink-400 text-pink-500 hover:bg-pink-50"
+              onClick={() =>
+                alert("Listeye ekleme özelliği daha sonra eklenecek.")
+              }
+            >
+              <Heart className="w-5 h-5" />
+            </Button>
+          </div>
+        </CardContent>
+      </Card>
+
+      <div className="grid grid-cols-2 gap-4 mt-6">
+        <Button
+          onClick={handlePrev}
+          disabled={index === 0}
+          className="bg-slate-100 w-full text-slate-900 font-bold rounded-full px-2 py-6 hover:bg-slate-200 shadow-none transition-all active:scale-95"
+        >
+          <ArrowLeft width={16} className="text-indigo-600" />
+          Önceki
+        </Button>
+
+        <Button
+          onClick={handleNext}
+          disabled={index + 1 >= total}
+          className="bg-indigo-600 w-full text-white font-bold rounded-full px-2 py-6 hover:bg-indigo-500 shadow-none transition-all active:scale-95"
+        >
+          {index + 1 === total - 1 ? "Son Cümle" : "Sonraki"}
+          <ArrowRight width={16} className="text-yellow-300" />
+        </Button>
+      </div>
+
+      <p className="text-center text-sm text-slate-500 mt-6">
+        {index + 1} / {total} cümle
+      </p>
+    </div>
+  );
+}

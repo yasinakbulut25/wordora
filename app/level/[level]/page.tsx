@@ -7,7 +7,6 @@ import {
   Languages,
   PencilLine,
   ChevronRight,
-  LayoutList,
 } from "lucide-react";
 
 const modes = [
@@ -61,8 +60,8 @@ export default function LevelModesPage() {
     <div className="">
       <div className="flex flex-col gap-2 mb-6">
         <h1 className="text-xl font-bold text-slate-900 flex items-center gap-1">
-          <LayoutList className="text-indigo-600" /> Level{" "}
-          {level?.toUpperCase()} Yolculuğuna Hoş Geldin!
+          <span className="text-indigo-600">Level {level?.toUpperCase()}</span>{" "}
+          Yolculuğuna Hoş Geldin!
         </h1>
         <p className="text-sm text-slate-500">
           Kendi hızında ilerle, yeni kelimeler öğren, pratik yap ve seviyeni
