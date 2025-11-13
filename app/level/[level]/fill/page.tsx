@@ -4,86 +4,100 @@ import { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
-import { WordData } from "@/types/word";
 import { Spinner } from "@/components/ui/spinner";
-import { ArrowRight, Check, Circle, X } from "lucide-react";
+import { WordData } from "@/types/word";
+import { ArrowRight, Check, ChevronLeft, Circle, Home, X } from "lucide-react";
+import Link from "next/link";
 import LevelHeader from "@/components/LevelHeader";
 
-type QuizQuestion = {
-  word: string;
+type FillQuestion = {
+  sentence: string;
   correct: string;
   options: string[];
+  translation: string;
 };
 
-export default function QuizPage() {
+export default function FillPage() {
   const { level } = useParams<{ level: string }>();
   const router = useRouter();
 
-  const [questions, setQuestions] = useState<QuizQuestion[]>([]);
+  const [questions, setQuestions] = useState<FillQuestion[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selected, setSelected] = useState<string | null>(null);
   const [showNext, setShowNext] = useState(false);
-  const [results, setResults] = useState<{ correct: number; wrong: number }>({
-    correct: 0,
-    wrong: 0,
-  });
+  const [results, setResults] = useState({ correct: 0, wrong: 0 });
   const [finished, setFinished] = useState(false);
 
-  // 🔹 Kelimeleri getir ve 10 soru oluştur
+  // 🔹 Soru verilerini yükle
   useEffect(() => {
-    const loadWords = async () => {
+    const loadQuestions = async () => {
       const res = await fetch(`/data/levels/${level}.json`, {
         cache: "no-store",
       });
-      const data: WordData[] = await res.json();
+      const words: WordData[] = await res.json();
 
-      // 10 kelime seç
-      const randomWords = data.sort(() => 0.5 - Math.random()).slice(0, 10);
+      const allExamples = words.flatMap((w) =>
+        w.examples.map((ex) => ({ ...ex, word: w.word }))
+      );
 
-      // Her kelime için 2 yanlış şık oluştur
-      const questions = randomWords.map((word) => {
-        const allMeanings = data.flatMap((w) => w.meanings);
-        const wrongOptions = allMeanings
-          .filter((m) => !word.meanings.includes(m))
+      // 10 rastgele örnek seç
+      const random = allExamples.sort(() => 0.5 - Math.random()).slice(0, 10);
+
+      // Boşluk oluştur
+      const fillQuestions = random.map((ex) => {
+        const wordInSentence = ex.en
+          .split(" ")
+          .find((w) =>
+            ex.word
+              ? w.toLowerCase().includes(ex.word.toLowerCase())
+              : w.length > 3
+          );
+        const missing = wordInSentence || ex.word;
+        const sentence = ex.en.replace(
+          new RegExp(`\\b${missing}\\b`, "i"),
+          "_____"
+        );
+
+        const wrongOptions = words
+          .map((w) => w.word)
+          .filter((w) => w !== missing)
           .sort(() => 0.5 - Math.random())
           .slice(0, 2);
 
-        const correctOption = word.meanings[0];
-        const options = [...wrongOptions, correctOption].sort(
+        const options = [...wrongOptions, missing].sort(
           () => 0.5 - Math.random()
         );
 
         return {
-          word: word.word,
-          correct: correctOption,
+          sentence,
+          correct: missing,
           options,
+          translation: ex.tr,
         };
       });
 
-      setQuestions(questions);
+      setQuestions(fillQuestions);
     };
 
-    loadWords();
+    loadQuestions();
   }, [level]);
 
   const current = questions[currentIndex];
   const progress = ((currentIndex + 1) / questions.length) * 100;
 
-  // 🔹 Şık seçme işlemi
-  const handleSelect = (opt: string) => {
-    if (selected) return; // değiştirmesin
-    setSelected(opt);
+  // 🔹 Seçim işlemi
+  const handleSelect = (choice: string) => {
+    if (selected) return;
+    setSelected(choice);
 
-    const isCorrect = opt === current.correct;
+    const isCorrect = choice === current.correct;
     setResults((prev) => ({
       correct: prev.correct + (isCorrect ? 1 : 0),
       wrong: prev.wrong + (!isCorrect ? 1 : 0),
     }));
-
     setShowNext(true);
   };
 
-  // 🔹 Sonraki soruya geç
   const handleNext = () => {
     if (currentIndex + 1 < questions.length) {
       setCurrentIndex((prev) => prev + 1);
@@ -94,7 +108,7 @@ export default function QuizPage() {
     }
   };
 
-  // 🔹 Quiz bittiğinde sonuç ekranı
+  // 🔹 Sonuç ekranı
   if (finished) {
     const total = questions.length;
     const score = Math.round((results.correct / total) * 100);
@@ -102,16 +116,14 @@ export default function QuizPage() {
     return (
       <div className="flex flex-col justify-center py-4">
         <div className="relative mb-8">
-          <h1 className="relative text-3xl font-extrabold bg-gradient-to-r text-indigo-600 mb-2">
+          <h1 className="text-3xl font-extrabold text-indigo-600 mb-2">
             Tebrikler!
           </h1>
-          <p className="text-slate-700 text-base">
-            {"Quiz'i başarıyla tamamladın 🎉"}
-          </p>
+          <p className="text-slate-700 text-base">Alıştırmayı tamamladın 🎉</p>
         </div>
 
         <div className="grid grid-cols-2 gap-4 w-full max-w-md mb-8">
-          <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-6 transform transition hover:scale-105">
+          <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-6">
             <div className="flex flex-col items-center">
               <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center mb-3">
                 <Check className="text-white" />
@@ -125,7 +137,7 @@ export default function QuizPage() {
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-red-50 to-rose-50 border-2 border-red-200 rounded-2xl p-6 transform transition hover:scale-105">
+          <div className="bg-gradient-to-br from-red-50 to-rose-50 border-2 border-red-200 rounded-2xl p-6">
             <div className="flex flex-col items-center">
               <div className="w-12 h-12 bg-red-500 rounded-full flex items-center justify-center mb-3">
                 <X className="text-white" />
@@ -184,14 +196,10 @@ export default function QuizPage() {
     );
 
   return (
-    <section id="quiz">
+    <section id="fill">
       <div className="mb-6">
-        <LevelHeader href={`/level/${level}`} title="10 Soruluk Quiz" />
+        <LevelHeader href={`/level/${level}`} title="Boşluk Doldurma" />
       </div>
-
-      <h2 className="text-2xl font-semibold text-white w-max mx-auto bg-indigo-600 px-4 py-3 rounded-2xl">
-        {current.word}
-      </h2>
 
       <div className="flex items-center justify-between mb-4">
         <span className="text-sm text-slate-500">
@@ -205,6 +213,13 @@ export default function QuizPage() {
         className="h-2 mb-6 bg-slate-100"
         innerBg="bg-indigo-600"
       />
+
+      <p className="text-center text-lg font-semibold text-slate-900 mb-4">
+        {current.sentence}
+      </p>
+      <p className="text-center text-base text-slate-500 mb-6">
+        {current.translation}
+      </p>
 
       <div className="space-y-3">
         {current.options.map((opt, i) => (

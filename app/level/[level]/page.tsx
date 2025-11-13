@@ -8,6 +8,7 @@ import {
   PencilLine,
   ChevronRight,
 } from "lucide-react";
+import LevelHeader from "@/components/LevelHeader";
 
 const modes = [
   {
@@ -30,7 +31,7 @@ const modes = [
   },
   {
     id: "translate",
-    title: "Cümle Çeviri",
+    title: "Cümle Çevirme",
     desc: "Cümleler ile çeviri pratiği yapın.",
     icon: <Languages size={36} className="text-white" />,
     gradient: "from-teal-600 to-emerald-300",
@@ -39,7 +40,7 @@ const modes = [
   },
   {
     id: "fill",
-    title: "Boşluk Doldur",
+    title: "Boşluk Doldurma",
     desc: "Eksik kelimeyi doğru tamamlayın.",
     icon: <PencilLine size={36} className="text-white" />,
     gradient: "from-pink-600 to-rose-300",
@@ -57,7 +58,10 @@ export default function LevelModesPage() {
   };
 
   return (
-    <div className="">
+    <>
+      <div className="mb-6">
+        <LevelHeader href={`/`} title={level} backTitle="Level Seç" />
+      </div>
       <div className="flex flex-col gap-2 mb-6">
         <h1 className="text-xl font-bold text-slate-900 flex items-center gap-1">
           <span className="text-indigo-600">Level {level?.toUpperCase()}</span>{" "}
@@ -98,6 +102,6 @@ export default function LevelModesPage() {
           </div>
         ))}
       </div>
-    </div>
+    </>
   );
 }

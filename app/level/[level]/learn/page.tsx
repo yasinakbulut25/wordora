@@ -14,6 +14,7 @@ import {
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { Spinner } from "@/components/ui/spinner";
 import { shuffleArray } from "@/lib/utils";
+import LevelHeader from "@/components/LevelHeader";
 
 export default function WordsPage() {
   const { level } = useParams<{ level: string }>();
@@ -69,11 +70,15 @@ export default function WordsPage() {
 
   return (
     <div className="flex flex-col">
+      <div className="mb-6">
+        <LevelHeader href={`/level/${level}`} title="Kelimeleri Öğren" />
+      </div>
+
       <h2 className="text-2xl font-semibold text-white w-max mx-auto bg-indigo-600 px-4 py-3 rounded-2xl">
         {current.word}
       </h2>
 
-      <div className="mt-4 mb-6">
+      <div className="my-6">
         <div className="flex items-center justify-between">
           <span className="text-sm text-slate-500">
             {level} seviyesi öğrenme

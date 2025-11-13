@@ -7,6 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { WordData, Example } from "@/types/word";
 import { ArrowRight, ArrowLeft, Heart, Repeat, Home } from "lucide-react";
 import { TranslateIcon } from "@phosphor-icons/react";
+import LevelHeader from "@/components/LevelHeader";
 
 export default function TranslatePage() {
   const { level } = useParams<{ level: string }>();
@@ -61,17 +62,12 @@ export default function TranslatePage() {
   const translation = direction === "en-tr" ? current.tr : current.en;
 
   return (
-    <div className="">
-      <div className="flex justify-between items-center mb-6">
-        <Button
-          variant="ghost"
-          className="text-xs flex items-center text-slate-500 hover:text-indigo-600 hover:bg-transparent pl-0"
-          onClick={() => router.push(`/level/${level}`)}
-        >
-          <Home className="w-4 text-indigo-600" />
-          Ana Menüye Dön
-        </Button>
+    <section id="translate">
+      <div className="mb-6">
+        <LevelHeader href={`/level/${level}`} title="Cümle Çevirme" />
+      </div>
 
+      <div className="flex justify-center items-center mb-6">
         <Button
           className="text-xs [&_svg]:size-3 font-bold text-white bg-indigo-600 hover:bg-indigo-500 shadow-none transition-all active:scale-90"
           onClick={() =>
@@ -144,6 +140,6 @@ export default function TranslatePage() {
       <p className="text-center text-sm text-slate-500 mt-6">
         {index + 1} / {total} cümle
       </p>
-    </div>
+    </section>
   );
 }
