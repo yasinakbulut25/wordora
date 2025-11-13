@@ -174,14 +174,12 @@ export default function Levels() {
       alert("Please select your level to continue.");
       return;
     }
-    router.push(`/learn/${level}`);
+    router.push(`/level/${level}`);
   };
-
-  console.log('selected', selected)
 
   return (
     <div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-2 gap-4">
         {levels.map((item) => {
           const colors = colorMap[item.color as keyof typeof colorMap];
           const total = wordCounts[item.level.toLowerCase()] || 0;

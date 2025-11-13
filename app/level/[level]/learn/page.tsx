@@ -13,8 +13,9 @@ import {
 } from "@phosphor-icons/react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { Spinner } from "@/components/ui/spinner";
+import { shuffleArray } from "@/lib/utils";
 
-export default function LearnPage() {
+export default function WordsPage() {
   const { level } = useParams<{ level: string }>();
   const { toggleLearned, getProgress, isLearned } = useProgressStore();
 
@@ -30,7 +31,8 @@ export default function LearnPage() {
     const loadWords = async () => {
       const res = await fetch(`/data/levels/${level}.json`);
       const data: WordData[] = await res.json();
-      setWords(data);
+      const shuffled = shuffleArray(data);
+      setWords(shuffled);
     };
     loadWords();
   }, [level]);
@@ -42,7 +44,7 @@ export default function LearnPage() {
   if (!current) {
     return (
       <div className="h-full flex items-center justify-center">
-        <p className="text-slate-500 text-lg flex items-center gap-2 text-sm">
+        <p className="text-slate-500 flex items-center gap-2 text-sm">
           <Spinner className="text-indigo-600" /> Veriler yükleniyor...
         </p>
       </div>
