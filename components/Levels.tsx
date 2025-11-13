@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
+import { useProgressStore } from "@/store/useProgressStore";
 import { useUserStore } from "@/store/useUserStore";
 import {
   ArrowRight,
@@ -128,12 +129,16 @@ const levels = [
 
 export default function Levels() {
   const { level, setLevel } = useUserStore();
+  const { getProgress, learnedWords } = useProgressStore();
+
   const [selected, setSelected] = useState<string | null>(() => {
     if (typeof window !== "undefined") {
       return localStorage.getItem("wordora_level");
     }
     return null;
   });
+
+  const [wordCounts, setWordCounts] = useState<Record<string, number>>({});
   const router = useRouter();
 
   // localStorage'daki seçimi geri yükle
@@ -142,6 +147,24 @@ export default function Levels() {
       setLevel(selected);
     }
   }, [selected, setLevel]);
+
+  // Seviye kelime sayısını getir (json dosyalarından)
+  useEffect(() => {
+    const loadCounts = async () => {
+      const result: Record<string, number> = {};
+      for (const l of levels) {
+        try {
+          const res = await fetch(`/data/levels/${l.level.toLowerCase()}.json`);
+          const data = await res.json();
+          result[l.level.toLowerCase()] = data.length;
+        } catch {
+          result[l.level.toLowerCase()] = 0;
+        }
+      }
+      setWordCounts(result);
+    };
+    loadCounts();
+  }, []);
 
   // Seviye seçimi
   const handleSelect = (code: string) => {
@@ -164,6 +187,8 @@ export default function Levels() {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {levels.map((item) => {
           const colors = colorMap[item.color as keyof typeof colorMap];
+          const total = wordCounts[item.level.toLowerCase()] || 0;
+          const progress = getProgress(item.level, total);
 
           return (
             <Card
@@ -191,11 +216,11 @@ export default function Levels() {
                   <div className="flex items-center justify-between mb-1">
                     <p className="text-xs text-slate-500">progress</p>
                     <span className="text-xs font-medium text-slate-700">
-                      {item.progress}%
+                      {progress}%
                     </span>
                   </div>
                   <Progress
-                    value={item.progress}
+                    value={progress}
                     innerBg={colors.progress}
                     className={`h-2 ${colors.progressBg}`}
                   />
@@ -207,7 +232,7 @@ export default function Levels() {
       </div>
       <Button
         onClick={handleContinue}
-        className="bg-indigo-600 w-full text-white font-bold mt-6 rounded-full px-2 py-6 hover:bg-indigo-500 transition-all"
+        className="bg-indigo-600 w-full text-white font-bold mt-6 rounded-full px-2 py-6 hover:bg-indigo-500 transition-all active:scale-90"
       >
         Continue
         <ArrowRight width={16} className="text-yellow-300" />

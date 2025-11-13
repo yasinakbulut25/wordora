@@ -11,7 +11,7 @@ import {
   TextAaIcon,
   TranslateIcon,
 } from "@phosphor-icons/react";
-import { ArrowRight } from "lucide-react";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 import { Spinner } from "@/components/ui/spinner";
 
 export default function LearnPage() {
@@ -58,6 +58,13 @@ export default function LearnPage() {
     setIndex((prev) => (prev + 1) % total);
   };
 
+  const handlePrev = () => {
+    setShowMeaning(false);
+    setShowExamples(false);
+    setShowTranslations({});
+    setIndex((prev) => (prev - 1) % total);
+  };
+
   return (
     <div className="flex flex-col">
       <h2 className="text-2xl font-semibold text-white w-max mx-auto bg-indigo-600 px-4 py-3 rounded-2xl">
@@ -67,7 +74,7 @@ export default function LearnPage() {
       <div className="mt-4 mb-6">
         <div className="flex items-center justify-between">
           <span className="text-sm text-slate-500">
-            {level} seviyesi ilerleme
+            {level} seviyesi öğrenme
           </span>
           <span className="text-sm text-slate-500">{progress}%</span>
         </div>
@@ -172,13 +179,24 @@ export default function LearnPage() {
         </div>
       )}
 
-      <Button
-        onClick={handleNext}
-        className="bg-indigo-600 w-full text-white font-bold mt-6 rounded-full px-2 py-6 hover:bg-indigo-500 transition-all"
-      >
-        Sonraki Kelime
-        <ArrowRight width={16} className="text-yellow-300" />
-      </Button>
+      <div className="grid grid-cols-2 gap-4">
+        <Button
+          onClick={index !== 0 ? handlePrev : () => null}
+          disabled={index === 0}
+          className="bg-slate-100 w-full text-slate-900 font-bold mt-6 rounded-full px-2 py-6 hover:bg-slate-200 transition-all active:scale-90 shadow-none"
+        >
+          <ArrowLeft width={16} className="text-indigo-600" />
+          Önceki Kelime
+        </Button>
+
+        <Button
+          onClick={handleNext}
+          className="bg-indigo-600 w-full text-white font-bold mt-6 rounded-full px-2 py-6 hover:bg-indigo-500 transition-all active:scale-90"
+        >
+          Sonraki Kelime
+          <ArrowRight width={16} className="text-yellow-300" />
+        </Button>
+      </div>
     </div>
   );
 }

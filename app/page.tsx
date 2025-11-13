@@ -3,7 +3,7 @@ import Levels from "../components/Levels";
 export default function Home() {
   return (
     <section className="">
-      <div className="flex flex-col gap-1 mb-4">
+      <div className="flex flex-col gap-1 mb-6">
         <h1 className="text-xl font-bold text-slate-900">
           Continue Your Progress
         </h1>
