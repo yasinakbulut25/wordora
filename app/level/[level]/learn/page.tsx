@@ -133,7 +133,7 @@ export default function WordsPage() {
 
       {showMeaning && (
         <div className="mt-6">
-          <h4 className="text-base font-extrabold text-slate-900 flex items-center gap-1 text-slate-900 mb-2">
+          <h4 className="text-base font-extrabold flex items-center gap-1 text-slate-900 mb-2">
             <TranslateIcon width={16} height={16} className="text-indigo-600" />
             Çeviri
           </h4>
@@ -149,7 +149,7 @@ export default function WordsPage() {
 
       {showExamples && (
         <div className="mt-6">
-          <h4 className="text-base font-extrabold text-slate-900 flex items-center gap-1 text-slate-900 mb-2">
+          <h4 className="text-base font-extrabold flex items-center gap-1 text-slate-900 mb-2">
             <TextAaIcon width={16} height={16} className="text-yellow-400" />
             Örnek Cümleler:
           </h4>

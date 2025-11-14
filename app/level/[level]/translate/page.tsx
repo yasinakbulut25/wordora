@@ -1,17 +1,16 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useParams, useRouter } from "next/navigation";
+import { useParams } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { WordData, Example } from "@/types/word";
-import { ArrowRight, ArrowLeft, Heart, Repeat, Home } from "lucide-react";
+import { ArrowRight, ArrowLeft, Heart, Repeat } from "lucide-react";
 import { TranslateIcon } from "@phosphor-icons/react";
 import LevelHeader from "@/components/LevelHeader";
 
 export default function TranslatePage() {
   const { level } = useParams<{ level: string }>();
-  const router = useRouter();
 
   const [sentences, setSentences] = useState<Example[]>([]);
   const [index, setIndex] = useState(0);

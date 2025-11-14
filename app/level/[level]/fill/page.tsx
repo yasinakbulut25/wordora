@@ -1,13 +1,12 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useParams, useRouter } from "next/navigation";
+import { useParams } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { Spinner } from "@/components/ui/spinner";
 import { WordData } from "@/types/word";
-import { ArrowRight, Check, ChevronLeft, Circle, Home, X } from "lucide-react";
-import Link from "next/link";
+import { ArrowRight, Check, Circle, X } from "lucide-react";
 import LevelHeader from "@/components/LevelHeader";
 import Score from "@/components/Score";
 
@@ -20,7 +19,6 @@ type FillQuestion = {
 
 export default function FillPage() {
   const { level } = useParams<{ level: string }>();
-  const router = useRouter();
 
   const [questions, setQuestions] = useState<FillQuestion[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
