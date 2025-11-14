@@ -7,12 +7,14 @@ import Image from "next/image";
 export default function Header() {
   const { data: session } = useSession();
 
-  if (!session) return;
+  // if (!session) return;
 
   return (
-    <header className="sticky w-full top-0 mb-6 flex items-center justify-between z-50 py-4 bg-white border-b border-slate-200">
+    <header className="sticky w-full top-0 mb-6 pb-4 pt-5 flex items-center justify-between z-50 border-b border-indigo-200">
       <div className="flex items-center gap-2">
-        <Image src="/logo.svg" width={30} height={30} alt="Wordora" />
+        <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-sm">
+          <Image src="/logo.svg" width={30} height={30} alt="Wordora" />
+        </div>
         <h2 className="text-xl font-extrabold text-slate-900">Wordora</h2>
       </div>
 

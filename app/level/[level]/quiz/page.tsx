@@ -1,13 +1,14 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useParams, useRouter } from "next/navigation";
+import { useParams } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { WordData } from "@/types/word";
 import { Spinner } from "@/components/ui/spinner";
 import { ArrowRight, Check, Circle, X } from "lucide-react";
 import LevelHeader from "@/components/LevelHeader";
+import Score from "@/components/Score";
 
 type QuizQuestion = {
   word: string;
@@ -17,7 +18,6 @@ type QuizQuestion = {
 
 export default function QuizPage() {
   const { level } = useParams<{ level: string }>();
-  const router = useRouter();
 
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -100,77 +100,12 @@ export default function QuizPage() {
     const score = Math.round((results.correct / total) * 100);
 
     return (
-      <div className="flex flex-col justify-center py-4">
-        <div className="relative mb-8">
-          <h1 className="relative text-3xl font-extrabold bg-gradient-to-r text-indigo-600 mb-2">
-            Tebrikler!
-          </h1>
-          <p className="text-slate-700 text-base">
-            {"Quiz'i başarıyla tamamladın 🎉"}
-          </p>
-        </div>
-
-        <div className="grid grid-cols-2 gap-4 w-full max-w-md mb-8">
-          <div className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-200 rounded-2xl p-6 transform transition hover:scale-105">
-            <div className="flex flex-col items-center">
-              <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center mb-3">
-                <Check className="text-white" />
-              </div>
-              <span className="text-sm font-medium text-green-700 mb-1">
-                Doğru
-              </span>
-              <span className="text-4xl font-bold text-green-600">
-                {results.correct}
-              </span>
-            </div>
-          </div>
-
-          <div className="bg-gradient-to-br from-red-50 to-rose-50 border-2 border-red-200 rounded-2xl p-6 transform transition hover:scale-105">
-            <div className="flex flex-col items-center">
-              <div className="w-12 h-12 bg-red-500 rounded-full flex items-center justify-center mb-3">
-                <X className="text-white" />
-              </div>
-              <span className="text-sm font-medium text-red-700 mb-1">
-                Yanlış
-              </span>
-              <span className="text-4xl font-bold text-red-600">
-                {results.wrong}
-              </span>
-            </div>
-          </div>
-        </div>
-
-        <div className="relative mb-10">
-          <div className="relative bg-gradient-to-br from-indigo-600 to-indigo-200 rounded-3xl p-8">
-            <div className="flex flex-col gap-1 items-center">
-              <span className="text-white/80 text-sm font-bold mb-2">
-                Final Skorun
-              </span>
-              <div className="flex items-baseline gap-1">
-                <span className="text-6xl font-black text-white">{score}</span>
-                <span className="text-3xl font-bold text-white/70">/100</span>
-              </div>
-              <span className="text-white/90 text-base mt-3 font-medium">
-                {score >= 90
-                  ? "🏆 Mükemmel!"
-                  : score >= 70
-                  ? "⭐ Harika!"
-                  : score >= 50
-                  ? "👍 İyi!"
-                  : "💪 Geliştir!"}
-              </span>
-            </div>
-          </div>
-        </div>
-
-        <Button
-          onClick={() => router.push(`/level/${level}`)}
-          className="bg-indigo-600 w-full text-white font-bold rounded-full px-2 py-6 hover:bg-indigo-500 transition-all active:scale-90"
-        >
-          Ana Menü
-          <ArrowRight width={16} className="text-yellow-300" />
-        </Button>
-      </div>
+      <Score
+        title={"Quiz'i başarıyla tamamladın 🎉"}
+        results={results}
+        score={score}
+        backHref={`/level/${level}`}
+      />
     );
   }
 
@@ -202,7 +137,7 @@ export default function QuizPage() {
 
       <Progress
         value={progress}
-        className="h-2 mb-6 bg-slate-100"
+        className="h-3 mb-6 bg-white"
         innerBg="bg-indigo-600"
       />
 
@@ -217,8 +152,8 @@ export default function QuizPage() {
                   ? "bg-green-500 border-green-500 text-white"
                   : opt === selected
                   ? "bg-red-500 border-red-500 text-white"
-                  : "bg-slate-100 border-slate-200"
-                : "hover:bg-slate-50 bg-slate-50/70 border-slate-200"
+                  : "bg-slate-50 border-slate-200"
+                : "hover:bg-slate-50 bg-white border-slate-200"
             }`}
           >
             <span

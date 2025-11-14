@@ -17,7 +17,7 @@ const modes = [
     desc: "Kelimelerin anlamlarını ve örnek cümlelerini incele.",
     icon: <BookOpen size={36} className="text-white" />,
     gradient: "from-indigo-600 to-purple-300",
-    baseClass: "border-2 border-indigo-600 bg-indigo-50",
+    baseClass: "border border-slate-200 bg-indigo-50 shadow-none",
     text: "text-indigo-600",
   },
   {
@@ -26,7 +26,7 @@ const modes = [
     desc: "Kelime bilginizi test edin.",
     icon: <GraduationCap size={36} className="text-white" />,
     gradient: "from-sky-600 to-cyan-300",
-    baseClass: "border-2 border-sky-500 bg-sky-50",
+    baseClass: "border border-slate-200 bg-sky-50 shadow-none",
     text: "text-sky-500",
   },
   {
@@ -35,7 +35,7 @@ const modes = [
     desc: "Cümleler ile çeviri pratiği yapın.",
     icon: <Languages size={36} className="text-white" />,
     gradient: "from-teal-600 to-emerald-300",
-    baseClass: "border-2 border-teal-500 bg-teal-50",
+    baseClass: "border border-slate-200 bg-teal-50 shadow-none",
     text: "text-teal-500",
   },
   {
@@ -44,7 +44,7 @@ const modes = [
     desc: "Eksik kelimeyi doğru tamamlayın.",
     icon: <PencilLine size={36} className="text-white" />,
     gradient: "from-pink-600 to-rose-300",
-    baseClass: "border-2 border-pink-500 bg-pink-50",
+    baseClass: "border border-slate-200 bg-pink-50 shadow-none",
     text: "text-pink-500",
   },
 ];
@@ -64,10 +64,12 @@ export default function LevelModesPage() {
       </div>
       <div className="flex flex-col gap-2 mb-6">
         <h1 className="text-xl font-bold text-slate-900 flex items-center gap-1">
-          <span className="text-indigo-600">Level {level?.toUpperCase()}</span>{" "}
+          <span className="bg-indigo-600 py-1.5 px-2.5 text-white rounded-xl">
+            Level {level?.toUpperCase()}
+          </span>{" "}
           Yolculuğuna Hoş Geldin!
         </h1>
-        <p className="text-sm text-slate-500">
+        <p className="text-sm text-slate-600">
           Kendi hızında ilerle, yeni kelimeler öğren, pratik yap ve seviyeni
           güçlendir.
         </p>
@@ -77,7 +79,7 @@ export default function LevelModesPage() {
           <div
             key={mode.id}
             onClick={() => handleNavigate(mode.id)}
-            className={`cursor-pointer bg-white rounded-2xl p-4 shadow-sm transition-all hover:shadow-xl hover:-translate-y-1 active:scale-[0.98] ${mode.baseClass}`}
+            className={`cursor-pointer bg-white rounded-2xl p-4 transition-all hover:shadow-lg hover:-translate-y-1 active:scale-[0.98] ${mode.baseClass}`}
           >
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-4">

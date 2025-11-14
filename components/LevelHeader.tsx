@@ -16,9 +16,11 @@ export default function LevelHeader({
     <div className="flex items-center justify-between flex-wrap gap-2">
       <Link
         href={href}
-        className="text-xs flex items-center text-slate-500 hover:text-indigo-600 hover:bg-transparent gap-1"
+        className="text-xs flex items-center text-slate-600 hover:text-indigo-600 hover:bg-transparent gap-1"
       >
-        <ChevronLeft className="w-4 h-4 text-indigo-600" />
+        <span className="w-6 h-6 bg-white flex items-center justify-center rounded-lg">
+          <ChevronLeft className="w-4 h-4 min-w-4 text-indigo-600" />
+        </span>
         {backTitle}
       </Link>
 

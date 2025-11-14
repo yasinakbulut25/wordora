@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="en" className={comfortaa.variable}>
       <body className="font-sans antialiased bg-zinc-50 h-dvh overflow-y-auto py-4">
         <ClientProvider>
-          <main className="max-w-md bg-white border border-slate-200 mx-auto h-full rounded-xl pb-4 px-8 overflow-auto">
+          <main className="max-w-md bg-indigo-50 border border-indigo-300 mx-auto h-full rounded-xl pb-4 px-8 overflow-auto">
             <Header />
             {children}
           </main>

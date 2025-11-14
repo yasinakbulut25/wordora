@@ -80,15 +80,15 @@ export default function WordsPage() {
 
       <div className="my-6">
         <div className="flex items-center justify-between">
-          <span className="text-sm text-slate-500">
+          <span className="text-sm text-slate-600">
             {level} seviyesi öğrenme
           </span>
-          <span className="text-sm text-slate-500">{progress}%</span>
+          <span className="text-sm text-slate-600">{progress}%</span>
         </div>
 
         <Progress
           value={progress}
-          className="h-2 mt-3 bg-slate-100"
+          className="h-3 mt-3 bg-white"
           innerBg="bg-indigo-600"
         />
       </div>
@@ -98,7 +98,7 @@ export default function WordsPage() {
           className={`flex flex-col text-xs items-center justify-center [&_svg]:size-6 ${
             showMeaning
               ? "bg-indigo-500 text-white hover:bg-indigo-500"
-              : "bg-white text-indigo-500 hover:bg-transparent"
+              : "bg-white text-indigo-500 hover:bg-indigo-50"
           } w-full border-2 border-indigo-500 shadow-none py-4 h-auto rounded-xl whitespace-normal`}
           onClick={() => setShowMeaning((prev) => !prev)}
         >
@@ -110,7 +110,7 @@ export default function WordsPage() {
           className={`flex flex-col text-xs items-center justify-center [&_svg]:size-6 ${
             showExamples
               ? "bg-yellow-400 text-white hover:bg-yellow-400"
-              : "bg-white text-yellow-400 hover:bg-transparent"
+              : "bg-white text-yellow-400 hover:bg-yellow-50"
           } w-full border-2 border-yellow-400 shadow-none py-4 h-auto rounded-xl whitespace-normal`}
           onClick={() => setShowExamples((prev) => !prev)}
         >
@@ -122,7 +122,7 @@ export default function WordsPage() {
           className={`flex flex-col text-xs items-center justify-center [&_svg]:size-6 ${
             learned
               ? "bg-green-500 text-white hover:bg-green-500"
-              : "bg-white text-green-500 hover:bg-transparent"
+              : "bg-white text-green-500 hover:bg-green-50"
           } w-full border-2 border-green-500 shadow-none py-4 h-auto rounded-xl whitespace-normal`}
           onClick={() => toggleLearned(level!, current.word)}
         >
@@ -169,7 +169,7 @@ export default function WordsPage() {
                   <Button
                     size="sm"
                     variant="ghost"
-                    className="w-max p-0 mt-1 h-auto text-yellow-500"
+                    className="w-max p-0 mt-1 h-auto text-yellow-500 hover:text-yellow-400 hover:bg-transparent"
                     onClick={() =>
                       setShowTranslations((prev) => ({
                         ...prev,
@@ -190,7 +190,7 @@ export default function WordsPage() {
         <Button
           onClick={index !== 0 ? handlePrev : () => null}
           disabled={index === 0}
-          className="bg-slate-100 w-full text-slate-900 font-bold mt-6 rounded-full px-2 py-6 hover:bg-slate-200 transition-all active:scale-90 shadow-none"
+          className="bg-white w-full text-slate-900 font-bold mt-6 rounded-full px-2 py-6 hover:bg-slate-50 transition-all active:scale-90 shadow-none"
         >
           <ArrowLeft width={16} className="text-indigo-600" />
           Önceki Kelime

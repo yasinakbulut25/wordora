@@ -80,7 +80,7 @@ export default function TranslatePage() {
         </Button>
       </div>
 
-      <Card className="border-2 border-indigo-100 shadow-none">
+      <Card className="border-2 border-indigo-200 shadow-none">
         <CardContent className="p-6 flex flex-col items-center">
           <p className="text-lg text-slate-900 font-medium text-center">
             {sentence}
@@ -121,7 +121,7 @@ export default function TranslatePage() {
         <Button
           onClick={handlePrev}
           disabled={index === 0}
-          className="bg-slate-100 w-full text-slate-900 font-bold rounded-full px-2 py-6 hover:bg-slate-200 shadow-none transition-all active:scale-95"
+          className="bg-white w-full text-slate-900 font-bold rounded-full px-2 py-6 hover:bg-slate-50 shadow-none transition-all active:scale-95"
         >
           <ArrowLeft width={16} className="text-indigo-600" />
           Önceki
