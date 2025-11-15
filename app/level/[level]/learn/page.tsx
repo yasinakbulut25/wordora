@@ -11,7 +11,7 @@ import {
   TextAaIcon,
   TranslateIcon,
 } from "@phosphor-icons/react";
-import { ArrowLeft, ArrowRight } from "lucide-react";
+import { ArrowLeft, ArrowRight, AudioLinesIcon, Heart } from "lucide-react";
 import { Spinner } from "@/components/ui/spinner";
 import { shuffleArray } from "@/lib/utils";
 import LevelHeader from "@/components/LevelHeader";
@@ -73,7 +73,7 @@ export default function WordsPage() {
   };
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col pb-[88px]">
       <div className="mb-6">
         <LevelHeader href={`/level/${level}`} title={t("WORDS_LEARN_TITLE")} />
       </div>
@@ -81,6 +81,26 @@ export default function WordsPage() {
       <h2 className="text-2xl font-semibold text-white w-max mx-auto bg-indigo-600 px-4 py-3 rounded-2xl">
         {current.word}
       </h2>
+
+      <div className="mt-6 flex items-center justify-center gap-3">
+        <AddToListMenu
+          word={current.word}
+          type="word"
+          meaning={current.meanings[0]}
+        />
+
+        <Button className="group flex items-center gap-2 text-xs bg-white border border-slate-200 text-slate-900 hover:bg-indigo-600 hover:text-white shadow-none px-3">
+          <AudioLinesIcon className="w-4 h-4 text-indigo-600 group-hover:text-white" />
+          Seslendir
+        </Button>
+        <Button
+          size="icon"
+          className="group flex items-center gap-2 text-xs bg-white border border-slate-200 text-slate-900 hover:bg-indigo-600 hover:text-white shadow-none"
+        >
+          <Heart className="w-4 h-4 text-indigo-600 group-hover:text-white" />
+          {/* Favorile */}
+        </Button>
+      </div>
 
       <div className="my-6">
         <div className="flex items-center justify-between">
@@ -151,12 +171,6 @@ export default function WordsPage() {
         </div>
       )}
 
-      <AddToListMenu
-        word={current.word}
-        type="word"
-        meaning={current.meanings[0]}
-      />
-
       {showExamples && (
         <div className="mt-6">
           <h4 className="text-base font-extrabold flex items-center gap-1 text-slate-900 mb-2">
@@ -196,11 +210,11 @@ export default function WordsPage() {
         </div>
       )}
 
-      <div className="grid grid-cols-2 gap-4">
+      <div className="bottom-nav fixed md:bottom-8 bottom-0 left-1/2 transform -translate-x-1/2 bg-white p-3 rounded-full grid grid-cols-2 gap-3 mt-6 z-20">
         <Button
           onClick={index !== 0 ? handlePrev : () => null}
           disabled={index === 0}
-          className="bg-white w-full text-slate-900 font-bold mt-6 rounded-full px-2 py-6 hover:bg-slate-50 transition-all active:scale-90 shadow-none"
+          className="bg-slate-100 w-full text-slate-900 font-bold rounded-full px-2 py-6 hover:bg-slate-50 transition-all active:scale-90 shadow-none"
         >
           <ArrowLeft width={16} className="text-indigo-600" />
           {t("WORDS_PREV_WORD")}
@@ -208,7 +222,7 @@ export default function WordsPage() {
 
         <Button
           onClick={handleNext}
-          className="bg-indigo-600 w-full text-white font-bold mt-6 rounded-full px-2 py-6 hover:bg-indigo-500 transition-all active:scale-90"
+          className="bg-indigo-600 w-full text-white font-bold rounded-full px-2 py-6 hover:bg-indigo-500 transition-all active:scale-90"
         >
           {t("WORDS_NEXT_WORD")}
           <ArrowRight width={16} className="text-yellow-300" />

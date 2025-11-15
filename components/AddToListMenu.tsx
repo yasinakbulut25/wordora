@@ -71,12 +71,11 @@ export default function AddToListMenu({
     <Drawer open={open} onOpenChange={setOpen}>
       <DrawerTrigger asChild>
         <Button
-          variant="outline"
-          size="sm"
-          className="flex items-center gap-2 border-indigo-500 text-indigo-600 hover:bg-indigo-50"
+          size="icon"
+          className="group flex items-center gap-2 text-xs bg-white border border-slate-200 text-slate-900 hover:bg-indigo-600 hover:text-white shadow-none"
         >
-          <FolderPlusIcon className="w-4 h-4" />
-          Listeye Ekle
+          <FolderPlusIcon className="w-4 h-4 text-indigo-600 group-hover:text-white" />
+          {/* Listeye Ekle */}
         </Button>
       </DrawerTrigger>
 
