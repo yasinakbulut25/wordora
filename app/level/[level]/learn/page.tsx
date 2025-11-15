@@ -16,6 +16,7 @@ import { Spinner } from "@/components/ui/spinner";
 import { shuffleArray } from "@/lib/utils";
 import LevelHeader from "@/components/LevelHeader";
 import { useTranslate } from "@/lib/translate";
+import AddToListMenu from "@/components/AddToListMenu";
 
 export default function WordsPage() {
   const { level } = useParams<{ level: string }>();
@@ -149,6 +150,12 @@ export default function WordsPage() {
           </ul>
         </div>
       )}
+
+      <AddToListMenu
+        word={current.word}
+        type="word"
+        meaning={current.meanings[0]}
+      />
 
       {showExamples && (
         <div className="mt-6">
