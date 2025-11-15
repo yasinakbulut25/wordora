@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
+import { useTranslate } from "@/lib/translate";
 import { useProgressStore } from "@/store/useProgressStore";
 import { useUserStore } from "@/store/useUserStore";
 import {
@@ -74,8 +75,7 @@ const levels = [
   {
     id: 1,
     level: "A1",
-    title: "Introduction",
-    desc: "Beginner",
+    desc: "LEVEL_A1_DESC",
     color: "pink",
     progress: 25,
     icon: <Shapes className="text-pink-600" size={iconSize} />,
@@ -83,8 +83,7 @@ const levels = [
   {
     id: 2,
     level: "A2",
-    title: "Conversation",
-    desc: "Elementary",
+    desc: "LEVEL_A2_DESC",
     color: "blue",
     progress: 45,
     icon: <Blocks className="text-blue-600" size={iconSize} />,
@@ -92,8 +91,7 @@ const levels = [
   {
     id: 3,
     level: "B1",
-    title: "Reading",
-    desc: "Intermediate",
+    desc: "LEVEL_B1_DESC",
     color: "purple",
     progress: 56,
     icon: <Sparkle className="text-purple-600" size={iconSize} />,
@@ -101,8 +99,7 @@ const levels = [
   {
     id: 4,
     level: "B2",
-    title: "Listening",
-    desc: "Upper Intermediate",
+    desc: "LEVEL_B2_DESC",
     color: "green",
     progress: 72,
     icon: <BookOpen className="text-green-600" size={iconSize} />,
@@ -110,8 +107,7 @@ const levels = [
   {
     id: 5,
     level: "C1",
-    title: "Writing",
-    desc: "Advanced",
+    desc: "LEVEL_C1_DESC",
     color: "yellow",
     progress: 84,
     icon: <GraduationCap className="text-yellow-600" size={iconSize} />,
@@ -119,8 +115,7 @@ const levels = [
   {
     id: 6,
     level: "C2",
-    title: "Mastery",
-    desc: "Proficiency",
+    desc: "LEVEL_C2_DESC",
     color: "teal",
     progress: 94,
     icon: <GemIcon className="text-teal-600" size={iconSize} />,
@@ -130,6 +125,7 @@ const levels = [
 export default function Levels() {
   const { level, setLevel } = useUserStore();
   const { getProgress } = useProgressStore();
+  const t = useTranslate();
 
   const [selected, setSelected] = useState<string | null>(null);
 
@@ -205,14 +201,17 @@ export default function Levels() {
                   {item.level}
                 </h3>
                 <p className="text-left text-xs text-slate-900 z-10 flex flex-col gap-2">
-                  {item.desc}
+                  {t(item.desc)}
                   <span className={`${colors.text} font-bold text-sm`}>
-                    {total} <span className="text-xs">words</span>
+                    {total}{" "}
+                    <span className="text-xs">{t("LEVEL_TOTAL_WORDS")}</span>
                   </span>
                 </p>
                 <div>
                   <div className="flex items-center justify-between mb-1">
-                    <p className="text-xs text-slate-500">progress</p>
+                    <p className="text-xs text-slate-500">
+                      {t("LEVEL_PROGRESS")}
+                    </p>
                     <span className="text-xs font-medium text-slate-700">
                       {progress}%
                     </span>
@@ -233,7 +232,7 @@ export default function Levels() {
         disabled={selected === null}
         className="bg-indigo-600 w-full text-white font-bold mt-6 rounded-full px-2 py-6 hover:bg-indigo-500 transition-all active:scale-90"
       >
-        Continue
+        {t("CONTINUE")}
         <ArrowRight width={16} className="text-yellow-300" />
       </Button>
     </div>

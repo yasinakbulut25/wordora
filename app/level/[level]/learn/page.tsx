@@ -15,9 +15,12 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import { Spinner } from "@/components/ui/spinner";
 import { shuffleArray } from "@/lib/utils";
 import LevelHeader from "@/components/LevelHeader";
+import { useTranslate } from "@/lib/translate";
 
 export default function WordsPage() {
   const { level } = useParams<{ level: string }>();
+  const t = useTranslate();
+
   const { toggleLearned, getProgress, isLearned } = useProgressStore();
 
   const [words, setWords] = useState<WordData[]>([]);
@@ -46,7 +49,7 @@ export default function WordsPage() {
     return (
       <div className="h-full flex items-center justify-center">
         <p className="text-slate-500 flex items-center gap-2 text-sm">
-          <Spinner className="text-indigo-600" /> Veriler yükleniyor...
+          <Spinner className="text-indigo-600" /> {t("WORDS_LOADING")}
         </p>
       </div>
     );
@@ -71,7 +74,7 @@ export default function WordsPage() {
   return (
     <div className="flex flex-col">
       <div className="mb-6">
-        <LevelHeader href={`/level/${level}`} title="Kelimeleri Öğren" />
+        <LevelHeader href={`/level/${level}`} title={t("WORDS_LEARN_TITLE")} />
       </div>
 
       <h2 className="text-2xl font-semibold text-white w-max mx-auto bg-indigo-600 px-4 py-3 rounded-2xl">
@@ -81,7 +84,7 @@ export default function WordsPage() {
       <div className="my-6">
         <div className="flex items-center justify-between">
           <span className="text-sm text-slate-600">
-            {level} seviyesi öğrenme
+            {level} {t("WORDS_LEVEL_LEARNING")}
           </span>
           <span className="text-sm text-slate-600">{progress}%</span>
         </div>
@@ -103,7 +106,7 @@ export default function WordsPage() {
           onClick={() => setShowMeaning((prev) => !prev)}
         >
           <TranslateIcon />
-          Çevirisini Göster
+          {t("WORDS_SHOW_MEANING")}
         </Button>
 
         <Button
@@ -115,7 +118,7 @@ export default function WordsPage() {
           onClick={() => setShowExamples((prev) => !prev)}
         >
           <TextAaIcon />
-          Örnek Cümleler
+          {t("WORDS_EXAMPLES")}
         </Button>
 
         <Button
@@ -127,7 +130,7 @@ export default function WordsPage() {
           onClick={() => toggleLearned(level!, current.word)}
         >
           <SealCheckIcon />
-          {learned ? "Kelime Öğrenildi" : "Öğrenildi İşaretle"}
+          {learned ? t("WORDS_LEARNED") : t("WORDS_MARK_LEARNED")}
         </Button>
       </div>
 
@@ -135,7 +138,7 @@ export default function WordsPage() {
         <div className="mt-6">
           <h4 className="text-base font-extrabold flex items-center gap-1 text-slate-900 mb-2">
             <TranslateIcon width={16} height={16} className="text-indigo-600" />
-            Çeviri
+            {t("WORDS_TRANSLATION")}
           </h4>
           <ul className="text-slate-900 text-sm space-y-1 list-none">
             {current.meanings.map((m, i) => (
@@ -151,7 +154,7 @@ export default function WordsPage() {
         <div className="mt-6">
           <h4 className="text-base font-extrabold flex items-center gap-1 text-slate-900 mb-2">
             <TextAaIcon width={16} height={16} className="text-yellow-400" />
-            Örnek Cümleler:
+            {t("WORDS_EXAMPLES")}:
           </h4>
           <div className="flex flex-col gap-3">
             {current.examples.map((ex: Example, i: number) => (
@@ -177,7 +180,7 @@ export default function WordsPage() {
                       }))
                     }
                   >
-                    Çeviriyi Göster
+                    {t("WORDS_SHOW_TRANSLATION")}
                   </Button>
                 )}
               </div>
@@ -193,14 +196,14 @@ export default function WordsPage() {
           className="bg-white w-full text-slate-900 font-bold mt-6 rounded-full px-2 py-6 hover:bg-slate-50 transition-all active:scale-90 shadow-none"
         >
           <ArrowLeft width={16} className="text-indigo-600" />
-          Önceki Kelime
+          {t("WORDS_PREV_WORD")}
         </Button>
 
         <Button
           onClick={handleNext}
           className="bg-indigo-600 w-full text-white font-bold mt-6 rounded-full px-2 py-6 hover:bg-indigo-500 transition-all active:scale-90"
         >
-          Sonraki Kelime
+          {t("WORDS_NEXT_WORD")}
           <ArrowRight width={16} className="text-yellow-300" />
         </Button>
       </div>

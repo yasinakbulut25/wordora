@@ -9,12 +9,13 @@ import {
   ChevronRight,
 } from "lucide-react";
 import LevelHeader from "@/components/LevelHeader";
+import { useTranslate } from "@/lib/translate";
 
 const modes = [
   {
     id: "learn",
-    title: "Kelimeleri Öğren",
-    desc: "Kelimelerin anlamlarını ve örnek cümlelerini incele.",
+    title: "MODE_LEARN_TITLE",
+    desc: "MODE_LEARN_DESC",
     icon: <BookOpen size={36} className="text-white" />,
     gradient: "from-indigo-600 to-purple-300",
     baseClass: "border border-slate-200 bg-indigo-50 shadow-none",
@@ -22,8 +23,8 @@ const modes = [
   },
   {
     id: "quiz",
-    title: "10 Soruluk Quiz",
-    desc: "Kelime bilginizi test edin.",
+    title: "MODE_QUIZ_TITLE",
+    desc: "MODE_QUIZ_DESC",
     icon: <GraduationCap size={36} className="text-white" />,
     gradient: "from-sky-600 to-cyan-300",
     baseClass: "border border-slate-200 bg-sky-50 shadow-none",
@@ -31,8 +32,8 @@ const modes = [
   },
   {
     id: "translate",
-    title: "Cümle Çevirme",
-    desc: "Cümleler ile çeviri pratiği yapın.",
+    title: "MODE_TRANSLATE_TITLE",
+    desc: "MODE_TRANSLATE_DESC",
     icon: <Languages size={36} className="text-white" />,
     gradient: "from-teal-600 to-emerald-300",
     baseClass: "border border-slate-200 bg-teal-50 shadow-none",
@@ -40,8 +41,8 @@ const modes = [
   },
   {
     id: "fill",
-    title: "Boşluk Doldurma",
-    desc: "Eksik kelimeyi doğru tamamlayın.",
+    title: "MODE_FILL_TITLE",
+    desc: "MODE_FILL_DESC",
     icon: <PencilLine size={36} className="text-white" />,
     gradient: "from-pink-600 to-rose-300",
     baseClass: "border border-slate-200 bg-pink-50 shadow-none",
@@ -52,6 +53,7 @@ const modes = [
 export default function LevelModesPage() {
   const router = useRouter();
   const { level } = useParams<{ level: string }>();
+  const t = useTranslate();
 
   const handleNavigate = (id: string) => {
     router.push(`/level/${level}/${id}`);
@@ -60,20 +62,23 @@ export default function LevelModesPage() {
   return (
     <>
       <div className="mb-6">
-        <LevelHeader href={`/`} title={level} backTitle="Level Seç" />
+        <LevelHeader
+          href={`/`}
+          title={level}
+          backTitle={t("MODE_BACK_TITLE")}
+        />
       </div>
+
       <div className="flex flex-col gap-2 mb-6">
         <h1 className="text-xl font-bold text-slate-900 flex items-center gap-1">
           <span className="bg-indigo-600 py-1.5 px-2.5 text-white rounded-xl">
             Level {level?.toUpperCase()}
           </span>{" "}
-          Yolculuğuna Hoş Geldin!
+          {t("LEVEL_WELCOME_TITLE")}
         </h1>
-        <p className="text-sm text-slate-600">
-          Kendi hızında ilerle, yeni kelimeler öğren, pratik yap ve seviyeni
-          güçlendir.
-        </p>
+        <p className="text-sm text-slate-600">{t("LEVEL_WELCOME_DESC")}</p>
       </div>
+
       <div className="flex flex-col gap-4">
         {modes.map((mode) => (
           <div
@@ -90,9 +95,9 @@ export default function LevelModesPage() {
                 </div>
                 <div>
                   <h2 className="text-lg font-semibold text-slate-800">
-                    {mode.title}
+                    {t(mode.title)}
                   </h2>
-                  <p className="text-sm text-slate-600">{mode.desc}</p>
+                  <p className="text-sm text-slate-600">{t(mode.desc)}</p>
                 </div>
               </div>
 

@@ -8,9 +8,11 @@ import { WordData, Example } from "@/types/word";
 import { ArrowRight, ArrowLeft, Heart, Repeat } from "lucide-react";
 import { TranslateIcon } from "@phosphor-icons/react";
 import LevelHeader from "@/components/LevelHeader";
+import { useTranslate } from "@/lib/translate";
 
 export default function TranslatePage() {
   const { level } = useParams<{ level: string }>();
+  const t = useTranslate();
 
   const [sentences, setSentences] = useState<Example[]>([]);
   const [index, setIndex] = useState(0);
@@ -39,7 +41,7 @@ export default function TranslatePage() {
   if (!current)
     return (
       <div className="flex items-center justify-center h-[70vh] text-slate-500">
-        Cümleler yükleniyor...
+        {t("TRANSLATE_LOADING")}
       </div>
     );
 
@@ -63,7 +65,7 @@ export default function TranslatePage() {
   return (
     <section id="translate">
       <div className="mb-6">
-        <LevelHeader href={`/level/${level}`} title="Cümle Çevirme" />
+        <LevelHeader href={`/level/${level}`} title={t("TRANSLATE_TITLE")} />
       </div>
 
       <div className="flex justify-center items-center mb-6">
@@ -97,7 +99,7 @@ export default function TranslatePage() {
               className="rounded-full bg-indigo-600 hover:bg-indigo-500 text-white mt-6 h-auto py-3 px-6"
             >
               <TranslateIcon className="text-yellow-300" />
-              Çeviriyi Göster
+              {t("TRANSLATE_SHOW")}
             </Button>
           )}
 
@@ -106,9 +108,7 @@ export default function TranslatePage() {
               variant="outline"
               size="icon"
               className="border-2 border-pink-400 text-pink-500 hover:bg-pink-50"
-              onClick={() =>
-                alert("Listeye ekleme özelliği daha sonra eklenecek.")
-              }
+              onClick={() => alert(t("TRANSLATE_SAVE_FAV"))}
             >
               <Heart className="w-5 h-5" />
             </Button>
@@ -123,7 +123,7 @@ export default function TranslatePage() {
           className="bg-white w-full text-slate-900 font-bold rounded-full px-2 py-6 hover:bg-slate-50 shadow-none transition-all active:scale-95"
         >
           <ArrowLeft width={16} className="text-indigo-600" />
-          Önceki
+          {t("TRANSLATE_PREVIOUS")}
         </Button>
 
         <Button
@@ -131,13 +131,13 @@ export default function TranslatePage() {
           disabled={index + 1 >= total}
           className="bg-indigo-600 w-full text-white font-bold rounded-full px-2 py-6 hover:bg-indigo-500 shadow-none transition-all active:scale-95"
         >
-          {index + 1 === total - 1 ? "Son Cümle" : "Sonraki"}
+          {index + 1 === total - 1 ? t("TRANSLATE_LAST") : t("TRANSLATE_NEXT")}
           <ArrowRight width={16} className="text-yellow-300" />
         </Button>
       </div>
 
       <p className="text-center text-sm text-slate-500 mt-6">
-        {index + 1} / {total} cümle
+        {index + 1} / {total} {t("TRANSLATE_SENTENCE_COUNT")}
       </p>
     </section>
   );

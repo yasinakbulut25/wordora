@@ -1,3 +1,4 @@
+import { useTranslate } from "@/lib/translate";
 import { ChevronLeft } from "lucide-react";
 import Link from "next/link";
 
@@ -10,8 +11,10 @@ interface LevelHeaderProps {
 export default function LevelHeader({
   href,
   title,
-  backTitle = "Ana Menü",
+  backTitle,
 }: LevelHeaderProps) {
+  const t = useTranslate();
+
   return (
     <div className="flex items-center justify-between flex-wrap gap-2">
       <Link
@@ -21,7 +24,7 @@ export default function LevelHeader({
         <span className="w-6 h-6 bg-white flex items-center justify-center rounded-lg">
           <ChevronLeft className="w-4 h-4 min-w-4 text-indigo-600" />
         </span>
-        {backTitle}
+        {backTitle || t("LEVEL_HEADER_BACK_TITLE")}
       </Link>
 
       <h2 className="text-xs font-semibold text-indigo-600">{title}</h2>

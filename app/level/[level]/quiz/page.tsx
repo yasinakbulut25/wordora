@@ -9,6 +9,7 @@ import { Spinner } from "@/components/ui/spinner";
 import { ArrowRight, Check, Circle, X } from "lucide-react";
 import LevelHeader from "@/components/LevelHeader";
 import Score from "@/components/Score";
+import { useTranslate } from "@/lib/translate";
 
 type QuizQuestion = {
   word: string;
@@ -18,6 +19,7 @@ type QuizQuestion = {
 
 export default function QuizPage() {
   const { level } = useParams<{ level: string }>();
+  const t = useTranslate();
 
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -29,7 +31,6 @@ export default function QuizPage() {
   });
   const [finished, setFinished] = useState(false);
 
-  // 🔹 Kelimeleri getir ve 10 soru oluştur
   useEffect(() => {
     const loadWords = async () => {
       const res = await fetch(`/data/levels/${level}.json`, {
@@ -37,10 +38,8 @@ export default function QuizPage() {
       });
       const data: WordData[] = await res.json();
 
-      // 10 kelime seç
       const randomWords = data.sort(() => 0.5 - Math.random()).slice(0, 10);
 
-      // Her kelime için 2 yanlış şık oluştur
       const questions = randomWords.map((word) => {
         const allMeanings = data.flatMap((w) => w.meanings);
         const wrongOptions = allMeanings
@@ -69,12 +68,13 @@ export default function QuizPage() {
   const current = questions[currentIndex];
   const progress = ((currentIndex + 1) / questions.length) * 100;
 
-  // 🔹 Şık seçme işlemi
   const handleSelect = (opt: string) => {
-    if (selected) return; // değiştirmesin
+    if (selected) return;
+
     setSelected(opt);
 
     const isCorrect = opt === current.correct;
+
     setResults((prev) => ({
       correct: prev.correct + (isCorrect ? 1 : 0),
       wrong: prev.wrong + (!isCorrect ? 1 : 0),
@@ -83,7 +83,6 @@ export default function QuizPage() {
     setShowNext(true);
   };
 
-  // 🔹 Sonraki soruya geç
   const handleNext = () => {
     if (currentIndex + 1 < questions.length) {
       setCurrentIndex((prev) => prev + 1);
@@ -94,14 +93,13 @@ export default function QuizPage() {
     }
   };
 
-  // 🔹 Quiz bittiğinde sonuç ekranı
   if (finished) {
     const total = questions.length;
     const score = Math.round((results.correct / total) * 100);
 
     return (
       <Score
-        title={"Quiz'i başarıyla tamamladın 🎉"}
+        title={t("QUIZ_FINISHED_TITLE")}
         results={results}
         score={score}
         backHref={`/level/${level}`}
@@ -113,7 +111,7 @@ export default function QuizPage() {
     return (
       <div className="flex items-center justify-center py-8">
         <p className="text-slate-500 flex items-center gap-2 text-sm">
-          <Spinner className="text-indigo-600" /> Sorular yükleniyor...
+          <Spinner className="text-indigo-600" /> {t("QUIZ_LOADING")}
         </p>
       </div>
     );
@@ -121,7 +119,7 @@ export default function QuizPage() {
   return (
     <section id="quiz">
       <div className="mb-6">
-        <LevelHeader href={`/level/${level}`} title="10 Soruluk Quiz" />
+        <LevelHeader href={`/level/${level}`} title={t("QUIZ_TITLE")} />
       </div>
 
       <h2 className="text-2xl font-semibold text-white w-max mx-auto bg-indigo-600 px-4 py-3 rounded-2xl">
@@ -130,9 +128,11 @@ export default function QuizPage() {
 
       <div className="flex items-center justify-between mb-4">
         <span className="text-sm text-slate-500">
-          Soru {currentIndex + 1}/10
+          {t("QUIZ_QUESTION")} {currentIndex + 1}/10
         </span>
-        <span className="text-sm text-slate-500">Level: {level}</span>
+        <span className="text-sm text-slate-500">
+          {t("QUIZ_LEVEL")}: {level}
+        </span>
       </div>
 
       <Progress
@@ -169,7 +169,9 @@ export default function QuizPage() {
             >
               {i === 0 ? "A" : i === 1 ? "B" : "C"}
             </span>
+
             {opt}
+
             {selected ? (
               opt === current.correct ? (
                 <Check width={16} className="text-white" />
@@ -191,8 +193,8 @@ export default function QuizPage() {
           className="bg-indigo-600 w-full text-white font-bold mt-6 rounded-full px-2 py-6 hover:bg-indigo-500 transition-all active:scale-90"
         >
           {currentIndex + 1 === questions.length
-            ? "Sonuçları Gör"
-            : "Sonraki Soru"}
+            ? t("QUIZ_SHOW_RESULTS")
+            : t("QUIZ_NEXT_QUESTION")}
           <ArrowRight width={16} className="text-yellow-300" />
         </Button>
       )}
