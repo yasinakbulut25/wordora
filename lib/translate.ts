@@ -428,4 +428,19 @@ export const TRANSLATE = [
     EN: "Delete",
     TR: "Sil",
   },
+  {
+    value: "BOTTOM_NAV_HOME",
+    EN: "Home",
+    TR: "Ana Sayfa",
+  },
+  {
+    value: "BOTTOM_NAV_LISTS",
+    EN: "Lists",
+    TR: "Listler",
+  },
+  {
+    value: "BOTTOM_NAV_PROFILE",
+    EN: "Profile",
+    TR: "Profil",
+  },
 ];

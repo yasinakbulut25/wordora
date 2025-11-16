@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.bottom-nav {
-  width: calc(100% - 24px);
-  max-width: calc(448px - 24px);
-}
-
 @layer base {
   :root {
     --background: 0 0% 100%;

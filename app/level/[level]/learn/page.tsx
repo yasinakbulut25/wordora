@@ -73,7 +73,7 @@ export default function WordsPage() {
   };
 
   return (
-    <div className="flex flex-col pb-[88px]">
+    <div className="flex flex-col min-h-[550px]">
       <div className="mb-6">
         <LevelHeader href={`/level/${level}`} title={t("WORDS_LEARN_TITLE")} />
       </div>
@@ -117,100 +117,104 @@ export default function WordsPage() {
         />
       </div>
 
-      <div className="grid grid-cols-3 gap-4">
-        <Button
-          className={`flex flex-col text-xs items-center justify-center [&_svg]:size-6 ${
-            showMeaning
-              ? "bg-indigo-500 text-white hover:bg-indigo-500"
-              : "bg-white text-indigo-500 hover:bg-indigo-50"
-          } w-full border-2 border-indigo-500 shadow-none py-4 h-auto rounded-xl whitespace-normal`}
-          onClick={() => setShowMeaning((prev) => !prev)}
-        >
-          <TranslateIcon />
-          {t("WORDS_SHOW_MEANING")}
-        </Button>
+      <div className="mb-4">
+        <div className="grid grid-cols-3 gap-4">
+          <Button
+            className={`flex flex-col text-xs items-center justify-center [&_svg]:size-6 ${
+              showMeaning
+                ? "bg-indigo-500 text-white hover:bg-indigo-500"
+                : "bg-white text-indigo-500 hover:bg-indigo-50"
+            } w-full border-2 border-indigo-500 shadow-none py-4 h-auto rounded-xl whitespace-normal`}
+            onClick={() => setShowMeaning((prev) => !prev)}
+          >
+            <TranslateIcon />
+            {t("WORDS_SHOW_MEANING")}
+          </Button>
 
-        <Button
-          className={`flex flex-col text-xs items-center justify-center [&_svg]:size-6 ${
-            showExamples
-              ? "bg-yellow-400 text-white hover:bg-yellow-400"
-              : "bg-white text-yellow-400 hover:bg-yellow-50"
-          } w-full border-2 border-yellow-400 shadow-none py-4 h-auto rounded-xl whitespace-normal`}
-          onClick={() => setShowExamples((prev) => !prev)}
-        >
-          <TextAaIcon />
-          {t("WORDS_EXAMPLES")}
-        </Button>
+          <Button
+            className={`flex flex-col text-xs items-center justify-center [&_svg]:size-6 ${
+              showExamples
+                ? "bg-yellow-400 text-white hover:bg-yellow-400"
+                : "bg-white text-yellow-400 hover:bg-yellow-50"
+            } w-full border-2 border-yellow-400 shadow-none py-4 h-auto rounded-xl whitespace-normal`}
+            onClick={() => setShowExamples((prev) => !prev)}
+          >
+            <TextAaIcon />
+            {t("WORDS_EXAMPLES")}
+          </Button>
 
-        <Button
-          className={`flex flex-col text-xs items-center justify-center [&_svg]:size-6 ${
-            learned
-              ? "bg-green-500 text-white hover:bg-green-500"
-              : "bg-white text-green-500 hover:bg-green-50"
-          } w-full border-2 border-green-500 shadow-none py-4 h-auto rounded-xl whitespace-normal`}
-          onClick={() => toggleLearned(level!, current.word)}
-        >
-          <SealCheckIcon />
-          {learned ? t("WORDS_LEARNED") : t("WORDS_MARK_LEARNED")}
-        </Button>
+          <Button
+            className={`flex flex-col text-xs items-center justify-center [&_svg]:size-6 ${
+              learned
+                ? "bg-green-500 text-white hover:bg-green-500"
+                : "bg-white text-green-500 hover:bg-green-50"
+            } w-full border-2 border-green-500 shadow-none py-4 h-auto rounded-xl whitespace-normal`}
+            onClick={() => toggleLearned(level!, current.word)}
+          >
+            <SealCheckIcon />
+            {learned ? t("WORDS_LEARNED") : t("WORDS_MARK_LEARNED")}
+          </Button>
+        </div>
+        {showMeaning && (
+          <div className="mt-6">
+            <h4 className="text-base font-extrabold flex items-center gap-1 text-slate-900 mb-2">
+              <TranslateIcon
+                width={16}
+                height={16}
+                className="text-indigo-600"
+              />
+              {t("WORDS_TRANSLATION")}
+            </h4>
+            <ul className="text-slate-900 text-sm space-y-1 list-none">
+              {current.meanings.map((m, i) => (
+                <li key={i} className="text-base flex items-center gap-1">
+                  <ArrowRight height={14} className="text-indigo-600" /> {m}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {showExamples && (
+          <div className="mt-6">
+            <h4 className="text-base font-extrabold flex items-center gap-1 text-slate-900 mb-2">
+              <TextAaIcon width={16} height={16} className="text-yellow-400" />
+              {t("WORDS_EXAMPLES")}:
+            </h4>
+            <div className="flex flex-col gap-3">
+              {current.examples.map((ex: Example, i: number) => (
+                <div
+                  key={i}
+                  className="border border-slate-100 rounded-xl p-3 bg-slate-50 flex flex-col gap-1"
+                >
+                  <p className="text-slate-900 text-sm">{ex.en}</p>
+
+                  {showTranslations[i] && (
+                    <p className="text-indigo-600 text-sm">{ex.tr}</p>
+                  )}
+
+                  {!showTranslations[i] && (
+                    <Button
+                      size="sm"
+                      variant="ghost"
+                      className="w-max p-0 mt-1 h-auto text-yellow-500 hover:text-yellow-400 hover:bg-transparent"
+                      onClick={() =>
+                        setShowTranslations((prev) => ({
+                          ...prev,
+                          [i]: !prev[i],
+                        }))
+                      }
+                    >
+                      {t("WORDS_SHOW_TRANSLATION")}
+                    </Button>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
 
-      {showMeaning && (
-        <div className="mt-6">
-          <h4 className="text-base font-extrabold flex items-center gap-1 text-slate-900 mb-2">
-            <TranslateIcon width={16} height={16} className="text-indigo-600" />
-            {t("WORDS_TRANSLATION")}
-          </h4>
-          <ul className="text-slate-900 text-sm space-y-1 list-none">
-            {current.meanings.map((m, i) => (
-              <li key={i} className="text-base flex items-center gap-1">
-                <ArrowRight height={14} className="text-indigo-600" /> {m}
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
-
-      {showExamples && (
-        <div className="mt-6">
-          <h4 className="text-base font-extrabold flex items-center gap-1 text-slate-900 mb-2">
-            <TextAaIcon width={16} height={16} className="text-yellow-400" />
-            {t("WORDS_EXAMPLES")}:
-          </h4>
-          <div className="flex flex-col gap-3">
-            {current.examples.map((ex: Example, i: number) => (
-              <div
-                key={i}
-                className="border border-slate-100 rounded-xl p-3 bg-slate-50 flex flex-col gap-1"
-              >
-                <p className="text-slate-900 text-sm">{ex.en}</p>
-
-                {showTranslations[i] && (
-                  <p className="text-indigo-600 text-sm">{ex.tr}</p>
-                )}
-
-                {!showTranslations[i] && (
-                  <Button
-                    size="sm"
-                    variant="ghost"
-                    className="w-max p-0 mt-1 h-auto text-yellow-500 hover:text-yellow-400 hover:bg-transparent"
-                    onClick={() =>
-                      setShowTranslations((prev) => ({
-                        ...prev,
-                        [i]: !prev[i],
-                      }))
-                    }
-                  >
-                    {t("WORDS_SHOW_TRANSLATION")}
-                  </Button>
-                )}
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
-
-      <div className="bottom-nav fixed md:bottom-8 bottom-0 left-1/2 transform -translate-x-1/2 bg-white p-3 rounded-full grid grid-cols-2 gap-3 mt-6 z-20">
+      <div className="action-nav w-full bg-white p-3 rounded-full grid grid-cols-2 gap-3 mt-auto z-20">
         <Button
           onClick={index !== 0 ? handlePrev : () => null}
           disabled={index === 0}

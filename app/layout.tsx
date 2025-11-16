@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Comfortaa } from "next/font/google";
 import Header from "../components/Header";
 import ClientProvider from "./ClientProvider";
+import BottomNavigation from "@/components/BottomNavigation";
 
 const comfortaa = Comfortaa({
   subsets: ["latin"],
@@ -22,11 +23,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={comfortaa.variable}>
-      <body className="font-sans antialiased bg-zinc-50 h-dvh overflow-y-auto py-4">
+      <body className="font-sans antialiased bg-zinc-50 h-dvh overflow-y-auto pt-4 pb-20">
         <ClientProvider>
           <main className="max-w-md bg-indigo-50 border border-indigo-300 mx-auto h-full rounded-xl pb-4 px-8 overflow-auto">
             <Header />
             {children}
+            <BottomNavigation />
           </main>
         </ClientProvider>
       </body>
