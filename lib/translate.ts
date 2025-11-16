@@ -303,4 +303,69 @@ export const TRANSLATE = [
     EN: "Translation",
     TR: "Çeviri",
   },
+  {
+    value: "LISTS_TITLE",
+    EN: "My Lists",
+    TR: "Listelerim",
+  },
+  {
+    value: "LISTS_SUBTITLE",
+    EN: "You can create your own word collections by adding words or sentences to lists.",
+    TR: "Kelimeleri veya cümleleri listeye ekleyerek kendi koleksiyonunu oluşturabilirsin.",
+  },
+  {
+    value: "LISTS_NO_LIST_TITLE",
+    EN: "You don’t have any lists yet",
+    TR: "Henüz bir listen yok",
+  },
+  {
+    value: "LISTS_NO_LIST_DESC",
+    EN: "Add words or sentences to create your first list.",
+    TR: "Kelimeleri veya cümleleri listeye ekleyerek ilk listeni oluşturabilirsin.",
+  },
+  {
+    value: "LISTS_CREATE_PLACEHOLDER",
+    EN: "New list name (e.g. Difficult Words)",
+    TR: "Yeni liste adı (örn: Zor Kelimeler)",
+  },
+  {
+    value: "LISTS_CREATE_BUTTON",
+    EN: "Create List",
+    TR: "Liste Oluştur",
+  },
+  {
+    value: "LISTS_ADD_BUTTON",
+    EN: "Add",
+    TR: "Ekle",
+  },
+  {
+    value: "LISTS_VIEW_BUTTON",
+    EN: "View",
+    TR: "Görüntüle",
+  },
+  {
+    value: "LISTS_DELETE_CONFIRM_TITLE",
+    EN: "Delete List",
+    TR: "Listeyi Sil",
+  },
+  {
+    value: "LISTS_DELETE_CONFIRM_DESC",
+    EN: "Are you sure you want to delete this list? All items will be permanently removed.",
+    TR: "Bu listeyi silmek istediğine emin misin? İçindeki tüm öğeler kalıcı olarak silinecek.",
+  },
+  {
+    value: "LISTS_DELETE_CONFIRM_OK",
+    EN: "Yes, Delete",
+    TR: "Evet, Sil",
+  },
+  {
+    value: "LISTS_DELETE_CONFIRM_CANCEL",
+    EN: "Cancel",
+    TR: "Vazgeç",
+  },
+  {
+    value: "LISTS_ITEMS_COUNT",
+    EN: "items",
+    TR: "öğe",
+  },
 ];

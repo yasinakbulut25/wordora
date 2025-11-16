@@ -17,6 +17,7 @@ export interface List {
 interface ListState {
   lists: List[];
   createList: (name: string, id?: string) => void;
+  deleteList: (id: string) => void;
   toggleItemInList: (listId: string, item: ListItem) => void;
 }
 
@@ -28,6 +29,11 @@ export const useListStore = create<ListState>((set) => ({
         ...state.lists,
         { id: id || crypto.randomUUID(), name, items: [] },
       ],
+    })),
+
+  deleteList: (id) =>
+    set((state) => ({
+      lists: state.lists.filter((list) => list.id !== id),
     })),
 
   toggleItemInList: (listId, item) =>
