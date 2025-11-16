@@ -19,10 +19,13 @@ interface ListState {
   createList: (name: string, id?: string) => void;
   deleteList: (id: string) => void;
   toggleItemInList: (listId: string, item: ListItem) => void;
+  removeItemFromList: (listId: string, itemId: string) => void;
+  isItemInList: (listId: string, itemWord: string) => boolean;
 }
 
-export const useListStore = create<ListState>((set) => ({
+export const useListStore = create<ListState>((set, get) => ({
   lists: [],
+
   createList: (name, id) =>
     set((state) => ({
       lists: [
@@ -51,4 +54,21 @@ export const useListStore = create<ListState>((set) => ({
           : list
       ),
     })),
+
+  removeItemFromList: (listId, itemId) =>
+    set((state) => ({
+      lists: state.lists.map((list) =>
+        list.id === listId
+          ? {
+              ...list,
+              items: list.items.filter((i) => i.id !== itemId),
+            }
+          : list
+      ),
+    })),
+
+  isItemInList: (listId, itemWord) => {
+    const list = get().lists.find((l) => l.id === listId);
+    return list ? list.items.some((i) => i.word === itemWord) : false;
+  },
 }));

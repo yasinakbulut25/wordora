@@ -368,4 +368,64 @@ export const TRANSLATE = [
     EN: "items",
     TR: "öğe",
   },
+  {
+    value: "LISTS_DETAIL_BACK",
+    EN: "Lists",
+    TR: "Listeler",
+  },
+  {
+    value: "LISTS_DETAIL_BACK",
+    EN: "Lists",
+    TR: "Listeler",
+  },
+  {
+    value: "LISTS_NOT_FOUND",
+    EN: "List not found",
+    TR: "Liste bulunamadı",
+  },
+  {
+    value: "LIST_TABS_ALL",
+    EN: "All",
+    TR: "Hepsi",
+  },
+  {
+    value: "LIST_TABS_WORD",
+    EN: "Words",
+    TR: "Kelimeler",
+  },
+  {
+    value: "LIST_TABS_SENTENCE",
+    EN: "Sentences",
+    TR: "Cümleler",
+  },
+  {
+    value: "LIST_EMPTY_DESC",
+    EN: "There are no items in this list yet.",
+    TR: "Bu listede henüz öğe yok.",
+  },
+  {
+    value: "LIST_WORD_EMPTY_DESC",
+    EN: "No words found",
+    TR: "Kelime bulunamadı",
+  },
+  {
+    value: "LIST_SENTENCE_EMPTY_DESC",
+    EN: "No sentence found",
+    TR: "Cümle bulunamadı",
+  },
+  {
+    value: "LIST_DELETE_ITEM_TITLE",
+    EN: "No sentence found",
+    TR: "Cümle bulunamadı",
+  },
+  {
+    value: "LIST_DELETE_ITEM_CANCEL",
+    EN: "Cancel",
+    TR: "Vazgeç",
+  },
+  {
+    value: "LIST_DELETE_ITEM_OK",
+    EN: "Delete",
+    TR: "Sil",
+  },
 ];
