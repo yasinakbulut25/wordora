@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Spinner } from "@/components/ui/spinner";
-import { AtSign, Eye, EyeOff, LockKeyhole } from "lucide-react";
+import { AtSign, Eye, EyeOff, LockKeyhole, MailIcon } from "lucide-react";
 import { signIn } from "next-auth/react";
 import Image from "next/image";
 import { SignInIcon } from "@phosphor-icons/react";
@@ -13,6 +13,7 @@ import { SetScreenProp } from "./LoginPage";
 
 export default function RegisterForm({ setScreen }: SetScreenProp) {
   const [showPassword, setShowPassword] = useState(false);
+  const [email, setEmail] = useState("demo@wordora.com");
   const [username, setUsername] = useState("wordora");
   const [password, setPassword] = useState("123456");
   const [loading, setLoading] = useState(false);
@@ -22,6 +23,7 @@ export default function RegisterForm({ setScreen }: SetScreenProp) {
     setLoading(true);
 
     await signIn("credentials", {
+      email,
       username,
       password,
       redirect: true,
@@ -33,21 +35,40 @@ export default function RegisterForm({ setScreen }: SetScreenProp) {
 
   return (
     <section className="w-full">
-      <div className="w-full flex items-center mb-4 gap-2">
+      <div className="w-full flex items-center mb-2 gap-2">
         <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-sm">
           <Image src="/logo.svg" width={30} height={30} alt="Wordora" />
         </div>
         <h1 className="text-2xl font-bold text-slate-900"> Öğrenmeye Başla!</h1>
       </div>
 
-      <div className="mb-6">
+      <div className="mb-4">
         <p className="text-slate-500 text-sm">
           İngilizce öğrenme yolculuğunu başlatmak için aramıza katıl.
         </p>
       </div>
 
-      <form onSubmit={handleSignIn} className="space-y-4">
-        <div className="space-y-2">
+      <form onSubmit={handleSignIn} className="space-y-3">
+        <div className="space-y-1">
+          <Label
+            htmlFor="email"
+            className="flex items-center gap-1 text-sm font-medium text-slate-900"
+          >
+            <MailIcon width={14} className="text-indigo-600" />
+            Email
+          </Label>
+          <Input
+            id="email"
+            type="email"
+            placeholder="Email adresini gir..."
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            className="h-12 px-4 bg-slate-50 border border-slate-200 rounded-xl shadow-none focus-visible:border-indigo-500 focus-visible:ring-indigo-500 focus-visible:ring-1"
+            required
+          />
+        </div>
+
+        <div className="space-y-1">
           <Label
             htmlFor="username"
             className="flex items-center gap-1 text-sm font-medium text-slate-900"
@@ -66,7 +87,7 @@ export default function RegisterForm({ setScreen }: SetScreenProp) {
           />
         </div>
 
-        <div className="space-y-2">
+        <div className="space-y-1">
           <Label
             htmlFor="password"
             className="flex items-center gap-1 text-sm font-medium text-slate-900"

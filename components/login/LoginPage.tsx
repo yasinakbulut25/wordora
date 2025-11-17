@@ -15,29 +15,29 @@ const LoginPage = () => {
 
   return (
     <div className="h-full flex flex-col items-center justify-center text-white py-10">
-      <div className="w-[1400px] h-[1400px] absolute left-1/2 transform -translate-x-1/2 -top-[1050px] bg-indigo-600 rounded-br-full rounded-bl-full z-0"></div>
-      <div className="flex min-h-[390px]">
+      <div className="w-[1400px] h-[1400px] absolute left-1/2 transform -translate-x-1/2 -top-[1100px] bg-indigo-600 rounded-br-full rounded-bl-full z-0"></div>
+      <div className="flex min-h-[330px]">
         <Image
           src="/cloud.svg"
           alt="Cloud"
           width={220}
           height={220}
-          className="absolute -right-12 top-5 z-10"
+          className="absolute -right-12 -top-6 z-10"
         />
         <Image
           src="/cloud.svg"
           alt="Cloud"
           width={220}
           height={220}
-          className="absolute -left-8 top-16 z-10"
+          className="absolute -left-8 top-4 z-10"
         />
 
         <Image
           src="/mascot.svg"
           alt="Mascot"
-          width={220}
-          height={220}
-          className="absolute left-1/2 transform -translate-x-1/2 top-48 z-20"
+          width={200}
+          height={200}
+          className="absolute left-1/2 transform -translate-x-1/2 top-40 z-20"
         />
       </div>
 
