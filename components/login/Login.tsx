@@ -5,13 +5,14 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Spinner } from "@/components/ui/spinner";
-import { AtSign, Eye, EyeOff, LockKeyhole } from "lucide-react";
+import { AtSign, Eye, EyeOff, InfoIcon, LockKeyhole } from "lucide-react";
 import Image from "next/image";
 import { SignInIcon } from "@phosphor-icons/react";
 import { SetScreenProp } from "./LoginPage";
 import { supabase } from "@/lib/supabase";
 import { comparePassword } from "@/lib/hash";
 import { AuthUser, useUserStore } from "@/store/useUserStore";
+import Alert from "../Alert";
 
 export default function LoginForm({ setScreen }: SetScreenProp) {
   const [showPassword, setShowPassword] = useState(false);
@@ -44,7 +45,7 @@ export default function LoginForm({ setScreen }: SetScreenProp) {
       // 2️⃣ Şifreyi kontrol et
       const isValid = await comparePassword(password, data.password);
       if (!isValid) {
-        setError("Şifre yanlış.");
+        setError("Kullanıcı adı veya şifre hatalı.");
         setLoading(false);
         return;
       }
@@ -137,7 +138,7 @@ export default function LoginForm({ setScreen }: SetScreenProp) {
           </div>
         </div>
 
-        {error && <p className="text-red-500 text-sm">{error}</p>}
+        {error && <Alert type="error" message={error} icon={InfoIcon} />}
 
         <Button
           type="submit"
