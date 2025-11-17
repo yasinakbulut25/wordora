@@ -10,25 +10,36 @@ import { signIn } from "next-auth/react";
 import Image from "next/image";
 import { SignInIcon } from "@phosphor-icons/react";
 import { SetScreenProp } from "./LoginPage";
+import { supabase } from "@/lib/supabase";
 
 export default function LoginForm({ setScreen }: SetScreenProp) {
   const [showPassword, setShowPassword] = useState(false);
   const [username, setUsername] = useState("wordora");
   const [password, setPassword] = useState("123456");
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
-  const handleSignIn = async (e: React.FormEvent<HTMLFormElement>) => {
+  const handleLogin = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setError("");
     setLoading(true);
 
-    await signIn("credentials", {
-      username,
-      password,
-      redirect: true,
-      callbackUrl: "/",
-    });
+    const { data, error } = await supabase
+      .from("users")
+      .select("*")
+      .eq("username", username)
+      .eq("password", password)
+      .single();
 
-    setLoading(false);
+    if (error || !data) {
+      setError("Kullanıcı adı veya şifre hatalı");
+      setLoading(false);
+      return;
+    }
+
+    console.log("User logged in:", data);
+    localStorage.setItem("user", JSON.stringify(data));
+    window.location.href = "/";
   };
 
   return (
@@ -46,7 +57,7 @@ export default function LoginForm({ setScreen }: SetScreenProp) {
         </p>
       </div>
 
-      <form onSubmit={handleSignIn} className="space-y-3">
+      <form onSubmit={handleLogin} className="space-y-3">
         <div className="space-y-1">
           <Label
             htmlFor="username"
@@ -98,6 +109,8 @@ export default function LoginForm({ setScreen }: SetScreenProp) {
             </button>
           </div>
         </div>
+
+        {error && <p className="text-red-500 text-sm">{error}</p>}
 
         <Button
           type="submit"

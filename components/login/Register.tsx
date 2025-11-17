@@ -6,10 +6,10 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Spinner } from "@/components/ui/spinner";
 import { AtSign, Eye, EyeOff, LockKeyhole, MailIcon } from "lucide-react";
-import { signIn } from "next-auth/react";
 import Image from "next/image";
 import { SignInIcon } from "@phosphor-icons/react";
 import { SetScreenProp } from "./LoginPage";
+import { supabase } from "@/lib/supabase";
 
 export default function RegisterForm({ setScreen }: SetScreenProp) {
   const [showPassword, setShowPassword] = useState(false);
@@ -17,20 +17,32 @@ export default function RegisterForm({ setScreen }: SetScreenProp) {
   const [username, setUsername] = useState("wordora");
   const [password, setPassword] = useState("123456");
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
-  const handleSignIn = async (e: React.FormEvent<HTMLFormElement>) => {
+  const handleRegister = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setError("");
     setLoading(true);
 
-    await signIn("credentials", {
-      email,
-      username,
-      password,
-      redirect: true,
-      callbackUrl: "/",
-    });
+    // ✅ Supabase insert user
+    const { data, error } = await supabase
+      .from("users")
+      .insert([{ email, username, password }])
+      .select()
+      .single();
 
+    if (error) {
+      console.error("Register error:", error.message);
+      setError("Kayıt oluşturulamadı: " + error.message);
+      setLoading(false);
+      return;
+    }
+
+    console.log("User created:", data);
+
+    // ✅ Otomatik login ya da login ekranına yönlendirme
     setLoading(false);
+    setScreen("login");
   };
 
   return (
@@ -48,7 +60,7 @@ export default function RegisterForm({ setScreen }: SetScreenProp) {
         </p>
       </div>
 
-      <form onSubmit={handleSignIn} className="space-y-3">
+      <form onSubmit={handleRegister} className="space-y-3">
         <div className="space-y-1">
           <Label
             htmlFor="email"
@@ -130,6 +142,8 @@ export default function RegisterForm({ setScreen }: SetScreenProp) {
             />
           </div>
         </div>
+
+        {error && <p className="text-red-500 text-sm">{error}</p>}
 
         <Button
           type="submit"
