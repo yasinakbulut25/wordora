@@ -11,6 +11,7 @@ import { SignInIcon } from "@phosphor-icons/react";
 import { SetScreenProp } from "./LoginPage";
 import { supabase } from "@/lib/supabase";
 import { comparePassword } from "@/lib/hash";
+import { AuthUser, useUserStore } from "@/store/useUserStore";
 
 export default function LoginForm({ setScreen }: SetScreenProp) {
   const [showPassword, setShowPassword] = useState(false);
@@ -19,33 +20,53 @@ export default function LoginForm({ setScreen }: SetScreenProp) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
+  const { setUser } = useUserStore();
+
   const handleLogin = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setError("");
     setLoading(true);
 
-    const { data, error } = await supabase
-      .from("users")
-      .select("*")
-      .eq("username", username)
-      .single();
+    try {
+      // 1️⃣ Kullanıcıyı bul
+      const { data, error: queryError } = await supabase
+        .from("users")
+        .select("*")
+        .eq("username", username)
+        .single();
 
-    if (error || !data) {
-      setError("Kullanıcı adı veya şifre hatalı");
+      if (queryError || !data) {
+        setError("Kullanıcı adı veya şifre hatalı.");
+        setLoading(false);
+        return;
+      }
+
+      // 2️⃣ Şifreyi kontrol et
+      const isValid = await comparePassword(password, data.password);
+      if (!isValid) {
+        setError("Şifre yanlış.");
+        setLoading(false);
+        return;
+      }
+
+      // 3️⃣ Kullanıcıyı store'a kaydet
+      const user: AuthUser = {
+        id: data.id,
+        email: data.email,
+        username: data.username,
+        created_at: data.created_at,
+      };
+
+      setUser(user);
+
+      // 4️⃣ Anasayfaya yönlendir
+      window.location.href = "/";
+    } catch (err) {
+      console.error(err);
+      setError("Beklenmeyen bir hata oluştu.");
+    } finally {
       setLoading(false);
-      return;
     }
-
-    // 2️⃣ Şifreyi kontrol et
-    const isValid = await comparePassword(password, data.password);
-    if (!isValid) {
-      setError("Şifre yanlış.");
-      setLoading(false);
-      return;
-    }
-
-    localStorage.setItem("user", JSON.stringify(data));
-    window.location.href = "/";
   };
 
   return (

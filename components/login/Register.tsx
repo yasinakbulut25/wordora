@@ -11,42 +11,80 @@ import { SignInIcon } from "@phosphor-icons/react";
 import { SetScreenProp } from "./LoginPage";
 import { supabase } from "@/lib/supabase";
 import { hashPassword } from "@/lib/hash";
+import { AuthUser, useUserStore } from "@/store/useUserStore";
 
 export default function RegisterForm({ setScreen }: SetScreenProp) {
   const [showPassword, setShowPassword] = useState(false);
   const [email, setEmail] = useState("demo@wordora.com");
   const [username, setUsername] = useState("wordora");
   const [password, setPassword] = useState("123456");
+  const [confirmPassword, setConfirmPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+
+  const { setUser } = useUserStore();
 
   const handleRegister = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setError("");
     setLoading(true);
 
-    // ✅ Şifreyi hashle
-    const hashedPassword = await hashPassword(password);
+    try {
+      // 1️⃣ Şifreler eşleşiyor mu?
+      if (password !== confirmPassword) {
+        setError("Şifreler eşleşmiyor.");
+        setLoading(false);
+        return;
+      }
 
-    // ✅ Supabase insert user
-    const { data, error } = await supabase
-      .from("users")
-      .insert([{ email, username, password: hashedPassword }])
-      .select()
-      .single();
+      // 2️⃣ Kullanıcı adı veya e-posta zaten var mı?
+      const { data: existingUser } = await supabase
+        .from("users")
+        .select("id")
+        .or(`username.eq.${username},email.eq.${email}`)
+        .maybeSingle();
 
-    if (error) {
-      console.error("Register error:", error.message);
-      setError("Kayıt oluşturulamadı: " + error.message);
+      if (existingUser) {
+        setError("Bu kullanıcı adı veya e-posta zaten kullanılıyor.");
+        setLoading(false);
+        return;
+      }
+
+      // 3️⃣ Şifreyi hashle
+      const hashedPassword = await hashPassword(password);
+
+      // 4️⃣ Supabase'e yeni kullanıcı ekle
+      const { data, error: insertError } = await supabase
+        .from("users")
+        .insert([{ email, username, password: hashedPassword }])
+        .select()
+        .single();
+
+      if (insertError) {
+        console.error("Register error:", insertError.message);
+        setError("Kayıt başarısız: " + insertError.message);
+        setLoading(false);
+        return;
+      }
+
+      // 5️⃣ Kullanıcıyı store'a ve localStorage’a kaydet
+      const user: AuthUser = {
+        id: data.id,
+        email: data.email,
+        username: data.username,
+        created_at: data.created_at,
+      };
+
+      setUser(user);
+
+      // 6️⃣ Başarılı kayıt sonrası yönlendirme
+      window.location.href = "/";
+    } catch (err) {
+      console.error(err);
+      setError("Beklenmeyen bir hata oluştu.");
+    } finally {
       setLoading(false);
-      return;
     }
-
-    console.log("User created:", data);
-
-    // ✅ Otomatik login ya da login ekranına yönlendirme
-    setLoading(false);
-    setScreen("login");
   };
 
   return (
@@ -137,10 +175,10 @@ export default function RegisterForm({ setScreen }: SetScreenProp) {
           <div className="relative">
             <Input
               id="password"
-              type={showPassword ? "text" : "password"}
+              type="password"
               placeholder="Şifreni onayla..."
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
+              value={confirmPassword}
+              onChange={(e) => setConfirmPassword(e.target.value)}
               className="h-12 px-4 bg-slate-50 border border-slate-200 rounded-xl shadow-none focus-visible:border-indigo-500 focus-visible:ring-indigo-500 focus-visible:ring-1"
               required
             />

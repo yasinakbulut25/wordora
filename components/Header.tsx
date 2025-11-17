@@ -3,14 +3,10 @@
 import { Button } from "@/components/ui/button";
 import { langs } from "@/lib/utils";
 import { useLangStore } from "@/store/useLangStore";
-import { signOut, useSession } from "next-auth/react";
 import Image from "next/image";
 
 export default function Header() {
-  const { data: session } = useSession();
   const { lang, setLang } = useLangStore();
-
-  // if (!session) return;
 
   return (
     <header className="sticky w-full top-0 mb-6 pb-4 pt-5 flex items-center justify-between z-50 border-b border-indigo-200 bg-indigo-50">
@@ -50,13 +46,6 @@ export default function Header() {
             </>
           )}
         </Button>
-        {session && (
-          <div className="flex items-center gap-4">
-            <Button variant="ghost" onClick={() => signOut()}>
-              Çıkış
-            </Button>
-          </div>
-        )}
       </nav>
     </header>
   );

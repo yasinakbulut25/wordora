@@ -1,11 +1,18 @@
 "use client";
 
-import { SessionProvider } from "next-auth/react";
+import { useUserStore } from "@/store/useUserStore";
+import { useEffect } from "react";
 
 export default function ClientProvider({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  return <SessionProvider>{children}</SessionProvider>;
+  const { loadUserFromStorage } = useUserStore();
+
+  useEffect(() => {
+    loadUserFromStorage();
+  }, [loadUserFromStorage]);
+
+  return <>{children}</>;
 }
