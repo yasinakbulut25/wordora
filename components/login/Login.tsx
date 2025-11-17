@@ -6,11 +6,11 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Spinner } from "@/components/ui/spinner";
 import { AtSign, Eye, EyeOff, LockKeyhole } from "lucide-react";
-import { signIn } from "next-auth/react";
 import Image from "next/image";
 import { SignInIcon } from "@phosphor-icons/react";
 import { SetScreenProp } from "./LoginPage";
 import { supabase } from "@/lib/supabase";
+import { comparePassword } from "@/lib/hash";
 
 export default function LoginForm({ setScreen }: SetScreenProp) {
   const [showPassword, setShowPassword] = useState(false);
@@ -28,7 +28,6 @@ export default function LoginForm({ setScreen }: SetScreenProp) {
       .from("users")
       .select("*")
       .eq("username", username)
-      .eq("password", password)
       .single();
 
     if (error || !data) {
@@ -37,7 +36,14 @@ export default function LoginForm({ setScreen }: SetScreenProp) {
       return;
     }
 
-    console.log("User logged in:", data);
+    // 2️⃣ Şifreyi kontrol et
+    const isValid = await comparePassword(password, data.password);
+    if (!isValid) {
+      setError("Şifre yanlış.");
+      setLoading(false);
+      return;
+    }
+
     localStorage.setItem("user", JSON.stringify(data));
     window.location.href = "/";
   };

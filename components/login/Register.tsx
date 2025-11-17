@@ -10,6 +10,7 @@ import Image from "next/image";
 import { SignInIcon } from "@phosphor-icons/react";
 import { SetScreenProp } from "./LoginPage";
 import { supabase } from "@/lib/supabase";
+import { hashPassword } from "@/lib/hash";
 
 export default function RegisterForm({ setScreen }: SetScreenProp) {
   const [showPassword, setShowPassword] = useState(false);
@@ -24,10 +25,13 @@ export default function RegisterForm({ setScreen }: SetScreenProp) {
     setError("");
     setLoading(true);
 
+    // ✅ Şifreyi hashle
+    const hashedPassword = await hashPassword(password);
+
     // ✅ Supabase insert user
     const { data, error } = await supabase
       .from("users")
-      .insert([{ email, username, password }])
+      .insert([{ email, username, password: hashedPassword }])
       .select()
       .single();
 
