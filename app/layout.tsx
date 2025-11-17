@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={comfortaa.variable}>
-      <body className="font-sans antialiased bg-zinc-50 h-dvh overflow-y-auto pt-4 pb-20">
+      <body className="font-sans antialiased md:bg-zinc-50 bg-indigo-50 h-dvh overflow-y-auto md:pt-4 md:pb-20">
         <ClientProvider>
           <Main>{children}</Main>
         </ClientProvider>
