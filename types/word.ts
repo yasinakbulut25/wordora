@@ -17,3 +17,7 @@ export interface LearnedWord {
   level: string;
   created_at: string;
 }
+
+export interface ExampleSentence extends Example {
+  word: string;
+}

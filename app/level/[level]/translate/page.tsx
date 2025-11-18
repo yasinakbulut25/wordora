@@ -4,17 +4,19 @@ import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { WordData, Example } from "@/types/word";
-import { ArrowRight, ArrowLeft, Heart, Repeat } from "lucide-react";
+import { WordData, ExampleSentence } from "@/types/word";
+import { ArrowRight, ArrowLeft, Heart, Repeat, Volume2 } from "lucide-react";
 import { TranslateIcon } from "@phosphor-icons/react";
 import LevelHeader from "@/components/LevelHeader";
 import { useTranslate } from "@/lib/translate";
+import AddToListMenu from "@/components/AddToListMenu";
+import { handleSpeak } from "@/lib/speak";
 
 export default function TranslatePage() {
   const { level } = useParams<{ level: string }>();
   const t = useTranslate();
 
-  const [sentences, setSentences] = useState<Example[]>([]);
+  const [sentences, setSentences] = useState<ExampleSentence[]>([]);
   const [index, setIndex] = useState(0);
   const [showTranslation, setShowTranslation] = useState(false);
   const [direction, setDirection] = useState<"en-tr" | "tr-en">("en-tr");
@@ -26,7 +28,13 @@ export default function TranslatePage() {
       });
       const words: WordData[] = await res.json();
 
-      const allExamples = words.flatMap((w) => w.examples);
+      const allExamples = words.flatMap((w) => {
+        return w.examples.map((example) => ({
+          ...example,
+          word: w.word,
+        }));
+      });
+
       const shuffled = allExamples.sort(() => 0.5 - Math.random());
       setSentences(shuffled);
       setIndex(0);
@@ -86,37 +94,50 @@ export default function TranslatePage() {
           <p className="text-lg text-slate-900 font-medium text-center">
             {sentence}
           </p>
+          <div className="mt-6 flex items-center justify-center gap-3">
+            <AddToListMenu
+              current={{
+                word: current.word,
+                sentence: current.en,
+                translation: current.tr,
+              }}
+              type="sentence"
+            />
 
+            <Button
+              onClick={() => handleSpeak(current.en)}
+              className="group flex items-center gap-2 text-xs bg-white border border-slate-200 text-slate-900 hover:bg-indigo-600 hover:text-white shadow-none px-3"
+            >
+              <Volume2 className="w-4 h-4 text-indigo-600 group-hover:text-white" />
+              {t("VOICE")}
+            </Button>
+            <Button
+              size="icon"
+              className="group flex items-center gap-2 text-xs bg-white border border-slate-200 text-slate-900 hover:bg-indigo-600 hover:text-white shadow-none"
+            >
+              <Heart className="w-4 h-4 text-indigo-600 group-hover:text-white" />
+            </Button>
+          </div>
           {showTranslation && (
             <p className="text-base text-indigo-600 text-center border-t border-slate-200 pt-6 mt-6 w-full">
               {translation}
             </p>
           )}
-
-          {!showTranslation && (
-            <Button
-              onClick={() => setShowTranslation(true)}
-              className="rounded-full bg-indigo-600 hover:bg-indigo-500 text-white mt-6 h-auto py-3 px-6"
-            >
-              <TranslateIcon className="text-yellow-300" />
-              {t("TRANSLATE_SHOW")}
-            </Button>
-          )}
-
-          <div className="flex items-center gap-3 mt-6">
-            <Button
-              variant="outline"
-              size="icon"
-              className="border-2 border-pink-400 text-pink-500 hover:bg-pink-50"
-              onClick={() => alert(t("TRANSLATE_SAVE_FAV"))}
-            >
-              <Heart className="w-5 h-5" />
-            </Button>
-          </div>
         </CardContent>
       </Card>
 
-      <div className="grid grid-cols-2 gap-4 mt-6">
+      <div className="absolute w-full left-0 bottom-4 grid grid-cols-2 gap-4 mt-6 px-3">
+        <div className="col-span-2 mx-auto">
+          {!showTranslation && (
+            <Button
+              onClick={() => setShowTranslation(true)}
+              className="rounded-full bg-yellow-300 hover:bg-yellow-400 text-indigo-600 font-bold mt-6 h-auto py-3 px-6 shadow-none"
+            >
+              <TranslateIcon className="text-indigo-600" />
+              {t("TRANSLATE_SHOW")}
+            </Button>
+          )}
+        </div>
         <Button
           onClick={handlePrev}
           disabled={index === 0}
