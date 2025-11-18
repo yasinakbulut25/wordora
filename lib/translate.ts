@@ -384,6 +384,11 @@ export const TRANSLATE = [
     TR: "Liste bulunamadı",
   },
   {
+    value: "LISTS_NOT_FOUND_BACK",
+    EN: "Back",
+    TR: "Geri Dön",
+  },
+  {
     value: "LIST_TABS_ALL",
     EN: "All",
     TR: "Hepsi",

@@ -1,11 +1,12 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import BottomNavigation from "@/components/BottomNavigation";
 import Header from "@/components/Header";
 import LoginPage from "@/components/login/LoginPage";
 import { useUserStore } from "@/store/useUserStore";
 import { cn } from "@/lib/utils";
+import { useListStore } from "@/store/useListStore";
 
 export default function Main({
   children,
@@ -13,6 +14,11 @@ export default function Main({
   children: React.ReactNode;
 }>) {
   const { user, isAuthenticated } = useUserStore();
+  const { loadLists } = useListStore();
+
+  useEffect(() => {
+    if (user) loadLists(user.id);
+  }, [loadLists, user]);
 
   return (
     <main
