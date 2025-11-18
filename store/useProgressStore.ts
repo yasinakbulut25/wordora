@@ -65,7 +65,6 @@ export const useProgressStore = create<ProgressState>((set, get) => ({
   },
 
   getLearnedCount: (level) => {
-    console.log("get().learned", get().learned);
     return get().learned.filter((l) => l.level === level).length;
   },
 }));

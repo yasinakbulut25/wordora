@@ -24,25 +24,54 @@ import {
 import { Input } from "./ui/input";
 import { useUserStore } from "@/store/useUserStore";
 import { type ListItem, WordContent, SentenceContent } from "@/types/list";
+import { useTranslate } from "@/lib/translate";
 
+interface CustomActionProps {
+  isCustomOpen: boolean;
+  setCustomOpen: (val: boolean) => void;
+}
 interface WordProps {
   type: "word";
   current: WordContent;
+  useCustomActionBtn?: CustomActionProps;
 }
 
 interface SentenceProps {
   type: "sentence";
   current: SentenceContent;
+  useCustomActionBtn?: CustomActionProps;
 }
 
 type Props = WordProps | SentenceProps;
 
-export default function AddToListMenu({ current, type }: Props) {
+export default function AddToListMenu({
+  current,
+  type,
+  useCustomActionBtn,
+}: Props) {
+  const t = useTranslate();
   const { user } = useUserStore();
   const { lists, createList, toggleItemInList } = useListStore();
 
-  const [open, setOpen] = useState(false);
+  // 1. Dışarıdan kontrol edilmeyen durumlarda kullanılmak üzere yerel `open` durumunu tanımlayın.
+  // Eğer `useCustomActionBtn` varsa, kontrol dışarıya ait demektir.
+  const [localOpen, setLocalOpen] = useState(false);
   const [listName, setListName] = useState("");
+
+  // 2. Drawer'ın durumunu hangi kaynaktan alacağını belirleyin:
+  const open = useCustomActionBtn?.isCustomOpen ?? localOpen;
+
+  // 3. Drawer'ın durumu değiştiğinde ne olacağını tanımlayın:
+  const handleOpenChange = (newOpen: boolean) => {
+    if (useCustomActionBtn) {
+      // Dışarıdan kontrol ediliyorsa, dış durumu güncelleyin
+      useCustomActionBtn.setCustomOpen(newOpen);
+    } else {
+      // Yerel olarak kontrol ediliyorsa, yerel durumu güncelleyin
+      setLocalOpen(newOpen);
+    }
+    setListName(""); // Açılıp kapanırken list adını temizle
+  };
 
   const makeContent = (): WordContent | SentenceContent => {
     if (type === "word") {
@@ -52,11 +81,11 @@ export default function AddToListMenu({ current, type }: Props) {
       };
     }
 
-      return {
-        word: current.word,
-        sentence: current.sentence,
-        translation: current.translation,
-      };
+    return {
+      word: current.word,
+      sentence: current.sentence,
+      translation: current.translation,
+    };
   };
 
   const handleToggle = async (listId: string) => {
@@ -100,25 +129,26 @@ export default function AddToListMenu({ current, type }: Props) {
   };
 
   return (
-    <Drawer open={open} onOpenChange={setOpen}>
-      <DrawerTrigger asChild>
-        <Button
-          size="icon"
-          className="group flex items-center gap-2 text-xs bg-white border border-slate-200 text-slate-900 hover:bg-indigo-600 hover:text-white shadow-none"
-        >
-          <FolderPlusIcon className="w-4 h-4 text-indigo-600 group-hover:text-white" />
-        </Button>
-      </DrawerTrigger>
+    <Drawer open={open} onOpenChange={handleOpenChange}>
+      {!useCustomActionBtn && (
+        <DrawerTrigger asChild>
+          <Button
+            size="icon"
+            className="group flex items-center gap-2 text-xs bg-white border border-slate-200 text-slate-900 hover:bg-indigo-600 hover:text-white shadow-none"
+          >
+            <FolderPlusIcon className="w-4 h-4 text-indigo-600 group-hover:text-white" />
+          </Button>
+        </DrawerTrigger>
+      )}
 
       <DrawerContent className="px-5 pt-0 max-w-md mx-auto">
         <DrawerHeader className="px-0">
           <DrawerTitle className="text-base font-bold text-slate-900 flex items-center gap-2">
             <FolderPlus className="text-indigo-600" size={18} />
-            Listeye Ekle
+            {t("ADD_TO_LIST_TITLE")}
           </DrawerTitle>
-          <DrawerDescription className="text-slate-500 text-xs">
-            Bu kelimeyi mevcut listelerden birine ekleyebilir veya yeni liste
-            oluşturabilirsin.
+          <DrawerDescription className="text-slate-500 text-xs text-left">
+            {t("ADD_TO_LIST_DESC")}
           </DrawerDescription>
         </DrawerHeader>
 
@@ -154,7 +184,7 @@ export default function AddToListMenu({ current, type }: Props) {
           ) : (
             <p className="text-xs text-slate-500 flex items-center gap-1">
               <PackageOpen size={12} />
-              Henüz bir liste oluşturulmamış.
+              {t("LIST_EMPTY_DESC")}.
             </p>
           )}
         </div>
@@ -162,13 +192,13 @@ export default function AddToListMenu({ current, type }: Props) {
         <div className="mt-6 border-t border-slate-100 pt-4">
           <label className="text-sm font-medium text-slate-700 mb-1 flex items-center gap-1">
             <ListPlus className="text-indigo-600" size={16} />
-            Yeni Liste Oluştur
+            {t("CREATE_NEW_LIST")}
           </label>
 
           <div className="flex gap-2 mt-3">
             <Input
               type="text"
-              placeholder="Liste adı (örn: Zor Kelimeler)"
+              placeholder={t("LISTS_CREATE_PLACEHOLDER")}
               maxLength={40}
               value={listName}
               onChange={(e) => setListName(e.target.value)}
@@ -178,7 +208,7 @@ export default function AddToListMenu({ current, type }: Props) {
               onClick={handleCreateList}
               className="bg-indigo-600 text-white hover:bg-indigo-500 rounded-xl h-12"
             >
-              Ekle
+              {t("LISTS_ADD_BUTTON")}
             </Button>
           </div>
         </div>
@@ -186,9 +216,9 @@ export default function AddToListMenu({ current, type }: Props) {
         <DrawerFooter className="mt-3 flex justify-end">
           <Button
             className="text-xs text-slate-500 hover:text-slate-700 bg-slate-100 hover:bg-slate-200 shadow-none border-none"
-            onClick={() => setOpen(false)}
+            onClick={() => handleOpenChange(false)}
           >
-            Kapat
+            {t("CLOSE_BUTTON")}
           </Button>
         </DrawerFooter>
       </DrawerContent>

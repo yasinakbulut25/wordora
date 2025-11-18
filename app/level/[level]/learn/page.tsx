@@ -11,13 +11,15 @@ import {
   TextAaIcon,
   TranslateIcon,
 } from "@phosphor-icons/react";
-import { ArrowLeft, ArrowRight, AudioLinesIcon, Heart } from "lucide-react";
+import { ArrowLeft, ArrowRight, Heart, Volume2 } from "lucide-react";
 import { Spinner } from "@/components/ui/spinner";
 import { shuffleArray } from "@/lib/utils";
 import LevelHeader from "@/components/LevelHeader";
 import { useTranslate } from "@/lib/translate";
 import AddToListMenu from "@/components/AddToListMenu";
 import { useUserStore } from "@/store/useUserStore";
+import { handleSpeak } from "@/lib/speak";
+import SentenceDropdown from "./SentenceDropdown";
 
 export default function WordsPage() {
   const { user } = useUserStore();
@@ -95,9 +97,12 @@ export default function WordsPage() {
           type="word"
         />
 
-        <Button className="group flex items-center gap-2 text-xs bg-white border border-slate-200 text-slate-900 hover:bg-indigo-600 hover:text-white shadow-none px-3">
-          <AudioLinesIcon className="w-4 h-4 text-indigo-600 group-hover:text-white" />
-          Seslendir
+        <Button
+          onClick={() => handleSpeak(current.word)}
+          className="group flex items-center gap-2 text-xs bg-white border border-slate-200 text-slate-900 hover:bg-indigo-600 hover:text-white shadow-none px-3"
+        >
+          <Volume2 className="w-4 h-4 text-indigo-600 group-hover:text-white" />
+          {t("VOICE")}
         </Button>
         <Button
           size="icon"
@@ -154,12 +159,15 @@ export default function WordsPage() {
                 ? "bg-green-500 text-white hover:bg-green-500"
                 : "bg-white text-green-500 hover:bg-green-50"
             } w-full border-2 border-green-500 shadow-none py-4 h-auto rounded-xl whitespace-normal`}
-            onClick={() => toggleLearned(user.id, level!, current.word, current.meanings)}
+            onClick={() =>
+              toggleLearned(user.id, level!, current.word, current.meanings)
+            }
           >
             <SealCheckIcon />
             {learned ? t("WORDS_LEARNED") : t("WORDS_MARK_LEARNED")}
           </Button>
         </div>
+
         {showMeaning && (
           <div className="mt-6">
             <h4 className="text-base font-extrabold flex items-center gap-1 text-slate-900 mb-2">
@@ -179,6 +187,7 @@ export default function WordsPage() {
             </ul>
           </div>
         )}
+
         {showExamples && (
           <div className="mt-6">
             <h4 className="text-base font-extrabold flex items-center gap-1 text-slate-900 mb-2">
@@ -191,12 +200,13 @@ export default function WordsPage() {
                   key={i}
                   className="border border-slate-100 rounded-xl p-3 bg-slate-50 flex flex-col gap-1"
                 >
-                  <p className="text-slate-900 text-sm">{ex.en}</p>
-
+                  <div className="flex itemc-center justify-between gap-1">
+                    <p className="text-slate-900 text-sm">{ex.en}</p>
+                    <SentenceDropdown example={ex} word={current.word} />
+                  </div>
                   {showTranslations[i] && (
                     <p className="text-indigo-600 text-sm">{ex.tr}</p>
                   )}
-
                   {!showTranslations[i] && (
                     <Button
                       size="sm"

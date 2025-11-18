@@ -173,7 +173,6 @@ export default function Levels() {
           const total = wordCounts[item.level] || 0;
           const progress = getLevelProgress(item.level, total);
           const learnedCount = getLearnedCount(item.level);
-          console.log("item.level", item.level);
 
           return (
             <Card

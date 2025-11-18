@@ -190,13 +190,13 @@ export const TRANSLATE = [
   },
   {
     value: "WORDS_PREV_WORD",
-    EN: "Previous Word",
-    TR: "Önceki Kelime",
+    EN: "Previous",
+    TR: "Önceki",
   },
   {
     value: "WORDS_NEXT_WORD",
-    EN: "Next Word",
-    TR: "Sonraki Kelime",
+    EN: "Next",
+    TR: "Sonraki",
   },
   {
     value: "QUIZ_TITLE",
@@ -274,9 +274,9 @@ export const TRANSLATE = [
     TR: "cümle",
   },
   {
-    value: "TRANSLATE_SAVE_FAV",
-    EN: "This feature will be added soon.",
-    TR: "Listeye ekleme özelliği daha sonra eklenecek.",
+    value: "ADD_TO_FAVOURITES",
+    EN: "Add to Favourites",
+    TR: "Favorilere Ekle.",
   },
   {
     value: "FILL_TITLE",
@@ -352,6 +352,11 @@ export const TRANSLATE = [
     value: "LISTS_ADD_BUTTON",
     EN: "Add",
     TR: "Ekle",
+  },
+  {
+    value: "CLOSE_BUTTON",
+    EN: "Close",
+    TR: "Kapat",
   },
   {
     value: "LISTS_VIEW_BUTTON",
@@ -447,6 +452,26 @@ export const TRANSLATE = [
     value: "LIST_DELETE_ITEM_OK",
     EN: "Delete",
     TR: "Sil",
+  },
+  {
+    value: "ADD_TO_LIST_TITLE",
+    EN: "Add to List",
+    TR: "Listeye Ekle",
+  },
+  {
+    value: "ADD_TO_LIST_DESC",
+    EN: "You can add this word to one of the existing lists or create a new list.",
+    TR: "Bu kelimeyi mevcut listelerden birine ekleyebilir veya yeni liste oluşturabilirsin",
+  },
+  {
+    value: "CREATE_NEW_LIST",
+    EN: "Create a New List",
+    TR: "Yeni Liste Oluştur",
+  },
+  {
+    value: "VOICE",
+    EN: "Voice it",
+    TR: "Seslendir",
   },
   {
     value: "BOTTOM_NAV_HOME",
