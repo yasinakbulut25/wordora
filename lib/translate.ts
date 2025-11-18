@@ -486,7 +486,7 @@ export const TRANSLATE = [
   {
     value: "BOTTOM_NAV_LISTS",
     EN: "Lists",
-    TR: "Listler",
+    TR: "Listeler",
   },
   {
     value: "BOTTOM_NAV_FAVORITES",
