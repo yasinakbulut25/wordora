@@ -232,7 +232,7 @@ export default function Levels() {
         <Button
           onClick={handleContinue}
           disabled={!selected}
-          className="sticky bottom-20 bg-indigo-600 w-full text-white font-bold mt-6 rounded-full px-2 py-6 hover:bg-indigo-500 transition-all active:scale-90 z-20"
+          className="sticky bottom-24 bg-indigo-600 w-full text-white font-bold mt-6 rounded-full px-2 py-6 hover:bg-indigo-500 transition-all active:scale-90 z-20"
         >
           {t("CONTINUE")}
           <ArrowRight width={16} className="text-yellow-300" />

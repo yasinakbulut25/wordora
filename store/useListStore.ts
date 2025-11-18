@@ -12,7 +12,7 @@ import { FAVORITES_LIST_NAME } from "@/lib/utils";
 
 interface ListState {
   lists: List[];
-  favorites: List | null;
+  favoriteList: List | null;
 
   loadLists: (userId: string) => Promise<void>;
   createList: (userId: string, name: string) => Promise<List>;
@@ -25,13 +25,12 @@ interface ListState {
 
 export const useListStore = create<ListState>((set, get) => ({
   lists: [],
-  favorites: null,
+  favoriteList: null,
 
   async loadLists(userId) {
     let lists = await getUserLists(userId);
     let favorites = lists.find((l) => l.name === FAVORITES_LIST_NAME) || null;
 
-    // Yoksa otomatik oluştur
     if (!favorites) {
       const created = await getOrCreateFavoritesList(userId);
       favorites = { ...created, items: [] };
@@ -42,14 +41,13 @@ export const useListStore = create<ListState>((set, get) => ({
 
     set({
       lists: otherLists,
-      favorites,
+      favoriteList: favorites,
     });
   },
 
   async createList(userId, name) {
-    if (name === FAVORITES_LIST_NAME) {
+    if (name === FAVORITES_LIST_NAME)
       throw new Error("Bu isimde bir liste oluşturamazsın.");
-    }
 
     const newList = await createListDB(userId, name);
 
@@ -61,9 +59,10 @@ export const useListStore = create<ListState>((set, get) => ({
   },
 
   async deleteList(listId) {
-    if (get().favorites?.id === listId) {
-      throw new Error("Favoriler listesi silinemez.");
-    }
+    const fav = get().favoriteList;
+
+    if (fav && fav.id === listId)
+      throw new Error("Favoriler listesi silinemez");
 
     await deleteListDB(listId);
     set({
@@ -141,10 +140,10 @@ export const useListStore = create<ListState>((set, get) => ({
   },
 
   isFavorite: (item) => {
-    const fav = get().lists.find((l) => l.name === FAVORITES_LIST_NAME);
-    if (!fav) return false;
+    const favorites = get().favoriteList;
+    if (!favorites) return false;
 
-    return fav.items.some((i) => {
+    return favorites.items.some((i) => {
       if ("word" in i.content && "word" in item.content)
         return i.content.word === item.content.word;
 
@@ -156,14 +155,57 @@ export const useListStore = create<ListState>((set, get) => ({
   },
 
   async toggleFavorite(userId, item) {
-    const fav = get().favorites;
+    let fav = get().favoriteList;
 
     if (!fav) {
       const created = await getOrCreateFavoritesList(userId);
-      set({ favorites: { ...created, items: [] } });
-      return;
+      fav = { ...created, items: [] };
+      set({ favoriteList: fav });
     }
 
+    if (!fav) return;
+
+    const exists = fav.items.some((i) => {
+      const c = i.content as ListContent;
+      const n = item.content as ListContent;
+      return (
+        ("word" in c && "word" in n && c.word === n.word) ||
+        ("sentence" in c && "sentence" in n && c.sentence === n.sentence)
+      );
+    });
+
     await get().toggleItemInList(fav.id, item);
+
+    let updatedFav: List;
+
+    if (exists) {
+      updatedFav = {
+        ...fav,
+        items: fav.items.filter((i) => {
+          const c = i.content as ListContent;
+          const n = item.content as ListContent;
+          return (
+            ("word" in c && "word" in n && c.word !== n.word) ||
+            ("sentence" in c && "sentence" in n && c.sentence !== n.sentence)
+          );
+        }),
+      };
+    } else {
+      updatedFav = {
+        ...fav,
+        items: [
+          ...fav.items,
+          {
+            id: crypto.randomUUID(),
+            list_id: fav.id,
+            type: item.type,
+            created_at: new Date().toISOString(),
+            content: item.content,
+          },
+        ],
+      };
+    }
+
+    set({ favoriteList: updatedFav });
   },
 }));
