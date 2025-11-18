@@ -7,19 +7,17 @@ import LevelHeader from "@/components/LevelHeader";
 import { useTranslate } from "@/lib/translate";
 import { useState } from "react";
 import ListTabs from "./components/ListTabs";
-import DeleteDialog from "./components/DeleteDialog";
 
 export default function ListDetailPage() {
   const { id } = useParams<{ id: string }>();
   const router = useRouter();
-  const { lists, removeItemFromList } = useListStore();
+  const { lists } = useListStore();
   const t = useTranslate();
 
   const list = lists.find((l) => l.id === id);
   const [showTranslations, setShowTranslations] = useState<
     Record<number, boolean>
   >({});
-  const [confirmId, setConfirmId] = useState<string | null>(null);
 
   if (!list)
     return (
@@ -34,11 +32,6 @@ export default function ListDetailPage() {
       </div>
     );
 
-  const confirmDelete = (itemId: string) => {
-    removeItemFromList(list.id, itemId);
-    setConfirmId(null);
-  };
-
   return (
     <section className="flex flex-col gap-4">
       <LevelHeader
@@ -51,14 +44,6 @@ export default function ListDetailPage() {
         list={list}
         showTranslations={showTranslations}
         setShowTranslations={setShowTranslations}
-        onConfirm={setConfirmId}
-        confirmDelete={confirmDelete}
-      />
-
-      <DeleteDialog
-        open={!!confirmId}
-        onClose={() => setConfirmId(null)}
-        onConfirm={() => confirmId && confirmDelete(confirmId)}
       />
     </section>
   );

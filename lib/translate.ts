@@ -415,8 +415,8 @@ export const TRANSLATE = [
   },
   {
     value: "LIST_DELETE_ITEM_TITLE",
-    EN: "No sentence found",
-    TR: "Cümle bulunamadı",
+    EN: "Are you sure you want to delete this item?",
+    TR: "Silmek istediğine emin misin?",
   },
   {
     value: "LIST_DELETE_ITEM_CANCEL",

@@ -15,56 +15,88 @@ import {
 import {
   Plus,
   FolderPlus,
-  FolderPlusIcon,
   ListPlus,
   PackageOpen,
   ChevronRight,
   Minus,
+  FolderPlusIcon,
 } from "lucide-react";
 import { Input } from "./ui/input";
+import { useUserStore } from "@/store/useUserStore";
+import { type ListItem, WordContent, SentenceContent } from "@/types/list";
 
-interface Props {
-  word: string;
-  type?: "word" | "sentence";
-  meaning?: string;
-  example?: string;
+interface WordProps {
+  type: "word";
+  current: WordContent;
 }
 
-export default function AddToListMenu({
-  word,
-  type = "word",
-  meaning,
-  example,
-}: Props) {
+interface SentenceProps {
+  type: "sentence";
+  current: SentenceContent;
+}
+
+type Props = WordProps | SentenceProps;
+
+export default function AddToListMenu({ current, type }: Props) {
+  const { user } = useUserStore();
   const { lists, createList, toggleItemInList } = useListStore();
+
   const [open, setOpen] = useState(false);
   const [listName, setListName] = useState("");
 
-  const handleToggle = (listId: string) => {
-    toggleItemInList(listId, {
-      id: crypto.randomUUID(),
-      word,
-      type,
-      meaning,
-      example,
-    });
+  const makeContent = (): WordContent | SentenceContent => {
+    if (type === "word") {
+      return {
+        word: current.word,
+        meaning: current.meaning,
+      };
+    }
+
+      return {
+        word: current.word,
+        sentence: current.sentence,
+        translation: current.translation,
+      };
   };
 
-  const handleCreate = () => {
-    if (!listName.trim()) return;
+  const handleToggle = async (listId: string) => {
+    if (!user) return;
 
-    const newListId = crypto.randomUUID();
-    createList(listName.trim(), newListId);
-
-    toggleItemInList(newListId, {
-      id: crypto.randomUUID(),
-      word,
+    const newItem: Omit<ListItem, "id" | "created_at" | "list_id"> = {
       type,
-      meaning,
-      example,
-    });
+      content: makeContent(),
+    };
+
+    await toggleItemInList(listId, newItem);
+  };
+
+  const handleCreateList = async () => {
+    if (!listName.trim() || !user) return;
+
+    const newList = await createList(user.id, listName.trim());
+
+    if (newList) {
+      const newItem: Omit<ListItem, "id" | "created_at" | "list_id"> = {
+        type,
+        content: makeContent(),
+      };
+      await toggleItemInList(newList.id, newItem);
+    }
 
     setListName("");
+  };
+
+  const checkIsInList = (items: ListItem[]): boolean => {
+    return items.some((i) => {
+      const c = i.content;
+      const nc = makeContent();
+
+      if ("word" in c && "word" in nc) return c.word === nc.word;
+      if ("sentence" in c && "sentence" in nc)
+        return c.sentence === nc.sentence;
+
+      return false;
+    });
   };
 
   return (
@@ -75,7 +107,6 @@ export default function AddToListMenu({
           className="group flex items-center gap-2 text-xs bg-white border border-slate-200 text-slate-900 hover:bg-indigo-600 hover:text-white shadow-none"
         >
           <FolderPlusIcon className="w-4 h-4 text-indigo-600 group-hover:text-white" />
-          {/* Listeye Ekle */}
         </Button>
       </DrawerTrigger>
 
@@ -94,25 +125,25 @@ export default function AddToListMenu({
         <div className="flex flex-col gap-3 mt-3 max-h-[450px] overflow-auto">
           {lists.length > 0 ? (
             lists.map((list) => {
-              const alreadyInList = list.items.some(
-                (i) => i.word === word && i.type === type
-              );
+              const isAlready = checkIsInList(list.items);
+
               return (
                 <Button
                   key={list.id}
                   variant="outline"
+                  onClick={() => handleToggle(list.id)}
                   className={`justify-between w-full px-2 shadow-none transition-all ${
-                    alreadyInList
+                    isAlready
                       ? "border-indigo-500 text-indigo-600 bg-indigo-50 hover:bg-indigo-50"
                       : "border-slate-200 bg-slate-50 hover:bg-slate-100"
                   }`}
-                  onClick={() => handleToggle(list.id)}
                 >
                   <span className="flex items-center gap-1">
                     <ChevronRight className="text-indigo-500 w-4 h-4" />
                     {list.name}
                   </span>
-                  {alreadyInList ? (
+
+                  {isAlready ? (
                     <Minus className="text-indigo-500 w-4 h-4" />
                   ) : (
                     <Plus className="text-indigo-500 w-4 h-4" />
@@ -133,6 +164,7 @@ export default function AddToListMenu({
             <ListPlus className="text-indigo-600" size={16} />
             Yeni Liste Oluştur
           </label>
+
           <div className="flex gap-2 mt-3">
             <Input
               type="text"
@@ -141,10 +173,9 @@ export default function AddToListMenu({
               value={listName}
               onChange={(e) => setListName(e.target.value)}
               className="h-12 px-4 bg-slate-50 border border-slate-200 rounded-xl shadow-none focus-visible:border-indigo-500 focus-visible:ring-indigo-500 focus-visible:ring-1"
-              required
             />
             <Button
-              onClick={handleCreate}
+              onClick={handleCreateList}
               className="bg-indigo-600 text-white hover:bg-indigo-500 rounded-xl h-12"
             >
               Ekle

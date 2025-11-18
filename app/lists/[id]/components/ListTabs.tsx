@@ -3,8 +3,8 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import WordItem from "./WordItem";
 import SentenceItem from "./SentenceItem";
-import type { List, ListItem } from "@/store/useListStore";
 import { useTranslate } from "@/lib/translate";
+import { isSentenceItem, isWordItem, List } from "@/types/list";
 
 interface ListTabsProps {
   list: List;
@@ -12,19 +12,16 @@ interface ListTabsProps {
   setShowTranslations: React.Dispatch<
     React.SetStateAction<Record<number, boolean>>
   >;
-  onConfirm: (id: string) => void;
-  confirmDelete: (id: string) => void;
 }
 
 export default function ListTabs({
   list,
   showTranslations,
   setShowTranslations,
-  onConfirm,
 }: ListTabsProps) {
   const t = useTranslate();
-  const words = list.items.filter((item) => item.type === "word");
-  const sentences = list.items.filter((item) => item.type === "sentence");
+  const words = list.items.filter(isWordItem);
+  const sentences = list.items.filter(isSentenceItem);
 
   return (
     <Tabs defaultValue="all" className="w-full">
@@ -54,20 +51,25 @@ export default function ListTabs({
           <p className="text-slate-500 text-center">{t("LIST_EMPTY_DESC")}</p>
         ) : (
           <div className="flex flex-col gap-4">
-            {list.items.map((item: ListItem, index: number) =>
-              item.type === "word" ? (
-                <WordItem key={item.id} item={item} onConfirm={onConfirm} />
-              ) : (
-                <SentenceItem
-                  key={item.id}
-                  item={item}
-                  index={index}
-                  showTranslations={showTranslations}
-                  setShowTranslations={setShowTranslations}
-                  onConfirm={onConfirm}
-                />
-              )
-            )}
+            {list.items.map((item, index) => {
+              if (isWordItem(item)) {
+                return <WordItem key={item.id} item={item} list={list} />;
+              }
+
+              if (isSentenceItem(item)) {
+                return (
+                  <SentenceItem
+                    key={item.id}
+                    item={item}
+                    index={index}
+                    list={list}
+                    showTranslations={showTranslations}
+                    setShowTranslations={setShowTranslations}
+                  />
+                );
+              }
+              return;
+            })}
           </div>
         )}
       </TabsContent>
@@ -79,8 +81,8 @@ export default function ListTabs({
           </p>
         ) : (
           <div className="flex flex-col gap-4">
-            {words.map((item: ListItem) => (
-              <WordItem key={item.id} item={item} onConfirm={onConfirm} />
+            {words.map((item) => (
+              <WordItem key={item.id} item={item} list={list} />
             ))}
           </div>
         )}
@@ -93,14 +95,14 @@ export default function ListTabs({
           </p>
         ) : (
           <div className="flex flex-col gap-4">
-            {sentences.map((item: ListItem, index: number) => (
+            {sentences.map((item, index: number) => (
               <SentenceItem
                 key={item.id}
                 item={item}
                 index={index}
+                list={list}
                 showTranslations={showTranslations}
                 setShowTranslations={setShowTranslations}
-                onConfirm={onConfirm}
               />
             ))}
           </div>

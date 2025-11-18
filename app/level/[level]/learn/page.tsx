@@ -84,9 +84,11 @@ export default function WordsPage() {
 
       <div className="mt-6 flex items-center justify-center gap-3">
         <AddToListMenu
-          word={current.word}
+          current={{
+            word: current.word,
+            meaning: current.meanings[0],
+          }}
           type="word"
-          meaning={current.meanings[0]}
         />
 
         <Button className="group flex items-center gap-2 text-xs bg-white border border-slate-200 text-slate-900 hover:bg-indigo-600 hover:text-white shadow-none px-3">
@@ -98,7 +100,6 @@ export default function WordsPage() {
           className="group flex items-center gap-2 text-xs bg-white border border-slate-200 text-slate-900 hover:bg-indigo-600 hover:text-white shadow-none"
         >
           <Heart className="w-4 h-4 text-indigo-600 group-hover:text-white" />
-          {/* Favorile */}
         </Button>
       </div>
 

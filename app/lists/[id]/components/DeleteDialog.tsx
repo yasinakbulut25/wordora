@@ -26,7 +26,7 @@ export default function DeleteDialog({
 
   return (
     <AlertDialog open={open} onOpenChange={onClose}>
-      <AlertDialogContent>
+      <AlertDialogContent className="max-w-sm rounded-xl">
         <AlertDialogHeader>
           <AlertDialogTitle>{t("LIST_DELETE_ITEM_TITLE")}</AlertDialogTitle>
         </AlertDialogHeader>

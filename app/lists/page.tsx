@@ -19,8 +19,10 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
+import { useUserStore } from "@/store/useUserStore";
 
 export default function ListsPage() {
+  const { user } = useUserStore();
   const { lists, createList, deleteList } = useListStore();
   const [newListName, setNewListName] = useState("");
   const [targetId, setTargetId] = useState<string | null>(null);
@@ -28,8 +30,10 @@ export default function ListsPage() {
   const t = useTranslate();
 
   const handleCreateList = () => {
+    if (!user) return;
+
     if (!newListName.trim()) return;
-    createList(newListName.trim());
+    createList(user.id, newListName.trim());
     setNewListName("");
   };
 
@@ -117,13 +121,13 @@ export default function ListsPage() {
                     </Button>
                   </AlertDialogTrigger>
 
-                  <AlertDialogContent className="max-w-sm">
+                  <AlertDialogContent className="max-w-sm rounded-xl">
                     <AlertDialogHeader>
                       <AlertDialogTitle className="flex items-center gap-1">
                         <Trash2 size={18} className="text-red-600" />
                         {t("LISTS_DELETE_CONFIRM_TITLE")}
                       </AlertDialogTitle>
-                      <AlertDialogDescription>
+                      <AlertDialogDescription className="text-left">
                         {t("LISTS_DELETE_CONFIRM_DESC")}
                       </AlertDialogDescription>
                     </AlertDialogHeader>

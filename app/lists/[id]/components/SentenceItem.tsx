@@ -4,17 +4,20 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Trash2, Volume2 } from "lucide-react";
 import { handleSpeak } from "@/lib/speak";
-import type { ListItem } from "@/store/useListStore";
 import { useTranslate } from "@/lib/translate";
+import { List, SentenceListItem } from "@/types/list";
+import { useListStore } from "@/store/useListStore";
+import { useState } from "react";
+import DeleteDialog from "./DeleteDialog";
 
 interface SentenceItemProps {
-  item: ListItem;
+  item: SentenceListItem;
   index: number;
   showTranslations: Record<number, boolean>;
   setShowTranslations: React.Dispatch<
     React.SetStateAction<Record<number, boolean>>
   >;
-  onConfirm: (id: string) => void;
+  list: List;
 }
 
 export default function SentenceItem({
@@ -22,20 +25,22 @@ export default function SentenceItem({
   index,
   showTranslations,
   setShowTranslations,
-  onConfirm,
+  list,
 }: SentenceItemProps) {
   const t = useTranslate();
-  const sentenceText = item.example ?? item.word;
+  const { removeItemFromList } = useListStore();
+  const [showDelete, setShowDelete] = useState<boolean>(false);
+  const { sentence, translation, word } = item.content;
 
   return (
     <Card className="border border-slate-200 shadow-none">
       <CardContent className="p-4 flex flex-col gap-2">
         <div className="flex items-center justify-between">
-          <h3 className="font-bold text-base text-slate-800">{item.word}</h3>
+          <h3 className="font-bold text-base text-slate-800">{word}</h3>
           <div className="flex gap-2">
             <Button
               size="icon"
-              onClick={() => handleSpeak(sentenceText)}
+              onClick={() => handleSpeak(sentence)}
               className="bg-indigo-600 text-white hover:bg-indigo-500 min-w-9"
             >
               <Volume2 size={18} />
@@ -44,7 +49,7 @@ export default function SentenceItem({
             <Button
               variant="ghost"
               size="icon"
-              onClick={() => onConfirm(item.id)}
+              onClick={() => setShowDelete((prev) => !prev)}
               className="hover:text-red-500 text-slate-400 bg-slate-50 hover:bg-red-50"
             >
               <Trash2 size={18} />
@@ -53,10 +58,10 @@ export default function SentenceItem({
         </div>
 
         <div className="flex flex-col gap-1">
-          <p className="text-sm text-slate-700">{sentenceText}</p>
+          <p className="text-sm text-slate-700">{sentence}</p>
 
-          {showTranslations[index] && item.meaning && (
-            <p className="text-indigo-600 text-sm">{item.meaning}</p>
+          {showTranslations[index] && translation && (
+            <p className="text-indigo-600 text-sm">{translation}</p>
           )}
 
           {showTranslations[index] && (
@@ -76,6 +81,14 @@ export default function SentenceItem({
           )}
         </div>
       </CardContent>
+      <DeleteDialog
+        open={showDelete}
+        onClose={() => setShowDelete(false)}
+        onConfirm={() => {
+          removeItemFromList(list.id, item.id);
+          setShowDelete(false);
+        }}
+      />
     </Card>
   );
 }

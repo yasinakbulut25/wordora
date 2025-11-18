@@ -127,7 +127,7 @@ export default function Levels() {
   const { getProgress } = useProgressStore();
   const t = useTranslate();
 
-  const [selected, setSelected] = useState<string | null>(null);
+  const [selected, setSelected] = useState<string | null>(level);
 
   const [wordCounts, setWordCounts] = useState<Record<string, number>>({});
   const router = useRouter();
@@ -187,7 +187,7 @@ export default function Levels() {
               onClick={() => handleSelect(item.level)}
               className={`relative rounded-2xl ${colors.bgLight} ${
                 colors.border
-              } border-2 shadow-none hover:scale-[1.02] transition-transform cursor-pointer overflow-hidden ${
+              } border-2 shadow-none cursor-pointer overflow-hidden ${
                 item.level === level ? `ring-[8px] ${colors.ring}` : ""
               }`}
             >
