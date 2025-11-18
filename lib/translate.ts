@@ -279,8 +279,8 @@ export const TRANSLATE = [
     TR: "cümle",
   },
   {
-    value: "ADD_TO_FAVOURITES",
-    EN: "Add to Favourites",
+    value: "ADD_TO_FAVORITES",
+    EN: "Add to Favorites",
     TR: "Favorilere Ekle.",
   },
   {
@@ -487,6 +487,11 @@ export const TRANSLATE = [
     value: "BOTTOM_NAV_LISTS",
     EN: "Lists",
     TR: "Listler",
+  },
+  {
+    value: "BOTTOM_NAV_FAVORITES",
+    EN: "Favorites",
+    TR: "Favoriler",
   },
   {
     value: "BOTTOM_NAV_PROFILE",

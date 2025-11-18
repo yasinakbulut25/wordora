@@ -12,6 +12,7 @@ import { FAVORITES_LIST_NAME } from "@/lib/utils";
 
 interface ListState {
   lists: List[];
+  favorites: List | null;
 
   loadLists: (userId: string) => Promise<void>;
   createList: (userId: string, name: string) => Promise<List>;
@@ -24,26 +25,32 @@ interface ListState {
 
 export const useListStore = create<ListState>((set, get) => ({
   lists: [],
+  favorites: null,
 
   async loadLists(userId) {
     let lists = await getUserLists(userId);
-    const favorites = lists.find((l) => l.name === FAVORITES_LIST_NAME);
+    let favorites = lists.find((l) => l.name === FAVORITES_LIST_NAME) || null;
+
+    // Yoksa otomatik oluştur
     if (!favorites) {
       const created = await getOrCreateFavoritesList(userId);
-
-      lists = [
-        {
-          ...created,
-          items: [],
-        },
-        ...lists,
-      ];
+      favorites = { ...created, items: [] };
+      lists = [favorites!, ...lists];
     }
 
-    set({ lists });
+    const otherLists = lists.filter((l) => l.name !== FAVORITES_LIST_NAME);
+
+    set({
+      lists: otherLists,
+      favorites,
+    });
   },
 
   async createList(userId, name) {
+    if (name === FAVORITES_LIST_NAME) {
+      throw new Error("Bu isimde bir liste oluşturamazsın.");
+    }
+
     const newList = await createListDB(userId, name);
 
     set({
@@ -54,6 +61,10 @@ export const useListStore = create<ListState>((set, get) => ({
   },
 
   async deleteList(listId) {
+    if (get().favorites?.id === listId) {
+      throw new Error("Favoriler listesi silinemez.");
+    }
+
     await deleteListDB(listId);
     set({
       lists: get().lists.filter((l) => l.id !== listId),
@@ -129,10 +140,6 @@ export const useListStore = create<ListState>((set, get) => ({
     set({ lists: updated });
   },
 
-  getFavoritesList: () => {
-    return get().lists.find((l) => l.name === FAVORITES_LIST_NAME) || null;
-  },
-
   isFavorite: (item) => {
     const fav = get().lists.find((l) => l.name === FAVORITES_LIST_NAME);
     if (!fav) return false;
@@ -148,16 +155,15 @@ export const useListStore = create<ListState>((set, get) => ({
     });
   },
 
-  toggleFavorite: async (userId, item) => {
-    const { lists, toggleItemInList } = get();
+  async toggleFavorite(userId, item) {
+    const fav = get().favorites;
 
-    let favList = lists.find((l) => l.name === FAVORITES_LIST_NAME);
-
-    if (!favList) {
+    if (!fav) {
       const created = await getOrCreateFavoritesList(userId);
-      favList = created;
+      set({ favorites: { ...created, items: [] } });
+      return;
     }
 
-    if (favList) await toggleItemInList(favList.id, item);
+    await get().toggleItemInList(fav.id, item);
   },
 }));

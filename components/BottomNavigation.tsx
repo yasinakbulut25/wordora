@@ -1,6 +1,6 @@
 "use client";
 
-import { Home, User, Folders } from "lucide-react";
+import { Home, User, Folders, Heart } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
@@ -9,6 +9,7 @@ import { useTranslate } from "@/lib/translate";
 const navItems = [
   { label: "BOTTOM_NAV_HOME", href: "/", icon: Home },
   { label: "BOTTOM_NAV_LISTS", href: "/lists", icon: Folders },
+  { label: "BOTTOM_NAV_FAVORITES", href: "/favorites", icon: Heart },
   { label: "BOTTOM_NAV_PROFILE", href: "/profile", icon: User },
 ];
 

@@ -50,7 +50,7 @@ export default function ListTabs({
         {list.items.length === 0 ? (
           <p className="text-slate-500 text-center">{t("LIST_EMPTY_DESC")}</p>
         ) : (
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-2">
             {list.items.map((item, index) => {
               if (isWordItem(item)) {
                 return <WordItem key={item.id} item={item} list={list} />;
@@ -80,7 +80,7 @@ export default function ListTabs({
             {t("LIST_WORD_EMPTY_DESC")}
           </p>
         ) : (
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-2">
             {words.map((item) => (
               <WordItem key={item.id} item={item} list={list} />
             ))}
@@ -94,7 +94,7 @@ export default function ListTabs({
             {t("LIST_SENTENCE_EMPTY_DESC")}
           </p>
         ) : (
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-2">
             {sentences.map((item, index: number) => (
               <SentenceItem
                 key={item.id}

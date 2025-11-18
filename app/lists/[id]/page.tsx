@@ -8,13 +8,17 @@ import { useTranslate } from "@/lib/translate";
 import { useState } from "react";
 import ListTabs from "./components/ListTabs";
 
-export default function ListDetailPage() {
+interface Props {
+  isFavoritesPage?: boolean;
+}
+export default function ListDetailPage({ isFavoritesPage = false }: Props) {
   const { id } = useParams<{ id: string }>();
   const router = useRouter();
-  const { lists } = useListStore();
+  const { lists, favorites } = useListStore();
+
   const t = useTranslate();
 
-  const list = lists.find((l) => l.id === id);
+  const list = isFavoritesPage ? favorites : lists.find((l) => l.id === id);
   const [showTranslations, setShowTranslations] = useState<
     Record<number, boolean>
   >({});
@@ -35,7 +39,7 @@ export default function ListDetailPage() {
   return (
     <section className="flex flex-col gap-4">
       <LevelHeader
-        title={list.name}
+        title={isFavoritesPage ? t("BOTTOM_NAV_FAVORITES") : list.name}
         backTitle={t("LISTS_DETAIL_BACK")}
         href="/lists"
       />
