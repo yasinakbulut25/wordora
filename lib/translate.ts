@@ -139,6 +139,11 @@ export const TRANSLATE = [
     TR: "Öğrendiğiniz kelimeleri inceleyin",
   },
   {
+    value: "MODE_LEARNED_EMPTY",
+    EN: "There are no items in learned list yet.",
+    TR: "Öğrenilen listede henüz öğe yok.",
+  },
+  {
     value: "MODE_BACK_TITLE",
     EN: "Select Level",
     TR: "Level Seç",

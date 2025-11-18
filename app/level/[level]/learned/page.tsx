@@ -27,9 +27,15 @@ export default function LearnedWords() {
       </div>
 
       <div className="flex flex-col gap-2">
-        {levelLearnedList.map((word) => (
-          <LearnedWordItem key={word.id} item={word} />
-        ))}
+        {levelLearnedList.length > 0 ? (
+          levelLearnedList.map((word) => (
+            <LearnedWordItem key={word.id} item={word} />
+          ))
+        ) : (
+          <p className="text-slate-500 text-sm text-center">
+            {t("MODE_LEARNED_EMPTY")}
+          </p>
+        )}
       </div>
     </div>
   );
