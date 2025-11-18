@@ -16,11 +16,12 @@ export async function fetchLearnedWords(
 export async function addLearnedWord(
   userId: string,
   word: string,
+  meanings: string[],
   level: string
 ): Promise<LearnedWord> {
   const { data, error } = await supabase
     .from("learned_words")
-    .insert([{ user_id: userId, word, level }])
+    .insert([{ user_id: userId, word, meanings, level }])
     .select()
     .single();
 

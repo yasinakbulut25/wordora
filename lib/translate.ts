@@ -84,8 +84,8 @@ export const TRANSLATE = [
   },
   {
     value: "LEVEL_WELCOME_DESC",
-    EN: "Progress at your own pace, learn new words, practice, and strengthen your skills.",
-    TR: "Kendi hızında ilerle, yeni kelimeler öğren, pratik yap ve seviyeni güçlendir.",
+    EN: "Progress at your own pace, learn new words, practice, and strengthen your skills",
+    TR: "Kendi hızında ilerle, yeni kelimeler öğren, pratik yap ve seviyeni güçlendir",
   },
   {
     value: "MODE_LEARN_TITLE",
@@ -94,8 +94,8 @@ export const TRANSLATE = [
   },
   {
     value: "MODE_LEARN_DESC",
-    EN: "Explore meanings and example sentences.",
-    TR: "Kelimelerin anlamlarını ve örnek cümlelerini incele.",
+    EN: "Explore meanings and example sentences",
+    TR: "Kelimelerin anlamlarını ve örnek cümlelerini incele",
   },
 
   {
@@ -105,8 +105,8 @@ export const TRANSLATE = [
   },
   {
     value: "MODE_QUIZ_DESC",
-    EN: "Test your vocabulary knowledge.",
-    TR: "Kelime bilginizi test edin.",
+    EN: "Test your vocabulary knowledge",
+    TR: "Kelime bilginizi test edin",
   },
   {
     value: "MODE_TRANSLATE_TITLE",
@@ -115,8 +115,8 @@ export const TRANSLATE = [
   },
   {
     value: "MODE_TRANSLATE_DESC",
-    EN: "Practice translation using sentences.",
-    TR: "Cümleler ile çeviri pratiği yapın.",
+    EN: "Practice translation using sentences",
+    TR: "Cümleler ile çeviri pratiği yapın",
   },
   {
     value: "MODE_FILL_TITLE",
@@ -125,8 +125,18 @@ export const TRANSLATE = [
   },
   {
     value: "MODE_FILL_DESC",
-    EN: "Complete the missing word correctly.",
-    TR: "Eksik kelimeyi doğru tamamlayın.",
+    EN: "Complete the missing word correctly",
+    TR: "Eksik kelimeyi doğru tamamlayın",
+  },
+  {
+    value: "MODE_LEARNED_TITLE",
+    EN: "Learned words",
+    TR: "Öğrenilen kelimeler",
+  },
+  {
+    value: "MODE_LEARNED_DESC",
+    EN: "Review the words you learned",
+    TR: "Öğrendiğiniz kelimeleri inceleyin",
   },
   {
     value: "MODE_BACK_TITLE",

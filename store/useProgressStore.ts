@@ -13,7 +13,12 @@ interface ProgressState {
   loading: boolean;
 
   loadLearned: (userId: string) => Promise<void>;
-  toggleLearned: (userId: string, level: string, word: string) => Promise<void>;
+  toggleLearned: (
+    userId: string,
+    level: string,
+    word: string,
+    meanings: string[]
+  ) => Promise<void>;
   isLearned: (word: string) => boolean;
   getProgress: (totalWords: number) => number;
   getLevelProgress: (level: string, totalWords: number) => number;
@@ -30,7 +35,7 @@ export const useProgressStore = create<ProgressState>((set, get) => ({
     set({ learned: data, loading: false });
   },
 
-  toggleLearned: async (userId, level, word) => {
+  toggleLearned: async (userId, level, word, meanings) => {
     const list = get().learned;
     const exists = list.find((l) => l.word === word);
 
@@ -40,7 +45,7 @@ export const useProgressStore = create<ProgressState>((set, get) => ({
       return;
     }
 
-    const newItem = await addLearnedWord(userId, word, level);
+    const newItem = await addLearnedWord(userId, word, meanings, level);
     set({ learned: [...list, newItem] });
   },
 
@@ -60,7 +65,7 @@ export const useProgressStore = create<ProgressState>((set, get) => ({
   },
 
   getLearnedCount: (level) => {
-    console.log('get().learned', get().learned)
+    console.log("get().learned", get().learned);
     return get().learned.filter((l) => l.level === level).length;
   },
 }));

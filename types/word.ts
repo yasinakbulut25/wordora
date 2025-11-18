@@ -13,6 +13,7 @@ export interface LearnedWord {
   id: string;
   user_id: string;
   word: string;
+  meanings: string[];
   level: string;
   created_at: string;
 }

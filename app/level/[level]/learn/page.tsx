@@ -154,7 +154,7 @@ export default function WordsPage() {
                 ? "bg-green-500 text-white hover:bg-green-500"
                 : "bg-white text-green-500 hover:bg-green-50"
             } w-full border-2 border-green-500 shadow-none py-4 h-auto rounded-xl whitespace-normal`}
-            onClick={() => toggleLearned(user.id, level!, current.word)}
+            onClick={() => toggleLearned(user.id, level!, current.word, current.meanings)}
           >
             <SealCheckIcon />
             {learned ? t("WORDS_LEARNED") : t("WORDS_MARK_LEARNED")}

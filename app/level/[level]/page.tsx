@@ -7,6 +7,7 @@ import {
   Languages,
   PencilLine,
   ChevronRight,
+  CheckCheckIcon,
 } from "lucide-react";
 import LevelHeader from "@/components/LevelHeader";
 import { useTranslate } from "@/lib/translate";
@@ -18,7 +19,7 @@ const modes = [
     desc: "MODE_LEARN_DESC",
     icon: <BookOpen size={36} className="text-white" />,
     gradient: "from-indigo-600 to-purple-300",
-    baseClass: "border border-slate-200 bg-indigo-50 shadow-none",
+    baseClass: "border border-slate-200 shadow-none",
     text: "text-indigo-600",
   },
   {
@@ -27,7 +28,7 @@ const modes = [
     desc: "MODE_QUIZ_DESC",
     icon: <GraduationCap size={36} className="text-white" />,
     gradient: "from-sky-600 to-cyan-300",
-    baseClass: "border border-slate-200 bg-sky-50 shadow-none",
+    baseClass: "border border-slate-200 shadow-none",
     text: "text-sky-500",
   },
   {
@@ -35,9 +36,9 @@ const modes = [
     title: "MODE_TRANSLATE_TITLE",
     desc: "MODE_TRANSLATE_DESC",
     icon: <Languages size={36} className="text-white" />,
-    gradient: "from-teal-600 to-emerald-300",
-    baseClass: "border border-slate-200 bg-teal-50 shadow-none",
-    text: "text-teal-500",
+    gradient: "from-orange-600 to-orange-300",
+    baseClass: "border border-slate-200 shadow-none",
+    text: "text-orange-500",
   },
   {
     id: "fill",
@@ -45,8 +46,17 @@ const modes = [
     desc: "MODE_FILL_DESC",
     icon: <PencilLine size={36} className="text-white" />,
     gradient: "from-pink-600 to-rose-300",
-    baseClass: "border border-slate-200 bg-pink-50 shadow-none",
+    baseClass: "border border-slate-200 shadow-none",
     text: "text-pink-500",
+  },
+  {
+    id: "learned",
+    title: "MODE_LEARNED_TITLE",
+    desc: "MODE_LEARNED_DESC",
+    icon: <CheckCheckIcon size={36} className="text-white" />,
+    gradient: "from-teal-600 to-emerald-300",
+    baseClass: "border border-slate-200 shadow-none",
+    text: "text-teal-500",
   },
 ];
 
@@ -70,13 +80,15 @@ export default function LevelModesPage() {
       </div>
 
       <div className="flex flex-col gap-2 mb-6">
-        <h1 className="text-xl font-bold text-slate-900 flex items-center gap-1">
-          <span className="bg-indigo-600 py-1.5 px-2.5 text-white rounded-xl">
+        <h1 className="text-xl font-bold text-slate-900 flex flex-col items-center gap-2">
+          <span className="min-w-max bg-indigo-600 py-1.5 px-2.5 text-white rounded-xl">
             Level {level?.toUpperCase()}
           </span>{" "}
           {t("LEVEL_WELCOME_TITLE")}
         </h1>
-        <p className="text-sm text-slate-600">{t("LEVEL_WELCOME_DESC")}</p>
+        <p className="text-sm text-slate-600 w-full text-center text-balance">
+          {t("LEVEL_WELCOME_DESC")}
+        </p>
       </div>
 
       <div className="flex flex-col gap-4">
