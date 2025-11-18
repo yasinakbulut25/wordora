@@ -2,7 +2,7 @@ export type ItemType = "word" | "sentence";
 
 export interface WordContent {
   word: string;
-  meaning: string;
+  meanings: string[];
 }
 
 export interface SentenceContent {

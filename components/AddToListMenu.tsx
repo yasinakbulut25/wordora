@@ -77,7 +77,7 @@ export default function AddToListMenu({
     if (type === "word") {
       return {
         word: current.word,
-        meaning: current.meaning,
+        meanings: current.meanings,
       };
     }
 
@@ -134,9 +134,9 @@ export default function AddToListMenu({
         <DrawerTrigger asChild>
           <Button
             size="icon"
-            className="group flex items-center gap-2 text-xs bg-white border border-slate-200 text-slate-900 hover:bg-indigo-600 hover:text-white shadow-none"
+            className="group flex items-center gap-2 text-xs bg-white border border-slate-200 text-slate-900 hover:bg-inital hover:text-white shadow-none transition-all active:scale-90"
           >
-            <FolderPlusIcon className="w-4 h-4 text-indigo-600 group-hover:text-white" />
+            <FolderPlusIcon className="w-4 h-4 text-indigo-600" />
           </Button>
         </DrawerTrigger>
       )}

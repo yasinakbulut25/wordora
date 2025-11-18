@@ -1,4 +1,5 @@
 import { supabase } from "@/lib/supabase";
+import { FAVORITES_LIST_NAME } from "@/lib/utils";
 import type { List, ListItem, ListContent, ItemType } from "@/types/list";
 
 export async function getUserLists(userId: string): Promise<List[]> {
@@ -42,6 +43,10 @@ export async function getUserLists(userId: string): Promise<List[]> {
 }
 
 export async function createList(userId: string, name: string): Promise<List> {
+  if (name === FAVORITES_LIST_NAME) {
+    throw new Error("Bu isimde liste oluşturamazsın.");
+  }
+
   const { data, error } = await supabase
     .from("custom_lists")
     .insert([{ user_id: userId, name }])
@@ -118,8 +123,29 @@ export async function toggleItemInList(
 }
 
 export async function removeItemFromList(itemId: string): Promise<void> {
-  console.log("itemId", itemId);
   const { error } = await supabase.from("list_items").delete().eq("id", itemId);
 
   if (error) throw new Error(error.message);
+}
+
+export async function getOrCreateFavoritesList(userId: string) {
+  const { data: existing } = await supabase
+    .from("custom_lists")
+    .select("*")
+    .eq("user_id", userId)
+    .eq("name", FAVORITES_LIST_NAME)
+    .single();
+
+  if (existing) return existing;
+
+  // yoksa oluştur
+  const { data: created, error } = await supabase
+    .from("custom_lists")
+    .insert([{ user_id: userId, name: FAVORITES_LIST_NAME }])
+    .select()
+    .single();
+
+  if (error) throw new Error(error.message);
+
+  return created;
 }

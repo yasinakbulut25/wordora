@@ -1,6 +1,8 @@
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 
+export const FAVORITES_LIST_NAME = "WORDORA_FAVORITES";
+
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }

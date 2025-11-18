@@ -6,7 +6,9 @@ import {
   getUserLists,
   toggleItemInList as toggleItemDB,
   removeItemFromList as removeItemDB,
+  getOrCreateFavoritesList,
 } from "@/db/lists";
+import { FAVORITES_LIST_NAME } from "@/lib/utils";
 
 interface ListState {
   lists: List[];
@@ -16,13 +18,28 @@ interface ListState {
   deleteList: (listId: string) => Promise<void>;
   toggleItemInList: (listId: string, item: ListItemInput) => Promise<void>;
   removeItemFromList: (listId: string, itemId: string) => Promise<void>;
+  isFavorite: (item: ListItemInput) => boolean;
+  toggleFavorite: (userId: string, item: ListItemInput) => Promise<void>;
 }
 
 export const useListStore = create<ListState>((set, get) => ({
   lists: [],
 
   async loadLists(userId) {
-    const lists = await getUserLists(userId);
+    let lists = await getUserLists(userId);
+    const favorites = lists.find((l) => l.name === FAVORITES_LIST_NAME);
+    if (!favorites) {
+      const created = await getOrCreateFavoritesList(userId);
+
+      lists = [
+        {
+          ...created,
+          items: [],
+        },
+        ...lists,
+      ];
+    }
+
     set({ lists });
   },
 
@@ -98,8 +115,6 @@ export const useListStore = create<ListState>((set, get) => ({
   },
 
   async removeItemFromList(listId, itemId) {
-    console.log("itemId", itemId);
-    console.log("listId", listId);
     await removeItemDB(itemId);
 
     const updated = get().lists.map((list) =>
@@ -112,5 +127,37 @@ export const useListStore = create<ListState>((set, get) => ({
     );
 
     set({ lists: updated });
+  },
+
+  getFavoritesList: () => {
+    return get().lists.find((l) => l.name === FAVORITES_LIST_NAME) || null;
+  },
+
+  isFavorite: (item) => {
+    const fav = get().lists.find((l) => l.name === FAVORITES_LIST_NAME);
+    if (!fav) return false;
+
+    return fav.items.some((i) => {
+      if ("word" in i.content && "word" in item.content)
+        return i.content.word === item.content.word;
+
+      if ("sentence" in i.content && "sentence" in item.content)
+        return i.content.sentence === item.content.sentence;
+
+      return false;
+    });
+  },
+
+  toggleFavorite: async (userId, item) => {
+    const { lists, toggleItemInList } = get();
+
+    let favList = lists.find((l) => l.name === FAVORITES_LIST_NAME);
+
+    if (!favList) {
+      const created = await getOrCreateFavoritesList(userId);
+      favList = created;
+    }
+
+    if (favList) await toggleItemInList(favList.id, item);
   },
 }));

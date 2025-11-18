@@ -13,13 +13,14 @@ import {
 } from "@phosphor-icons/react";
 import { ArrowLeft, ArrowRight, Heart, Volume2 } from "lucide-react";
 import { Spinner } from "@/components/ui/spinner";
-import { shuffleArray } from "@/lib/utils";
+import { cn, shuffleArray } from "@/lib/utils";
 import LevelHeader from "@/components/LevelHeader";
 import { useTranslate } from "@/lib/translate";
 import AddToListMenu from "@/components/AddToListMenu";
 import { useUserStore } from "@/store/useUserStore";
 import { handleSpeak } from "@/lib/speak";
 import SentenceDropdown from "./SentenceDropdown";
+import { useListStore } from "@/store/useListStore";
 
 export default function WordsPage() {
   const { user } = useUserStore();
@@ -27,6 +28,7 @@ export default function WordsPage() {
   const t = useTranslate();
 
   const { toggleLearned, getProgress, isLearned } = useProgressStore();
+  const { isFavorite, toggleFavorite } = useListStore();
 
   const [words, setWords] = useState<WordData[]>([]);
   const [index, setIndex] = useState<number>(0);
@@ -78,6 +80,14 @@ export default function WordsPage() {
     setIndex((prev) => (prev - 1) % total);
   };
 
+  const isFav = isFavorite({
+    type: "word",
+    content: {
+      word: current.word,
+      meanings: current.meanings,
+    },
+  });
+
   return (
     <div className="flex flex-col min-h-[550px]">
       <div className="mb-6">
@@ -92,23 +102,38 @@ export default function WordsPage() {
         <AddToListMenu
           current={{
             word: current.word,
-            meaning: current.meanings[0],
+            meanings: [current.meanings[0]],
           }}
           type="word"
         />
 
         <Button
           onClick={() => handleSpeak(current.word)}
-          className="group flex items-center gap-2 text-xs bg-white border border-slate-200 text-slate-900 hover:bg-indigo-600 hover:text-white shadow-none px-3"
+          className="group flex items-center gap-2 text-xs bg-white border border-slate-200 text-slate-900 hover:bg-initial shadow-none px-3 transition-all active:scale-90"
         >
-          <Volume2 className="w-4 h-4 text-indigo-600 group-hover:text-white" />
+          <Volume2 className="w-4 h-4 text-indigo-600" />
           {t("VOICE")}
         </Button>
+
         <Button
           size="icon"
-          className="group flex items-center gap-2 text-xs bg-white border border-slate-200 text-slate-900 hover:bg-indigo-600 hover:text-white shadow-none"
+          onClick={() => {
+            toggleFavorite(user.id, {
+              type: "word",
+              content: {
+                word: current.word,
+                meanings: current.meanings,
+              },
+            });
+          }}
+          className={cn(
+            "group flex items-center gap-2 text-xs border hover:bg-initial shadow-none transition-all active:scale-90",
+            isFav
+              ? "bg-indigo-600 border-indigo-600 text-white "
+              : "bg-white border-slate-200 text-indigo-600"
+          )}
         >
-          <Heart className="w-4 h-4 text-indigo-600 group-hover:text-white" />
+          <Heart className="w-4 h-4" />
         </Button>
       </div>
 

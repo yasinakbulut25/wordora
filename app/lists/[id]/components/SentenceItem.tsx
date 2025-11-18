@@ -64,7 +64,7 @@ export default function SentenceItem({
             <p className="text-indigo-600 text-sm">{translation}</p>
           )}
 
-          {showTranslations[index] && (
+          {!showTranslations[index] && (
             <Button
               size="sm"
               variant="ghost"

@@ -8,6 +8,7 @@ import { ArrowRight, Trash2, Volume2 } from "lucide-react";
 import { useState } from "react";
 import DeleteDialog from "./DeleteDialog";
 import { useListStore } from "@/store/useListStore";
+import { useTranslate } from "@/lib/translate";
 
 interface WordItemProps {
   item: WordListItem;
@@ -16,7 +17,9 @@ interface WordItemProps {
 
 export default function WordItem({ list, item }: WordItemProps) {
   const { removeItemFromList } = useListStore();
+  const t = useTranslate();
   const [showDelete, setShowDelete] = useState<boolean>(false);
+  const [showTranslate, setShowTranslate] = useState<boolean>(false);
 
   return (
     <Card className="border border-slate-200 shadow-none">
@@ -46,14 +49,25 @@ export default function WordItem({ list, item }: WordItemProps) {
           </div>
         </div>
 
-        {item.content.meaning && (
-          <ul className="text-slate-900 text-sm list-none">
-            <li className="text-sm flex items-center gap-1">
-              <ArrowRight height={14} className="text-indigo-600" />
-              {item.content.meaning}
-            </li>
-          </ul>
-        )}
+        {item.content.meanings.length > 0 &&
+          (!showTranslate ? (
+            <Button
+              size="sm"
+              variant="ghost"
+              className="w-max p-0 mt-1 h-auto text-yellow-500 hover:text-yellow-400 hover:bg-transparent"
+              onClick={() => setShowTranslate(true)}
+            >
+              {t("WORDS_SHOW_TRANSLATION")}
+            </Button>
+          ) : (
+            <ul className="text-slate-900 text-sm list-none">
+              {item.content.meanings.map((mean, index) => (
+                <li key={index} className="text-sm flex items-center gap-1">
+                  <ArrowRight height={14} className="text-indigo-600" /> {mean}
+                </li>
+              ))}
+            </ul>
+          ))}
       </CardContent>
       <DeleteDialog
         open={showDelete}
