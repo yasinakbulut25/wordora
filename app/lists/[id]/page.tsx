@@ -14,11 +14,11 @@ interface Props {
 export default function ListDetailPage({ isFavoritesPage = false }: Props) {
   const { id } = useParams<{ id: string }>();
   const router = useRouter();
-  const { lists, favorites } = useListStore();
+  const { lists, favoriteList } = useListStore();
 
   const t = useTranslate();
 
-  const list = isFavoritesPage ? favorites : lists.find((l) => l.id === id);
+  const list = isFavoritesPage ? favoriteList : lists.find((l) => l.id === id);
   const [showTranslations, setShowTranslations] = useState<
     Record<number, boolean>
   >({});

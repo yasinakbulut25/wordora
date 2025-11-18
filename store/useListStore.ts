@@ -144,17 +144,22 @@ export const useListStore = create<ListState>((set, get) => ({
     if (!favorites) return false;
 
     return favorites.items.some((i) => {
-      if ("word" in i.content && "word" in item.content)
-        return i.content.word === item.content.word;
+      const c = i.content;
+      const n = item.content;
 
-      if ("sentence" in i.content && "sentence" in item.content)
-        return i.content.sentence === item.content.sentence;
+      if ("meanings" in c && "meanings" in n) {
+        return c.word === n.word;
+      }
+
+      if ("sentence" in c && "sentence" in n) {
+        return c.sentence === n.sentence;
+      }
 
       return false;
     });
   },
 
-  async toggleFavorite(userId, item) {
+  async toggleFavorite(userId: string, item: ListItemInput) {
     let fav = get().favoriteList;
 
     if (!fav) {
@@ -168,13 +173,14 @@ export const useListStore = create<ListState>((set, get) => ({
     const exists = fav.items.some((i) => {
       const c = i.content as ListContent;
       const n = item.content as ListContent;
-      return (
-        ("word" in c && "word" in n && c.word === n.word) ||
-        ("sentence" in c && "sentence" in n && c.sentence === n.sentence)
-      );
+
+      if ("word" in c && "word" in n) return c.word === n.word;
+      if ("sentence" in c && "sentence" in n) return c.sentence === n.sentence;
+
+      return false;
     });
 
-    await get().toggleItemInList(fav.id, item);
+    await toggleItemDB(fav.id, item);
 
     let updatedFav: List;
 
@@ -184,10 +190,12 @@ export const useListStore = create<ListState>((set, get) => ({
         items: fav.items.filter((i) => {
           const c = i.content as ListContent;
           const n = item.content as ListContent;
-          return (
-            ("word" in c && "word" in n && c.word !== n.word) ||
-            ("sentence" in c && "sentence" in n && c.sentence !== n.sentence)
-          );
+
+          if ("word" in c && "word" in n) return c.word !== n.word;
+          if ("sentence" in c && "sentence" in n)
+            return c.sentence !== n.sentence;
+
+          return true;
         }),
       };
     } else {

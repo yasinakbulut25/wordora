@@ -53,24 +53,18 @@ export default function AddToListMenu({
   const { user } = useUserStore();
   const { lists, createList, toggleItemInList } = useListStore();
 
-  // 1. Dışarıdan kontrol edilmeyen durumlarda kullanılmak üzere yerel `open` durumunu tanımlayın.
-  // Eğer `useCustomActionBtn` varsa, kontrol dışarıya ait demektir.
   const [localOpen, setLocalOpen] = useState(false);
   const [listName, setListName] = useState("");
 
-  // 2. Drawer'ın durumunu hangi kaynaktan alacağını belirleyin:
   const open = useCustomActionBtn?.isCustomOpen ?? localOpen;
 
-  // 3. Drawer'ın durumu değiştiğinde ne olacağını tanımlayın:
   const handleOpenChange = (newOpen: boolean) => {
     if (useCustomActionBtn) {
-      // Dışarıdan kontrol ediliyorsa, dış durumu güncelleyin
       useCustomActionBtn.setCustomOpen(newOpen);
     } else {
-      // Yerel olarak kontrol ediliyorsa, yerel durumu güncelleyin
       setLocalOpen(newOpen);
     }
-    setListName(""); // Açılıp kapanırken list adını temizle
+    setListName("");
   };
 
   const makeContent = (): WordContent | SentenceContent => {

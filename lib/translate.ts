@@ -281,7 +281,12 @@ export const TRANSLATE = [
   {
     value: "ADD_TO_FAVORITES",
     EN: "Add to Favorites",
-    TR: "Favorilere Ekle.",
+    TR: "Favorilere Ekle",
+  },
+  {
+    value: "REMOVE_FROM_FAVORITES",
+    EN: "Remove from favorites",
+    TR: "Favorilerden çıkar",
   },
   {
     value: "FILL_TITLE",
