@@ -44,7 +44,7 @@ export default function FillPage() {
 
       const fillQuestions = random.map((ex) => {
         const wordInSentence = ex.en
-          .split(" ")
+          .split(/[\s,.;:!?]+/)
           .find((w) =>
             ex.word
               ? w.toLowerCase().includes(ex.word.toLowerCase())
@@ -52,25 +52,32 @@ export default function FillPage() {
           );
 
         const missing = wordInSentence || ex.word;
+        const safeMissing = missing.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&");
+        const regex = new RegExp(safeMissing, "i");
+        const match = ex.en.match(regex);
+        let sentence = ex.en;
+        const correctWord = ex.word;
 
-        const sentence = ex.en.replace(
-          new RegExp(`\\b${missing}\\b`, "i"),
-          "_____"
-        );
+        if (match) {
+          const wordToReplace = match[0];
+          sentence = ex.en.replace(wordToReplace, "_____");
+        } else {
+          sentence = ex.en.replace(new RegExp(correctWord, "i"), "_____");
+        }
 
         const wrongOptions = words
           .map((w) => w.word)
-          .filter((w) => w !== missing)
+          .filter((w) => w.toLowerCase() !== correctWord.toLowerCase())
           .sort(() => 0.5 - Math.random())
           .slice(0, 2);
 
-        const options = [...wrongOptions, missing].sort(
+        const options = [...wrongOptions, correctWord].sort(
           () => 0.5 - Math.random()
         );
 
         return {
           sentence,
-          correct: missing,
+          correct: correctWord,
           options,
           translation: ex.tr,
         };
