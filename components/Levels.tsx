@@ -77,7 +77,6 @@ const levels = [
     level: "A1",
     desc: "LEVEL_A1_DESC",
     color: "pink",
-    progress: 25,
     icon: <Shapes className="text-pink-600" size={iconSize} />,
   },
   {
@@ -85,7 +84,6 @@ const levels = [
     level: "A2",
     desc: "LEVEL_A2_DESC",
     color: "blue",
-    progress: 45,
     icon: <Blocks className="text-blue-600" size={iconSize} />,
   },
   {
@@ -93,7 +91,6 @@ const levels = [
     level: "B1",
     desc: "LEVEL_B1_DESC",
     color: "purple",
-    progress: 56,
     icon: <Sparkle className="text-purple-600" size={iconSize} />,
   },
   {
@@ -101,7 +98,6 @@ const levels = [
     level: "B2",
     desc: "LEVEL_B2_DESC",
     color: "green",
-    progress: 72,
     icon: <BookOpen className="text-green-600" size={iconSize} />,
   },
   {
@@ -109,7 +105,6 @@ const levels = [
     level: "C1",
     desc: "LEVEL_C1_DESC",
     color: "yellow",
-    progress: 84,
     icon: <GraduationCap className="text-yellow-600" size={iconSize} />,
   },
   {
@@ -117,69 +112,68 @@ const levels = [
     level: "C2",
     desc: "LEVEL_C2_DESC",
     color: "teal",
-    progress: 94,
     icon: <GemIcon className="text-teal-600" size={iconSize} />,
   },
 ];
 
 export default function Levels() {
   const { level, setLevel } = useUserStore();
-  const { getProgress } = useProgressStore();
+  const { getLevelProgress, getLearnedCount } = useProgressStore();
   const t = useTranslate();
-
-  const [selected, setSelected] = useState<string | null>(level);
-
-  const [wordCounts, setWordCounts] = useState<Record<string, number>>({});
   const router = useRouter();
 
-  // localStorage'daki seçimi geri yükle
+  const [selected, setSelected] = useState<string | null>(level);
+  const [wordCounts, setWordCounts] = useState<Record<string, number>>({});
+
   useEffect(() => {
     if (selected) {
       setLevel(selected);
+      localStorage.setItem("wordora_level", selected);
     }
   }, [selected, setLevel]);
 
-  // Seviye kelime sayısını getir (json dosyalarından)
   useEffect(() => {
     const loadCounts = async () => {
       const result: Record<string, number> = {};
+
       for (const l of levels) {
         try {
           const res = await fetch(`/data/levels/${l.level.toLowerCase()}.json`);
           const data = await res.json();
-          result[l.level.toLowerCase()] = data.length;
+          result[l.level] = data.length;
         } catch {
-          result[l.level.toLowerCase()] = 0;
+          result[l.level] = 0;
         }
       }
+
       setWordCounts(result);
     };
+
     loadCounts();
   }, []);
 
-  // Seviye seçimi
   const handleSelect = (code: string) => {
     setSelected(code);
-    setLevel(code);
-    localStorage.setItem("wordora_level", code);
   };
 
-  // Devam butonu
   const handleContinue = () => {
     if (!selected) {
       alert("Please select your level to continue.");
       return;
     }
-    router.push(`/level/${level}`);
+
+    router.push(`/level/${selected}`);
   };
 
   return (
-    <div>
+    <div className="relative">
       <div className="grid grid-cols-2 sm:grid-cols-2 gap-4">
         {levels.map((item) => {
           const colors = colorMap[item.color as keyof typeof colorMap];
-          const total = wordCounts[item.level.toLowerCase()] || 0;
-          const progress = getProgress(item.level, total);
+          const total = wordCounts[item.level] || 0;
+          const progress = getLevelProgress(item.level, total);
+          const learnedCount = getLearnedCount(item.level);
+          console.log("item.level", item.level);
 
           return (
             <Card
@@ -188,7 +182,7 @@ export default function Levels() {
               className={`relative rounded-2xl ${colors.bgLight} ${
                 colors.border
               } border-2 shadow-none cursor-pointer overflow-hidden ${
-                item.level === level ? `ring-[8px] ${colors.ring}` : ""
+                item.level === selected ? `ring-[8px] ${colors.ring}` : ""
               }`}
             >
               <CardContent className="p-5 flex flex-col gap-3 justify-between h-full text-left">
@@ -197,16 +191,23 @@ export default function Levels() {
                 >
                   {item.icon}
                 </div>
-                <h3 className="text-lg font-semibold text-slate-800">
+
+                <h3 className="text-lg font-bold text-slate-800">
                   {item.level}
                 </h3>
-                <p className="text-left text-xs text-slate-900 z-10 flex flex-col gap-2">
-                  {t(item.desc)}
+
+                <p className="text-left text-xs text-slate-900 z-10 flex flex-col gap-">
+                  <span className="mb-2">{t(item.desc)}</span>
                   <span className={`${colors.text} font-bold text-sm`}>
                     {total}{" "}
                     <span className="text-xs">{t("LEVEL_TOTAL_WORDS")}</span>
                   </span>
+                  <span className={`${colors.text} font-bold text-sm`}>
+                    {learnedCount}{" "}
+                    <span className="text-xs">{t("LEVEL_TOTAL_LEARNED")}</span>
+                  </span>
                 </p>
+
                 <div>
                   <div className="flex items-center justify-between mb-1">
                     <p className="text-xs text-slate-500">
@@ -227,14 +228,17 @@ export default function Levels() {
           );
         })}
       </div>
-      <Button
-        onClick={!selected ? () => null : handleContinue}
-        disabled={selected === null}
-        className="bg-indigo-600 w-full text-white font-bold mt-6 rounded-full px-2 py-6 hover:bg-indigo-500 transition-all active:scale-90"
-      >
-        {t("CONTINUE")}
-        <ArrowRight width={16} className="text-yellow-300" />
-      </Button>
+
+      {selected && (
+        <Button
+          onClick={handleContinue}
+          disabled={!selected}
+          className="sticky bottom-20 bg-indigo-600 w-full text-white font-bold mt-6 rounded-full px-2 py-6 hover:bg-indigo-500 transition-all active:scale-90 z-20"
+        >
+          {t("CONTINUE")}
+          <ArrowRight width={16} className="text-yellow-300" />
+        </Button>
+      )}
     </div>
   );
 }

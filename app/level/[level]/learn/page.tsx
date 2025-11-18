@@ -17,8 +17,10 @@ import { shuffleArray } from "@/lib/utils";
 import LevelHeader from "@/components/LevelHeader";
 import { useTranslate } from "@/lib/translate";
 import AddToListMenu from "@/components/AddToListMenu";
+import { useUserStore } from "@/store/useUserStore";
 
 export default function WordsPage() {
+  const { user } = useUserStore();
   const { level } = useParams<{ level: string }>();
   const t = useTranslate();
 
@@ -42,9 +44,11 @@ export default function WordsPage() {
     loadWords();
   }, [level]);
 
+  if (!user) return;
+
   const current = words[index];
   const total = words.length;
-  const progress = getProgress(level!, total);
+  const progress = getProgress(words.length);
 
   if (!current) {
     return (
@@ -56,7 +60,7 @@ export default function WordsPage() {
     );
   }
 
-  const learned = isLearned(level!, current.word);
+  const learned = isLearned(current.word);
 
   const handleNext = () => {
     setShowMeaning(false);
@@ -150,7 +154,7 @@ export default function WordsPage() {
                 ? "bg-green-500 text-white hover:bg-green-500"
                 : "bg-white text-green-500 hover:bg-green-50"
             } w-full border-2 border-green-500 shadow-none py-4 h-auto rounded-xl whitespace-normal`}
-            onClick={() => toggleLearned(level!, current.word)}
+            onClick={() => toggleLearned(user.id, level!, current.word)}
           >
             <SealCheckIcon />
             {learned ? t("WORDS_LEARNED") : t("WORDS_MARK_LEARNED")}

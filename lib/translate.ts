@@ -58,6 +58,11 @@ export const TRANSLATE = [
     TR: "kelime",
   },
   {
+    value: "LEVEL_TOTAL_LEARNED",
+    EN: "learned",
+    TR: "öğrenilen",
+  },
+  {
     value: "LEVEL_PROGRESS",
     EN: "progress",
     TR: "ilerleme",

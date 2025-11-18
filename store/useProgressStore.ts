@@ -1,52 +1,66 @@
+"use client";
+
 import { create } from "zustand";
-import { persist } from "zustand/middleware";
+import {
+  fetchLearnedWords,
+  addLearnedWord,
+  removeLearnedWord,
+} from "@/db/learned";
+import { LearnedWord } from "@/types/word";
 
-type ProgressState = {
-  learnedWords: Record<string, string[]>; // { a1: ["apple", "book"], b1: [...] }
-  toggleLearned: (level: string, word: string) => void;
-  getProgress: (level: string, totalWords: number) => number;
-  isLearned: (level: string, word: string) => boolean;
-};
+interface ProgressState {
+  learned: LearnedWord[];
+  loading: boolean;
 
-export const useProgressStore = create<ProgressState>()(
-  persist(
-    (set, get) => ({
-      learnedWords: {},
+  loadLearned: (userId: string) => Promise<void>;
+  toggleLearned: (userId: string, level: string, word: string) => Promise<void>;
+  isLearned: (word: string) => boolean;
+  getProgress: (totalWords: number) => number;
+  getLevelProgress: (level: string, totalWords: number) => number;
+  getLearnedCount: (level: string) => number;
+}
 
-      toggleLearned: (level, word) =>
-        set((state) => {
-          const levelKey = level.toLowerCase();
-          const currentLevelWords = state.learnedWords[levelKey] || [];
+export const useProgressStore = create<ProgressState>((set, get) => ({
+  learned: [],
+  loading: false,
 
-          const updatedLevelWords = currentLevelWords.includes(word)
-            ? currentLevelWords.filter((w) => w !== word)
-            : [...currentLevelWords, word];
+  loadLearned: async (userId) => {
+    set({ loading: true });
+    const data = await fetchLearnedWords(userId);
+    set({ learned: data, loading: false });
+  },
 
-          return {
-            learnedWords: {
-              ...state.learnedWords,
-              [levelKey]: updatedLevelWords,
-            },
-          };
-        }),
+  toggleLearned: async (userId, level, word) => {
+    const list = get().learned;
+    const exists = list.find((l) => l.word === word);
 
-      getProgress: (level, totalWords) => {
-        const levelKey = level.toLowerCase();
-        const learnedCount = get().learnedWords[levelKey]?.length || 0;
-        return totalWords > 0
-          ? Math.round((learnedCount / totalWords) * 100)
-          : 0;
-      },
-
-      isLearned: (level, word) => {
-        const levelKey = level.toLowerCase();
-        const list = get().learnedWords[levelKey] || [];
-        return list.includes(word);
-      },
-    }),
-    {
-      name: "wordora-progress", // 🔹 localStorage key adı
-      partialize: (state) => ({ learnedWords: state.learnedWords }), // sadece bu alan saklanacak
+    if (exists) {
+      await removeLearnedWord(userId, word);
+      set({ learned: list.filter((l) => l.word !== word) });
+      return;
     }
-  )
-);
+
+    const newItem = await addLearnedWord(userId, word, level);
+    set({ learned: [...list, newItem] });
+  },
+
+  isLearned: (word) => {
+    return get().learned.some((l) => l.word === word);
+  },
+
+  getProgress: (totalWords) => {
+    const count = get().learned.length;
+    return totalWords > 0 ? Math.round((count / totalWords) * 100) : 0;
+  },
+
+  getLevelProgress: (level, totalWords) => {
+    const learned = get().learned.filter((l) => l.level === level);
+    const count = learned.length;
+    return totalWords ? Math.round((count / totalWords) * 100) : 0;
+  },
+
+  getLearnedCount: (level) => {
+    console.log('get().learned', get().learned)
+    return get().learned.filter((l) => l.level === level).length;
+  },
+}));

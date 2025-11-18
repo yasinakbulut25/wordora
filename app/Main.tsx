@@ -7,6 +7,7 @@ import LoginPage from "@/components/login/LoginPage";
 import { useUserStore } from "@/store/useUserStore";
 import { cn } from "@/lib/utils";
 import { useListStore } from "@/store/useListStore";
+import { useProgressStore } from "@/store/useProgressStore";
 
 export default function Main({
   children,
@@ -15,10 +16,14 @@ export default function Main({
 }>) {
   const { user, isAuthenticated } = useUserStore();
   const { loadLists } = useListStore();
+  const { loadLearned } = useProgressStore();
 
   useEffect(() => {
-    if (user) loadLists(user.id);
-  }, [loadLists, user]);
+    if (user) {
+      loadLists(user.id);
+      loadLearned(user.id);
+    }
+  }, [loadLists, loadLearned, user]);
 
   return (
     <main

@@ -8,3 +8,11 @@ export type WordData = {
   meanings: string[];
   examples: Example[];
 };
+
+export interface LearnedWord {
+  id: string;
+  user_id: string;
+  word: string;
+  level: string;
+  created_at: string;
+}
