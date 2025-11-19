@@ -45,7 +45,10 @@ export default function ListDetailPage({ isFavoritesPage = false }: Props) {
       />
 
       <ListTabs
-        list={list}
+        list={{
+          ...list,
+          items: [...list.items].reverse(),
+        }}
         showTranslations={showTranslations}
         setShowTranslations={setShowTranslations}
       />
