@@ -503,4 +503,9 @@ export const TRANSLATE = [
     EN: "Profile",
     TR: "Profil",
   },
+  {
+    value: "LOGOUT",
+    EN: "Logout",
+    TR: "Çıkış Yap",
+  },
 ];

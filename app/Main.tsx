@@ -28,17 +28,21 @@ export default function Main({
   return (
     <main
       className={cn(
-        "relative max-w-md mx-auto overflow-y-auto h-full md:rounded-xl px-8 bg-indigo-50 md:border border-none md:border-indigo-100",
+        "relative max-w-md mx-auto overflow-y-auto h-full md:rounded-xl bg-indigo-50 md:border border-none md:border-indigo-100",
         !user || !isAuthenticated ? "pb-4 overflow-x-hidden" : "pb-6"
       )}
     >
       {!user || !isAuthenticated ? (
-        <LoginPage />
+        <div className="px-8">
+          <LoginPage />
+        </div>
       ) : (
         <>
           <Header />
-          {children}
-          <BottomNavigation />
+          <div className="px-8">
+            {children}
+            <BottomNavigation />
+          </div>
         </>
       )}
     </main>

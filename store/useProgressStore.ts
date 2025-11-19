@@ -21,8 +21,10 @@ interface ProgressState {
   ) => Promise<void>;
   isLearned: (word: string) => boolean;
   getProgress: (totalWords: number) => number;
-  getLevelProgress: (level: string, totalWords: number) => number;
-  getLearnedCount: (level: string) => number;
+  getLevelStats: (
+    level: string,
+    totalWords: number
+  ) => { learned: number; total: number; progress: number };
 }
 
 export const useProgressStore = create<ProgressState>((set, get) => ({
@@ -58,13 +60,11 @@ export const useProgressStore = create<ProgressState>((set, get) => ({
     return totalWords > 0 ? Math.round((count / totalWords) * 100) : 0;
   },
 
-  getLevelProgress: (level, totalWords) => {
-    const learned = get().learned.filter((l) => l.level === level);
-    const count = learned.length;
-    return totalWords ? Math.round((count / totalWords) * 100) : 0;
-  },
+  getLevelStats: (level, totalWords) => {
+    const learned = get().learned.filter((l) => l.level === level).length;
+    const progress =
+      totalWords > 0 ? Math.round((learned / totalWords) * 100) : 0;
 
-  getLearnedCount: (level) => {
-    return get().learned.filter((l) => l.level === level).length;
+    return { learned, total: totalWords, progress };
   },
 }));

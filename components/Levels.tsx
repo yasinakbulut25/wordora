@@ -118,7 +118,7 @@ const levels = [
 
 export default function Levels() {
   const { level, setLevel } = useUserStore();
-  const { getLevelProgress, getLearnedCount } = useProgressStore();
+  const { getLevelStats } = useProgressStore();
   const t = useTranslate();
   const router = useRouter();
 
@@ -171,8 +171,7 @@ export default function Levels() {
         {levels.map((item) => {
           const colors = colorMap[item.color as keyof typeof colorMap];
           const total = wordCounts[item.level] || 0;
-          const progress = getLevelProgress(item.level, total);
-          const learnedCount = getLearnedCount(item.level);
+          const levelStats = getLevelStats(item.level, total);
 
           return (
             <Card
@@ -202,7 +201,7 @@ export default function Levels() {
                     <span className="text-xs">{t("LEVEL_TOTAL_WORDS")}</span>
                   </span>
                   <span className={`${colors.text} font-bold text-sm`}>
-                    {learnedCount}{" "}
+                    {levelStats.learned}{" "}
                     <span className="text-xs">{t("LEVEL_TOTAL_LEARNED")}</span>
                   </span>
                 </p>
@@ -213,11 +212,11 @@ export default function Levels() {
                       {t("LEVEL_PROGRESS")}
                     </p>
                     <span className="text-xs font-medium text-slate-700">
-                      {progress}%
+                      {levelStats.progress}%
                     </span>
                   </div>
                   <Progress
-                    value={progress}
+                    value={levelStats.progress}
                     innerBg={colors.progress}
                     className={`h-2 ${colors.progressBg}`}
                   />
