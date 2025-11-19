@@ -24,8 +24,8 @@ export default function ListTabs({
   const sentences = list.items.filter(isSentenceItem);
 
   return (
-    <Tabs defaultValue="all" className="w-full">
-      <TabsList className="grid grid-cols-3 mb-4 bg-white p-2 h-auto rounded-xl">
+    <Tabs defaultValue="all" className="relative w-full">
+      <TabsList className="grid grid-cols-3 mb-4 bg-white p-2 h-auto rounded-xl shadow sticky top-24">
         <TabsTrigger
           className="p-2 text-slate-500 text-sm data-[state=active]:bg-indigo-600 data-[state=active]:text-white data-[state=active]:shadow-none rounded-lg"
           value="all"

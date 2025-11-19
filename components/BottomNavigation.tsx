@@ -38,7 +38,7 @@ export default function BottomNavigation() {
   const t = useTranslate();
 
   return (
-    <nav className="fixed md:bottom-4 bottom-0 left-1/2 transform -translate-x-1/2 z-50 w-full max-w-md bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-700 shadow-lg rounded-br-xl rounded-bl-xl">
+    <nav className="fixed md:bottom-4 bottom-0 left-1/2 transform -translate-x-1/2 z-50 w-full max-w-md bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-700 shadow-lg md:rounded-br-xl md:rounded-bl-xl">
       <ul className="flex items-center gap-2 justify-around p-2">
         {navItems.map((item) => {
           const isActive =
@@ -58,7 +58,7 @@ export default function BottomNavigation() {
                 )}
               ></div>
               <Link href={item.href}>
-                <div className="flex flex-col gap-1 items-center justify-center px-4 py-2 transition-all">
+                <div className="flex flex-col gap-1 items-center justify-center text-center px-4 py-2 transition-all">
                   <item.icon
                     className={cn(
                       "h-5 w-5 transition-all",
@@ -68,7 +68,7 @@ export default function BottomNavigation() {
 
                   <span
                     className={cn(
-                      "text-xs font-medium",
+                      "text-[10px] font-medium",
                       isActive ? "text-indigo-600" : "text-slate-400"
                     )}
                   >
