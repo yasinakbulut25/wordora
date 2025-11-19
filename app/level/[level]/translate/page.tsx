@@ -5,12 +5,12 @@ import { useParams } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { WordData, ExampleSentence } from "@/types/word";
-import { ArrowRight, ArrowLeft, Heart, Repeat, Volume2 } from "lucide-react";
+import { Repeat } from "lucide-react";
 import { TranslateIcon } from "@phosphor-icons/react";
 import LevelHeader from "@/components/LevelHeader";
 import { useTranslate } from "@/lib/translate";
-import AddToListMenu from "@/components/AddToListMenu";
-import { handleSpeak } from "@/lib/speak";
+import Actions from "@/components/Actions";
+import PrevNextButtons from "@/components/PrevNextButtons";
 
 export default function TranslatePage() {
   const { level } = useParams<{ level: string }>();
@@ -71,7 +71,7 @@ export default function TranslatePage() {
   const translation = direction === "en-tr" ? current.tr : current.en;
 
   return (
-    <section id="translate">
+    <section id="translate" className="flex flex-col min-h-[550px]">
       <div className="mb-6">
         <LevelHeader href={`/level/${level}`} title={t("TRANSLATE_TITLE")} />
       </div>
@@ -94,29 +94,15 @@ export default function TranslatePage() {
           <p className="text-lg text-slate-900 font-medium text-center">
             {sentence}
           </p>
-          <div className="mt-6 flex items-center justify-center gap-3">
-            <AddToListMenu
+          <div className="mt-6">
+            <Actions
+              type="sentence"
               current={{
                 word: current.word,
                 sentence: current.en,
                 translation: current.tr,
               }}
-              type="sentence"
             />
-
-            <Button
-              onClick={() => handleSpeak(current.en)}
-              className="group flex items-center gap-2 text-xs bg-white border border-slate-200 text-slate-900 hover:bg-indigo-600 hover:text-white shadow-none px-3"
-            >
-              <Volume2 className="w-4 h-4 text-indigo-600 group-hover:text-white" />
-              {t("VOICE")}
-            </Button>
-            <Button
-              size="icon"
-              className="group flex items-center gap-2 text-xs bg-white border border-slate-200 text-slate-900 hover:bg-indigo-600 hover:text-white shadow-none"
-            >
-              <Heart className="w-4 h-4 text-indigo-600 group-hover:text-white" />
-            </Button>
           </div>
           {showTranslation && (
             <p className="text-base text-indigo-600 text-center border-t border-slate-200 pt-6 mt-6 w-full">
@@ -126,40 +112,26 @@ export default function TranslatePage() {
         </CardContent>
       </Card>
 
-      <div className="absolute w-full left-0 bottom-4 grid grid-cols-2 gap-4 mt-6 px-3">
-        <div className="col-span-2 mx-auto">
-          {!showTranslation && (
-            <Button
-              onClick={() => setShowTranslation(true)}
-              className="rounded-full bg-yellow-300 hover:bg-yellow-400 text-indigo-600 font-bold mt-6 h-auto py-3 px-6 shadow-none"
-            >
-              <TranslateIcon className="text-indigo-600" />
-              {t("TRANSLATE_SHOW")}
-            </Button>
-          )}
-        </div>
-        <Button
-          onClick={handlePrev}
-          disabled={index === 0}
-          className="bg-white w-full text-slate-900 font-bold rounded-full px-2 py-6 hover:bg-slate-50 shadow-none transition-all active:scale-95"
-        >
-          <ArrowLeft width={16} className="text-indigo-600" />
-          {t("TRANSLATE_PREVIOUS")}
-        </Button>
-
-        <Button
-          onClick={handleNext}
-          disabled={index + 1 >= total}
-          className="bg-indigo-600 w-full text-white font-bold rounded-full px-2 py-6 hover:bg-indigo-500 shadow-none transition-all active:scale-95"
-        >
-          {index + 1 === total - 1 ? t("TRANSLATE_LAST") : t("TRANSLATE_NEXT")}
-          <ArrowRight width={16} className="text-yellow-300" />
-        </Button>
-      </div>
-
       <p className="text-center text-sm text-slate-500 mt-6">
         {index + 1} / {total} {t("TRANSLATE_SENTENCE_COUNT")}
       </p>
+
+      <div className="mt-auto px-3 flex flex-col gap-4 items-center">
+        {!showTranslation && (
+          <Button
+            onClick={() => setShowTranslation(true)}
+            className="rounded-full bg-yellow-300 hover:bg-yellow-400 text-indigo-600 font-bold mt-6 h-auto py-3 px-6 shadow-none"
+          >
+            <TranslateIcon className="text-indigo-600" />
+            {t("TRANSLATE_SHOW")}
+          </Button>
+        )}
+        <PrevNextButtons
+          index={index}
+          handlePrev={handlePrev}
+          handleNext={handleNext}
+        />
+      </div>
     </section>
   );
 }

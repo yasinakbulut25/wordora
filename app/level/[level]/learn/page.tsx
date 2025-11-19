@@ -11,16 +11,15 @@ import {
   TextAaIcon,
   TranslateIcon,
 } from "@phosphor-icons/react";
-import { ArrowLeft, ArrowRight, Heart, Volume2 } from "lucide-react";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 import { Spinner } from "@/components/ui/spinner";
-import { cn, shuffleArray } from "@/lib/utils";
+import { shuffleArray } from "@/lib/utils";
 import LevelHeader from "@/components/LevelHeader";
 import { useTranslate } from "@/lib/translate";
-import AddToListMenu from "@/components/AddToListMenu";
 import { useUserStore } from "@/store/useUserStore";
-import { handleSpeak } from "@/lib/speak";
 import SentenceDropdown from "./SentenceDropdown";
-import { useListStore } from "@/store/useListStore";
+import Actions from "@/components/Actions";
+import PrevNextButtons from "@/components/PrevNextButtons";
 
 export default function WordsPage() {
   const { user } = useUserStore();
@@ -28,7 +27,6 @@ export default function WordsPage() {
   const t = useTranslate();
 
   const { toggleLearned, getProgress, isLearned } = useProgressStore();
-  const { isFavorite, toggleFavorite } = useListStore();
 
   const [words, setWords] = useState<WordData[]>([]);
   const [index, setIndex] = useState<number>(0);
@@ -80,14 +78,6 @@ export default function WordsPage() {
     setIndex((prev) => (prev - 1) % total);
   };
 
-  const isFav = isFavorite({
-    type: "word",
-    content: {
-      word: current.word,
-      meanings: current.meanings,
-    },
-  });
-
   return (
     <div className="flex flex-col min-h-[550px]">
       <div className="mb-6">
@@ -98,43 +88,14 @@ export default function WordsPage() {
         {current.word}
       </h2>
 
-      <div className="mt-6 flex items-center justify-center gap-3">
-        <AddToListMenu
+      <div className="mt-6">
+        <Actions
+          type="word"
           current={{
             word: current.word,
             meanings: [current.meanings[0]],
           }}
-          type="word"
         />
-
-        <Button
-          onClick={() => handleSpeak(current.word)}
-          className="group flex items-center gap-2 text-xs bg-white border border-slate-200 text-slate-900 hover:bg-initial shadow-none px-3 transition-all active:scale-90"
-        >
-          <Volume2 className="w-4 h-4 text-indigo-600" />
-          {t("VOICE")}
-        </Button>
-
-        <Button
-          size="icon"
-          onClick={() => {
-            toggleFavorite(user.id, {
-              type: "word",
-              content: {
-                word: current.word,
-                meanings: current.meanings,
-              },
-            });
-          }}
-          className={cn(
-            "group flex items-center gap-2 text-xs border hover:bg-initial shadow-none transition-all active:scale-90",
-            isFav
-              ? "bg-indigo-600 border-indigo-600 text-white "
-              : "bg-white border-slate-200 text-indigo-600"
-          )}
-        >
-          <Heart className="w-4 h-4" />
-        </Button>
       </div>
 
       <div className="my-6">
@@ -254,24 +215,11 @@ export default function WordsPage() {
         )}
       </div>
 
-      <div className="action-nav w-full bg-white p-3 rounded-full grid grid-cols-2 gap-3 mt-auto z-20">
-        <Button
-          onClick={index !== 0 ? handlePrev : () => null}
-          disabled={index === 0}
-          className="bg-slate-100 w-full text-slate-900 font-bold rounded-full px-2 py-6 hover:bg-slate-50 transition-all active:scale-90 shadow-none"
-        >
-          <ArrowLeft width={16} className="text-indigo-600" />
-          {t("WORDS_PREV_WORD")}
-        </Button>
-
-        <Button
-          onClick={handleNext}
-          className="bg-indigo-600 w-full text-white font-bold rounded-full px-2 py-6 hover:bg-indigo-500 transition-all active:scale-90"
-        >
-          {t("WORDS_NEXT_WORD")}
-          <ArrowRight width={16} className="text-yellow-300" />
-        </Button>
-      </div>
+      <PrevNextButtons
+        index={index}
+        handlePrev={handlePrev}
+        handleNext={handleNext}
+      />
     </div>
   );
 }

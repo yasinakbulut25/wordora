@@ -10,9 +10,11 @@ import { ArrowRight, Check, Circle, X } from "lucide-react";
 import LevelHeader from "@/components/LevelHeader";
 import Score from "@/components/Score";
 import { useTranslate } from "@/lib/translate";
+import Actions from "@/components/Actions";
 
 type QuizQuestion = {
   word: string;
+  meanings: string[];
   correct: string;
   options: string[];
 };
@@ -54,6 +56,7 @@ export default function QuizPage() {
 
         return {
           word: word.word,
+          meanings: word.meanings,
           correct: correctOption,
           options,
         };
@@ -125,6 +128,16 @@ export default function QuizPage() {
       <h2 className="text-2xl font-semibold text-white w-max mx-auto bg-indigo-600 px-4 py-3 rounded-2xl">
         {current.word}
       </h2>
+
+      <div className="my-4">
+        <Actions
+          type="word"
+          current={{
+            word: current.word,
+            meanings: current.meanings,
+          }}
+        />
+      </div>
 
       <div className="flex items-center justify-between mb-4">
         <span className="text-sm text-slate-500">

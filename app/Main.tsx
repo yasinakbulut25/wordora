@@ -28,8 +28,8 @@ export default function Main({
   return (
     <main
       className={cn(
-        "relative max-w-md mx-auto min-h-full md:rounded-xl px-8 bg-indigo-50 md:border border-none md:border-indigo-100",
-        !user || !isAuthenticated ? "pb-4 overflow-x-hidden" : "pb-24"
+        "relative max-w-md mx-auto overflow-y-auto h-full md:rounded-xl px-8 bg-indigo-50 md:border border-none md:border-indigo-100",
+        !user || !isAuthenticated ? "pb-4 overflow-x-hidden" : "pb-6"
       )}
     >
       {!user || !isAuthenticated ? (
