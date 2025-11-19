@@ -11,6 +11,12 @@ export default function ClientProvider({
   const { loadUserFromStorage } = useUserStore();
 
   useEffect(() => {
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("/sw.js").catch(console.error);
+    }
+  }, []);
+
+  useEffect(() => {
     loadUserFromStorage();
   }, [loadUserFromStorage]);
 

@@ -8,6 +8,7 @@ import { useUserStore } from "@/store/useUserStore";
 import { cn } from "@/lib/utils";
 import { useListStore } from "@/store/useListStore";
 import { useProgressStore } from "@/store/useProgressStore";
+import AddToHomeScreen from "@/components/AddToHomeScreen";
 
 export default function Main({
   children,
@@ -43,6 +44,7 @@ export default function Main({
             {children}
             <BottomNavigation />
           </div>
+          <AddToHomeScreen />
         </>
       )}
     </main>
