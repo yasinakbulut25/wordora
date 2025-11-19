@@ -11,7 +11,7 @@ import {
   TextAaIcon,
   TranslateIcon,
 } from "@phosphor-icons/react";
-import { ArrowLeft, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Spinner } from "@/components/ui/spinner";
 import { shuffleArray } from "@/lib/utils";
 import LevelHeader from "@/components/LevelHeader";

@@ -6,7 +6,6 @@ export async function POST(req: Request) {
   const body: LoginPayload = await req.json();
   const { username, password } = body;
 
-  // username → user id bul
   const { data: profile, error: profileError } = await supabase
     .from("profiles")
     .select("id")
@@ -20,7 +19,6 @@ export async function POST(req: Request) {
     );
   }
 
-  // user email bul
   const { data: userData, error: userError } =
     await supabase.auth.admin.getUserById(profile.id);
 
@@ -31,7 +29,6 @@ export async function POST(req: Request) {
     );
   }
 
-  // giriş yap
   const { data: signInData, error: signInError } =
     await supabase.auth.signInWithPassword({
       email: userData.user.email,

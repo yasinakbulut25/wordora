@@ -3,7 +3,7 @@
 import { useLangStore } from "@/store/useLangStore";
 
 export const useTranslate = () => {
-  const lang = useLangStore((s) => s.lang); // reaktif!
+  const lang = useLangStore((s) => s.lang);
 
   return (value: string) => {
     const sentence = TRANSLATE.find((t) => t.value === value);

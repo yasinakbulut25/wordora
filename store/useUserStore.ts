@@ -8,20 +8,17 @@ export interface AuthUser {
 }
 
 interface UserState {
-  // 🔹 Auth
   user: AuthUser | null;
   isAuthenticated: boolean;
   setUser: (user: AuthUser) => void;
   logout: () => void;
   loadUserFromStorage: () => void;
 
-  // 🔹 Level
   level: string | null;
   setLevel: (level: string) => void;
 }
 
 export const useUserStore = create<UserState>((set) => ({
-  // --- Auth ---
   user: null,
   isAuthenticated: false,
 
@@ -43,7 +40,6 @@ export const useUserStore = create<UserState>((set) => ({
     }
   },
 
-  // --- Level ---
   level: null,
   setLevel: (level) => {
     localStorage.setItem("wordora_level", level);

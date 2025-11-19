@@ -29,7 +29,6 @@ export default function LoginForm({ setScreen }: SetScreenProp) {
     setLoading(true);
 
     try {
-      // 1️⃣ Kullanıcıyı bul
       const { data, error: queryError } = await supabase
         .from("users")
         .select("*")
@@ -42,7 +41,6 @@ export default function LoginForm({ setScreen }: SetScreenProp) {
         return;
       }
 
-      // 2️⃣ Şifreyi kontrol et
       const isValid = await comparePassword(password, data.password);
       if (!isValid) {
         setError("Kullanıcı adı veya şifre hatalı.");
@@ -50,7 +48,6 @@ export default function LoginForm({ setScreen }: SetScreenProp) {
         return;
       }
 
-      // 3️⃣ Kullanıcıyı store'a kaydet
       const user: AuthUser = {
         id: data.id,
         email: data.email,
@@ -60,7 +57,6 @@ export default function LoginForm({ setScreen }: SetScreenProp) {
 
       setUser(user);
 
-      // 4️⃣ Anasayfaya yönlendir
       window.location.href = "/";
     } catch (err) {
       console.error(err);

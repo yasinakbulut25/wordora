@@ -38,14 +38,12 @@ export default function RegisterForm({ setScreen }: SetScreenProp) {
     setLoading(true);
 
     try {
-      // 1️⃣ Şifreler eşleşiyor mu?
       if (password !== confirmPassword) {
         setError("Şifreler eşleşmiyor.");
         setLoading(false);
         return;
       }
 
-      // 2️⃣ Kullanıcı adı veya e-posta zaten var mı?
       const { data: existingUser } = await supabase
         .from("users")
         .select("id")
@@ -58,10 +56,8 @@ export default function RegisterForm({ setScreen }: SetScreenProp) {
         return;
       }
 
-      // 3️⃣ Şifreyi hashle
       const hashedPassword = await hashPassword(password);
 
-      // 4️⃣ Supabase'e yeni kullanıcı ekle
       const { data, error: insertError } = await supabase
         .from("users")
         .insert([{ email, username, password: hashedPassword }])
@@ -75,7 +71,6 @@ export default function RegisterForm({ setScreen }: SetScreenProp) {
         return;
       }
 
-      // 5️⃣ Kullanıcıyı store'a ve localStorage’a kaydet
       const user: AuthUser = {
         id: data.id,
         email: data.email,
@@ -85,7 +80,6 @@ export default function RegisterForm({ setScreen }: SetScreenProp) {
 
       setUser(user);
 
-      // 6️⃣ Başarılı kayıt sonrası yönlendirme
       window.location.href = "/";
     } catch (err) {
       console.error(err);

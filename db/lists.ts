@@ -70,7 +70,6 @@ export async function toggleItemInList(
   listId: string,
   item: Omit<ListItem, "id" | "list_id" | "created_at">
 ): Promise<void> {
-  // Listeyi kontrol et
   const { data: existing, error: fetchError } = await supabase
     .from("list_items")
     .select("id, content")
@@ -138,7 +137,6 @@ export async function getOrCreateFavoritesList(userId: string) {
 
   if (existing) return existing;
 
-  // yoksa oluştur
   const { data: created, error } = await supabase
     .from("custom_lists")
     .insert([{ user_id: userId, name: FAVORITES_LIST_NAME }])
