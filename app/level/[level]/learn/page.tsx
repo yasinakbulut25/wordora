@@ -1,11 +1,11 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useMemo, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { useParams } from "next/navigation";
 import { useProgressStore } from "@/store/useProgressStore";
 import { Progress } from "@/components/ui/progress";
-import { WordData, Example } from "@/types/word";
+import { Example, WordData } from "@/types/word";
 import {
   SealCheckIcon,
   TextAaIcon,
@@ -20,31 +20,26 @@ import { useUserStore } from "@/store/useUserStore";
 import SentenceDropdown from "./SentenceDropdown";
 import Actions from "@/components/Actions";
 import PrevNextButtons from "@/components/PrevNextButtons";
+import { Levels, useLevelsStore } from "@/store/useLevelsStore";
 
 export default function WordsPage() {
   const { user } = useUserStore();
-  const { level } = useParams<{ level: string }>();
+  const { levels } = useLevelsStore();
+  const { level } = useParams<{ level: Levels }>();
   const t = useTranslate();
+
+  const words = useMemo<WordData[]>(() => {
+    return shuffleArray(levels[level] || []);
+  }, [levels, level]);
 
   const { toggleLearned, getProgress, isLearned } = useProgressStore();
 
-  const [words, setWords] = useState<WordData[]>([]);
   const [index, setIndex] = useState<number>(0);
   const [showMeaning, setShowMeaning] = useState<boolean>(false);
   const [showExamples, setShowExamples] = useState<boolean>(false);
   const [showTranslations, setShowTranslations] = useState<
     Record<number, boolean>
   >({});
-
-  useEffect(() => {
-    const loadWords = async () => {
-      const res = await fetch(`/data/levels/${level}.json`);
-      const data: WordData[] = await res.json();
-      const shuffled = shuffleArray(data);
-      setWords(shuffled);
-    };
-    loadWords();
-  }, [level]);
 
   if (!user) return;
 

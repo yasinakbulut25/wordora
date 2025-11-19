@@ -4,13 +4,13 @@ import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
-import { WordData } from "@/types/word";
 import { Spinner } from "@/components/ui/spinner";
 import { ArrowRight, Check, Circle, X } from "lucide-react";
 import LevelHeader from "@/components/LevelHeader";
 import Score from "@/components/Score";
 import { useTranslate } from "@/lib/translate";
 import Actions from "@/components/Actions";
+import { Levels, useLevelsStore } from "@/store/useLevelsStore";
 
 type QuizQuestion = {
   word: string;
@@ -20,7 +20,9 @@ type QuizQuestion = {
 };
 
 export default function QuizPage() {
-  const { level } = useParams<{ level: string }>();
+  const { level } = useParams<{ level: Levels }>();
+  const { levels } = useLevelsStore();
+
   const t = useTranslate();
 
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
@@ -35,10 +37,7 @@ export default function QuizPage() {
 
   useEffect(() => {
     const loadWords = async () => {
-      const res = await fetch(`/data/levels/${level}.json`, {
-        cache: "no-store",
-      });
-      const data: WordData[] = await res.json();
+      const data = levels[level];
 
       const randomWords = data.sort(() => 0.5 - Math.random()).slice(0, 10);
 
@@ -66,7 +65,7 @@ export default function QuizPage() {
     };
 
     loadWords();
-  }, [level]);
+  }, [level, levels]);
 
   const current = questions[currentIndex];
   const progress = ((currentIndex + 1) / questions.length) * 100;

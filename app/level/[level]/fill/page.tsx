@@ -5,11 +5,11 @@ import { useParams } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { Spinner } from "@/components/ui/spinner";
-import { WordData } from "@/types/word";
 import { ArrowRight, Check, Circle, X } from "lucide-react";
 import LevelHeader from "@/components/LevelHeader";
 import Score from "@/components/Score";
 import { useTranslate } from "@/lib/translate";
+import { Levels, useLevelsStore } from "@/store/useLevelsStore";
 
 type FillQuestion = {
   sentence: string;
@@ -19,8 +19,9 @@ type FillQuestion = {
 };
 
 export default function FillPage() {
-  const { level } = useParams<{ level: string }>();
+  const { level } = useParams<{ level: Levels }>();
   const t = useTranslate();
+  const { levels } = useLevelsStore();
 
   const [questions, setQuestions] = useState<FillQuestion[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -31,10 +32,7 @@ export default function FillPage() {
 
   useEffect(() => {
     const loadQuestions = async () => {
-      const res = await fetch(`/data/levels/${level}.json`, {
-        cache: "no-store",
-      });
-      const words: WordData[] = await res.json();
+      const words = levels[level];
 
       const allExamples = words.flatMap((w) =>
         w.examples.map((ex) => ({ ...ex, word: w.word }))
@@ -87,7 +85,7 @@ export default function FillPage() {
     };
 
     loadQuestions();
-  }, [level]);
+  }, [level, levels]);
 
   const current = questions[currentIndex];
   const progress = ((currentIndex + 1) / questions.length) * 100;

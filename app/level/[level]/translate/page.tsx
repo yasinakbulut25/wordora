@@ -4,17 +4,19 @@ import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { WordData, ExampleSentence } from "@/types/word";
+import { ExampleSentence } from "@/types/word";
 import { Repeat } from "lucide-react";
 import { TranslateIcon } from "@phosphor-icons/react";
 import LevelHeader from "@/components/LevelHeader";
 import { useTranslate } from "@/lib/translate";
 import Actions from "@/components/Actions";
 import PrevNextButtons from "@/components/PrevNextButtons";
+import { Levels, useLevelsStore } from "@/store/useLevelsStore";
 
 export default function TranslatePage() {
-  const { level } = useParams<{ level: string }>();
+  const { level } = useParams<{ level: Levels }>();
   const t = useTranslate();
+  const { levels } = useLevelsStore();
 
   const [sentences, setSentences] = useState<ExampleSentence[]>([]);
   const [index, setIndex] = useState(0);
@@ -23,10 +25,7 @@ export default function TranslatePage() {
 
   useEffect(() => {
     const loadExamples = async () => {
-      const res = await fetch(`/data/levels/${level}.json`, {
-        cache: "no-store",
-      });
-      const words: WordData[] = await res.json();
+      const words = levels[level];
 
       const allExamples = words.flatMap((w) => {
         return w.examples.map((example) => ({
@@ -41,7 +40,7 @@ export default function TranslatePage() {
     };
 
     loadExamples();
-  }, [level]);
+  }, [level, levels]);
 
   const current = sentences[index];
   const total = sentences.length;

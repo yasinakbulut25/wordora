@@ -9,6 +9,7 @@ import { cn } from "@/lib/utils";
 import { useListStore } from "@/store/useListStore";
 import { useProgressStore } from "@/store/useProgressStore";
 import AddToHomeScreen from "@/components/AddToHomeScreen";
+import { useLevelsStore } from "@/store/useLevelsStore";
 
 export default function Main({
   children,
@@ -18,13 +19,29 @@ export default function Main({
   const { user, isAuthenticated } = useUserStore();
   const { loadLists } = useListStore();
   const { loadLearned } = useProgressStore();
+  const { setLevelsData } = useLevelsStore();
+  const { loadUserFromStorage } = useUserStore();
 
   useEffect(() => {
-    if (user) {
-      loadLists(user.id);
-      loadLearned(user.id);
-    }
-  }, [loadLists, loadLearned, user]);
+    const loadAll = async () => {
+      if (!user) {
+        loadUserFromStorage();
+        return;
+      }
+
+      try {
+        await Promise.all([
+          loadLists(user.id),
+          loadLearned(user.id),
+          setLevelsData(),
+        ]);
+      } catch (err) {
+        console.error("err =>", err);
+      }
+    };
+
+    loadAll();
+  }, [user, loadUserFromStorage, loadLists, loadLearned, setLevelsData]);
 
   return (
     <main

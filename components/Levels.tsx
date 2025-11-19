@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { useTranslate } from "@/lib/translate";
+import { type Levels, useLevelsStore } from "@/store/useLevelsStore";
 import { useProgressStore } from "@/store/useProgressStore";
 import { useUserStore } from "@/store/useUserStore";
 import {
@@ -16,7 +17,7 @@ import {
   Sparkle,
 } from "lucide-react";
 import { useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { ReactNode, useEffect, useState } from "react";
 
 const iconSize = 42;
 
@@ -71,7 +72,13 @@ const colorMap = {
   },
 } as const;
 
-const levels = [
+const levelItems: {
+  id: number;
+  level: Levels;
+  desc: string;
+  color: string;
+  icon: ReactNode;
+}[] = [
   {
     id: 1,
     level: "A1",
@@ -119,6 +126,7 @@ const levels = [
 export default function Levels() {
   const { level, setLevel } = useUserStore();
   const { getLevelStats } = useProgressStore();
+  const { levels } = useLevelsStore();
   const t = useTranslate();
   const router = useRouter();
 
@@ -136,10 +144,9 @@ export default function Levels() {
     const loadCounts = async () => {
       const result: Record<string, number> = {};
 
-      for (const l of levels) {
+      for (const l of levelItems) {
         try {
-          const res = await fetch(`/data/levels/${l.level.toLowerCase()}.json`);
-          const data = await res.json();
+          const data = levels[l.level];
           result[l.level] = data.length;
         } catch {
           result[l.level] = 0;
@@ -150,7 +157,7 @@ export default function Levels() {
     };
 
     loadCounts();
-  }, []);
+  }, [levels]);
 
   const handleSelect = (code: string) => {
     setSelected(code);
@@ -168,7 +175,7 @@ export default function Levels() {
   return (
     <div className="relative">
       <div className="grid grid-cols-2 sm:grid-cols-2 gap-4">
-        {levels.map((item) => {
+        {levelItems.map((item) => {
           const colors = colorMap[item.color as keyof typeof colorMap];
           const total = wordCounts[item.level] || 0;
           const levelStats = getLevelStats(item.level, total);
