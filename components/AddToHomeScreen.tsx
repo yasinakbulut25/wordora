@@ -93,7 +93,7 @@ export default function AddToHomeScreen() {
   if (!open || isInStandalone) return null;
 
   return (
-    <Dialog open={open} onOpenChange={setOpen}>
+    <Dialog open={true} onOpenChange={setOpen}>
       <DialogContent className="rounded-2xl p-6 max-w-sm">
         <DialogHeader>
           <DialogTitle className="flex items-center gap-2">
@@ -127,14 +127,14 @@ export default function AddToHomeScreen() {
         <DialogFooter className="mt-2 flex gap-3">
           <Button
             variant="outline"
-            className="w-full rounded-lg"
+            className="w-full rounded-lg border-none bg-slate-100 hover:bg-slate-200"
             onClick={handleLater}
           >
             Daha Sonra
           </Button>
 
           <Button
-            className="w-full bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg"
+            className="w-full bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg border-none"
             onClick={isIos ? handleLater : handleInstall}
           >
             {isIos ? "Tamam" : "Ana Ekrana Ekle"}

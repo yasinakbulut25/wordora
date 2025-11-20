@@ -1,44 +1,43 @@
 import { create } from "zustand";
-
-export interface AuthUser {
-  id: string;
-  email: string;
-  username: string;
-  created_at: string;
-}
+import { AuthUser } from "@/types/auth";
 
 interface UserState {
   user: AuthUser | null;
-  isAuthenticated: boolean;
-  setUser: (user: AuthUser) => void;
-  logout: () => void;
-  loadUserFromStorage: () => void;
+  loading: boolean;
+
+  setUser: (user: AuthUser | null) => void;
+  logoutUser: () => void;
+  setLoading: (state: boolean) => void;
 
   level: string | null;
   setLevel: (level: string) => void;
 }
 
+export const USER_LOCALSTORAGE_KEY = "wordora_auth";
+
 export const useUserStore = create<UserState>((set) => ({
   user: null,
-  isAuthenticated: false,
+  loading: true,
 
   setUser: (user) => {
-    localStorage.setItem("wordora_user", JSON.stringify(user));
-    set({ user, isAuthenticated: true });
-  },
-
-  logout: () => {
-    localStorage.removeItem("wordora_user");
-    set({ user: null, isAuthenticated: false });
-  },
-
-  loadUserFromStorage: () => {
-    const stored = localStorage.getItem("wordora_user");
-    if (stored) {
-      const user = JSON.parse(stored);
-      set({ user, isAuthenticated: true });
+    if (user) {
+      set({
+        user,
+        loading: false,
+      });
+      localStorage.setItem(USER_LOCALSTORAGE_KEY, JSON.stringify(user));
     }
   },
+
+  logoutUser: () => {
+    set({
+      user: null,
+      loading: false,
+    });
+    localStorage.removeItem(USER_LOCALSTORAGE_KEY);
+  },
+
+  setLoading: (loading) => set({ loading }),
 
   level: null,
   setLevel: (level) => {

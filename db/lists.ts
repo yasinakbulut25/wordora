@@ -133,7 +133,7 @@ export async function getOrCreateFavoritesList(userId: string) {
     .select("*")
     .eq("user_id", userId)
     .eq("name", FAVORITES_LIST_NAME)
-    .single();
+    .maybeSingle();
 
   if (existing) return existing;
 
@@ -141,7 +141,7 @@ export async function getOrCreateFavoritesList(userId: string) {
     .from("custom_lists")
     .insert([{ user_id: userId, name: FAVORITES_LIST_NAME }])
     .select()
-    .single();
+    .maybeSingle();
 
   if (error) throw new Error(error.message);
 

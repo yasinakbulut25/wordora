@@ -11,7 +11,7 @@ import Image from "next/image";
 export default function ProfilePage() {
   const t = useTranslate();
 
-  const { user, logout } = useUserStore();
+  const { user, logoutUser } = useUserStore();
   const { loadLearned } = useProgressStore();
 
   useEffect(() => {
@@ -62,7 +62,7 @@ export default function ProfilePage() {
           </div>
 
           <Button
-            onClick={() => logout()}
+            onClick={() => logoutUser()}
             className="bg-red-500 text-white rounded-full px-6 py-3 flex items-center gap-2 hover:bg-red-400 mt-4"
           >
             <LogOut size={18} /> {t("LOGOUT")}

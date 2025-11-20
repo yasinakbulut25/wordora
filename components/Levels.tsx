@@ -136,7 +136,6 @@ export default function Levels() {
   useEffect(() => {
     if (selected) {
       setLevel(selected);
-      localStorage.setItem("wordora_level", selected);
     }
   }, [selected, setLevel]);
 

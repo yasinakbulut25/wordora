@@ -16,16 +16,14 @@ import {
 import Image from "next/image";
 import { SignInIcon } from "@phosphor-icons/react";
 import { SetScreenProp } from "./LoginPage";
-import { supabase } from "@/lib/supabase";
-import { hashPassword } from "@/lib/hash";
-import { AuthUser, useUserStore } from "@/store/useUserStore";
 import Alert from "../Alert";
+import { useUserStore } from "@/store/useUserStore";
 
 export default function RegisterForm({ setScreen }: SetScreenProp) {
   const [showPassword, setShowPassword] = useState(false);
-  const [email, setEmail] = useState("demo@wordora.com");
-  const [username, setUsername] = useState("wordora");
-  const [password, setPassword] = useState("123456");
+  const [email, setEmail] = useState("");
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -44,43 +42,26 @@ export default function RegisterForm({ setScreen }: SetScreenProp) {
         return;
       }
 
-      const { data: existingUser } = await supabase
-        .from("users")
-        .select("id")
-        .or(`username.eq.${username},email.eq.${email}`)
-        .maybeSingle();
+      const res = await fetch("/api/register", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, username, password }),
+      });
 
-      if (existingUser) {
-        setError("Bu kullanıcı adı veya e-posta zaten kullanılıyor.");
+      const data = await res.json();
+
+      if (!data.success) {
+        console.log("data", data);
+        setError(data.error || "Kayıt başarısız.");
         setLoading(false);
         return;
       }
 
-      const hashedPassword = await hashPassword(password);
-
-      const { data, error: insertError } = await supabase
-        .from("users")
-        .insert([{ email, username, password: hashedPassword }])
-        .select()
-        .single();
-
-      if (insertError) {
-        console.error("Register error:", insertError.message);
-        setError("Kayıt başarısız: " + insertError.message);
-        setLoading(false);
-        return;
-      }
-
-      const user: AuthUser = {
-        id: data.id,
-        email: data.email,
-        username: data.username,
-        created_at: data.created_at,
-      };
-
-      setUser(user);
-
-      window.location.href = "/";
+      setUser({
+        id: data.user.id,
+        email: data.user.email,
+        username: data.user.username,
+      });
     } catch (err) {
       console.error(err);
       setError("Beklenmeyen bir hata oluştu.");
@@ -95,7 +76,7 @@ export default function RegisterForm({ setScreen }: SetScreenProp) {
         <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-sm">
           <Image src="/logo.svg" width={30} height={30} alt="Wordora" />
         </div>
-        <h1 className="text-2xl font-bold text-slate-900"> Öğrenmeye Başla!</h1>
+        <h1 className="text-2xl font-bold text-slate-900">Öğrenmeye Başla!</h1>
       </div>
 
       <div className="mb-4">
@@ -119,7 +100,6 @@ export default function RegisterForm({ setScreen }: SetScreenProp) {
             placeholder="Email adresini gir..."
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="h-12 px-4 bg-slate-50 border border-slate-200 rounded-xl shadow-none focus-visible:border-indigo-500 focus-visible:ring-indigo-500 focus-visible:ring-1"
             required
           />
         </div>
@@ -138,7 +118,6 @@ export default function RegisterForm({ setScreen }: SetScreenProp) {
             placeholder="Kullanıcı adını belirle..."
             value={username}
             onChange={(e) => setUsername(e.target.value)}
-            className="h-12 px-4 bg-slate-50 border border-slate-200 rounded-xl shadow-none focus-visible:border-indigo-500 focus-visible:ring-indigo-500 focus-visible:ring-1"
             required
           />
         </div>
@@ -158,14 +137,13 @@ export default function RegisterForm({ setScreen }: SetScreenProp) {
               placeholder="Şifreni belirle..."
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className="h-12 px-4 bg-slate-50 border border-slate-200 rounded-xl shadow-none focus-visible:border-indigo-500 focus-visible:ring-indigo-500 focus-visible:ring-1"
               required
             />
             <button
               type="button"
               aria-label="Toggle password visibility"
               onClick={() => setShowPassword(!showPassword)}
-              className="absolute right-4 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-700 transition-colors"
+              className="absolute right-4 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-700"
             >
               {showPassword ? (
                 <EyeOff className="w-5 h-5" />
@@ -174,17 +152,14 @@ export default function RegisterForm({ setScreen }: SetScreenProp) {
               )}
             </button>
           </div>
-          <div className="relative">
-            <Input
-              id="password"
-              type="password"
-              placeholder="Şifreni onayla..."
-              value={confirmPassword}
-              onChange={(e) => setConfirmPassword(e.target.value)}
-              className="h-12 px-4 bg-slate-50 border border-slate-200 rounded-xl shadow-none focus-visible:border-indigo-500 focus-visible:ring-indigo-500 focus-visible:ring-1"
-              required
-            />
-          </div>
+          <Input
+            id="password"
+            type="password"
+            placeholder="Şifreni onayla..."
+            value={confirmPassword}
+            onChange={(e) => setConfirmPassword(e.target.value)}
+            required
+          />
         </div>
 
         {error && <Alert type="error" message={error} icon={InfoIcon} />}

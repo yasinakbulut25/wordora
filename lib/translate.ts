@@ -508,4 +508,9 @@ export const TRANSLATE = [
     EN: "Logout",
     TR: "Çıkış Yap",
   },
+  {
+    value: "LOADING",
+    EN: "Loading",
+    TR: "Yükleniyor",
+  },
 ];

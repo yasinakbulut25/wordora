@@ -1,15 +1,16 @@
 import { NextResponse } from "next/server";
-import { supabase } from "@/lib/supabase";
 import type { RegisterPayload, ApiResponse, AuthUser } from "@/types/auth";
+import { supabaseAdmin } from "@/lib/supabaseAdmin";
 
 export async function POST(req: Request) {
   const body: RegisterPayload = await req.json();
   const { email, username, password } = body;
 
-  const { data: signUpData, error: signUpError } = await supabase.auth.signUp({
-    email,
-    password,
-  });
+  const { data: signUpData, error: signUpError } =
+    await supabaseAdmin.auth.signUp({
+      email,
+      password,
+    });
 
   if (signUpError) {
     return NextResponse.json<ApiResponse<AuthUser>>(
@@ -19,6 +20,7 @@ export async function POST(req: Request) {
   }
 
   const user = signUpData.user;
+
   if (!user?.id) {
     return NextResponse.json<ApiResponse<AuthUser>>(
       { success: false, error: "Kullanıcı oluşturulamadı." },
@@ -26,7 +28,7 @@ export async function POST(req: Request) {
     );
   }
 
-  const { error: profileError } = await supabase
+  const { error: profileError } = await supabaseAdmin
     .from("profiles")
     .insert([{ id: user.id, username }]);
 
@@ -39,6 +41,10 @@ export async function POST(req: Request) {
 
   return NextResponse.json<ApiResponse<AuthUser>>({
     success: true,
-    user: { id: user.id, email, username },
+    user: {
+      id: user.id,
+      email,
+      username,
+    },
   });
 }

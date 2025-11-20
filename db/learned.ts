@@ -23,7 +23,7 @@ export async function addLearnedWord(
     .from("learned_words")
     .insert([{ user_id: userId, word, meanings, level }])
     .select()
-    .single();
+    .maybeSingle();
 
   if (error) throw new Error(error.message);
   return data;

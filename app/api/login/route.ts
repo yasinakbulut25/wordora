@@ -1,12 +1,12 @@
 import { NextResponse } from "next/server";
-import { supabase } from "@/lib/supabase";
 import type { LoginPayload, ApiResponse, AuthUser } from "@/types/auth";
+import { supabaseAdmin } from "@/lib/supabaseAdmin";
 
 export async function POST(req: Request) {
   const body: LoginPayload = await req.json();
   const { username, password } = body;
 
-  const { data: profile, error: profileError } = await supabase
+  const { data: profile, error: profileError } = await supabaseAdmin
     .from("profiles")
     .select("id")
     .eq("username", username)
@@ -20,7 +20,7 @@ export async function POST(req: Request) {
   }
 
   const { data: userData, error: userError } =
-    await supabase.auth.admin.getUserById(profile.id);
+    await supabaseAdmin.auth.admin.getUserById(profile.id);
 
   if (userError || !userData.user?.email) {
     return NextResponse.json<ApiResponse<AuthUser>>(
@@ -30,19 +30,20 @@ export async function POST(req: Request) {
   }
 
   const { data: signInData, error: signInError } =
-    await supabase.auth.signInWithPassword({
+    await supabaseAdmin.auth.signInWithPassword({
       email: userData.user.email,
       password,
     });
 
   if (signInError) {
     return NextResponse.json<ApiResponse<AuthUser>>(
-      { success: false, error: signInError.message },
+      { success: false, error: "Kullanıcı adı veya şifre hatalı." },
       { status: 400 }
     );
   }
 
   const user = signInData.user;
+
   return NextResponse.json<ApiResponse<AuthUser>>({
     success: true,
     user: {
