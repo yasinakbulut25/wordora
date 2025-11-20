@@ -93,7 +93,7 @@ export default function AddToHomeScreen() {
   if (!open || isInStandalone) return null;
 
   return (
-    <Dialog open={true} onOpenChange={setOpen}>
+    <Dialog open={open} onOpenChange={setOpen}>
       <DialogContent className="rounded-2xl p-6 max-w-sm">
         <DialogHeader>
           <DialogTitle className="flex items-center gap-2">
