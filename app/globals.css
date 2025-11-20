@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+.safe-padding-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.header-safe-padding-top {
+  padding-top: max(env(safe-area-inset-top, 0px), 20px);
+}
+
+.main-safe-padding-bottom {
+  padding-bottom: calc(96px + env(safe-area-inset-bottom));
+}
+
+.main-login-safe-padding-bottom {
+  padding-bottom: calc(16px + env(safe-area-inset-bottom));
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

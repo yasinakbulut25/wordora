@@ -9,7 +9,7 @@ export default function Header() {
   const { lang, setLang } = useLangStore();
 
   return (
-    <header className="sticky w-full top-0 mb-6 pb-4 pt-5 px-8 flex items-center justify-between z-50 border-b border-indigo-200 bg-indigo-50">
+    <header className="header-safe-padding-top sticky w-full top-0 mb-6 pb-4 px-8 flex items-center justify-between z-50 border-b border-indigo-200 bg-indigo-50">
       <div className="flex items-center gap-2">
         <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-sm">
           <Image src="/logo.svg" width={30} height={30} alt="Wordora" />

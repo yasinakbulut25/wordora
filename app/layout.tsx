@@ -18,6 +18,16 @@ export const metadata: Metadata = {
   icons: {
     apple: "/icons/apple-touch-icon.png",
   },
+  other: {
+    "apple-mobile-web-app-title": "Wordora",
+    "theme-color": "#4f46e5",
+  },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
 };
 
 export default function RootLayout({

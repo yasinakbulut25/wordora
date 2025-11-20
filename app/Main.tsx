@@ -47,7 +47,7 @@ export default function Main({
     <main
       className={cn(
         "relative max-w-md mx-auto overflow-y-auto h-full md:rounded-xl bg-indigo-50 md:border border-none md:border-indigo-100",
-        !user || !isAuthenticated ? "pb-4 overflow-x-hidden" : "pb-24"
+        !user || !isAuthenticated ? "main-login-safe-padding-bottom overflow-x-hidden" : "main-safe-padding-bottom"
       )}
     >
       {!user || !isAuthenticated ? (

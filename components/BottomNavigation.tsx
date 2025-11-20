@@ -38,7 +38,7 @@ export default function BottomNavigation() {
   const t = useTranslate();
 
   return (
-    <nav className="fixed md:bottom-4 bottom-0 left-1/2 transform -translate-x-1/2 z-50 w-full max-w-md bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-700 shadow-lg md:rounded-br-xl md:rounded-bl-xl">
+    <nav className="safe-padding-bottom fixed md:bottom-4 bottom-0 left-1/2 transform -translate-x-1/2 z-50 w-full max-w-md bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-700 shadow-lg md:rounded-br-xl md:rounded-bl-xl">
       <ul className="flex items-center gap-2 justify-around p-2">
         {navItems.map((item) => {
           const isActive =
