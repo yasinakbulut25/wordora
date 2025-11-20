@@ -18,6 +18,7 @@ import { SignInIcon } from "@phosphor-icons/react";
 import { SetScreenProp } from "./LoginPage";
 import Alert from "../Alert";
 import { useUserStore } from "@/store/useUserStore";
+import { checkUsername } from "@/lib/utils";
 
 export default function RegisterForm({ setScreen }: SetScreenProp) {
   const [showPassword, setShowPassword] = useState(false);
@@ -40,6 +41,12 @@ export default function RegisterForm({ setScreen }: SetScreenProp) {
         setError("Şifreler eşleşmiyor.");
         setLoading(false);
         return;
+      }
+
+      if (!checkUsername(username)) {
+        setError(
+          "Kullanıcı adı yalnızca harf, rakam ve alt çizgi (_) içerebilir. 6-20 karakter arasında olmalıdır."
+        );
       }
 
       const res = await fetch("/api/register", {
@@ -117,7 +124,10 @@ export default function RegisterForm({ setScreen }: SetScreenProp) {
             type="text"
             placeholder="Kullanıcı adını belirle..."
             value={username}
-            onChange={(e) => setUsername(e.target.value)}
+            onChange={(e) => {
+              const cleaned = e.target.value.replace(/[^a-zA-Z0-9_]/g, "");
+              setUsername(cleaned);
+            }}
             required
           />
         </div>

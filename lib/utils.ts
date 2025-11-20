@@ -20,3 +20,8 @@ export const langs = {
   TR: "TR",
   EN: "EN",
 };
+
+export const checkUsername = (value: string) => {
+  const usernameRegex = /^[a-zA-Z0-9_]{6,20}$/;
+  return usernameRegex.test(value);
+};

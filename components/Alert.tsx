@@ -24,7 +24,7 @@ function Alert({ type, message, icon: Icon }: AlertProps) {
     <p
       className={`flex items-center gap-2 text-sm p-3 rounded-xl ${classValue}`}
     >
-      <Icon width={16} />
+      <Icon width={16} className="min-w-4" />
       {message}
     </p>
   );
