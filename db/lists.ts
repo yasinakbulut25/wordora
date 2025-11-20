@@ -1,4 +1,5 @@
 import { supabase } from "@/lib/supabase";
+import { translateSupabaseError } from "@/lib/supabaseErrors";
 import { FAVORITES_LIST_NAME } from "@/lib/utils";
 import type { List, ListItem, ListContent, ItemType } from "@/types/list";
 
@@ -75,7 +76,7 @@ export async function toggleItemInList(
     .select("id, content")
     .eq("list_id", listId);
 
-  if (fetchError) throw new Error(fetchError.message);
+  if (fetchError) throw new Error(translateSupabaseError(fetchError.message));
 
   const isExist = existing?.some((i) => {
     const content = i.content as ListContent;

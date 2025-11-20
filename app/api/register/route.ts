@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import type { RegisterPayload, ApiResponse, AuthUser } from "@/types/auth";
 import { supabaseAdmin } from "@/lib/supabaseAdmin";
+import { translateSupabaseError } from "@/lib/supabaseErrors";
 
 export async function POST(req: Request) {
   const body: RegisterPayload = await req.json();
@@ -14,7 +15,7 @@ export async function POST(req: Request) {
 
   if (signUpError) {
     return NextResponse.json<ApiResponse<AuthUser>>(
-      { success: false, error: signUpError.message },
+      { success: false, error: translateSupabaseError(signUpError.message) },
       { status: 400 }
     );
   }
@@ -34,7 +35,7 @@ export async function POST(req: Request) {
 
   if (profileError) {
     return NextResponse.json<ApiResponse<AuthUser>>(
-      { success: false, error: profileError.message },
+      { success: false, error: translateSupabaseError(profileError.message) },
       { status: 400 }
     );
   }
