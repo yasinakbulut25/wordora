@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 **Wordora**
 
-## Getting Started
+Bir süredir İngilizcemi geliştirmek için uygulamalar deniyordum fakat ücretsiz ve gerçekten istediğim yapıya sahip bir uygulama bulamadım; çoğu bir noktadan sonra ücretli modele geçiyor.
 
-First, run the development server:
+Ben de kendi öğrenme tarzıma uygun, tamamen ücretsiz bir İngilizce kelime öğrenme uygulaması geliştirmek istedim.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+📲 PWA desteği sayesinde Wordora’yı telefonunuza **uygulama gibi yükleyip** kullanabilirsiniz.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔗 **Proje**: https://wordora.yasinakbulut.dev/
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 💡 **Wordora Neler Sunuyor?**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Her seviyeden **500+ kelime**
+- Toplam **16.000+ örnek cümle** (her kelime için 5 adet)
+- Seviye bazlı ilerleme yüzdesi
+- Kelime ve cümle öğrenme ekranları
+- Kelime/cümle **seslendirme** özelliği
+- Kelime/cümle anlamlarını göster/gizle
+- Test ve boşluk doldurma **Quizleri**
+- Favorilere ekleme & çıkarma
+- Kullanıcıya özel liste oluşturma
+- Örnek cümleleri görüntüleme
+- Öğrenilen / öğrenilmeyen filtreleri
+- Türkçe & İngilizce **çift dil desteği**
+- **PWA** ile uygulama olarak yükleme
 
-## Learn More
+## 💻 **Teknolojiler**
 
-To learn more about Next.js, take a look at the following resources:
+- Next.js App Router
+- TypeScript
+- React
+- Zustand (hafif ve modüler state yönetimi)
+- Supabase (auth ve dinamik veri yönetimi)
+- Speech Synthesis API (seslendirme)
+- Tailwind CSS & shadcn/ui
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+👉 Hiçbir reklam yok, tamamen ücretsiz, sade ve hızlı.
+****
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Bu projeyi hem kendim için hem de İngilizce öğrenen herkesin işine yarayabilecek bir araç olması amacıyla geliştirdim.
 
-## Deploy on Vercel
+**Siz de isterseniz hemen deneyebilirsiniz!** 🌟
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Word + Aurora = **Wordora** ✨
