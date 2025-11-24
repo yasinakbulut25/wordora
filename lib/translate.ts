@@ -528,4 +528,9 @@ export const TRANSLATE = [
     EN: "Loading",
     TR: "Yükleniyor",
   },
+  {
+    value: "LOAD_MORE",
+    EN: "Load More",
+    TR: "Daha Fazla",
+  },
 ];

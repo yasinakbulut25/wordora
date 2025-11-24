@@ -6,12 +6,24 @@ import { useTranslate } from "@/lib/translate";
 import { Levels, useLevelsStore } from "@/store/useLevelsStore";
 import { WordCard } from "./WordCard";
 import { WordData } from "@/types/word";
+import { useMemo, useState } from "react";
+import { Button } from "@/components/ui/button";
+import { Plus } from "lucide-react";
 
 export default function AllWordsPage() {
   const { level } = useParams<{ level: Levels }>();
   const { levels } = useLevelsStore();
   const wordsData: WordData[] = levels[level];
   const t = useTranslate();
+
+  const loadCount = 50;
+  const [limit, setLimit] = useState(loadCount);
+
+  const visibleWords = useMemo(() => {
+    return wordsData.slice(0, limit);
+  }, [wordsData, limit]);
+
+  const hasMore = limit < wordsData.length;
 
   if (!wordsData) return null;
 
@@ -31,10 +43,22 @@ export default function AllWordsPage() {
       </div>
 
       <div className="flex flex-col gap-3">
-        {wordsData.map((item, index) => (
+        {visibleWords.map((item, index) => (
           <WordCard key={index} item={item} />
         ))}
       </div>
+
+      {hasMore && (
+        <div className="flex justify-center mt-6">
+          <Button
+            className="bg-indigo-600 hover:bg-indigo-500 text-white px-6 py-3 h-auto rounded-xl"
+            onClick={() => setLimit((prev) => prev + loadCount)}
+          >
+            <Plus />
+            {t("LOAD_MORE")}
+          </Button>
+        </div>
+      )}
     </section>
   );
 }

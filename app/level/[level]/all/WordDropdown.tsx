@@ -34,7 +34,7 @@ export default function WordDropdown({ item }: Props) {
   const { level } = useParams<{ level: Levels }>();
   const [showAddToListMenu, setShowAddToListMenu] = useState(false);
   const { user } = useUserStore();
-  const { isFavorsite, toggleFavorite } = useListStore();
+  const { isFavorite, toggleFavorite } = useListStore();
   const { toggleLearned, isLearned } = useProgressStore();
   const t = useTranslate();
 

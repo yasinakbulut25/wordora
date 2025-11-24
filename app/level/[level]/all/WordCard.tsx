@@ -40,7 +40,7 @@ export function WordCard({ item }: { item: WordData }) {
         <div className="flex items-center justify-between">
           <h3 className="font-bold text-base text-slate-800">{item.word}</h3>
 
-          <div className="flex gap-1">
+          <div className="flex gap-2">
             <Button
               size="icon"
               onClick={() => handleSpeak(item.word)}
