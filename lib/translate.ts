@@ -139,6 +139,16 @@ export const TRANSLATE = [
     TR: "Öğrendiğiniz kelimeleri inceleyin",
   },
   {
+    value: "MODE_ALL_TITLE",
+    EN: "All words",
+    TR: "Tüm kelimeler",
+  },
+  {
+    value: "MODE_ALL_DESC",
+    EN: "Check out all the words related to Level",
+    TR: "Level'e ait tüm kelimeleri inceleyin",
+  },
+  {
     value: "MODE_LEARNED_EMPTY",
     EN: "There are no items in learned list yet.",
     TR: "Öğrenilen listede henüz öğe yok.",
@@ -167,6 +177,11 @@ export const TRANSLATE = [
     value: "WORDS_SHOW_MEANING",
     EN: "Show Meaning",
     TR: "Çevirisini Göster",
+  },
+  {
+    value: "WORDS_HIDE_MEANING",
+    EN: "Hide Meaning",
+    TR: "Çevirisini Gizle",
   },
   {
     value: "WORDS_EXAMPLES",

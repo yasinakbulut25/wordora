@@ -8,6 +8,7 @@ import {
   PencilLine,
   ChevronRight,
   CheckCheckIcon,
+  BookTypeIcon,
 } from "lucide-react";
 import LevelHeader from "@/components/LevelHeader";
 import { useTranslate } from "@/lib/translate";
@@ -57,6 +58,15 @@ const modes = [
     gradient: "from-teal-600 to-emerald-300",
     baseClass: "border border-slate-200 shadow-none",
     text: "text-teal-500",
+  },
+  {
+    id: "all",
+    title: "MODE_ALL_TITLE",
+    desc: "MODE_LEARNED_DESC",
+    icon: <BookTypeIcon size={36} className="text-white" />,
+    gradient: "from-fuchsia-600 to-fuchsia-300",
+    baseClass: "border border-slate-200 shadow-none",
+    text: "text-fuchsia-500",
   },
 ];
 

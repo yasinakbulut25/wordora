@@ -1,7 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { FolderPlus, Heart, MoreVerticalIcon, Volume2 } from "lucide-react";
+import {
+  FolderPlus,
+  MoreVerticalIcon,
+  StarIcon,
+  StarOffIcon,
+} from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -12,33 +17,38 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { useTranslate } from "@/lib/translate";
-import { handleSpeak } from "@/lib/speak";
-import { Example } from "@/types/word";
+import { WordData } from "@/types/word";
 import AddToListMenu from "@/components/AddToListMenu";
 import { useListStore } from "@/store/useListStore";
 import { useUserStore } from "@/store/useUserStore";
+import { useProgressStore } from "@/store/useProgressStore";
+import { SealCheckIcon } from "@phosphor-icons/react";
+import { useParams } from "next/navigation";
+import { Levels } from "@/store/useLevelsStore";
 
 interface Props {
-  example: Example;
-  word: string;
+  item: WordData;
 }
 
-export default function SentenceDropdown({ example, word }: Props) {
-  const t = useTranslate();
+export default function WordDropdown({ item }: Props) {
+  const { level } = useParams<{ level: Levels }>();
   const [showAddToListMenu, setShowAddToListMenu] = useState(false);
   const { user } = useUserStore();
-  const { isFavorite, toggleFavorite } = useListStore();
+  const { isFavorsite, toggleFavorite } = useListStore();
+  const { toggleLearned, isLearned } = useProgressStore();
+  const t = useTranslate();
 
   if (!user) return;
 
   const isFav = isFavorite({
-    type: "sentence",
+    type: "word",
     content: {
-      word: word,
-      sentence: example.en,
-      translation: example.tr,
+      word: item.word,
+      meanings: item.meanings,
     },
   });
+
+  const learned = isLearned(item.word);
 
   return (
     <>
@@ -48,7 +58,7 @@ export default function SentenceDropdown({ example, word }: Props) {
             variant="outline"
             aria-label="Open menu"
             size="icon"
-            className="bg-slate-50 shadow-none border-slate-100 h-auto w-auto p-1 text-slate-500"
+            className="bg-slate-50 shadow-none border-slate-100 h-auto text-slate-500 hover:text-slate-700"
           >
             <MoreVerticalIcon />
           </Button>
@@ -67,25 +77,38 @@ export default function SentenceDropdown({ example, word }: Props) {
             </DropdownMenuItem>
             <DropdownMenuItem
               className="flex items-center gap-2 text-xs py-3 cursor-pointer"
-              onSelect={() => handleSpeak(example.en)}
+              onSelect={() =>
+                toggleLearned(user.id, level!, item.word, item.meanings)
+              }
             >
-              <Volume2 className="text-indigo-600" /> {t("VOICE")}
+              <SealCheckIcon
+                className={`${learned ? "text-green-600" : "text-indigo-600"}`}
+              />{" "}
+              {learned ? t("WORDS_LEARNED") : t("WORDS_MARK_LEARNED")}
             </DropdownMenuItem>
             <DropdownMenuItem
               className="flex items-center gap-2 text-xs py-3 cursor-pointer"
               onSelect={() =>
                 toggleFavorite(user.id, {
-                  type: "sentence",
+                  type: "word",
                   content: {
-                    word: word,
-                    sentence: example.en,
-                    translation: example.tr,
+                    word: item.word,
+                    meanings: item.meanings,
                   },
                 })
               }
             >
-              <Heart className="text-indigo-600" />{" "}
-              {isFav ? t("REMOVE_FROM_FAVORITES") : t("ADD_TO_FAVORITES")}
+              {isFav ? (
+                <>
+                  <StarOffIcon className="text-yellow-500" />{" "}
+                  {t("REMOVE_FROM_FAVORITES")}
+                </>
+              ) : (
+                <>
+                  <StarIcon className="text-indigo-600" />{" "}
+                  {t("ADD_TO_FAVORITES")}
+                </>
+              )}
             </DropdownMenuItem>
           </DropdownMenuGroup>
         </DropdownMenuContent>
@@ -96,11 +119,10 @@ export default function SentenceDropdown({ example, word }: Props) {
           setCustomOpen: setShowAddToListMenu,
         }}
         current={{
-          word: word,
-          sentence: example.en,
-          translation: example.tr,
+          word: item.word,
+          meanings: [item.meanings[0]],
         }}
-        type="sentence"
+        type="word"
       />
     </>
   );
