@@ -13,7 +13,7 @@ const comfortaa = Comfortaa({
 
 export const metadata: Metadata = {
   title: "Wordora",
-  description: "AI destekli İngilizce öğrenme platformu",
+  description: "İngilizce öğrenme platformu",
   manifest: "/manifest.json",
   themeColor: "#4f46e5",
   icons: {
