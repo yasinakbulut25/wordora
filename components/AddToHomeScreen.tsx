@@ -23,16 +23,15 @@ interface BeforeInstallPromptEvent extends Event {
 }
 
 const DISMISS_KEY = "wordora_a2hs_dismissed_until";
-const DISMISS_DURATION = 10 * 60 * 1000; // 10 dakika
+const DISMISS_DURATION = 10 * 60 * 1000;
 
 export default function AddToHomeScreen() {
   const [open, setOpen] = useState(false);
   const [deferredPrompt, setDeferredPrompt] =
     useState<BeforeInstallPromptEvent | null>(null);
-  const [isIos, setIsIos] = useState(false); // Varsayılan false
+  const [isIos, setIsIos] = useState(false);
 
   useEffect(() => {
-    // 1. Hızlı kontroller (Tarayıcı mı? Standalone mu?)
     if (typeof window === "undefined" || typeof navigator === "undefined")
       return;
 
@@ -43,63 +42,42 @@ export default function AddToHomeScreen() {
 
     if (isStandalone) return;
 
-    // 2. LocalStorage Süre Kontrolü
     const dismissedUntil = localStorage.getItem(DISMISS_KEY);
-    if (dismissedUntil && Date.now() < Number(dismissedUntil)) {
-      // Süre dolmadıysa HİÇBİR ŞEY YAPMA, event listener bile ekleme.
-      return;
-    }
+    if (dismissedUntil && Date.now() < Number(dismissedUntil)) return;
 
-    // 3. Platform Tespiti
     const ua = navigator.userAgent.toLowerCase();
     const isIosDevice =
       /iphone|ipad|ipod/.test(ua) && !(window as any).MSStream;
 
-    // 4. iOS İşlemleri (Asenkron - Hata Çözümü Burada)
     let iosTimer: NodeJS.Timeout;
 
+    const handleBeforeInstallPrompt = (e: Event) => {
+      const dismissedUntil = localStorage.getItem(DISMISS_KEY);
+      if (dismissedUntil && Date.now() < Number(dismissedUntil)) return;
+
+      e.preventDefault();
+      setDeferredPrompt(e as BeforeInstallPromptEvent);
+      setIsIos(false);
+      setOpen(true);
+    };
+
     if (isIosDevice) {
-      // setIsIos'u doğrudan çağırmak yerine timeout içine alıyoruz.
-      // Bu işlem state güncellemesini asenkron yapar ve ESLint hatasını çözer.
       iosTimer = setTimeout(() => {
+        console.log("setTimeout");
+
         setIsIos(true);
         setOpen(true);
-      }, 3000); // Kullanıcı siteye girdikten 3 saniye sonra
-    }
-
-    // 5. Android/Chrome İşlemleri (Event Listener zaten asenkrondur)
-    else {
-      const handleBeforeInstallPrompt = (e: Event) => {
-        e.preventDefault();
-        setDeferredPrompt(e as BeforeInstallPromptEvent);
-        setIsIos(false); // Garanti olsun diye
-        setOpen(true);
-      };
-
+      }, 3000);
+    } else {
       window.addEventListener("beforeinstallprompt", handleBeforeInstallPrompt);
-
-      // Cleanup: Sadece bu blok için geçerli cleanup fonksiyonu döndürmek zor olduğu için
-      // listener'ı aşağıda genel cleanup'ta temizleyeceğiz.
-      // Ancak handle fonksiyonuna referans vermek için scope dışına taşıyamadığımızdan
-      // sadece bu effect içinde event listener ekliyoruz.
-      // (Not: React hook kuralları gereği listener'ı dışarı almak en temizidir ama
-      // bu yapı da çalışır.)
-
-      // Doğru Cleanup için listener referansını saklamamız lazım,
-      // ancak bu basit component için aşağıdaki return yeterlidir.
-      return () => {
-        window.removeEventListener(
-          "beforeinstallprompt",
-          handleBeforeInstallPrompt
-        );
-        clearTimeout(iosTimer);
-      };
     }
 
-    // Sadece iOS timer cleanup'ı (Android else bloğunda return edildi ama
-    // iOS bloğu return etmediği için buraya genel bir cleanup koyuyoruz)
     return () => {
       if (iosTimer) clearTimeout(iosTimer);
+      window.removeEventListener(
+        "beforeinstallprompt",
+        handleBeforeInstallPrompt
+      );
     };
   }, []);
 
@@ -109,8 +87,6 @@ export default function AddToHomeScreen() {
     await deferredPrompt.prompt();
     const { outcome } = await deferredPrompt.userChoice;
 
-    // Kullanıcı kurulumu reddederse veya kabul ederse süreyi başlat
-    // Böylece hemen tekrar sormaz.
     if (outcome === "dismissed" || outcome === "accepted") {
       localStorage.setItem(DISMISS_KEY, String(Date.now() + DISMISS_DURATION));
     }
