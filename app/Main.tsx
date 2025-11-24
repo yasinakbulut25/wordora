@@ -7,7 +7,6 @@ import LoginPage from "@/components/login/LoginPage";
 import { cn } from "@/lib/utils";
 import { useListStore } from "@/store/useListStore";
 import { useProgressStore } from "@/store/useProgressStore";
-import AddToHomeScreen from "@/components/AddToHomeScreen";
 import { useLevelsStore } from "@/store/useLevelsStore";
 import { useAuthInit } from "@/hooks/useAuthInit";
 import LoadingScreen from "@/components/LoadingScreen";
@@ -60,8 +59,6 @@ export default function Main({ children }: { children: React.ReactNode }) {
         {children}
         <BottomNavigation />
       </div>
-
-      <AddToHomeScreen />
     </main>
   );
 }

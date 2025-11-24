@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Comfortaa } from "next/font/google";
 import ClientProvider from "./ClientProvider";
 import Main from "./Main";
+import AddToHomeScreen from "@/components/AddToHomeScreen";
 
 const comfortaa = Comfortaa({
   subsets: ["latin"],
@@ -47,6 +48,7 @@ export default function RootLayout({
       <body className="font-sans antialiased sm:bg-zinc-50 bg-indigo-50 h-dvh overflow-y-auto md:pt-4 md:pb-4">
         <ClientProvider>
           <Main>{children}</Main>
+          <AddToHomeScreen />
         </ClientProvider>
       </body>
     </html>

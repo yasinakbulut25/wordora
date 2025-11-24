@@ -11,8 +11,7 @@ import {
   DialogDescription,
   DialogFooter,
 } from "@/components/ui/dialog";
-
-import { Share, Smartphone } from "lucide-react";
+import { Share, Smartphone, SquareArrowUp } from "lucide-react";
 
 interface BeforeInstallPromptEvent extends Event {
   readonly platforms: string[];
@@ -27,61 +26,96 @@ const DISMISS_KEY = "wordora_a2hs_dismissed_until";
 const DISMISS_DURATION = 10 * 60 * 1000; // 10 dakika
 
 export default function AddToHomeScreen() {
-  const [event, setEvent] = useState<BeforeInstallPromptEvent | null>(null);
   const [open, setOpen] = useState(false);
+  const [deferredPrompt, setDeferredPrompt] =
+    useState<BeforeInstallPromptEvent | null>(null);
+  const [isIos, setIsIos] = useState(false); // Varsayılan false
 
-  // iOS kontrolü
-  const UA =
-    typeof navigator !== "undefined" ? navigator.userAgent.toLowerCase() : "";
-  const isIos =
-    UA.includes("iphone") || UA.includes("ipad") || UA.includes("ipod");
-
-  // Standalone mod kontrolü
-  const isInStandalone =
-    typeof window !== "undefined" &&
-    (window.matchMedia("(display-mode: standalone)").matches ||
-      // Safari için
-      (window.navigator as any).standalone === true);
-
-  // beforeinstallprompt dinleme
   useEffect(() => {
+    // 1. Hızlı kontroller (Tarayıcı mı? Standalone mu?)
+    if (typeof window === "undefined" || typeof navigator === "undefined")
+      return;
+
+    const isStandalone =
+      window.matchMedia("(display-mode: standalone)").matches ||
+      (window.navigator as any).standalone === true ||
+      document.referrer.includes("android-app://");
+
+    if (isStandalone) return;
+
+    // 2. LocalStorage Süre Kontrolü
     const dismissedUntil = localStorage.getItem(DISMISS_KEY);
+    if (dismissedUntil && Date.now() < Number(dismissedUntil)) {
+      // Süre dolmadıysa HİÇBİR ŞEY YAPMA, event listener bile ekleme.
+      return;
+    }
 
-    // Daha önce reddettin ve süresi dolmadı → modal açma
-    if (dismissedUntil && Date.now() < Number(dismissedUntil)) return;
+    // 3. Platform Tespiti
+    const ua = navigator.userAgent.toLowerCase();
+    const isIosDevice =
+      /iphone|ipad|ipod/.test(ua) && !(window as any).MSStream;
 
-    const handler = (e: Event) => {
-      e.preventDefault();
-      const bip = e as BeforeInstallPromptEvent;
-      setEvent(bip);
-      setOpen(true);
+    // 4. iOS İşlemleri (Asenkron - Hata Çözümü Burada)
+    let iosTimer: NodeJS.Timeout;
+
+    if (isIosDevice) {
+      // setIsIos'u doğrudan çağırmak yerine timeout içine alıyoruz.
+      // Bu işlem state güncellemesini asenkron yapar ve ESLint hatasını çözer.
+      iosTimer = setTimeout(() => {
+        setIsIos(true);
+        setOpen(true);
+      }, 3000); // Kullanıcı siteye girdikten 3 saniye sonra
+    }
+
+    // 5. Android/Chrome İşlemleri (Event Listener zaten asenkrondur)
+    else {
+      const handleBeforeInstallPrompt = (e: Event) => {
+        e.preventDefault();
+        setDeferredPrompt(e as BeforeInstallPromptEvent);
+        setIsIos(false); // Garanti olsun diye
+        setOpen(true);
+      };
+
+      window.addEventListener("beforeinstallprompt", handleBeforeInstallPrompt);
+
+      // Cleanup: Sadece bu blok için geçerli cleanup fonksiyonu döndürmek zor olduğu için
+      // listener'ı aşağıda genel cleanup'ta temizleyeceğiz.
+      // Ancak handle fonksiyonuna referans vermek için scope dışına taşıyamadığımızdan
+      // sadece bu effect içinde event listener ekliyoruz.
+      // (Not: React hook kuralları gereği listener'ı dışarı almak en temizidir ama
+      // bu yapı da çalışır.)
+
+      // Doğru Cleanup için listener referansını saklamamız lazım,
+      // ancak bu basit component için aşağıdaki return yeterlidir.
+      return () => {
+        window.removeEventListener(
+          "beforeinstallprompt",
+          handleBeforeInstallPrompt
+        );
+        clearTimeout(iosTimer);
+      };
+    }
+
+    // Sadece iOS timer cleanup'ı (Android else bloğunda return edildi ama
+    // iOS bloğu return etmediği için buraya genel bir cleanup koyuyoruz)
+    return () => {
+      if (iosTimer) clearTimeout(iosTimer);
     };
-
-    window.addEventListener("beforeinstallprompt", handler);
-    return () => window.removeEventListener("beforeinstallprompt", handler);
   }, []);
 
-  // iOS için davranış (onlarda beforeinstallprompt yok)
-  useEffect(() => {
-    if (!isIos || isInStandalone) return;
-
-    const dismissedUntil = localStorage.getItem(DISMISS_KEY);
-    if (dismissedUntil && Date.now() < Number(dismissedUntil)) return;
-
-    const timer = setTimeout(() => setOpen(true), 2500);
-    return () => clearTimeout(timer);
-  }, [isIos, isInStandalone]);
-
   const handleInstall = async () => {
-    if (!event) return;
-    await event.prompt();
-    const { outcome } = await event.userChoice;
+    if (!deferredPrompt) return;
 
-    if (outcome === "dismissed") {
+    await deferredPrompt.prompt();
+    const { outcome } = await deferredPrompt.userChoice;
+
+    // Kullanıcı kurulumu reddederse veya kabul ederse süreyi başlat
+    // Böylece hemen tekrar sormaz.
+    if (outcome === "dismissed" || outcome === "accepted") {
       localStorage.setItem(DISMISS_KEY, String(Date.now() + DISMISS_DURATION));
     }
 
-    setEvent(null);
+    setDeferredPrompt(null);
     setOpen(false);
   };
 
@@ -90,55 +124,84 @@ export default function AddToHomeScreen() {
     setOpen(false);
   };
 
-  if (!open || isInStandalone) return null;
+  if (!open) return null;
 
   return (
-    <Dialog open={open} onOpenChange={setOpen}>
-      <DialogContent className="rounded-2xl p-6 max-w-sm">
-        <DialogHeader>
-          <DialogTitle className="flex items-center gap-2">
-            <Smartphone className="w-5 h-5 text-indigo-600" />
-            Ana Ekrana Ekle
-          </DialogTitle>
+    <Dialog open={open} onOpenChange={(val) => !val && handleLater()}>
+      <DialogContent className="sm:max-w-sm p-0 gap-0 overflow-hidden rounded-2xl border-0 shadow-xl bg-white">
+        <div className="p-6 pb-4">
+          <DialogHeader>
+            <DialogTitle className="flex items-center gap-3 text-xl font-bold text-slate-900">
+              <div className="p-2 bg-indigo-100 rounded-lg text-indigo-600">
+                <Smartphone className="w-6 h-6" />
+              </div>
+              Uygulamayı Yükle
+            </DialogTitle>
+            <DialogDescription className="text-slate-500 text-sm leading-relaxed pt-2">
+              Uygulamayı cihazına yükleyerek tek dokunuşla daha hızlı ve
+              kesintisiz erişebilirsin.
+            </DialogDescription>
+          </DialogHeader>
+        </div>
 
-          <DialogDescription className="text-slate-600 text-sm pt-2">
-            Uygulamayı cihazına ekleyerek tek dokunuşla daha hızlı ve kesintisiz
-            erişebilirsin.
-          </DialogDescription>
-        </DialogHeader>
-
-        <div className="bg-indigo-50 border border-indigo-200 rounded-lg p-3 text-indigo-700 text-sm">
+        <div className="px-6 pb-2">
           {isIos ? (
-            <p>
-              Safari’nin altındaki{" "}
-              <b className="inline-flex items-center gap-1">
-                <Share size={14} /> Paylaş
-              </b>{" "}
-              butonuna tıkla ve <b>Ana Ekrana Ekle</b> seçeneğini seç.
-            </p>
+            <div className="bg-slate-50 rounded-xl p-4 text-sm text-slate-700 space-y-3 border border-slate-100">
+              <div className="flex items-start gap-3">
+                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-indigo-100 text-indigo-600 text-xs font-bold shrink-0">
+                  1
+                </span>
+                <p>
+                  Tarayıcının altındaki{" "}
+                  <Share className="inline-block w-4 h-4 mx-1 text-blue-500 align-text-bottom" />{" "}
+                  (Paylaş) ikonuna tıkla.
+                </p>
+              </div>
+              <div className="flex items-start gap-3">
+                <span className="flex items-center justify-center w-6 h-6 rounded-full bg-indigo-100 text-indigo-600 text-xs font-bold shrink-0">
+                  2
+                </span>
+                <p>
+                  Menüden{" "}
+                  <span className="font-bold whitespace-nowrap">
+                    <SquareArrowUp className="inline-block w-4 h-4 mx-1 align-text-bottom" />
+                    Ana Ekrana Ekle
+                  </span>{" "}
+                  seçeneğini seç.
+                </p>
+              </div>
+            </div>
           ) : (
-            <p>
-              <b>Ana Ekrana Ekle</b> butonuna tıklayarak uygulamayı
-              kurabilirsin.
-            </p>
+            <div className="bg-indigo-50 rounded-xl p-4 text-sm text-indigo-900 border border-indigo-100">
+              Uygulamayı yükleyerek tek dokunuşla erişim sağlayabilirsin.
+            </div>
           )}
         </div>
 
-        <DialogFooter className="mt-2 flex gap-3">
+        <DialogFooter className="p-6 pt-2 sm:justify-between flex-col sm:flex-row gap-3 bg-white">
           <Button
-            variant="outline"
-            className="w-full rounded-lg border-none bg-slate-100 hover:bg-slate-200"
+            variant="ghost"
             onClick={handleLater}
+            className="w-full text-slate-500 hover:text-slate-700 hover:bg-slate-100 font-normal"
           >
             Daha Sonra
           </Button>
 
-          <Button
-            className="w-full bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg border-none"
-            onClick={isIos ? handleLater : handleInstall}
-          >
-            {isIos ? "Tamam" : "Ana Ekrana Ekle"}
-          </Button>
+          {isIos ? (
+            <Button
+              onClick={handleLater}
+              className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium shadow-sm active:scale-95 transition-all"
+            >
+              Anladım
+            </Button>
+          ) : (
+            <Button
+              onClick={handleInstall}
+              className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium shadow-sm shadow-indigo-200 active:scale-95 transition-all"
+            >
+              Yükle
+            </Button>
+          )}
         </DialogFooter>
       </DialogContent>
     </Dialog>
