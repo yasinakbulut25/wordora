@@ -23,11 +23,15 @@ export function useAuthInit() {
           .eq("id", localUser.id)
           .maybeSingle();
 
-        setUser({
-          id: localUser.id,
-          email: localUser.email!,
-          username: profile?.username ?? "",
-        });
+        if (profile) {
+          setUser({
+            id: localUser.id,
+            email: localUser.email!,
+            username: profile?.username ?? "",
+          });
+        } else {
+          logoutUser();
+        }
       } else {
         logoutUser();
       }
