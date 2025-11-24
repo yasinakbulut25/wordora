@@ -179,6 +179,11 @@ export const TRANSLATE = [
     TR: "Çevirisini Göster",
   },
   {
+    value: "WORDS_SHOW_MEANING_SHORT",
+    EN: "Meanings",
+    TR: "Çeviriler",
+  },
+  {
     value: "WORDS_HIDE_MEANING",
     EN: "Hide Meaning",
     TR: "Çevirisini Gizle",
@@ -187,6 +192,11 @@ export const TRANSLATE = [
     value: "WORDS_EXAMPLES",
     EN: "Example Sentences",
     TR: "Örnek Cümleler",
+  },
+  {
+    value: "WORDS_EXAMPLES_SHORT",
+    EN: "Sentences",
+    TR: "Cümleler",
   },
   {
     value: "WORDS_LEARNED",

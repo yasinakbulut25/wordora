@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { ArrowRight, Volume2 } from "lucide-react";
+import { ArrowRight, PencilLineIcon, Volume2 } from "lucide-react";
 import { useTranslate } from "@/lib/translate";
 import { handleSpeak } from "@/lib/speak";
 import { Button } from "@/components/ui/button";
@@ -11,7 +11,7 @@ import { useProgressStore } from "@/store/useProgressStore";
 import { useUserStore } from "@/store/useUserStore";
 import WordDropdown from "./WordDropdown";
 import { cn } from "@/lib/utils";
-import { TextAaIcon, TranslateIcon } from "@phosphor-icons/react";
+import { TranslateIcon } from "@phosphor-icons/react";
 import SentenceDropdown from "../learn/SentenceDropdown";
 
 export function WordCard({ item }: { item: WordData }) {
@@ -57,20 +57,30 @@ export function WordCard({ item }: { item: WordData }) {
             size="sm"
             variant="ghost"
             onClick={() => setShowTranslate((prev) => !prev)}
-            className="w-full text-center bg-slate-50 p-2 mt-1 h-auto text-slate-600 hover:text-indigo-500 hover:bg-slate-100 border border-slate-200"
+            className={cn(
+              "w-full text-center p-2 mt-1 h-auto border [&_svg]:size-3",
+              showTranslate
+                ? "bg-indigo-600 text-white border-indigo-600 hover:bg-indigo-500 hover:text-white"
+                : "bg-slate-50 text-slate-600 border-slate-200 hover:bg-indigo-600 hover:text-white hover:border-indigo-600"
+            )}
           >
-            <TranslateIcon className="text-indigo-600" />
-            {showTranslate ? t("WORDS_HIDE_MEANING") : t("WORDS_SHOW_MEANING")}
+            <TranslateIcon />
+            {t("WORDS_SHOW_MEANING_SHORT")}
           </Button>
 
           <Button
             size="sm"
             variant="ghost"
             onClick={() => setShowExamples((prev) => !prev)}
-            className="w-full text-center bg-slate-50 p-2 mt-1 h-auto text-slate-600 hover:text-indigo-500 hover:bg-slate-100 border border-slate-200"
+            className={cn(
+              "w-full text-center p-2 mt-1 h-auto border [&_svg]:size-3",
+              showExamples
+                ? "bg-indigo-600 text-white border-indigo-600 hover:bg-indigo-500 hover:text-white"
+                : "bg-slate-50 text-slate-600 border-slate-200 hover:bg-indigo-600 hover:text-white hover:border-indigo-600"
+            )}
           >
-            <TextAaIcon className="text-indigo-600" />
-            {t("WORDS_EXAMPLES")}
+            <PencilLineIcon width={12} height={12} />
+            {t("WORDS_EXAMPLES_SHORT")}
           </Button>
         </div>
 
