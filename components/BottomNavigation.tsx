@@ -1,6 +1,6 @@
 "use client";
 
-import { Home, User, Folders, Heart } from "lucide-react";
+import { Home, User, Folders, Star } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
@@ -23,7 +23,7 @@ const navItems = [
     label: "BOTTOM_NAV_FAVORITES",
     href: "/favorites",
     urls: ["/favorites"],
-    icon: Heart,
+    icon: Star,
   },
   {
     label: "BOTTOM_NAV_PROFILE",
