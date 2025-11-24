@@ -494,6 +494,31 @@ export const TRANSLATE = [
     TR: "Yeni Liste Oluştur",
   },
   {
+    value: "LIST_TABS_UNLEARNED",
+    EN: "Unlearned",
+    TR: "Öğrenilmemiş",
+  },
+  {
+    value: "LIST_TABS_LEARNED",
+    EN: "Learned",
+    TR: "Öğrenilen",
+  },
+  {
+    value: "LIST_UNLEARNED_EMPTY",
+    EN: "There are no unlearned words.",
+    TR: "Öğrenilmemiş kelime yok.",
+  },
+  {
+    value: "LIST_LEARNED_EMPTY",
+    EN: "There are no learned words.",
+    TR: "Öğrenilen kelime yok.",
+  },
+  {
+    value: "NO_MORE_WORDS",
+    EN: "No more words.",
+    TR: "Daha fazla kelime yok.",
+  },
+  {
     value: "VOICE",
     EN: "Voice it",
     TR: "Seslendir",
