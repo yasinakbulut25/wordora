@@ -1,7 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import { FolderPlus, Heart, MoreVerticalIcon, Volume2 } from "lucide-react";
+import {
+  FolderPlus,
+  MoreVerticalIcon,
+  StarIcon,
+  StarOffIcon,
+  Volume2,
+} from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -84,8 +90,17 @@ export default function SentenceDropdown({ example, word }: Props) {
                 })
               }
             >
-              <Heart className="text-indigo-600" />{" "}
-              {isFav ? t("REMOVE_FROM_FAVORITES") : t("ADD_TO_FAVORITES")}
+              {isFav ? (
+                <>
+                  <StarOffIcon className="text-yellow-500" />{" "}
+                  {t("REMOVE_FROM_FAVORITES")}
+                </>
+              ) : (
+                <>
+                  <StarIcon className="text-indigo-600" />{" "}
+                  {t("ADD_TO_FAVORITES")}
+                </>
+              )}
             </DropdownMenuItem>
           </DropdownMenuGroup>
         </DropdownMenuContent>

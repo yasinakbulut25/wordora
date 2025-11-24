@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+
 import AddToListMenu from "./AddToListMenu";
 import { Button } from "./ui/button";
 import { SentenceContent, WordContent } from "@/types/list";
@@ -7,7 +7,7 @@ import { handleSpeak } from "@/lib/speak";
 import { useTranslate } from "@/lib/translate";
 import { useListStore } from "@/store/useListStore";
 import { useUserStore } from "@/store/useUserStore";
-import { Heart, Volume2 } from "lucide-react";
+import { StarIcon, StarOffIcon, Volume2 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface WordProps {
@@ -96,7 +96,11 @@ export default function Actions({ type, current }: Props) {
             : "bg-white border-slate-200 text-indigo-600"
         )}
       >
-        <Heart className="w-4 h-4" />
+        {isFav ? (
+          <StarOffIcon className="w-4 h-4" />
+        ) : (
+          <StarIcon className="w-4 h-4" />
+        )}
       </Button>
     </div>
   );
