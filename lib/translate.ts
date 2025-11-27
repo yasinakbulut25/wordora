@@ -505,8 +505,8 @@ export const TRANSLATE = [
   },
   {
     value: "LIST_TABS_UNLEARNED",
-    EN: "Unlearned",
-    TR: "Öğrenilmemiş",
+    EN: "Learn",
+    TR: "Öğren",
   },
   {
     value: "LIST_TABS_LEARNED",

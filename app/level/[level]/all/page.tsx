@@ -19,17 +19,49 @@ export default function AllWordsPage() {
   const { isLearned } = useProgressStore();
   const t = useTranslate();
 
-  const loadCount = 20;
-  const [limit, setLimit] = useState(loadCount);
+  const LOAD_COUNT = 20;
 
-  const visibleWords = useMemo(() => {
-    return wordsData.slice(0, limit);
-  }, [wordsData, limit]);
+  const [activeTab, setActiveTab] = useState<string>("all");
 
-  const learnedWords = visibleWords.filter((w) => isLearned(w.word));
-  const unlearnedWords = visibleWords.filter((w) => !isLearned(w.word));
+  // Her tab için ayrı sayfa limiti tutuyoruz (böylece sekme değiştirince kaybolmaz)
+  const [limits, setLimits] = useState({
+    all: LOAD_COUNT,
+    unlearned: LOAD_COUNT,
+    learned: LOAD_COUNT,
+  });
 
-  const hasMore = limit < wordsData.length;
+  // 1. ÖNCE VERİYİ AYIRIYORUZ (Henüz slice yapmadan)
+  const { allPool, unlearnedPool, learnedPool } = useMemo(() => {
+    if (!wordsData) return { allPool: [], unlearnedPool: [], learnedPool: [] };
+
+    const unlearned = wordsData.filter((w) => !isLearned(w.word));
+    const learned = wordsData.filter((w) => isLearned(w.word));
+
+    return {
+      allPool: wordsData,
+      unlearnedPool: unlearned,
+      learnedPool: learned,
+    };
+  }, [wordsData, isLearned]);
+
+  const currentPool =
+    activeTab === "learned"
+      ? learnedPool
+      : activeTab === "unlearned"
+      ? unlearnedPool
+      : allPool;
+
+  const currentLimit = limits[activeTab as keyof typeof limits];
+
+  const visibleWords = currentPool.slice(0, currentLimit);
+  const hasMore = currentLimit < currentPool.length;
+
+  const handleLoadMore = () => {
+    setLimits((prev) => ({
+      ...prev,
+      [activeTab]: prev[activeTab as keyof typeof limits] + LOAD_COUNT,
+    }));
+  };
 
   if (!wordsData) return null;
 
@@ -39,8 +71,8 @@ export default function AllWordsPage() {
         <LevelHeader href={`/level/${level}`} title={t("MODE_ALL_TITLE")} />
       </div>
 
-      <div className="flex flex-col gap-2 mb-6">
-        <h1 className="text-xl font-bold text-slate-900 flex flex-col items-center gap-2">
+      <div className="flex flex-col gap-2 mb-3">
+        <h1 className="text-xl font-bold text-slate-900 flex flex-col items-center gap-3">
           <span className="min-w-max bg-indigo-600 py-1.5 px-3 text-white rounded-xl">
             Level {level?.toUpperCase()}
           </span>
@@ -48,8 +80,8 @@ export default function AllWordsPage() {
         </h1>
       </div>
 
-      <Tabs defaultValue="all" className="w-full">
-        <TabsList className="grid grid-cols-3 mb-4 bg-white p-2 h-auto rounded-xl shadow sticky top-24">
+      <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
+        <TabsList className="grid grid-cols-3 mb-4 bg-white p-2 h-auto rounded-xl shadow sticky top-24 z-20">
           <TabsTrigger
             value="all"
             className="p-2 text-slate-500 text-sm data-[state=active]:bg-indigo-600 data-[state=active]:text-white rounded-lg"
@@ -76,13 +108,13 @@ export default function AllWordsPage() {
 
         <TabsContent value="unlearned">
           <WordList
-            words={unlearnedWords}
+            words={visibleWords}
             emptyText={t("LIST_UNLEARNED_EMPTY")}
           />
         </TabsContent>
 
         <TabsContent value="learned">
-          <WordList words={learnedWords} emptyText={t("LIST_LEARNED_EMPTY")} />
+          <WordList words={visibleWords} emptyText={t("LIST_LEARNED_EMPTY")} />
         </TabsContent>
       </Tabs>
 
@@ -90,7 +122,7 @@ export default function AllWordsPage() {
         <div className="flex justify-center mt-6">
           <Button
             className="bg-indigo-600 hover:bg-indigo-500 text-white px-6 py-3 h-auto rounded-xl"
-            onClick={() => setLimit((prev) => prev + loadCount)}
+            onClick={handleLoadMore}
           >
             <Plus />
             {t("LOAD_MORE")}
